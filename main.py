@@ -329,7 +329,8 @@ for i, line in enumerate(lines):
                                     waypoint_parts = waypoint.split(',')
                                     if len(waypoint_parts) < 2:  
                                         continue
-                                    if waypoint_parts[0] == 'STAR' or waypoint_parts[0] == 'END' or waypoint_parts[0] == 'APPTR':
+                                    token = waypoint_parts[0].strip().upper()
+                                    if token in ('STAR', 'END', 'APPTR', 'FINAL'):
                                         break
                                     waypoint_name = waypoint_parts[1]
                                     if waypoint.startswith(('AF')): 

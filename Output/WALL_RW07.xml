@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WALL_RW07" Priority="3" Center="-01.2675+116.8939">
+        <Runway Name="07">
+            <Threshold Name="07" Position="-01.2727+116.8841" ExtendedCentrelineTrack="247" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="25" Position="-01.2639+116.9048" />
+        </Runway>
+        <!--SID: AJAM2A, Runway: 07-->
+        <Line Pattern="Dotted">-01.2639+116.9048/IRTOP/UBLAS/NITAV/LL439/AKSUS/LK419/LL410/AJAMA</Line>
+        <!--SID: ATGE2A, Runway: 07-->
+        <Line Pattern="Dotted">-01.2639+116.9048/IRTOP/UBLAS/LL639/LL453/ATGER</Line>
+        <!--SID: DADB2A, Runway: 07-->
+        <Line Pattern="Dotted">-01.2639+116.9048/IRTOP/UBLAS/LL417/DADBI</Line>
+        <!--SID: ELAP2A, Runway: 07-->
+        <Line Pattern="Dotted">-01.2639+116.9048/IRTOP/LL422/LL455/LL452/LL458/LK414/ELAPA</Line>
+        <!--SID: GUGU2A, Runway: 07-->
+        <Line Pattern="Dotted">-01.2639+116.9048/IRTOP/UBLAS/NITAV/LL439/AKSUS/LL426/LL456/LL415/GUGUP</Line>
+        <!--SID: JIDA2A, Runway: 07-->
+        <Line Pattern="Dotted">-01.2639+116.9048/IRTOP/UBLAS/NITAV/LL440/LK420/LK416/JIDAR</Line>
+        <!--SID: KALK2A, Runway: 07-->
+        <Line Pattern="Dotted">-01.2639+116.9048/IRTOP/LL422/LL455/LK644/KALKU</Line>
+        <!--SID: LUPD2A, Runway: 07-->
+        <Line Pattern="Dotted">-01.2639+116.9048/IRTOP/UBLAS/NITAV/LL424/LK444/LL419/LUPDI</Line>
+        <!--STAR: BAHA2A, Runway: 07-->
+        <Line Pattern="Dashed">BAHAU/LL641/DULER/LK452/LK453/IPDEN/VILEM/LL433/TERUB/BIKDO/KUTAI</Line>
+        <!--STAR: BIKP2A, Runway: 07-->
+        <Line Pattern="Dashed">BIKPI/DADAS/LL445/RUPIV/LL442/BIKDO/KUTAI</Line>
+        <!--STAR: BUMR2A, Runway: 07-->
+        <Line Pattern="Dashed">BUMRU/LL450/LK441/EKAVU/LL438/TERUB/BIKDO/KUTAI</Line>
+        <!--STAR: IKEM2A, Runway: 07-->
+        <Line Pattern="Dashed">IKEMU/LL449/RUPIV/LL442/BIKDO/KUTAI</Line>
+        <!--STAR: KAYA2A, Runway: 07-->
+        <Line Pattern="Dashed">KAYAN/LL443/ANRIL/LL429/TERUB/BIKDO/KUTAI</Line>
+        <!--STAR: KOWA2A, Runway: 07-->
+        <Line Pattern="Dashed">KOWAS/LL412/LL451/RUPIV/LL442/BIKDO/KUTAI</Line>
+        <!--STAR: OPIN2A, Runway: 07-->
+        <Line Pattern="Dashed">OPINO/LK446/LK445/IPLON/LL444/LL445/RUPIV/LL442/BIKDO/KUTAI</Line>
+        <!--STAR: SILJ2A, Runway: 07-->
+        <Line Pattern="Dashed">SILJA/YOSHA/LK451/PORAG/VILEM/LL433/TERUB/BIKDO/KUTAI</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>LL458</Point>
+            <Point>LL451</Point>
+            <Point>LL456</Point>
+            <Point>LL439</Point>
+            <Point>UBLAS</Point>
+            <Point>LK445</Point>
+            <Point>KUTAI</Point>
+            <Point>LL641</Point>
+            <Point>IKEMU</Point>
+            <Point>KOWAS</Point>
+            <Point>LL433</Point>
+            <Point>LL412</Point>
+            <Point>OPINO</Point>
+            <Point>AJAMA</Point>
+            <Point>LK452</Point>
+            <Point>LL429</Point>
+            <Point>LK453</Point>
+            <Point>BUMRU</Point>
+            <Point>LL424</Point>
+            <Point>LK420</Point>
+            <Point>LL443</Point>
+            <Point>GUGUP</Point>
+            <Point>LK414</Point>
+            <Point>SILJA</Point>
+            <Point>DADBI</Point>
+            <Point>LK419</Point>
+            <Point>EKAVU</Point>
+            <Point>BAHAU</Point>
+            <Point>DADAS</Point>
+            <Point>LL639</Point>
+            <Point>AKSUS</Point>
+            <Point>KAYAN</Point>
+            <Point>IPDEN</Point>
+            <Point>ANRIL</Point>
+            <Point>LL444</Point>
+            <Point>LK451</Point>
+            <Point>LK416</Point>
+            <Point>ELAPA</Point>
+            <Point>JIDAR</Point>
+            <Point>KALKU</Point>
+            <Point>DULER</Point>
+            <Point>RUPIV</Point>
+            <Point>LK444</Point>
+            <Point>LL417</Point>
+            <Point>LL452</Point>
+            <Point>BIKDO</Point>
+            <Point>LL450</Point>
+            <Point>LL438</Point>
+            <Point>LL410</Point>
+            <Point>LL422</Point>
+            <Point>LK644</Point>
+            <Point>YOSHA</Point>
+            <Point>LL455</Point>
+            <Point>LL440</Point>
+            <Point>LK441</Point>
+            <Point>LL449</Point>
+            <Point>LL445</Point>
+            <Point>LL426</Point>
+            <Point>LL415</Point>
+            <Point>LUPDI</Point>
+            <Point>BIKPI</Point>
+            <Point>LL419</Point>
+            <Point>LL442</Point>
+            <Point>LK446</Point>
+            <Point>LL453</Point>
+            <Point>VILEM</Point>
+            <Point>IPLON</Point>
+            <Point>NITAV</Point>
+            <Point>TERUB</Point>
+            <Point>IRTOP</Point>
+            <Point>ATGER</Point>
+            <Point>PORAG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WALL_RW07_NAMES" Priority="3" Center="-01.2675+116.8939">
+        <Label>
+            <Point>LL458</Point>
+            <Point>LL451</Point>
+            <Point>LL456</Point>
+            <Point>LL439</Point>
+            <Point>UBLAS</Point>
+            <Point>LK445</Point>
+            <Point>KUTAI</Point>
+            <Point>LL641</Point>
+            <Point>IKEMU</Point>
+            <Point>KOWAS</Point>
+            <Point>LL433</Point>
+            <Point>LL412</Point>
+            <Point>OPINO</Point>
+            <Point>AJAMA</Point>
+            <Point>LK452</Point>
+            <Point>LL429</Point>
+            <Point>LK453</Point>
+            <Point>BUMRU</Point>
+            <Point>LL424</Point>
+            <Point>LK420</Point>
+            <Point>LL443</Point>
+            <Point>GUGUP</Point>
+            <Point>LK414</Point>
+            <Point>SILJA</Point>
+            <Point>DADBI</Point>
+            <Point>LK419</Point>
+            <Point>EKAVU</Point>
+            <Point>BAHAU</Point>
+            <Point>DADAS</Point>
+            <Point>LL639</Point>
+            <Point>AKSUS</Point>
+            <Point>KAYAN</Point>
+            <Point>IPDEN</Point>
+            <Point>ANRIL</Point>
+            <Point>LL444</Point>
+            <Point>LK451</Point>
+            <Point>LK416</Point>
+            <Point>ELAPA</Point>
+            <Point>JIDAR</Point>
+            <Point>KALKU</Point>
+            <Point>DULER</Point>
+            <Point>RUPIV</Point>
+            <Point>LK444</Point>
+            <Point>LL417</Point>
+            <Point>LL452</Point>
+            <Point>BIKDO</Point>
+            <Point>LL450</Point>
+            <Point>LL438</Point>
+            <Point>LL410</Point>
+            <Point>LL422</Point>
+            <Point>LK644</Point>
+            <Point>YOSHA</Point>
+            <Point>LL455</Point>
+            <Point>LL440</Point>
+            <Point>LK441</Point>
+            <Point>LL449</Point>
+            <Point>LL445</Point>
+            <Point>LL426</Point>
+            <Point>LL415</Point>
+            <Point>LUPDI</Point>
+            <Point>BIKPI</Point>
+            <Point>LL419</Point>
+            <Point>LL442</Point>
+            <Point>LK446</Point>
+            <Point>LL453</Point>
+            <Point>VILEM</Point>
+            <Point>IPLON</Point>
+            <Point>NITAV</Point>
+            <Point>TERUB</Point>
+            <Point>IRTOP</Point>
+            <Point>ATGER</Point>
+            <Point>PORAG</Point>
+        </Label>
+    </Map>
+</Maps>
