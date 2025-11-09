@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAGF_RW28" Priority="3" Center="-03.3781+112.5417">
+        <Runway Name="10">
+            <Threshold Name="10" Position="-03.3750+112.5312" ExtendedCentrelineTrack="281" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="28" Position="-03.3771+112.5418" />
+        </Runway>
+        <Runway Name="28">
+            <Threshold Name="28" Position="-03.3771+112.5418" ExtendedCentrelineTrack="101" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="10" Position="-03.3750+112.5312" />
+        </Runway>
+    </Map>
+</Maps>

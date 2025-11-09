@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAMO_RW02" Priority="3" Center="+02.6531+125.4247">
+        <Runway Name="02">
+            <Threshold Name="02" Position="+02.6431+125.4214" ExtendedCentrelineTrack="200" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="20" Position="+02.6544+125.4255" />
+        </Runway>
+        <Runway Name="20">
+            <Threshold Name="20" Position="+02.6544+125.4255" ExtendedCentrelineTrack="20" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="02" Position="+02.6431+125.4214" />
+        </Runway>
+        <!--SID: BOND1G, Runway: 02-->
+        <Line Pattern="Dotted">+02.6431+125.4214/DEPAU/MX023/MX024/MX025/BONDA</Line>
+        <!--SID: NAHA1A, Runway: 02-->
+        <Line Pattern="Dotted">+02.6431+125.4214/DEPAU/MX023/MX026/MX027/NAHAK</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>MX025</Point>
+            <Point>BONDA</Point>
+            <Point>MX027</Point>
+            <Point>MX024</Point>
+            <Point>DEPAU</Point>
+            <Point>MX026</Point>
+            <Point>MX023</Point>
+            <Point>NAHAK</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+02.6531+125.4247" Name="WAMO_RW02_NAMES">
+        <Label>
+            <Point>MX025</Point>
+            <Point>BONDA</Point>
+            <Point>MX027</Point>
+            <Point>MX024</Point>
+            <Point>DEPAU</Point>
+            <Point>MX026</Point>
+            <Point>MX023</Point>
+            <Point>NAHAK</Point>
+        </Label>
+    </Map>
+</Maps>

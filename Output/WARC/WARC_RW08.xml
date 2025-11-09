@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WARC_RW08" Priority="3" Center="-07.1942+111.5472">
+        <Runway Name="08">
+            <Threshold Name="08" Position="-07.1963+111.5385" ExtendedCentrelineTrack="262" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="26" Position="-07.1946+111.5520" />
+        </Runway>
+        <Runway Name="26">
+            <Threshold Name="26" Position="-07.1946+111.5520" ExtendedCentrelineTrack="82" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="08" Position="-07.1963+111.5385" />
+        </Runway>
+    </Map>
+</Maps>

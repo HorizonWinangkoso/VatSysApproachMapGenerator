@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAUA_RW06" Priority="3" Center="-01.3861+133.8742">
+        <Runway Name="06">
+            <Threshold Name="06" Position="-01.3861+133.8742" ExtendedCentrelineTrack="240" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="24" Position="-01.3861+133.8742" />
+        </Runway>
+        <Runway Name="24">
+            <Threshold Name="24" Position="-01.3861+133.8742" ExtendedCentrelineTrack="60" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="06" Position="-01.3861+133.8742" />
+        </Runway>
+    </Map>
+</Maps>

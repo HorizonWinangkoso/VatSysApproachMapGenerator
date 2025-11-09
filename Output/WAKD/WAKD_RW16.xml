@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAKD_RW16" Priority="3" Center="-05.8792+140.7086">
+        <Runway Name="16">
+            <Threshold Name="16" Position="-05.8743+140.7087" ExtendedCentrelineTrack="340" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="34" Position="-05.8822+140.7109" />
+        </Runway>
+        <Runway Name="34">
+            <Threshold Name="34" Position="-05.8822+140.7109" ExtendedCentrelineTrack="160" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="16" Position="-05.8743+140.7087" />
+        </Runway>
+    </Map>
+</Maps>

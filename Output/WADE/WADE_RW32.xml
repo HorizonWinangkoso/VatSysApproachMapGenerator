@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WADE_RW32" Priority="3" Center="-08.1406+114.6175">
+        <Runway Name="14">
+            <Threshold Name="14" Position="-08.1358+114.6127" ExtendedCentrelineTrack="320" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="32" Position="-08.1428+114.6184" />
+        </Runway>
+        <Runway Name="32">
+            <Threshold Name="32" Position="-08.1428+114.6184" ExtendedCentrelineTrack="140" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="14" Position="-08.1358+114.6127" />
+        </Runway>
+    </Map>
+</Maps>

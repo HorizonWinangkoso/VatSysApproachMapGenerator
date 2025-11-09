@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WADD_RW27" Priority="3" Center="-08.7475+115.1692">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-08.7489+115.1538" ExtendedCentrelineTrack="267" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-08.7479+115.1811" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-08.7479+115.1811" ExtendedCentrelineTrack="87" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-08.7489+115.1538" />
+        </Runway>
+        <!--SID: ANGS3B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/RUBAH/ORINI/UMANG/ANGSA</Line>
+        <!--SID: BORG2B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/IGIKO/BULMO/LIPAS/BISOB/PUGAT/IPNAL/SAPOM/BORGI</Line>
+        <!--SID: DOBM1B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/DUMIS/PAKIT/IRPOL/ASEDO/DOBMA</Line>
+        <!--SID: GAGA3B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/RUBAH/ORINI/UMANG/GAGAK</Line>
+        <!--SID: GAJA4B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/DUMIS/PAKIT/IRPOL/ASEDO/GAJAH</Line>
+        <!--SID: JALA3B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/RUBAH/IKOTA/JALAK</Line>
+        <!--SID: KOLT1M, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/IGIKO/BULMO/LIPAS/BISOB/PUGAT/IPNAL/SAPOM/AGUDA/KOLTA</Line>
+        <!--SID: MALE3B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/RUBAH/ORINI/UMANG/MALEO</Line>
+        <!--SID: MALG1B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/DUMIS/PAKIT/IRPOL/ASEDO/MALGI</Line>
+        <!--SID: MURA4B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/RUBAH/IKOTA/MURAI</Line>
+        <!--SID: NUSK1B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/RUMUP/TANUT/NUSKI</Line>
+        <!--SID: OKAN3C, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/RUMUP/TANUT/MUMGI/DOVET/IPNAL/SAPOM/OKANG</Line>
+        <!--SID: OKAN3D, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/IGIKO/BULMO/LIPAS/BISOB/PUGAT/IPNAL/SAPOM/OKANG</Line>
+        <!--SID: PALB1B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/RUBAH/ORINI/UMANG/PALBO</Line>
+        <!--SID: PATI2C, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/DUMIS/PAKIT/PATIN</Line>
+        <!--SID: PEBG1C, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/DUMIS/PAKIT/SIDEM/PEBGU</Line>
+        <!--SID: PEBG1D, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/DUMIS/PAKIT/SIDEM/PEBGU</Line>
+        <!--SID: PEDE4B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/DUMIS/PAKIT/SIDEM/PEDET</Line>
+        <!--SID: PIKA1B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/DUMIS/PAKIT/SIDEM/PIKAP</Line>
+        <!--SID: SRIT3B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/LEBAH/RUBAH/ORINI/UMANG/SRITI</Line>
+        <!--SID: TEPO1B, Runway: 27-->
+        <Line Pattern="Dotted">-08.7489+115.1538/DUMIS/PAKIT/SIDEM/PIKAP/TEPOS</Line>
+        <!--STAR: ANGS3D, Runway: 27-->
+        <Line Pattern="Dashed">ANGSA/TOKUL/BENOA</Line>
+        <!--STAR: DOBM1D, Runway: 27-->
+        <Line Pattern="Dashed">DOBMA/SOANG/AGUNG/KEPIK/TAWES/TAWON/BENOA</Line>
+        <!--STAR: GAGA3D, Runway: 27-->
+        <Line Pattern="Dashed">GAGAK/TUPAI/UMANG/TOKUL/BENOA</Line>
+        <!--STAR: GAJA3D, Runway: 27-->
+        <Line Pattern="Dashed">GAJAH/SOANG/AGUNG/KEPIK/TAWES/TAWON/BENOA</Line>
+        <!--STAR: JALA3D, Runway: 27-->
+        <Line Pattern="Dashed">JALAK/LELAM/UMANG/TOKUL/BENOA</Line>
+        <!--STAR: KIDU2B, Runway: 27-->
+        <Line Pattern="Dashed">KIDUL/POROV/MESOD/TOKUL/BENOA</Line>
+        <!--STAR: KOLT1P, Runway: 27-->
+        <Line Pattern="Dashed">KOLTA/AGUDA/DUDAS/SOTNA/LEMEP/UDIBA/BENOA</Line>
+        <!--STAR: MALE3D, Runway: 27-->
+        <Line Pattern="Dashed">MALEO/TUPAI/UMANG/TOKUL/BENOA</Line>
+        <!--STAR: MALG1D, Runway: 27-->
+        <Line Pattern="Dashed">MALGI/SOANG/AGUNG/KEPIK/TAWES/TAWON/BENOA</Line>
+        <!--STAR: MOVM2F, Runway: 27-->
+        <Line Pattern="Dashed">MOVMO/DUDAS/SOTNA/LEMEP/UDIBA/BENOA</Line>
+        <!--STAR: MURA3D, Runway: 27-->
+        <Line Pattern="Dashed">MURAI/LELAM/UMANG/TOKUL/BENOA</Line>
+        <!--STAR: PALB1D, Runway: 27-->
+        <Line Pattern="Dashed">PALBO/SAYAP/TOKUL/BENOA</Line>
+        <!--STAR: PEBG1F, Runway: 27-->
+        <Line Pattern="Dashed">PEBGU/BUSTI/TOKUL/BENOA</Line>
+        <!--STAR: PEDE4D, Runway: 27-->
+        <Line Pattern="Dashed">PEDET/ISKAL/OLTIK/KEPIK/TAWES/TAWON/BENOA</Line>
+        <!--STAR: PIKA2D, Runway: 27-->
+        <Line Pattern="Dashed">PIKAP/ISKAL/OLTIK/KEPIK/TAWES/TAWON/BENOA</Line>
+        <!--STAR: SASA1B, Runway: 27-->
+        <Line Pattern="Dashed">SASAX/PEBGU/BUSTI/TOKUL/BENOA</Line>
+        <!--STAR: SRIT3D, Runway: 27-->
+        <Line Pattern="Dashed">SRITI/SAYAP/TOKUL/BENOA</Line>
+        <!--STAR: UDON2B, Runway: 27-->
+        <Line Pattern="Dashed">UDONO/AGUDA/DUDAS/SOTNA/LEMEP/UDIBA/BENOA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>UMANG</Point>
+            <Point>OLTIK</Point>
+            <Point>NUSKI</Point>
+            <Point>MALEO</Point>
+            <Point>LIPAS</Point>
+            <Point>MOVMO</Point>
+            <Point>TAWON</Point>
+            <Point>RUMUP</Point>
+            <Point>PEDET</Point>
+            <Point>DOVET</Point>
+            <Point>RUBAH</Point>
+            <Point>SAYAP</Point>
+            <Point>KEPIK</Point>
+            <Point>PEBGU</Point>
+            <Point>SASAX</Point>
+            <Point>LELAM</Point>
+            <Point>DUDAS</Point>
+            <Point>TUPAI</Point>
+            <Point>KIDUL</Point>
+            <Point>IGIKO</Point>
+            <Point>BORGI</Point>
+            <Point>DUMIS</Point>
+            <Point>IKOTA</Point>
+            <Point>ISKAL</Point>
+            <Point>ORINI</Point>
+            <Point>GAGAK</Point>
+            <Point>PUGAT</Point>
+            <Point>UDIBA</Point>
+            <Point>UDONO</Point>
+            <Point>SOANG</Point>
+            <Point>DOBMA</Point>
+            <Point>ANGSA</Point>
+            <Point>AGUDA</Point>
+            <Point>BULMO</Point>
+            <Point>JALAK</Point>
+            <Point>TOKUL</Point>
+            <Point>OKANG</Point>
+            <Point>SAPOM</Point>
+            <Point>IRPOL</Point>
+            <Point>PAKIT</Point>
+            <Point>MALGI</Point>
+            <Point>AGUNG</Point>
+            <Point>SOTNA</Point>
+            <Point>GAJAH</Point>
+            <Point>MUMGI</Point>
+            <Point>MESOD</Point>
+            <Point>KOLTA</Point>
+            <Point>TAWES</Point>
+            <Point>BUSTI</Point>
+            <Point>ASEDO</Point>
+            <Point>PATIN</Point>
+            <Point>IPNAL</Point>
+            <Point>BENOA</Point>
+            <Point>TEPOS</Point>
+            <Point>BISOB</Point>
+            <Point>LEBAH</Point>
+            <Point>SIDEM</Point>
+            <Point>SRITI</Point>
+            <Point>MURAI</Point>
+            <Point>PIKAP</Point>
+            <Point>PALBO</Point>
+            <Point>POROV</Point>
+            <Point>LEMEP</Point>
+            <Point>TANUT</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-08.7475+115.1692" Name="WADD_RW27_NAMES">
+        <Label>
+            <Point>UMANG</Point>
+            <Point>OLTIK</Point>
+            <Point>NUSKI</Point>
+            <Point>MALEO</Point>
+            <Point>LIPAS</Point>
+            <Point>MOVMO</Point>
+            <Point>TAWON</Point>
+            <Point>RUMUP</Point>
+            <Point>PEDET</Point>
+            <Point>DOVET</Point>
+            <Point>RUBAH</Point>
+            <Point>SAYAP</Point>
+            <Point>KEPIK</Point>
+            <Point>PEBGU</Point>
+            <Point>SASAX</Point>
+            <Point>LELAM</Point>
+            <Point>DUDAS</Point>
+            <Point>TUPAI</Point>
+            <Point>KIDUL</Point>
+            <Point>IGIKO</Point>
+            <Point>BORGI</Point>
+            <Point>DUMIS</Point>
+            <Point>IKOTA</Point>
+            <Point>ISKAL</Point>
+            <Point>ORINI</Point>
+            <Point>GAGAK</Point>
+            <Point>PUGAT</Point>
+            <Point>UDIBA</Point>
+            <Point>UDONO</Point>
+            <Point>SOANG</Point>
+            <Point>DOBMA</Point>
+            <Point>ANGSA</Point>
+            <Point>AGUDA</Point>
+            <Point>BULMO</Point>
+            <Point>JALAK</Point>
+            <Point>TOKUL</Point>
+            <Point>OKANG</Point>
+            <Point>SAPOM</Point>
+            <Point>IRPOL</Point>
+            <Point>PAKIT</Point>
+            <Point>MALGI</Point>
+            <Point>AGUNG</Point>
+            <Point>SOTNA</Point>
+            <Point>GAJAH</Point>
+            <Point>MUMGI</Point>
+            <Point>MESOD</Point>
+            <Point>KOLTA</Point>
+            <Point>TAWES</Point>
+            <Point>BUSTI</Point>
+            <Point>ASEDO</Point>
+            <Point>PATIN</Point>
+            <Point>IPNAL</Point>
+            <Point>BENOA</Point>
+            <Point>TEPOS</Point>
+            <Point>BISOB</Point>
+            <Point>LEBAH</Point>
+            <Point>SIDEM</Point>
+            <Point>SRITI</Point>
+            <Point>MURAI</Point>
+            <Point>PIKAP</Point>
+            <Point>PALBO</Point>
+            <Point>POROV</Point>
+            <Point>LEMEP</Point>
+            <Point>TANUT</Point>
+        </Label>
+    </Map>
+</Maps>

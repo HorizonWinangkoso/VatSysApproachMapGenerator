@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WATS_RW25" Priority="3" Center="-10.4939+121.8461">
+        <Runway Name="07">
+            <Threshold Name="07" Position="-10.4936+121.8442" ExtendedCentrelineTrack="252" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="25" Position="-10.4911+121.8522" />
+        </Runway>
+        <Runway Name="25">
+            <Threshold Name="25" Position="-10.4911+121.8522" ExtendedCentrelineTrack="72" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="07" Position="-10.4936+121.8442" />
+        </Runway>
+    </Map>
+</Maps>

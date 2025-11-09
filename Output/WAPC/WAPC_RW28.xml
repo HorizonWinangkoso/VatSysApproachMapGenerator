@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAPC_RW28" Priority="3" Center="-04.5217+129.9047">
+        <Runway Name="10">
+            <Threshold Name="10" Position="-04.5201+129.9012" ExtendedCentrelineTrack="288" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="28" Position="-04.5226+129.9090" />
+        </Runway>
+        <Runway Name="28">
+            <Threshold Name="28" Position="-04.5226+129.9090" ExtendedCentrelineTrack="108" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="10" Position="-04.5201+129.9012" />
+        </Runway>
+    </Map>
+</Maps>

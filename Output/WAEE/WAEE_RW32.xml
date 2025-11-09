@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAEE_RW32" Priority="3" Center="+00.8311+127.3803">
+        <Runway Name="14">
+            <Threshold Name="14" Position="+00.8398+127.3746" ExtendedCentrelineTrack="321" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="32" Position="+00.8235+127.3878" />
+        </Runway>
+        <Runway Name="32">
+            <Threshold Name="32" Position="+00.8235+127.3878" ExtendedCentrelineTrack="141" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="14" Position="+00.8398+127.3746" />
+        </Runway>
+        <!--SID: FIMB1F, Runway: 32-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/ERVAV/UPVIT/VIKAT/UGUKA/FIMBA</Line>
+        <!--SID: HALM1N, Runway: 32-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/HALMO</Line>
+        <!--SID: KUPA1B, Runway: 32-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/ERVAV/UXALU/UDIBI/KUPAL</Line>
+        <!--SID: OSRA1B, Runway: 32-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/VAVNI/EPDUM/OSRAL</Line>
+        <!--SID: TELE1D, Runway: 32-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/ERVAV/UXALU/UDIBI/TELES</Line>
+        <!--SID: TEPU1B, Runway: 32-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/ERVAV/UPVIT/VIKAT/TEPUR</Line>
+        <!--STAR: FIMB1G, Runway: 32-->
+        <Line Pattern="Dashed">FIMBA/MIDAP/MABEX</Line>
+        <!--STAR: FIMB2B, Runway: 32-->
+        <Line Pattern="Dashed">FIMBA/SEGTI/MABEX</Line>
+        <!--STAR: FORM2B, Runway: 32-->
+        <Line Pattern="Dashed">FORMY/AREXI/MABEX</Line>
+        <!--STAR: HALM1P, Runway: 32-->
+        <Line Pattern="Dashed">HALMO/LETVO/TRN/MABEX</Line>
+        <!--STAR: IRSE1A, Runway: 32-->
+        <Line Pattern="Dashed">IRSET/OSALI/OMDUV/MABEX</Line>
+        <!--STAR: MUDA1A, Runway: 32-->
+        <Line Pattern="Dashed">MUDAL/UBSOM/AVKAK/OMDUV/MABEX</Line>
+        <!--STAR: OSRA1C, Runway: 32-->
+        <Line Pattern="Dashed">OSRAL/RURBI/VENED/MABEX</Line>
+        <!--STAR: SOSO1H, Runway: 32-->
+        <Line Pattern="Dashed">SOSOK/UPNOP/LETRI/OMDUV/MABEX</Line>
+        <!--STAR: TAVU1A, Runway: 32-->
+        <Line Pattern="Dashed">TAVUD/AVKAK/OMDUV/MABEX</Line>
+        <!--STAR: TELE2B, Runway: 32-->
+        <Line Pattern="Dashed">TELES/RANBU/MABEX</Line>
+        <!--STAR: TEPU1C, Runway: 32-->
+        <Line Pattern="Dashed">TEPUR/VENED/MABEX</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>TELES</Point>
+            <Point>VIKAT</Point>
+            <Point>UBSOM</Point>
+            <Point>AVKAK</Point>
+            <Point>UPVIT</Point>
+            <Point>UGUKA</Point>
+            <Point>IRSET</Point>
+            <Point>VENED</Point>
+            <Point>UXALU</Point>
+            <Point>SOSOK</Point>
+            <Point>UPNOP</Point>
+            <Point>SEGTI</Point>
+            <Point>MIDAP</Point>
+            <Point>FIMBA</Point>
+            <Point>OSALI</Point>
+            <Point>RANBU</Point>
+            <Point>UBLEL</Point>
+            <Point>TEPUR</Point>
+            <Point>IPNIS</Point>
+            <Point>TAVUD</Point>
+            <Point>LETRI</Point>
+            <Point>OMDUV</Point>
+            <Point>OSRAL</Point>
+            <Point>KUPAL</Point>
+            <Point>EPDUM</Point>
+            <Point>FORMY</Point>
+            <Point>TRN</Point>
+            <Point>LETVO</Point>
+            <Point>AREXI</Point>
+            <Point>MABEX</Point>
+            <Point>HALMO</Point>
+            <Point>VAVNI</Point>
+            <Point>UDIBI</Point>
+            <Point>MUDAL</Point>
+            <Point>RURBI</Point>
+            <Point>ERVAV</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+00.8311+127.3803" Name="WAEE_RW32_NAMES">
+        <Label>
+            <Point>TELES</Point>
+            <Point>VIKAT</Point>
+            <Point>UBSOM</Point>
+            <Point>AVKAK</Point>
+            <Point>UPVIT</Point>
+            <Point>UGUKA</Point>
+            <Point>IRSET</Point>
+            <Point>VENED</Point>
+            <Point>UXALU</Point>
+            <Point>SOSOK</Point>
+            <Point>UPNOP</Point>
+            <Point>SEGTI</Point>
+            <Point>MIDAP</Point>
+            <Point>FIMBA</Point>
+            <Point>OSALI</Point>
+            <Point>RANBU</Point>
+            <Point>UBLEL</Point>
+            <Point>TEPUR</Point>
+            <Point>IPNIS</Point>
+            <Point>TAVUD</Point>
+            <Point>LETRI</Point>
+            <Point>OMDUV</Point>
+            <Point>OSRAL</Point>
+            <Point>KUPAL</Point>
+            <Point>EPDUM</Point>
+            <Point>FORMY</Point>
+            <Point>TRN</Point>
+            <Point>LETVO</Point>
+            <Point>AREXI</Point>
+            <Point>MABEX</Point>
+            <Point>HALMO</Point>
+            <Point>VAVNI</Point>
+            <Point>UDIBI</Point>
+            <Point>MUDAL</Point>
+            <Point>RURBI</Point>
+            <Point>ERVAV</Point>
+        </Label>
+    </Map>
+</Maps>

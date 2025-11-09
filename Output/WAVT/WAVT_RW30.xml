@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAVT_RW30" Priority="3" Center="-03.9249+138.4541">
+        <Runway Name="12">
+            <Threshold Name="12" Position="-03.9240+138.4530" ExtendedCentrelineTrack="302" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="30" Position="-03.9274+138.4581" />
+        </Runway>
+        <Runway Name="30">
+            <Threshold Name="30" Position="-03.9274+138.4581" ExtendedCentrelineTrack="122" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="12" Position="-03.9240+138.4530" />
+        </Runway>
+    </Map>
+</Maps>

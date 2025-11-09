@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAMP_RW13" Priority="3" Center="-02.8014+122.1411">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-02.7929+122.1341" ExtendedCentrelineTrack="311" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-02.8036+122.1462" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-02.8036+122.1462" ExtendedCentrelineTrack="131" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-02.7929+122.1341" />
+        </Runway>
+    </Map>
+</Maps>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WALJ_RW02" Priority="3" Center="+00.8078+114.5294">
+        <Runway Name="02">
+            <Threshold Name="02" Position="+00.8037+114.5279" ExtendedCentrelineTrack="199" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="20" Position="+00.8111+114.5304" />
+        </Runway>
+        <Runway Name="20">
+            <Threshold Name="20" Position="+00.8111+114.5304" ExtendedCentrelineTrack="19" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="02" Position="+00.8037+114.5279" />
+        </Runway>
+    </Map>
+</Maps>

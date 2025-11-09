@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAYK_RW13" Priority="3" Center="-04.7114+136.4361">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-04.7089+136.4332" ExtendedCentrelineTrack="311" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-04.7126+136.4370" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-04.7126+136.4370" ExtendedCentrelineTrack="131" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-04.7089+136.4332" />
+        </Runway>
+    </Map>
+</Maps>

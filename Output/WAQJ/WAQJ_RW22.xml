@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAQJ_RW22" Priority="3" Center="+03.9011+115.6925">
+        <Runway Name="04">
+            <Threshold Name="04" Position="+03.8945+115.6855" ExtendedCentrelineTrack="218" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="22" Position="+03.9059+115.6943" />
+        </Runway>
+        <Runway Name="22">
+            <Threshold Name="22" Position="+03.9059+115.6943" ExtendedCentrelineTrack="38" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="04" Position="+03.8945+115.6855" />
+        </Runway>
+    </Map>
+</Maps>

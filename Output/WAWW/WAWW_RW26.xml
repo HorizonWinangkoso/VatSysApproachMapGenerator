@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAWW_RW26" Priority="3" Center="-04.0842+122.4131">
+        <Runway Name="08">
+            <Threshold Name="08" Position="-04.0836+122.4086" ExtendedCentrelineTrack="259" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="26" Position="-04.0796+122.4308" />
+        </Runway>
+        <Runway Name="26">
+            <Threshold Name="26" Position="-04.0796+122.4308" ExtendedCentrelineTrack="79" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="08" Position="-04.0836+122.4086" />
+        </Runway>
+        <!--SID: HIPN1B, Runway: 26-->
+        <Line Pattern="Dotted">-04.0836+122.4086/KDI/HIPNO</Line>
+        <!--SID: IDPA1C, Runway: 26-->
+        <Line Pattern="Dotted">-04.0836+122.4086/KDI/IDPAP</Line>
+        <!--SID: LEKE1L, Runway: 26-->
+        <Line Pattern="Dotted">-04.0836+122.4086/LEKEX</Line>
+        <!--SID: RALT1C, Runway: 26-->
+        <Line Pattern="Dotted">-04.0836+122.4086/KDI/RALTO</Line>
+        <!--STAR: IDPA1D, Runway: 26-->
+        <Line Pattern="Dashed">IDPAP/MENTE/ESGIX</Line>
+        <!--STAR: LEKE1M, Runway: 26-->
+        <Line Pattern="Dashed">LEKEX/KDI/ESGIX</Line>
+        <!--STAR: RALT2D, Runway: 26-->
+        <Line Pattern="Dashed">RALTO/LEGIT/ESGIX</Line>
+        <!--STAR: SUGT1L, Runway: 26-->
+        <Line Pattern="Dashed">SUGTA/KDI/ESGIX</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>LEGIT</Point>
+            <Point>SUGTA</Point>
+            <Point>MENTE</Point>
+            <Point>RALTO</Point>
+            <Point>KDI</Point>
+            <Point>HIPNO</Point>
+            <Point>LEKEX</Point>
+            <Point>ESGIX</Point>
+            <Point>IDPAP</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-04.0842+122.4131" Name="WAWW_RW26_NAMES">
+        <Label>
+            <Point>LEGIT</Point>
+            <Point>SUGTA</Point>
+            <Point>MENTE</Point>
+            <Point>RALTO</Point>
+            <Point>KDI</Point>
+            <Point>HIPNO</Point>
+            <Point>LEKEX</Point>
+            <Point>ESGIX</Point>
+            <Point>IDPAP</Point>
+        </Label>
+    </Map>
+</Maps>

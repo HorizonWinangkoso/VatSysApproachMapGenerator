@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAYY_RW12" Priority="3" Center="-04.5311+136.8833">
+        <Runway Name="12">
+            <Threshold Name="12" Position="-04.5240+136.8783" ExtendedCentrelineTrack="299" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="30" Position="-04.5354+136.8966" />
+        </Runway>
+        <Runway Name="30">
+            <Threshold Name="30" Position="-04.5354+136.8966" ExtendedCentrelineTrack="119" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="12" Position="-04.5240+136.8783" />
+        </Runway>
+        <!--SID: ANRO1A, Runway: 12-->
+        <Line Pattern="Dotted">-04.5240+136.8783/AVMOP/ATGON/RELAM/MABTO/ATPIK/ANROL</Line>
+        <!--SID: BITO1A, Runway: 12-->
+        <Line Pattern="Dotted">-04.5240+136.8783/AVMOP/AVBOK/BIDOX/BITOK</Line>
+        <!--SID: BUNK1A, Runway: 12-->
+        <Line Pattern="Dotted">-04.5240+136.8783/AVMOP/ATGON/RELAM/MABTO/ATPIK/ANROL/BUNKU</Line>
+        <!--SID: EKIK1A, Runway: 12-->
+        <Line Pattern="Dotted">-04.5240+136.8783/AVMOP/AVBOK/DAGVI/EKIKA</Line>
+        <!--SID: ESNE1A, Runway: 12-->
+        <Line Pattern="Dotted">-04.5240+136.8783/AVMOP/ATGON/TERID/KAGSU/ESNES</Line>
+        <!--SID: IBOG1A, Runway: 12-->
+        <Line Pattern="Dotted">-04.5240+136.8783/AVMOP/ATGON/RELAM/MABTO/BEKIL/ENTIL/IBOGO</Line>
+        <!--SID: OVGO1A, Runway: 12-->
+        <Line Pattern="Dotted">-04.5240+136.8783/AVMOP/AVBOK/BIDOX/OVGOD</Line>
+        <!--SID: TEGE1A, Runway: 12-->
+        <Line Pattern="Dotted">-04.5240+136.8783/AVMOP/ATGON/TERID/TEGEN</Line>
+        <!--STAR: ANRO1C, Runway: 12-->
+        <Line Pattern="Dashed">ANROL/GURER/GOSRI/IGURA</Line>
+        <!--STAR: BITO1C, Runway: 12-->
+        <Line Pattern="Dashed">BITOK/IGLUK/IDSEX/BUVRA/DUMAD/GIVOG/IGURA</Line>
+        <!--STAR: BUNK1C, Runway: 12-->
+        <Line Pattern="Dashed">BUNKU/ANROL/GURER/GOSRI/IGURA</Line>
+        <!--STAR: EKIK1C, Runway: 12-->
+        <Line Pattern="Dashed">EKIKA/UBDUT/BUVRA/DUMAD/GIVOG/IGURA</Line>
+        <!--STAR: ESNE1C, Runway: 12-->
+        <Line Pattern="Dashed">ESNES/ERVEX/GOSRI/IGURA</Line>
+        <!--STAR: IBOG1C, Runway: 12-->
+        <Line Pattern="Dashed">IBOGO/OLBIT/GOSRI/IGURA</Line>
+        <!--STAR: OVGO1C, Runway: 12-->
+        <Line Pattern="Dashed">OVGOD/IDSEX/BUVRA/DUMAD/GIVOG/IGURA</Line>
+        <!--STAR: TEGE1C, Runway: 12-->
+        <Line Pattern="Dashed">TEGEN/GURER/GOSRI/IGURA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>DUMAD</Point>
+            <Point>IGLUK</Point>
+            <Point>EKIKA</Point>
+            <Point>ERVEX</Point>
+            <Point>BITOK</Point>
+            <Point>UBDUT</Point>
+            <Point>ESNES</Point>
+            <Point>IGURA</Point>
+            <Point>IBOGO</Point>
+            <Point>GOSRI</Point>
+            <Point>AVMOP</Point>
+            <Point>GIVOG</Point>
+            <Point>DAGVI</Point>
+            <Point>OVGOD</Point>
+            <Point>ANROL</Point>
+            <Point>TERID</Point>
+            <Point>BEKIL</Point>
+            <Point>MABTO</Point>
+            <Point>GURER</Point>
+            <Point>ATPIK</Point>
+            <Point>AVBOK</Point>
+            <Point>BUVRA</Point>
+            <Point>OLBIT</Point>
+            <Point>RELAM</Point>
+            <Point>BIDOX</Point>
+            <Point>ATGON</Point>
+            <Point>BUNKU</Point>
+            <Point>ENTIL</Point>
+            <Point>IDSEX</Point>
+            <Point>KAGSU</Point>
+            <Point>TEGEN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-04.5311+136.8833" Name="WAYY_RW12_NAMES">
+        <Label>
+            <Point>DUMAD</Point>
+            <Point>IGLUK</Point>
+            <Point>EKIKA</Point>
+            <Point>ERVEX</Point>
+            <Point>BITOK</Point>
+            <Point>UBDUT</Point>
+            <Point>ESNES</Point>
+            <Point>IGURA</Point>
+            <Point>IBOGO</Point>
+            <Point>GOSRI</Point>
+            <Point>AVMOP</Point>
+            <Point>GIVOG</Point>
+            <Point>DAGVI</Point>
+            <Point>OVGOD</Point>
+            <Point>ANROL</Point>
+            <Point>TERID</Point>
+            <Point>BEKIL</Point>
+            <Point>MABTO</Point>
+            <Point>GURER</Point>
+            <Point>ATPIK</Point>
+            <Point>AVBOK</Point>
+            <Point>BUVRA</Point>
+            <Point>OLBIT</Point>
+            <Point>RELAM</Point>
+            <Point>BIDOX</Point>
+            <Point>ATGON</Point>
+            <Point>BUNKU</Point>
+            <Point>ENTIL</Point>
+            <Point>IDSEX</Point>
+            <Point>KAGSU</Point>
+            <Point>TEGEN</Point>
+        </Label>
+    </Map>
+</Maps>

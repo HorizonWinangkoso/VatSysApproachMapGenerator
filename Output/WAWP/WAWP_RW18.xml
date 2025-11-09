@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAWP_RW18" Priority="3" Center="-04.3450+121.5222">
+        <Runway Name="18">
+            <Threshold Name="18" Position="-04.3293+121.5245" ExtendedCentrelineTrack="2" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="-04.3460+121.5237" />
+        </Runway>
+        <Runway Name="36">
+            <Threshold Name="36" Position="-04.3460+121.5237" ExtendedCentrelineTrack="182" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="-04.3293+121.5245" />
+        </Runway>
+    </Map>
+</Maps>

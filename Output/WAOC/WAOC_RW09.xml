@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAOC_RW09" Priority="3" Center="-03.4133+116.0008">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-03.4124+115.9872" ExtendedCentrelineTrack="271" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-03.4128+116.0021" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-03.4128+116.0021" ExtendedCentrelineTrack="91" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-03.4124+115.9872" />
+        </Runway>
+    </Map>
+</Maps>

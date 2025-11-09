@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAKT_RW25" Priority="3" Center="-06.0961+140.3000">
+        <Runway Name="07">
+            <Threshold Name="07" Position="-06.0981+140.2991" ExtendedCentrelineTrack="249" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="25" Position="-06.0944+140.3112" />
+        </Runway>
+        <Runway Name="25">
+            <Threshold Name="25" Position="-06.0944+140.3112" ExtendedCentrelineTrack="69" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="07" Position="-06.0981+140.2991" />
+        </Runway>
+    </Map>
+</Maps>

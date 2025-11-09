@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAKL_RW15" Priority="3" Center="-05.8050+139.8678">
+        <Runway Name="15">
+            <Threshold Name="15" Position="-05.8050+139.8678" ExtendedCentrelineTrack="330" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="33" Position="-05.8050+139.8678" />
+        </Runway>
+        <Runway Name="33">
+            <Threshold Name="33" Position="-05.8050+139.8678" ExtendedCentrelineTrack="150" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="15" Position="-05.8050+139.8678" />
+        </Runway>
+    </Map>
+</Maps>

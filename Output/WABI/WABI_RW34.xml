@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WABI_RW34" Priority="3" Center="-03.3681+135.4972">
+        <Runway Name="16">
+            <Threshold Name="16" Position="-03.3621+135.4945" ExtendedCentrelineTrack="339" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="34" Position="-03.3740+135.4987" />
+        </Runway>
+        <Runway Name="34">
+            <Threshold Name="34" Position="-03.3740+135.4987" ExtendedCentrelineTrack="159" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="16" Position="-03.3621+135.4945" />
+        </Runway>
+    </Map>
+</Maps>

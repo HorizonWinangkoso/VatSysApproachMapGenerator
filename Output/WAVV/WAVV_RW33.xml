@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAVV_RW33" Priority="3" Center="-04.0975+138.9514">
+        <Runway Name="15">
+            <Threshold Name="15" Position="-04.0878+138.9475" ExtendedCentrelineTrack="330" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="33" Position="-04.1052+138.9565" />
+        </Runway>
+        <Runway Name="33">
+            <Threshold Name="33" Position="-04.1052+138.9565" ExtendedCentrelineTrack="150" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="15" Position="-04.0878+138.9475" />
+        </Runway>
+    </Map>
+</Maps>

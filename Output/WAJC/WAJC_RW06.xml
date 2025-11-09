@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAJC_RW06" Priority="3" Center="-03.2704+138.6122">
+        <Runway Name="06">
+            <Threshold Name="06" Position="-03.2721+138.6112" ExtendedCentrelineTrack="237" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="24" Position="-03.2694+138.6156" />
+        </Runway>
+        <Runway Name="24">
+            <Threshold Name="24" Position="-03.2694+138.6156" ExtendedCentrelineTrack="57" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="06" Position="-03.2721+138.6112" />
+        </Runway>
+    </Map>
+</Maps>

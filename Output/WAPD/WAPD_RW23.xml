@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAPD_RW23" Priority="3" Center="-05.7742+134.2100">
+        <Runway Name="05">
+            <Threshold Name="05" Position="-05.7769+134.2038" ExtendedCentrelineTrack="238" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="23" Position="-05.7705+134.2148" />
+        </Runway>
+        <Runway Name="23">
+            <Threshold Name="23" Position="-05.7705+134.2148" ExtendedCentrelineTrack="58" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="05" Position="-05.7769+134.2038" />
+        </Runway>
+    </Map>
+</Maps>

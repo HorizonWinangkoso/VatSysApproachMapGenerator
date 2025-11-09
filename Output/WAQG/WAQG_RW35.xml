@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAQG_RW35" Priority="3" Center="+03.7727+115.8562">
+        <Runway Name="17">
+            <Threshold Name="17" Position="+03.7727+115.8562" ExtendedCentrelineTrack="350" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="35" Position="+03.7727+115.8562" />
+        </Runway>
+        <Runway Name="35">
+            <Threshold Name="35" Position="+03.7727+115.8562" ExtendedCentrelineTrack="170" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="17" Position="+03.7727+115.8562" />
+        </Runway>
+    </Map>
+</Maps>

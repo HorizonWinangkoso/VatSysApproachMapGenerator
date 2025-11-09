@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAMO_RW20" Priority="3" Center="+02.6531+125.4247">
+        <Runway Name="02">
+            <Threshold Name="02" Position="+02.6431+125.4214" ExtendedCentrelineTrack="200" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="20" Position="+02.6544+125.4255" />
+        </Runway>
+        <Runway Name="20">
+            <Threshold Name="20" Position="+02.6544+125.4255" ExtendedCentrelineTrack="20" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="02" Position="+02.6431+125.4214" />
+        </Runway>
+        <!--STAR: BOND1H, Runway: 20-->
+        <Line Pattern="Dashed">BONDA/FRODA/SIAUM</Line>
+        <!--STAR: NAHA1B, Runway: 20-->
+        <Line Pattern="Dashed">NAHAK/BENSI/SIAUM</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BONDA</Point>
+            <Point>FRODA</Point>
+            <Point>SIAUM</Point>
+            <Point>BENSI</Point>
+            <Point>NAHAK</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+02.6531+125.4247" Name="WAMO_RW20_NAMES">
+        <Label>
+            <Point>BONDA</Point>
+            <Point>FRODA</Point>
+            <Point>SIAUM</Point>
+            <Point>BENSI</Point>
+            <Point>NAHAK</Point>
+        </Label>
+    </Map>
+</Maps>

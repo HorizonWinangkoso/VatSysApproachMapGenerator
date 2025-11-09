@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WADL_RW31" Priority="3" Center="-08.7572+116.2767">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-08.7494+116.2656" ExtendedCentrelineTrack="308" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-08.7682+116.2889" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-08.7682+116.2889" ExtendedCentrelineTrack="128" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-08.7494+116.2656" />
+        </Runway>
+        <!--SID: AGUN1B, Runway: 31-->
+        <Line Pattern="Dotted">-08.7494+116.2656/TANJU/AGUNG</Line>
+        <!--SID: CODO1B, Runway: 31-->
+        <Line Pattern="Dotted">-08.7494+116.2656/CODOT</Line>
+        <!--SID: DULO1B, Runway: 31-->
+        <Line Pattern="Dotted">-08.7494+116.2656/TANJU/DULOS</Line>
+        <!--SID: PEBG1J, Runway: 31-->
+        <Line Pattern="Dotted">-08.7494+116.2656/TOKEK/PEBGU</Line>
+        <!--SID: TEPO1D, Runway: 31-->
+        <Line Pattern="Dotted">-08.7494+116.2656/LMB30/TEPOS</Line>
+        <!--SID: TOKU1B, Runway: 31-->
+        <Line Pattern="Dotted">-08.7494+116.2656/TOKUL</Line>
+        <!--STAR: AGUN1D, Runway: 31-->
+        <Line Pattern="Dashed">AGUNG/TOLOP/LMB/AWANG</Line>
+        <!--STAR: BIMO1B, Runway: 31-->
+        <Line Pattern="Dashed">BLI/BIMOV/LMB/AWANG</Line>
+        <!--STAR: PATI1B, Runway: 31-->
+        <Line Pattern="Dashed">BLI/PATIN/LMB/AWANG</Line>
+        <!--STAR: PEBG1L, Runway: 31-->
+        <Line Pattern="Dashed">PEBGU/TOKEK/D085U/AWANG</Line>
+        <!--STAR: SASA1D, Runway: 31-->
+        <Line Pattern="Dashed">SASAX/PEBGU/TOKEK/D085U/AWANG</Line>
+        <!--STAR: SOVK1B, Runway: 31-->
+        <Line Pattern="Dashed">SOVKA/AGUNG/TOLOP/LMB/AWANG</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>D085U</Point>
+            <Point>TEPOS</Point>
+            <Point>DULOS</Point>
+            <Point>TOKUL</Point>
+            <Point>PEBGU</Point>
+            <Point>SASAX</Point>
+            <Point>TOLOP</Point>
+            <Point>BIMOV</Point>
+            <Point>LMB</Point>
+            <Point>AGUNG</Point>
+            <Point>LMB30</Point>
+            <Point>TOKEK</Point>
+            <Point>AWANG</Point>
+            <Point>BLI</Point>
+            <Point>SOVKA</Point>
+            <Point>TANJU</Point>
+            <Point>CODOT</Point>
+            <Point>PATIN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-08.7572+116.2767" Name="WADL_RW31_NAMES">
+        <Label>
+            <Point>D085U</Point>
+            <Point>TEPOS</Point>
+            <Point>DULOS</Point>
+            <Point>TOKUL</Point>
+            <Point>PEBGU</Point>
+            <Point>SASAX</Point>
+            <Point>TOLOP</Point>
+            <Point>BIMOV</Point>
+            <Point>LMB</Point>
+            <Point>AGUNG</Point>
+            <Point>LMB30</Point>
+            <Point>TOKEK</Point>
+            <Point>AWANG</Point>
+            <Point>BLI</Point>
+            <Point>SOVKA</Point>
+            <Point>TANJU</Point>
+            <Point>CODOT</Point>
+            <Point>PATIN</Point>
+        </Label>
+    </Map>
+</Maps>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WARR_RW10" Priority="3" Center="-07.3808+112.7864">
+        <Runway Name="10">
+            <Threshold Name="10" Position="-07.3777+112.7735" ExtendedCentrelineTrack="278" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="28" Position="-07.3820+112.8003" />
+        </Runway>
+        <Runway Name="28">
+            <Threshold Name="28" Position="-07.3820+112.8003" ExtendedCentrelineTrack="98" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="10" Position="-07.3777+112.7735" />
+        </Runway>
+        <!--SID: AGUD1E, Runway: 10-->
+        <Line Pattern="Dotted">-07.3777+112.7735/IKIRI/GARDA/MACEL/AGUDA</Line>
+        <!--SID: ENTA3K, Runway: 10-->
+        <Line Pattern="Dotted">-07.3777+112.7735/IKIRI/PUPAK/NAMIA/ENTAS</Line>
+        <!--SID: LASE5F, Runway: 10-->
+        <Line Pattern="Dotted">-07.3777+112.7735/BIRUN/UKLIN/ERATA/FUSAL/LASEM</Line>
+        <!--SID: MOVM1A, Runway: 10-->
+        <Line Pattern="Dotted">-07.3777+112.7735/IKIRI/PUPAK/PIDAL/MOVMO</Line>
+        <!--SID: PEDS2F, Runway: 10-->
+        <Line Pattern="Dotted">-07.3777+112.7735/IKIRI/GARDA/PEDSO</Line>
+        <!--SID: RAMP2F, Runway: 10-->
+        <Line Pattern="Dotted">-07.3777+112.7735/IKIRI/GARDA/RUVIB/RAMPY</Line>
+        <!--STAR: BA1C, Runway: 10-->
+        <Line Pattern="Dashed">BA/RIGPA/ENKUK/LOTEK</Line>
+        <!--STAR: ENTA3M, Runway: 10-->
+        <Line Pattern="Dashed">ENTAS/OKANG/KAKLI/NOMOS/BELIR/RUJAK/APAMU/ASERU/ENKUK/LOTEK</Line>
+        <!--STAR: KOLT1E, Runway: 10-->
+        <Line Pattern="Dashed">KOLTA/BAWEN/URDIG/EMSUB/NIRIN/LOTEK</Line>
+        <!--STAR: MOVM1C, Runway: 10-->
+        <Line Pattern="Dashed">MOVMO/SAPEB/NOMOS/BELIR/RUJAK/APAMU/ASERU/ENKUK/LOTEK</Line>
+        <!--STAR: OKAN1E, Runway: 10-->
+        <Line Pattern="Dashed">OKANG/KAKLI/NOMOS/BELIR/RUJAK/APAMU/ASERU/ENKUK/LOTEK</Line>
+        <!--STAR: RITB1C, Runway: 10-->
+        <Line Pattern="Dashed">RITBO/URDIG/EMSUB/NIRIN/LOTEK</Line>
+        <!--STAR: RUPK1D, Runway: 10-->
+        <Line Pattern="Dashed">RUPKA/ATMAM/EMSUB/NIRIN/LOTEK</Line>
+        <!--STAR: SUMD1H, Runway: 10-->
+        <Line Pattern="Dashed">SUMDI/ATMAM/EMSUB/NIRIN/LOTEK</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BELIR</Point>
+            <Point>KAKLI</Point>
+            <Point>BA</Point>
+            <Point>ERATA</Point>
+            <Point>GARDA</Point>
+            <Point>MOVMO</Point>
+            <Point>SUMDI</Point>
+            <Point>MACEL</Point>
+            <Point>LOTEK</Point>
+            <Point>PUPAK</Point>
+            <Point>NIRIN</Point>
+            <Point>RITBO</Point>
+            <Point>SAPEB</Point>
+            <Point>ENKUK</Point>
+            <Point>PIDAL</Point>
+            <Point>IKIRI</Point>
+            <Point>UKLIN</Point>
+            <Point>EMSUB</Point>
+            <Point>RUVIB</Point>
+            <Point>BIRUN</Point>
+            <Point>APAMU</Point>
+            <Point>NAMIA</Point>
+            <Point>AGUDA</Point>
+            <Point>OKANG</Point>
+            <Point>NOMOS</Point>
+            <Point>ATMAM</Point>
+            <Point>BAWEN</Point>
+            <Point>LASEM</Point>
+            <Point>KOLTA</Point>
+            <Point>RUPKA</Point>
+            <Point>FUSAL</Point>
+            <Point>RIGPA</Point>
+            <Point>RAMPY</Point>
+            <Point>URDIG</Point>
+            <Point>ENTAS</Point>
+            <Point>RUJAK</Point>
+            <Point>PEDSO</Point>
+            <Point>ASERU</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-07.3808+112.7864" Name="WARR_RW10_NAMES">
+        <Label>
+            <Point>BELIR</Point>
+            <Point>KAKLI</Point>
+            <Point>BA</Point>
+            <Point>ERATA</Point>
+            <Point>GARDA</Point>
+            <Point>MOVMO</Point>
+            <Point>SUMDI</Point>
+            <Point>MACEL</Point>
+            <Point>LOTEK</Point>
+            <Point>PUPAK</Point>
+            <Point>NIRIN</Point>
+            <Point>RITBO</Point>
+            <Point>SAPEB</Point>
+            <Point>ENKUK</Point>
+            <Point>PIDAL</Point>
+            <Point>IKIRI</Point>
+            <Point>UKLIN</Point>
+            <Point>EMSUB</Point>
+            <Point>RUVIB</Point>
+            <Point>BIRUN</Point>
+            <Point>APAMU</Point>
+            <Point>NAMIA</Point>
+            <Point>AGUDA</Point>
+            <Point>OKANG</Point>
+            <Point>NOMOS</Point>
+            <Point>ATMAM</Point>
+            <Point>BAWEN</Point>
+            <Point>LASEM</Point>
+            <Point>KOLTA</Point>
+            <Point>RUPKA</Point>
+            <Point>FUSAL</Point>
+            <Point>RIGPA</Point>
+            <Point>RAMPY</Point>
+            <Point>URDIG</Point>
+            <Point>ENTAS</Point>
+            <Point>RUJAK</Point>
+            <Point>PEDSO</Point>
+            <Point>ASERU</Point>
+        </Label>
+    </Map>
+</Maps>

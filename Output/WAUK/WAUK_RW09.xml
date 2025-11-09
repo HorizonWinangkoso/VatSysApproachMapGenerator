@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAUK_RW09" Priority="3" Center="-00.8097+133.0553">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-00.8100+133.0514" ExtendedCentrelineTrack="275" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-00.8108+133.0585" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-00.8108+133.0585" ExtendedCentrelineTrack="95" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-00.8100+133.0514" />
+        </Runway>
+    </Map>
+</Maps>

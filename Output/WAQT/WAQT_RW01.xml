@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAQT_RW01" Priority="3" Center="+02.1536+117.4311">
+        <Runway Name="01">
+            <Threshold Name="01" Position="+02.1378+117.4283" ExtendedCentrelineTrack="194" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="19" Position="+02.1578+117.4331" />
+        </Runway>
+        <Runway Name="19">
+            <Threshold Name="19" Position="+02.1578+117.4331" ExtendedCentrelineTrack="14" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="01" Position="+02.1378+117.4283" />
+        </Runway>
+        <!--SID: MABO1A, Runway: 01-->
+        <Line Pattern="Dotted">+02.1378+117.4283/D215O/MABOT</Line>
+        <!--SID: TRK1A, Runway: 01-->
+        <Line Pattern="Dotted">+02.1378+117.4283/TRK</Line>
+        <!--STAR: MABO1C, Runway: 01-->
+        <Line Pattern="Dashed">MABOT/BR30B/INVIM</Line>
+        <!--STAR: TRK2C, Runway: 01-->
+        <Line Pattern="Dashed">TRK/BR30A/BRZ/INVIM</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>INVIM</Point>
+            <Point>BR30B</Point>
+            <Point>BRZ</Point>
+            <Point>MABOT</Point>
+            <Point>TRK</Point>
+            <Point>D215O</Point>
+            <Point>BR30A</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+02.1536+117.4311" Name="WAQT_RW01_NAMES">
+        <Label>
+            <Point>INVIM</Point>
+            <Point>BR30B</Point>
+            <Point>BRZ</Point>
+            <Point>MABOT</Point>
+            <Point>TRK</Point>
+            <Point>D215O</Point>
+            <Point>BR30A</Point>
+        </Label>
+    </Map>
+</Maps>

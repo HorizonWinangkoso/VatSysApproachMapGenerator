@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WADL_RW13" Priority="3" Center="-08.7572+116.2767">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-08.7494+116.2656" ExtendedCentrelineTrack="308" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-08.7682+116.2889" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-08.7682+116.2889" ExtendedCentrelineTrack="128" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-08.7494+116.2656" />
+        </Runway>
+        <!--SID: AGUN1A, Runway: 13-->
+        <Line Pattern="Dotted">-08.7494+116.2656/LMB/TANJU/AGUNG</Line>
+        <!--SID: CODO1A, Runway: 13-->
+        <Line Pattern="Dotted">-08.7494+116.2656/CODOT</Line>
+        <!--SID: DULO1A, Runway: 13-->
+        <Line Pattern="Dotted">-08.7494+116.2656/LMB/TANJU/DULOS</Line>
+        <!--SID: PEBG1H, Runway: 13-->
+        <Line Pattern="Dotted">-08.7494+116.2656/TOKEK/PEBGU</Line>
+        <!--SID: TEPO1C, Runway: 13-->
+        <Line Pattern="Dotted">-08.7494+116.2656/LMB/PIKAP/TEPOS</Line>
+        <!--SID: TOKU1A, Runway: 13-->
+        <Line Pattern="Dotted">-08.7494+116.2656/TOKUL</Line>
+        <!--STAR: AGUN1C, Runway: 13-->
+        <Line Pattern="Dashed">AGUNG/TOLOP/NOLUB</Line>
+        <!--STAR: BIMO1A, Runway: 13-->
+        <Line Pattern="Dashed">BLI/BIMOV/NOLUB</Line>
+        <!--STAR: PATI1A, Runway: 13-->
+        <Line Pattern="Dashed">BLI/PATIN/NOLUB</Line>
+        <!--STAR: PEBG1K, Runway: 13-->
+        <Line Pattern="Dashed">PEBGU/TOKEK/D044M/D353J/NOLUB</Line>
+        <!--STAR: SASA1C, Runway: 13-->
+        <Line Pattern="Dashed">SASAX/PEBGU/TOKEK/D044M/D353J/NOLUB</Line>
+        <!--STAR: SOVK1A, Runway: 13-->
+        <Line Pattern="Dashed">SOVKA/AGUNG/TOLOP/NOLUB</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>DULOS</Point>
+            <Point>NOLUB</Point>
+            <Point>PEBGU</Point>
+            <Point>SASAX</Point>
+            <Point>TOKEK</Point>
+            <Point>TANJU</Point>
+            <Point>TOLOP</Point>
+            <Point>D353J</Point>
+            <Point>TOKUL</Point>
+            <Point>BIMOV</Point>
+            <Point>LMB</Point>
+            <Point>AGUNG</Point>
+            <Point>PATIN</Point>
+            <Point>D044M</Point>
+            <Point>TEPOS</Point>
+            <Point>PIKAP</Point>
+            <Point>BLI</Point>
+            <Point>SOVKA</Point>
+            <Point>CODOT</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-08.7572+116.2767" Name="WADL_RW13_NAMES">
+        <Label>
+            <Point>DULOS</Point>
+            <Point>NOLUB</Point>
+            <Point>PEBGU</Point>
+            <Point>SASAX</Point>
+            <Point>TOKEK</Point>
+            <Point>TANJU</Point>
+            <Point>TOLOP</Point>
+            <Point>D353J</Point>
+            <Point>TOKUL</Point>
+            <Point>BIMOV</Point>
+            <Point>LMB</Point>
+            <Point>AGUNG</Point>
+            <Point>PATIN</Point>
+            <Point>D044M</Point>
+            <Point>TEPOS</Point>
+            <Point>PIKAP</Point>
+            <Point>BLI</Point>
+            <Point>SOVKA</Point>
+            <Point>CODOT</Point>
+        </Label>
+    </Map>
+</Maps>

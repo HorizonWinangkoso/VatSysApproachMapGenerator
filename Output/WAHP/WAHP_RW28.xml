@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAHP_RW28" Priority="3" Center="-07.4625+109.4217">
+        <Runway Name="10">
+            <Threshold Name="10" Position="-07.4595+109.4072" ExtendedCentrelineTrack="283" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="28" Position="-07.4630+109.4212" />
+        </Runway>
+        <Runway Name="28">
+            <Threshold Name="28" Position="-07.4630+109.4212" ExtendedCentrelineTrack="103" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="10" Position="-07.4595+109.4072" />
+        </Runway>
+        <!--SID: BND1F, Runway: 28-->
+        <Line Pattern="Dotted">-07.4595+109.4072/LUXOP/DUBIG/SUSVI/DOVUS/REGIP/BND</Line>
+        <!--SID: CA1G, Runway: 28-->
+        <Line Pattern="Dotted">-07.4595+109.4072/LUXOP/DUBIG/SUSVI/DOVUS/ATBOX/CA</Line>
+        <!--SID: LILP1G, Runway: 28-->
+        <Line Pattern="Dotted">-07.4595+109.4072/LUXOP/DUBIG/BIBIA/LILPO</Line>
+        <!--STAR: BND1G, Runway: 28-->
+        <Line Pattern="Dashed">BND/UDOPI/PAGTO/UPRAS</Line>
+        <!--STAR: CA1H, Runway: 28-->
+        <Line Pattern="Dashed">CA/MALAM/PAGTO/UPRAS</Line>
+        <!--STAR: LILP1H, Runway: 28-->
+        <Line Pattern="Dashed">LILPO/SAPON/REGON/UPRAS</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>REGON</Point>
+            <Point>BIBIA</Point>
+            <Point>DOVUS</Point>
+            <Point>DUBIG</Point>
+            <Point>REGIP</Point>
+            <Point>BND</Point>
+            <Point>LUXOP</Point>
+            <Point>CA</Point>
+            <Point>LILPO</Point>
+            <Point>UDOPI</Point>
+            <Point>SAPON</Point>
+            <Point>ATBOX</Point>
+            <Point>SUSVI</Point>
+            <Point>MALAM</Point>
+            <Point>UPRAS</Point>
+            <Point>PAGTO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-07.4625+109.4217" Name="WAHP_RW28_NAMES">
+        <Label>
+            <Point>REGON</Point>
+            <Point>BIBIA</Point>
+            <Point>DOVUS</Point>
+            <Point>DUBIG</Point>
+            <Point>REGIP</Point>
+            <Point>BND</Point>
+            <Point>LUXOP</Point>
+            <Point>CA</Point>
+            <Point>LILPO</Point>
+            <Point>UDOPI</Point>
+            <Point>SAPON</Point>
+            <Point>ATBOX</Point>
+            <Point>SUSVI</Point>
+            <Point>MALAM</Point>
+            <Point>UPRAS</Point>
+            <Point>PAGTO</Point>
+        </Label>
+    </Map>
+</Maps>

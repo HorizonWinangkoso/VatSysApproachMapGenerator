@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAQT_RW19" Priority="3" Center="+02.1536+117.4311">
+        <Runway Name="01">
+            <Threshold Name="01" Position="+02.1378+117.4283" ExtendedCentrelineTrack="194" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="19" Position="+02.1578+117.4331" />
+        </Runway>
+        <Runway Name="19">
+            <Threshold Name="19" Position="+02.1578+117.4331" ExtendedCentrelineTrack="14" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="01" Position="+02.1378+117.4283" />
+        </Runway>
+        <!--SID: MABO1B, Runway: 19-->
+        <Line Pattern="Dotted">+02.1378+117.4283/D215V/MABOT</Line>
+        <!--SID: TRK1B, Runway: 19-->
+        <Line Pattern="Dotted">+02.1378+117.4283/SOSVO/TRK</Line>
+        <!--STAR: MABO1D, Runway: 19-->
+        <Line Pattern="Dashed">MABOT/BR30B/BRZ/NUSDA</Line>
+        <!--STAR: TRK2D, Runway: 19-->
+        <Line Pattern="Dashed">TRK/D004X/NUSDA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>D004X</Point>
+            <Point>BR30B</Point>
+            <Point>BRZ</Point>
+            <Point>SOSVO</Point>
+            <Point>MABOT</Point>
+            <Point>NUSDA</Point>
+            <Point>TRK</Point>
+            <Point>D215V</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+02.1536+117.4311" Name="WAQT_RW19_NAMES">
+        <Label>
+            <Point>D004X</Point>
+            <Point>BR30B</Point>
+            <Point>BRZ</Point>
+            <Point>SOSVO</Point>
+            <Point>MABOT</Point>
+            <Point>NUSDA</Point>
+            <Point>TRK</Point>
+            <Point>D215V</Point>
+        </Label>
+    </Map>
+</Maps>

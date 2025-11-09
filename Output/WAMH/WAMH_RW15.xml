@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAMH_RW15" Priority="3" Center="+03.6856+125.5292">
+        <Runway Name="15">
+            <Threshold Name="15" Position="+03.6908+125.5239" ExtendedCentrelineTrack="330" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="33" Position="+03.6789+125.5306" />
+        </Runway>
+        <Runway Name="33">
+            <Threshold Name="33" Position="+03.6789+125.5306" ExtendedCentrelineTrack="150" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="15" Position="+03.6908+125.5239" />
+        </Runway>
+    </Map>
+</Maps>

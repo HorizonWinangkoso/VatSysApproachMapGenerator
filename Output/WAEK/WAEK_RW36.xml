@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAEK_RW36" Priority="3" Center="+01.1869+127.8950">
+        <Runway Name="18">
+            <Threshold Name="18" Position="+01.1995+127.8964" ExtendedCentrelineTrack="2" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="+01.1778+127.8957" />
+        </Runway>
+        <Runway Name="36">
+            <Threshold Name="36" Position="+01.1778+127.8957" ExtendedCentrelineTrack="182" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="+01.1995+127.8964" />
+        </Runway>
+    </Map>
+</Maps>

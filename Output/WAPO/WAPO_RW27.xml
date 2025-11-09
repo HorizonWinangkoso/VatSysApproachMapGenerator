@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAPO_RW27" Priority="3" Center="-07.1281+131.7669">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-07.1278+131.7636" ExtendedCentrelineTrack="274" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-07.1286+131.7708" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-07.1286+131.7708" ExtendedCentrelineTrack="94" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-07.1278+131.7636" />
+        </Runway>
+    </Map>
+</Maps>

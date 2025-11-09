@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WASS_RW09" Priority="3" Center="-00.8917+131.2869">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-00.8934+131.2777" ExtendedCentrelineTrack="273" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-00.8948+131.3002" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-00.8948+131.3002" ExtendedCentrelineTrack="93" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-00.8934+131.2777" />
+        </Runway>
+        <!--SID: DAPT1A, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/MIL/DAPTI</Line>
+        <!--SID: DAPT1E, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/DAPTI</Line>
+        <!--SID: FIMB1A, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/FIMBA</Line>
+        <!--SID: FIMB1E, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/FIMBA</Line>
+        <!--SID: GOBA1A, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/MIL/GOBAL</Line>
+        <!--SID: GOBA1E, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/GOBAL</Line>
+        <!--SID: JOLA1D, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/JOLAM</Line>
+        <!--SID: MKW1A, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/MKW</Line>
+        <!--SID: RUMI1A, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/MIL/RUMIT</Line>
+        <!--SID: RUMI1E, Runway: 09-->
+        <Line Pattern="Dotted">-00.8934+131.2777/RUMIT</Line>
+        <!--STAR: DAPT1C, Runway: 09-->
+        <Line Pattern="Dashed">DAPTI/D250Y/ADUAP</Line>
+        <!--STAR: FIMB1C, Runway: 09-->
+        <Line Pattern="Dashed">FIMBA/D288Y/ADUAP</Line>
+        <!--STAR: GOBA1C, Runway: 09-->
+        <Line Pattern="Dashed">GOBAL/D268Y/ADUAP</Line>
+        <!--STAR: JOLA1B, Runway: 09-->
+        <Line Pattern="Dashed">JOLAM/MIL/ADUAP</Line>
+        <!--STAR: MKW1C, Runway: 09-->
+        <Line Pattern="Dashed">MKW/MIL/ADUAP</Line>
+        <!--STAR: RUMI1C, Runway: 09-->
+        <Line Pattern="Dashed">RUMIT/D230Y/ADUAP</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>RUMIT</Point>
+            <Point>DAPTI</Point>
+            <Point>D250Y</Point>
+            <Point>JOLAM</Point>
+            <Point>D230Y</Point>
+            <Point>FIMBA</Point>
+            <Point>ADUAP</Point>
+            <Point>D268Y</Point>
+            <Point>GOBAL</Point>
+            <Point>D288Y</Point>
+            <Point>MIL</Point>
+            <Point>MKW</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-00.8917+131.2869" Name="WASS_RW09_NAMES">
+        <Label>
+            <Point>RUMIT</Point>
+            <Point>DAPTI</Point>
+            <Point>D250Y</Point>
+            <Point>JOLAM</Point>
+            <Point>D230Y</Point>
+            <Point>FIMBA</Point>
+            <Point>ADUAP</Point>
+            <Point>D268Y</Point>
+            <Point>GOBAL</Point>
+            <Point>D288Y</Point>
+            <Point>MIL</Point>
+            <Point>MKW</Point>
+        </Label>
+    </Map>
+</Maps>

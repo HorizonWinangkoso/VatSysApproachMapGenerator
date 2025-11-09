@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WATT_RW26" Priority="3" Center="-10.1778+123.6639">
+        <Runway Name="08">
+            <Threshold Name="08" Position="-10.1742+123.6600" ExtendedCentrelineTrack="255" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="26" Position="-10.1689+123.6822" />
+        </Runway>
+        <Runway Name="26">
+            <Threshold Name="26" Position="-10.1689+123.6822" ExtendedCentrelineTrack="75" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="08" Position="-10.1742+123.6600" />
+        </Runway>
+        <!--SID: ALEG1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/VEDKA/ALBOT/GUKSI/IGIKA/GURTU/ALEGO</Line>
+        <!--SID: ALEG2B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/ALEGO</Line>
+        <!--SID: ANRO1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MEKAS/ESGUS/NUGNI/AKARO/GUVBI/ANROK</Line>
+        <!--SID: BUKV1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/IBOVA/BUKVI</Line>
+        <!--SID: DAKO1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/IBOVA/PALRA/DAKON</Line>
+        <!--SID: LEKO1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MEKAS/BIRIS/LEKOK</Line>
+        <!--SID: MAKN1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/VEDKA/ALBOT/GUKSI/IGIKA/GURTU/MAKNI</Line>
+        <!--SID: MAKN2B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MAKNI</Line>
+        <!--SID: MOF1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MOF</Line>
+        <!--SID: MOF1F, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MEKAS/BIRIS/RUTVA/MOF</Line>
+        <!--SID: MUBR1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/KPG/MUBRA</Line>
+        <!--SID: MUBR1F, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MEKAS/ESGUS/EXURA/ANPIK/MUBRA</Line>
+        <!--SID: OLRE1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/OLRET</Line>
+        <!--SID: OLSU1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MEKAS/BIRIS/BOBAN/OLSUD</Line>
+        <!--SID: OLVE1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MEKAS/BIRIS/IGEMI/GUTIG/MENAG/OLVER</Line>
+        <!--SID: PULA1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MEKAS/ESGUS/EXURA/ANPIK/PULAV</Line>
+        <!--SID: SABU1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/IBOVA/SABUD</Line>
+        <!--SID: VANT1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/MEKAS/ESGUS/NUGNI/ASAKA/VANTA</Line>
+        <!--SID: WGP1B, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/OLRET/WGP</Line>
+        <!--SID: WGP1F, Runway: 26-->
+        <Line Pattern="Dotted">-10.1742+123.6600/VIDUN/OLRET/WGP</Line>
+        <!--STAR: ALEG1D, Runway: 26-->
+        <Line Pattern="Dashed">ALEGO/ISPOM/SAGEP/MOVKA/ESBOV</Line>
+        <!--STAR: ALEG2D, Runway: 26-->
+        <Line Pattern="Dashed">ALEGO/D107T/ESBOV</Line>
+        <!--STAR: ANRO1D, Runway: 26-->
+        <Line Pattern="Dashed">ANROK/MIMOB/GUNIL/AVMIN/ENLOG/TUVNA/ANIVU/ESBOV</Line>
+        <!--STAR: BELO1B, Runway: 26-->
+        <Line Pattern="Dashed">BELOR/KPG/ESBOV</Line>
+        <!--STAR: BOLE1B, Runway: 26-->
+        <Line Pattern="Dashed">BOLEL/LEMOX/SUNOM/MESIG/GUKSI/ESBOV</Line>
+        <!--STAR: ENDE1B, Runway: 26-->
+        <Line Pattern="Dashed">ENDEK/VEMIT/GUVAM/EKIMI/MUMEL/ANIVU/ESBOV</Line>
+        <!--STAR: LEKO1D, Runway: 26-->
+        <Line Pattern="Dashed">LEKOK/ENLOG/TUVNA/ANIVU/ESBOV</Line>
+        <!--STAR: MAKN1D, Runway: 26-->
+        <Line Pattern="Dashed">MAKNI/ISLAT/MOVKA/ESBOV</Line>
+        <!--STAR: MAKN2D, Runway: 26-->
+        <Line Pattern="Dashed">MAKNI/D094T/ESBOV</Line>
+        <!--STAR: MOF1D, Runway: 26-->
+        <Line Pattern="Dashed">MOF/KPG/ESBOV</Line>
+        <!--STAR: MOF1H, Runway: 26-->
+        <Line Pattern="Dashed">MOF/NUVPI/GUVAM/EKIMI/MUMEL/ANIVU/ESBOV</Line>
+        <!--STAR: MUBR1D, Runway: 26-->
+        <Line Pattern="Dashed">MUBRA/D040T/ESBOV</Line>
+        <!--STAR: MUBR1H, Runway: 26-->
+        <Line Pattern="Dashed">MUBRA/PULAV/MOVKA/ESBOV</Line>
+        <!--STAR: PULA1D, Runway: 26-->
+        <Line Pattern="Dashed">PULAV/MOVKA/ESBOV</Line>
+        <!--STAR: SABU1D, Runway: 26-->
+        <Line Pattern="Dashed">SABUD/UNSOS/SADIX/SAVLI/SUNOM/MESIG/GUKSI/ESBOV</Line>
+        <!--STAR: SADL1B, Runway: 26-->
+        <Line Pattern="Dashed">SADLU/LEKOK/ENLOG/TUVNA/ANIVU/ESBOV</Line>
+        <!--STAR: VANT1D, Runway: 26-->
+        <Line Pattern="Dashed">VANTA/AVMIN/ENLOG/TUVNA/ANIVU/ESBOV</Line>
+        <!--STAR: WGP1D, Runway: 26-->
+        <Line Pattern="Dashed">WGP/KPG/ESBOV</Line>
+        <!--STAR: WGP1H, Runway: 26-->
+        <Line Pattern="Dashed">WGP/BELOR/OPUSA/OLGOB/EKIMI/MUMEL/ANIVU/ESBOV</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>IBOVA</Point>
+            <Point>AVMIN</Point>
+            <Point>GUNIL</Point>
+            <Point>ENDEK</Point>
+            <Point>RUTVA</Point>
+            <Point>BUKVI</Point>
+            <Point>D107T</Point>
+            <Point>ANPIK</Point>
+            <Point>ENLOG</Point>
+            <Point>SUNOM</Point>
+            <Point>UNSOS</Point>
+            <Point>GUVAM</Point>
+            <Point>D094T</Point>
+            <Point>D040T</Point>
+            <Point>AKARO</Point>
+            <Point>KPG</Point>
+            <Point>IGIKA</Point>
+            <Point>MIMOB</Point>
+            <Point>ALEGO</Point>
+            <Point>GURTU</Point>
+            <Point>MUMEL</Point>
+            <Point>SAGEP</Point>
+            <Point>MOVKA</Point>
+            <Point>LEMOX</Point>
+            <Point>VANTA</Point>
+            <Point>NUVPI</Point>
+            <Point>BIRIS</Point>
+            <Point>MOF</Point>
+            <Point>OLGOB</Point>
+            <Point>SAVLI</Point>
+            <Point>OLVER</Point>
+            <Point>MEKAS</Point>
+            <Point>OLSUD</Point>
+            <Point>MENAG</Point>
+            <Point>ANROK</Point>
+            <Point>LEKOK</Point>
+            <Point>ALBOT</Point>
+            <Point>MESIG</Point>
+            <Point>EKIMI</Point>
+            <Point>VEMIT</Point>
+            <Point>NUGNI</Point>
+            <Point>MUBRA</Point>
+            <Point>OLRET</Point>
+            <Point>GUKSI</Point>
+            <Point>TUVNA</Point>
+            <Point>ESGUS</Point>
+            <Point>EXURA</Point>
+            <Point>BOBAN</Point>
+            <Point>ISPOM</Point>
+            <Point>BELOR</Point>
+            <Point>SADIX</Point>
+            <Point>MAKNI</Point>
+            <Point>PULAV</Point>
+            <Point>IGEMI</Point>
+            <Point>VEDKA</Point>
+            <Point>ESBOV</Point>
+            <Point>SADLU</Point>
+            <Point>SABUD</Point>
+            <Point>ANIVU</Point>
+            <Point>WGP</Point>
+            <Point>PALRA</Point>
+            <Point>OPUSA</Point>
+            <Point>DAKON</Point>
+            <Point>GUTIG</Point>
+            <Point>VIDUN</Point>
+            <Point>BOLEL</Point>
+            <Point>ISLAT</Point>
+            <Point>ASAKA</Point>
+            <Point>GUVBI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-10.1778+123.6639" Name="WATT_RW26_NAMES">
+        <Label>
+            <Point>IBOVA</Point>
+            <Point>AVMIN</Point>
+            <Point>GUNIL</Point>
+            <Point>ENDEK</Point>
+            <Point>RUTVA</Point>
+            <Point>BUKVI</Point>
+            <Point>D107T</Point>
+            <Point>ANPIK</Point>
+            <Point>ENLOG</Point>
+            <Point>SUNOM</Point>
+            <Point>UNSOS</Point>
+            <Point>GUVAM</Point>
+            <Point>D094T</Point>
+            <Point>D040T</Point>
+            <Point>AKARO</Point>
+            <Point>KPG</Point>
+            <Point>IGIKA</Point>
+            <Point>MIMOB</Point>
+            <Point>ALEGO</Point>
+            <Point>GURTU</Point>
+            <Point>MUMEL</Point>
+            <Point>SAGEP</Point>
+            <Point>MOVKA</Point>
+            <Point>LEMOX</Point>
+            <Point>VANTA</Point>
+            <Point>NUVPI</Point>
+            <Point>BIRIS</Point>
+            <Point>MOF</Point>
+            <Point>OLGOB</Point>
+            <Point>SAVLI</Point>
+            <Point>OLVER</Point>
+            <Point>MEKAS</Point>
+            <Point>OLSUD</Point>
+            <Point>MENAG</Point>
+            <Point>ANROK</Point>
+            <Point>LEKOK</Point>
+            <Point>ALBOT</Point>
+            <Point>MESIG</Point>
+            <Point>EKIMI</Point>
+            <Point>VEMIT</Point>
+            <Point>NUGNI</Point>
+            <Point>MUBRA</Point>
+            <Point>OLRET</Point>
+            <Point>GUKSI</Point>
+            <Point>TUVNA</Point>
+            <Point>ESGUS</Point>
+            <Point>EXURA</Point>
+            <Point>BOBAN</Point>
+            <Point>ISPOM</Point>
+            <Point>BELOR</Point>
+            <Point>SADIX</Point>
+            <Point>MAKNI</Point>
+            <Point>PULAV</Point>
+            <Point>IGEMI</Point>
+            <Point>VEDKA</Point>
+            <Point>ESBOV</Point>
+            <Point>SADLU</Point>
+            <Point>SABUD</Point>
+            <Point>ANIVU</Point>
+            <Point>WGP</Point>
+            <Point>PALRA</Point>
+            <Point>OPUSA</Point>
+            <Point>DAKON</Point>
+            <Point>GUTIG</Point>
+            <Point>VIDUN</Point>
+            <Point>BOLEL</Point>
+            <Point>ISLAT</Point>
+            <Point>ASAKA</Point>
+            <Point>GUVBI</Point>
+        </Label>
+    </Map>
+</Maps>

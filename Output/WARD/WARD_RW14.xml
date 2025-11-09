@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WARD_RW14" Priority="3" Center="-07.7550+111.9478">
+        <Runway Name="14">
+            <Threshold Name="14" Position="-07.7374+111.9382" ExtendedCentrelineTrack="324" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="32" Position="-07.7618+111.9554" />
+        </Runway>
+        <Runway Name="32">
+            <Threshold Name="32" Position="-07.7618+111.9554" ExtendedCentrelineTrack="144" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="14" Position="-07.7374+111.9382" />
+        </Runway>
+        <!--SID: LASE1H, Runway: 14-->
+        <Line Pattern="Dotted">-07.7374+111.9382/VAGMA/AMVIM/LUMSA/IGNAR/EKELA/FUSAL/LASEM</Line>
+        <!--STAR: BA1H, Runway: 14-->
+        <Line Pattern="Dashed">BA/RIGPA/RIRTA/ISTAL/AKBOL</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>ISTAL</Point>
+            <Point>BA</Point>
+            <Point>IGNAR</Point>
+            <Point>EKELA</Point>
+            <Point>RIRTA</Point>
+            <Point>AMVIM</Point>
+            <Point>LASEM</Point>
+            <Point>AKBOL</Point>
+            <Point>LUMSA</Point>
+            <Point>VAGMA</Point>
+            <Point>FUSAL</Point>
+            <Point>RIGPA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-07.7550+111.9478" Name="WARD_RW14_NAMES">
+        <Label>
+            <Point>ISTAL</Point>
+            <Point>BA</Point>
+            <Point>IGNAR</Point>
+            <Point>EKELA</Point>
+            <Point>RIRTA</Point>
+            <Point>AMVIM</Point>
+            <Point>LASEM</Point>
+            <Point>AKBOL</Point>
+            <Point>LUMSA</Point>
+            <Point>VAGMA</Point>
+            <Point>FUSAL</Point>
+            <Point>RIGPA</Point>
+        </Label>
+    </Map>
+</Maps>

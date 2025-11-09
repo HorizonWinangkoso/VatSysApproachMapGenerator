@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAST_RW31" Priority="3" Center="-01.4456+132.0206">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-01.4431+132.0183" ExtendedCentrelineTrack="308" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-01.4477+132.0239" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-01.4477+132.0239" ExtendedCentrelineTrack="128" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-01.4431+132.0183" />
+        </Runway>
+    </Map>
+</Maps>

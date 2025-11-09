@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAON_RW06" Priority="3" Center="-02.2128+115.4425">
+        <Runway Name="06">
+            <Threshold Name="06" Position="-02.2197+115.4309" ExtendedCentrelineTrack="240" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="24" Position="-02.2135+115.4418" />
+        </Runway>
+        <Runway Name="24">
+            <Threshold Name="24" Position="-02.2135+115.4418" ExtendedCentrelineTrack="60" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="06" Position="-02.2197+115.4309" />
+        </Runway>
+    </Map>
+</Maps>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WALA_RW02" Priority="3" Center="+00.3836+117.5425">
+        <Runway Name="02">
+            <Threshold Name="02" Position="+00.3804+117.5412" ExtendedCentrelineTrack="200" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="20" Position="+00.3870+117.5438" />
+        </Runway>
+        <Runway Name="20">
+            <Threshold Name="20" Position="+00.3870+117.5438" ExtendedCentrelineTrack="20" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="02" Position="+00.3804+117.5412" />
+        </Runway>
+    </Map>
+</Maps>

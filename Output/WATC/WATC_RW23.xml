@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WATC_RW23" Priority="3" Center="-08.6375+122.2369">
+        <Runway Name="05">
+            <Threshold Name="05" Position="-08.6459+122.2302" ExtendedCentrelineTrack="230" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="23" Position="-08.6330+122.2460" />
+        </Runway>
+        <Runway Name="23">
+            <Threshold Name="23" Position="-08.6330+122.2460" ExtendedCentrelineTrack="50" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="05" Position="-08.6459+122.2302" />
+        </Runway>
+        <!--STAR: APOR1B, Runway: 23-->
+        <Line Pattern="Dashed">APORU/ATPAS</Line>
+        <!--STAR: NUVP1B, Runway: 23-->
+        <Line Pattern="Dashed">NUVPI/RUTVA</Line>
+        <!--STAR: NUVP1C, Runway: 23-->
+        <Line Pattern="Dashed">NUVPI/MOF/ATPAS</Line>
+        <!--STAR: RURS1B, Runway: 23-->
+        <Line Pattern="Dashed">RURSU/ATPAS</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>ATPAS</Point>
+            <Point>RURSU</Point>
+            <Point>NUVPI</Point>
+            <Point>RUTVA</Point>
+            <Point>MOF</Point>
+            <Point>APORU</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-08.6375+122.2369" Name="WATC_RW23_NAMES">
+        <Label>
+            <Point>ATPAS</Point>
+            <Point>RURSU</Point>
+            <Point>NUVPI</Point>
+            <Point>RUTVA</Point>
+            <Point>MOF</Point>
+            <Point>APORU</Point>
+        </Label>
+    </Map>
+</Maps>

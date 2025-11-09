@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAKQ_RW09" Priority="3" Center="-05.6906+139.3497">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-05.6906+139.3497" ExtendedCentrelineTrack="270" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-05.6906+139.3497" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-05.6906+139.3497" ExtendedCentrelineTrack="90" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-05.6906+139.3497" />
+        </Runway>
+    </Map>
+</Maps>

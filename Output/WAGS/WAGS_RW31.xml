@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAGS_RW31" Priority="3" Center="-02.5014+112.9756">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-02.4921+112.9673" ExtendedCentrelineTrack="311" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-02.5048+112.9811" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-02.5048+112.9811" ExtendedCentrelineTrack="131" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-02.4921+112.9673" />
+        </Runway>
+        <!--SID: BDM1F, Runway: 31-->
+        <Line Pattern="Dotted">-02.4921+112.9673/BDM</Line>
+        <!--SID: ENPI1D, Runway: 31-->
+        <Line Pattern="Dotted">-02.4921+112.9673/ENPIN</Line>
+        <!--SID: LAMU1F, Runway: 31-->
+        <Line Pattern="Dotted">-02.4921+112.9673/LAMUD</Line>
+        <!--SID: LAVO1D, Runway: 31-->
+        <Line Pattern="Dotted">-02.4921+112.9673/LAVOV</Line>
+        <!--SID: PKN1B, Runway: 31-->
+        <Line Pattern="Dotted">-02.4921+112.9673/PKN</Line>
+        <!--SID: PKY1B, Runway: 31-->
+        <Line Pattern="Dotted">-02.4921+112.9673/PKY</Line>
+        <!--STAR: AJAM1F, Runway: 31-->
+        <Line Pattern="Dashed">AJAMA/PKY/SP30A/D084U/D105M/DAWAI</Line>
+        <!--STAR: BDM1D, Runway: 31-->
+        <Line Pattern="Dashed">BDM/SP30B/D121T/DAWAI</Line>
+        <!--STAR: ENPI1F, Runway: 31-->
+        <Line Pattern="Dashed">ENPIN/SPT/DAWAI</Line>
+        <!--STAR: LAMU1H, Runway: 31-->
+        <Line Pattern="Dashed">LAMUD/PKY87/SPT/DAWAI</Line>
+        <!--STAR: PKN1D, Runway: 31-->
+        <Line Pattern="Dashed">PKN/SPT/DAWAI</Line>
+        <!--STAR: PKY1D, Runway: 31-->
+        <Line Pattern="Dashed">PKY/SP30A/D084U/D105M/DAWAI</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>D084U</Point>
+            <Point>D105M</Point>
+            <Point>PKY</Point>
+            <Point>SP30A</Point>
+            <Point>ENPIN</Point>
+            <Point>LAMUD</Point>
+            <Point>D121T</Point>
+            <Point>PKY87</Point>
+            <Point>BDM</Point>
+            <Point>SPT</Point>
+            <Point>SP30B</Point>
+            <Point>DAWAI</Point>
+            <Point>LAVOV</Point>
+            <Point>AJAMA</Point>
+            <Point>PKN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-02.5014+112.9756" Name="WAGS_RW31_NAMES">
+        <Label>
+            <Point>D084U</Point>
+            <Point>D105M</Point>
+            <Point>PKY</Point>
+            <Point>SP30A</Point>
+            <Point>ENPIN</Point>
+            <Point>LAMUD</Point>
+            <Point>D121T</Point>
+            <Point>PKY87</Point>
+            <Point>BDM</Point>
+            <Point>SPT</Point>
+            <Point>SP30B</Point>
+            <Point>DAWAI</Point>
+            <Point>LAVOV</Point>
+            <Point>AJAMA</Point>
+            <Point>PKN</Point>
+        </Label>
+    </Map>
+</Maps>

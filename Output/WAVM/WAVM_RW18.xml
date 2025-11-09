@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAVM_RW18" Priority="3" Center="-05.4239+140.4339">
+        <Runway Name="18">
+            <Threshold Name="18" Position="-05.4159+140.4363" ExtendedCentrelineTrack="359" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="-05.4247+140.4358" />
+        </Runway>
+        <Runway Name="36">
+            <Threshold Name="36" Position="-05.4247+140.4358" ExtendedCentrelineTrack="179" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="-05.4159+140.4363" />
+        </Runway>
+    </Map>
+</Maps>

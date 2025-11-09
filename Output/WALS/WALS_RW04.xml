@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WALS_RW04" Priority="3" Center="-00.3756+117.2514">
+        <Runway Name="04">
+            <Threshold Name="04" Position="-00.3815+117.2425" ExtendedCentrelineTrack="224" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="22" Position="-00.3669+117.2567" />
+        </Runway>
+        <Runway Name="22">
+            <Threshold Name="22" Position="-00.3669+117.2567" ExtendedCentrelineTrack="44" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="04" Position="-00.3815+117.2425" />
+        </Runway>
+    </Map>
+</Maps>

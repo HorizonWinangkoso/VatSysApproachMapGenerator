@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAYE_RW09" Priority="3" Center="-03.9261+136.3803">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-03.9262+136.3742" ExtendedCentrelineTrack="262" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-03.9252+136.3831" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-03.9252+136.3831" ExtendedCentrelineTrack="82" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-03.9262+136.3742" />
+        </Runway>
+    </Map>
+</Maps>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAYW_RW04" Priority="3" Center="-02.2125+136.4403">
+        <Runway Name="04">
+            <Threshold Name="04" Position="-02.2125+136.4403" ExtendedCentrelineTrack="220" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="22" Position="-02.2125+136.4403" />
+        </Runway>
+        <Runway Name="22">
+            <Threshold Name="22" Position="-02.2125+136.4403" ExtendedCentrelineTrack="40" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="04" Position="-02.2125+136.4403" />
+        </Runway>
+    </Map>
+</Maps>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAFJ_RW05" Priority="3" Center="-02.5928+119.0158">
+        <Runway Name="05">
+            <Threshold Name="05" Position="-02.5963+119.0166" ExtendedCentrelineTrack="233" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="23" Position="-02.5842+119.0328" />
+        </Runway>
+        <Runway Name="23">
+            <Threshold Name="23" Position="-02.5842+119.0328" ExtendedCentrelineTrack="53" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="05" Position="-02.5963+119.0166" />
+        </Runway>
+        <!--STAR: GAMA1F, Runway: 05-->
+        <Line Pattern="Dashed">GAMAL/MUMPI</Line>
+        <!--STAR: MKS1B, Runway: 05-->
+        <Line Pattern="Dashed">MKS/SARUT/MUMPI</Line>
+        <!--STAR: PAL1E, Runway: 05-->
+        <Line Pattern="Dashed">PAL/KAGNO/MUMPI</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>MKS</Point>
+            <Point>KAGNO</Point>
+            <Point>PAL</Point>
+            <Point>GAMAL</Point>
+            <Point>SARUT</Point>
+            <Point>MUMPI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-02.5928+119.0158" Name="WAFJ_RW05_NAMES">
+        <Label>
+            <Point>MKS</Point>
+            <Point>KAGNO</Point>
+            <Point>PAL</Point>
+            <Point>GAMAL</Point>
+            <Point>SARUT</Point>
+            <Point>MUMPI</Point>
+        </Label>
+    </Map>
+</Maps>

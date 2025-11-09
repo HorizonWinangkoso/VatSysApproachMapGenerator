@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAGP_RW22" Priority="3" Center="-00.6892+114.4450">
+        <Runway Name="04">
+            <Threshold Name="04" Position="-00.6915+114.4422" ExtendedCentrelineTrack="220" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="22" Position="-00.6857+114.4471" />
+        </Runway>
+        <Runway Name="22">
+            <Threshold Name="22" Position="-00.6857+114.4471" ExtendedCentrelineTrack="40" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="04" Position="-00.6915+114.4422" />
+        </Runway>
+    </Map>
+</Maps>

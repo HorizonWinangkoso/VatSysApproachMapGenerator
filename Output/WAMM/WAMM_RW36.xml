@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAMM_RW36" Priority="3" Center="+01.5456+124.9250">
+        <Runway Name="18">
+            <Threshold Name="18" Position="+01.5613+124.9267" ExtendedCentrelineTrack="2" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="+01.5373+124.9260" />
+        </Runway>
+        <Runway Name="36">
+            <Threshold Name="36" Position="+01.5373+124.9260" ExtendedCentrelineTrack="182" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="+01.5613+124.9267" />
+        </Runway>
+        <!--SID: ARIT1B, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/BISOT/ASEPA/GOLAG/IKETA/NIROM/ARITO</Line>
+        <!--SID: BOND1D, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/D359B/D309D/BONDA</Line>
+        <!--SID: DIAN1B, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/BISOT/ASEPA/DIANI</Line>
+        <!--SID: GONT1B, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/D359B/D309D/GONTA</Line>
+        <!--SID: GONT1K, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/BISOT/ASEPA/GOLAG/IKETA/BOKIT/GONTA</Line>
+        <!--SID: GOTS1B, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/D359B/D309D/GOTSA</Line>
+        <!--SID: GOTS1K, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/BISOT/ASEPA/GOLAG/IKETA/NIROM/GOTSA</Line>
+        <!--SID: HALM1D, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/D359B/D309D/HALMO</Line>
+        <!--SID: HALM1L, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/PUPAG/VEDRO/MESAK/HALMO</Line>
+        <!--SID: LUAN1B, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/D359B/D309D/LUANG</Line>
+        <!--SID: LUAN1J, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/BISOT/ASEPA/GOLAG/IKETA/BOKIT/LUANG</Line>
+        <!--SID: NITI1B, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/BISOT/VERAR/TEPIG/LAVES/NITIP</Line>
+        <!--SID: PEDN1B, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/PUPAG/GUPKA/RUMUL/RISTA/PEDNO</Line>
+        <!--SID: RUMB1B, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/D359B/D309D/MNO/RUMBO</Line>
+        <!--SID: RUMB1J, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/PUPAG/VEDRO/PUGIL/RUMBO</Line>
+        <!--SID: SOSO1B, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/D359B/D309D/SOSOK</Line>
+        <!--SID: SOSO1J, Runway: 36-->
+        <Line Pattern="Dotted">+01.5613+124.9267/TANEG/PUPAG/VEDRO/MESAK/SOSOK</Line>
+        <!--STAR: ARIT1D, Runway: 36-->
+        <Line Pattern="Dashed">ARITO/ASATU/SUREG/PINOS/NOMOG/PONAR</Line>
+        <!--STAR: BOND1E, Runway: 36-->
+        <Line Pattern="Dashed">BONDA/MNO</Line>
+        <!--STAR: DIAN1D, Runway: 36-->
+        <Line Pattern="Dashed">DIANI/ASATU/SUREG/PINOS/NOMOG/PONAR</Line>
+        <!--STAR: GONT1E, Runway: 36-->
+        <Line Pattern="Dashed">GONTA/MWB/MNO</Line>
+        <!--STAR: GONT1M, Runway: 36-->
+        <Line Pattern="Dashed">GONTA/ESLAT/PINOS/NOMOG/PONAR</Line>
+        <!--STAR: GOTS1E, Runway: 36-->
+        <Line Pattern="Dashed">GOTSA/MWB/MNO</Line>
+        <!--STAR: GOTS1M, Runway: 36-->
+        <Line Pattern="Dashed">GOTSA/ESLAT/PINOS/NOMOG/PONAR</Line>
+        <!--STAR: HALM1G, Runway: 36-->
+        <Line Pattern="Dashed">HALMO/MWB/MNO</Line>
+        <!--STAR: HALM1N, Runway: 36-->
+        <Line Pattern="Dashed">HALMO/SUPOP/BILAV/MENOT</Line>
+        <!--STAR: LUAN1E, Runway: 36-->
+        <Line Pattern="Dashed">LUANG/MWB/MNO</Line>
+        <!--STAR: LUAN1L, Runway: 36-->
+        <Line Pattern="Dashed">LUANG/LOVPO/NOMOG/PONAR</Line>
+        <!--STAR: NITI1D, Runway: 36-->
+        <Line Pattern="Dashed">NITIP/LAVES/BONDA/ALGIV/SUSIM/KARSO/MENOT</Line>
+        <!--STAR: PEDN1D, Runway: 36-->
+        <Line Pattern="Dashed">PEDNO/RISTA/BONDA/ALGIV/SUSIM/KARSO/MENOT</Line>
+        <!--STAR: RUMB1E, Runway: 36-->
+        <Line Pattern="Dashed">RUMBO/MWB/MNO</Line>
+        <!--STAR: RUMB1L, Runway: 36-->
+        <Line Pattern="Dashed">RUMBO/PASTU/MENOT</Line>
+        <!--STAR: SOSO1E, Runway: 36-->
+        <Line Pattern="Dashed">SOSOK/MWB/MNO</Line>
+        <!--STAR: SOSO1L, Runway: 36-->
+        <Line Pattern="Dashed">SOSOK/SUPOP/BILAV/MENOT</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>VERAR</Point>
+            <Point>MNO</Point>
+            <Point>SUREG</Point>
+            <Point>NOMOG</Point>
+            <Point>MWB</Point>
+            <Point>PEDNO</Point>
+            <Point>RISTA</Point>
+            <Point>NIROM</Point>
+            <Point>PUGIL</Point>
+            <Point>SOSOK</Point>
+            <Point>MESAK</Point>
+            <Point>NITIP</Point>
+            <Point>GOLAG</Point>
+            <Point>PUPAG</Point>
+            <Point>SUSIM</Point>
+            <Point>PASTU</Point>
+            <Point>GUPKA</Point>
+            <Point>DIANI</Point>
+            <Point>SUPOP</Point>
+            <Point>PONAR</Point>
+            <Point>GOTSA</Point>
+            <Point>VEDRO</Point>
+            <Point>D309D</Point>
+            <Point>LAVES</Point>
+            <Point>ALGIV</Point>
+            <Point>BISOT</Point>
+            <Point>ESLAT</Point>
+            <Point>ARITO</Point>
+            <Point>LUANG</Point>
+            <Point>TEPIG</Point>
+            <Point>RUMUL</Point>
+            <Point>MENOT</Point>
+            <Point>PINOS</Point>
+            <Point>RUMBO</Point>
+            <Point>HALMO</Point>
+            <Point>BILAV</Point>
+            <Point>BONDA</Point>
+            <Point>BOKIT</Point>
+            <Point>KARSO</Point>
+            <Point>D359B</Point>
+            <Point>TANEG</Point>
+            <Point>LOVPO</Point>
+            <Point>ASEPA</Point>
+            <Point>GONTA</Point>
+            <Point>ASATU</Point>
+            <Point>IKETA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+01.5456+124.9250" Name="WAMM_RW36_NAMES">
+        <Label>
+            <Point>VERAR</Point>
+            <Point>MNO</Point>
+            <Point>SUREG</Point>
+            <Point>NOMOG</Point>
+            <Point>MWB</Point>
+            <Point>PEDNO</Point>
+            <Point>RISTA</Point>
+            <Point>NIROM</Point>
+            <Point>PUGIL</Point>
+            <Point>SOSOK</Point>
+            <Point>MESAK</Point>
+            <Point>NITIP</Point>
+            <Point>GOLAG</Point>
+            <Point>PUPAG</Point>
+            <Point>SUSIM</Point>
+            <Point>PASTU</Point>
+            <Point>GUPKA</Point>
+            <Point>DIANI</Point>
+            <Point>SUPOP</Point>
+            <Point>PONAR</Point>
+            <Point>GOTSA</Point>
+            <Point>VEDRO</Point>
+            <Point>D309D</Point>
+            <Point>LAVES</Point>
+            <Point>ALGIV</Point>
+            <Point>BISOT</Point>
+            <Point>ESLAT</Point>
+            <Point>ARITO</Point>
+            <Point>LUANG</Point>
+            <Point>TEPIG</Point>
+            <Point>RUMUL</Point>
+            <Point>MENOT</Point>
+            <Point>PINOS</Point>
+            <Point>RUMBO</Point>
+            <Point>HALMO</Point>
+            <Point>BILAV</Point>
+            <Point>BONDA</Point>
+            <Point>BOKIT</Point>
+            <Point>KARSO</Point>
+            <Point>D359B</Point>
+            <Point>TANEG</Point>
+            <Point>LOVPO</Point>
+            <Point>ASEPA</Point>
+            <Point>GONTA</Point>
+            <Point>ASATU</Point>
+            <Point>IKETA</Point>
+        </Label>
+    </Map>
+</Maps>

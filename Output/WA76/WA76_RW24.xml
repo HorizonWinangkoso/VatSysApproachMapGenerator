@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WA76_RW24" Priority="3" Center="+46.8581-120.7789">
+        <Runway Name="06">
+            <Threshold Name="06" Position="+46.8567-120.7819" ExtendedCentrelineTrack="222" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="24" Position="+46.8594-120.7758" />
+        </Runway>
+        <Runway Name="24">
+            <Threshold Name="24" Position="+46.8594-120.7758" ExtendedCentrelineTrack="42" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="06" Position="+46.8567-120.7819" />
+        </Runway>
+    </Map>
+</Maps>

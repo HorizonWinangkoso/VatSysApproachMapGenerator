@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WATE_RW09" Priority="3" Center="-08.8481+121.6633">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-08.8492+121.6534" ExtendedCentrelineTrack="268" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-08.8490+121.6684" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-08.8490+121.6684" ExtendedCentrelineTrack="88" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-08.8492+121.6534" />
+        </Runway>
+    </Map>
+</Maps>

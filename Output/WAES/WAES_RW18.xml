@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAES_RW18" Priority="3" Center="-02.0978+125.9639">
+        <Runway Name="18">
+            <Threshold Name="18" Position="-02.0952+125.9661" ExtendedCentrelineTrack="359" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="-02.1051+125.9656" />
+        </Runway>
+        <Runway Name="36">
+            <Threshold Name="36" Position="-02.1051+125.9656" ExtendedCentrelineTrack="179" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="-02.0952+125.9661" />
+        </Runway>
+    </Map>
+</Maps>

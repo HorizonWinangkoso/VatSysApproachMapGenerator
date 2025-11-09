@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAHI_RW11" Priority="3" Center="-07.9042+110.0575">
+        <Runway Name="11">
+            <Threshold Name="11" Position="-07.9003+110.0434" ExtendedCentrelineTrack="289" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="29" Position="-07.9104+110.0711" />
+        </Runway>
+        <Runway Name="29">
+            <Threshold Name="29" Position="-07.9104+110.0711" ExtendedCentrelineTrack="109" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="11" Position="-07.9003+110.0434" />
+        </Runway>
+        <!--SID: CA2L, Runway: 11-->
+        <Line Pattern="Dotted">-07.9003+110.0434/NASWA/SEGTU/SUWUN/IGRIT/AKLUK/BUSRO/PONUT/AFNOP/MUMID/HUSNE/CA</Line>
+        <!--SID: CLP2F, Runway: 11-->
+        <Line Pattern="Dotted">-07.9003+110.0434/NASWA/GUTAG/MULUS/CLP</Line>
+        <!--SID: PROG1A, Runway: 11-->
+        <Line Pattern="Dotted">-07.9003+110.0434/NASWA/SEGTU/PROGO</Line>
+        <!--SID: SO2A, Runway: 11-->
+        <Line Pattern="Dotted">-07.9003+110.0434/NASWA/SEGTU/SUWUN/IGRIT/AKLUK/VASRI/IFADI/JOG/OF/SO</Line>
+        <!--STAR: CLP2H, Runway: 11-->
+        <Line Pattern="Dashed">CLP/VASRI/IKORA/ABDEG/OGOMA</Line>
+        <!--STAR: SO2C, Runway: 11-->
+        <Line Pattern="Dashed">SO/OF/JOG/VASRI/IKORA/ABDEG/OGOMA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>PROGO</Point>
+            <Point>NASWA</Point>
+            <Point>CLP</Point>
+            <Point>AFNOP</Point>
+            <Point>ABDEG</Point>
+            <Point>MUMID</Point>
+            <Point>AKLUK</Point>
+            <Point>SUWUN</Point>
+            <Point>IGRIT</Point>
+            <Point>PONUT</Point>
+            <Point>SEGTU</Point>
+            <Point>VASRI</Point>
+            <Point>OGOMA</Point>
+            <Point>MULUS</Point>
+            <Point>OF</Point>
+            <Point>IFADI</Point>
+            <Point>GUTAG</Point>
+            <Point>SO</Point>
+            <Point>IKORA</Point>
+            <Point>CA</Point>
+            <Point>BUSRO</Point>
+            <Point>HUSNE</Point>
+            <Point>JOG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-07.9042+110.0575" Name="WAHI_RW11_NAMES">
+        <Label>
+            <Point>PROGO</Point>
+            <Point>NASWA</Point>
+            <Point>CLP</Point>
+            <Point>AFNOP</Point>
+            <Point>ABDEG</Point>
+            <Point>MUMID</Point>
+            <Point>AKLUK</Point>
+            <Point>SUWUN</Point>
+            <Point>IGRIT</Point>
+            <Point>PONUT</Point>
+            <Point>SEGTU</Point>
+            <Point>VASRI</Point>
+            <Point>OGOMA</Point>
+            <Point>MULUS</Point>
+            <Point>OF</Point>
+            <Point>IFADI</Point>
+            <Point>GUTAG</Point>
+            <Point>SO</Point>
+            <Point>IKORA</Point>
+            <Point>CA</Point>
+            <Point>BUSRO</Point>
+            <Point>HUSNE</Point>
+            <Point>JOG</Point>
+        </Label>
+    </Map>
+</Maps>

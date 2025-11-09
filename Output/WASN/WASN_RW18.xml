@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WASN_RW18" Priority="3" Center="-00.4319+130.7719">
+        <Runway Name="18">
+            <Threshold Name="18" Position="-00.4174+130.7741" ExtendedCentrelineTrack="4" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="-00.4311+130.7729" />
+        </Runway>
+        <Runway Name="36">
+            <Threshold Name="36" Position="-00.4311+130.7729" ExtendedCentrelineTrack="184" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="-00.4174+130.7741" />
+        </Runway>
+    </Map>
+</Maps>

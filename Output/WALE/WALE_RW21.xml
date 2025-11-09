@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WALE_RW21" Priority="3" Center="-00.2058+115.7606">
+        <Runway Name="03">
+            <Threshold Name="03" Position="-00.2085+115.7573" ExtendedCentrelineTrack="209" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="21" Position="-00.1982+115.7630" />
+        </Runway>
+        <Runway Name="21">
+            <Threshold Name="21" Position="-00.1982+115.7630" ExtendedCentrelineTrack="29" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="03" Position="-00.2085+115.7573" />
+        </Runway>
+    </Map>
+</Maps>

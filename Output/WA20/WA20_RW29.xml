@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WA20_RW29" Priority="3" Center="+48.2044-120.1207">
+        <Runway Name="11">
+            <Threshold Name="11" Position="+48.2051-120.1222" ExtendedCentrelineTrack="292" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="29" Position="+48.2036-120.1192" />
+        </Runway>
+        <Runway Name="29">
+            <Threshold Name="29" Position="+48.2036-120.1192" ExtendedCentrelineTrack="112" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="11" Position="+48.2051-120.1222" />
+        </Runway>
+    </Map>
+</Maps>

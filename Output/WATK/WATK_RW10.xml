@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WATK_RW10" Priority="3" Center="-09.4122+119.2469">
+        <Runway Name="10">
+            <Threshold Name="10" Position="-09.4073+119.2318" ExtendedCentrelineTrack="278" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="28" Position="-09.4107+119.2525" />
+        </Runway>
+        <Runway Name="28">
+            <Threshold Name="28" Position="-09.4107+119.2525" ExtendedCentrelineTrack="98" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="10" Position="-09.4073+119.2318" />
+        </Runway>
+    </Map>
+</Maps>

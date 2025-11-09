@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAQU_RW01" Priority="3" Center="+03.6108+115.6992">
+        <Runway Name="01">
+            <Threshold Name="01" Position="+03.6108+115.6992" ExtendedCentrelineTrack="190" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="19" Position="+03.6108+115.6992" />
+        </Runway>
+        <Runway Name="19">
+            <Threshold Name="19" Position="+03.6108+115.6992" ExtendedCentrelineTrack="10" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="01" Position="+03.6108+115.6992" />
+        </Runway>
+    </Map>
+</Maps>

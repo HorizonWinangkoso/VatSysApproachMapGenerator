@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAEG_RW22" Priority="3" Center="+01.8367+127.7869">
+        <Runway Name="04">
+            <Threshold Name="04" Position="+01.8329+127.7826" ExtendedCentrelineTrack="215" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="22" Position="+01.8434+127.7898" />
+        </Runway>
+        <Runway Name="22">
+            <Threshold Name="22" Position="+01.8434+127.7898" ExtendedCentrelineTrack="35" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="04" Position="+01.8329+127.7826" />
+        </Runway>
+    </Map>
+</Maps>

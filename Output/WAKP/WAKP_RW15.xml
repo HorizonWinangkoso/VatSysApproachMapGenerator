@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAKP_RW15" Priority="3" Center="-06.5422+139.3317">
+        <Runway Name="15">
+            <Threshold Name="15" Position="-06.5394+139.3307" ExtendedCentrelineTrack="332" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="33" Position="-06.5509+139.3361" />
+        </Runway>
+        <Runway Name="33">
+            <Threshold Name="33" Position="-06.5509+139.3361" ExtendedCentrelineTrack="152" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="15" Position="-06.5394+139.3307" />
+        </Runway>
+    </Map>
+</Maps>

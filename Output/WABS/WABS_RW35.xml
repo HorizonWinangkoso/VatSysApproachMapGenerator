@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WABS_RW35" Priority="3" Center="-03.8219+137.8381">
+        <Runway Name="17">
+            <Threshold Name="17" Position="-03.8173+137.8382" ExtendedCentrelineTrack="345" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="35" Position="-03.8270+137.8404" />
+        </Runway>
+        <Runway Name="35">
+            <Threshold Name="35" Position="-03.8270+137.8404" ExtendedCentrelineTrack="165" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="17" Position="-03.8173+137.8382" />
+        </Runway>
+    </Map>
+</Maps>

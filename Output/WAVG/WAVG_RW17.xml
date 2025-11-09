@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAVG_RW17" Priority="3" Center="-03.6866+138.4794">
+        <Runway Name="17">
+            <Threshold Name="17" Position="-03.6813+138.4787" ExtendedCentrelineTrack="351" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="35" Position="-03.6877+138.4793" />
+        </Runway>
+        <Runway Name="35">
+            <Threshold Name="35" Position="-03.6877+138.4793" ExtendedCentrelineTrack="171" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="17" Position="-03.6813+138.4787" />
+        </Runway>
+    </Map>
+</Maps>

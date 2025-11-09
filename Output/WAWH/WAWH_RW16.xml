@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAWH_RW16" Priority="3" Center="-06.1767+120.4372">
+        <Runway Name="16">
+            <Threshold Name="16" Position="-06.1710+120.4351" ExtendedCentrelineTrack="338" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="34" Position="-06.1880+120.4403" />
+        </Runway>
+        <Runway Name="34">
+            <Threshold Name="34" Position="-06.1880+120.4403" ExtendedCentrelineTrack="158" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="16" Position="-06.1710+120.4351" />
+        </Runway>
+    </Map>
+</Maps>

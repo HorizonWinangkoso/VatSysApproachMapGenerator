@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAUB_RW31" Priority="3" Center="-02.1008+133.5136">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-02.1001+133.5137" ExtendedCentrelineTrack="314" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-02.1056+133.5188" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-02.1056+133.5188" ExtendedCentrelineTrack="134" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-02.1001+133.5137" />
+        </Runway>
+    </Map>
+</Maps>

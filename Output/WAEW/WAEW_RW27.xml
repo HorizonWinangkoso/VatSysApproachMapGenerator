@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAEW_RW27" Priority="3" Center="+02.0500+128.3167">
+        <Runway Name="09">
+            <Threshold Name="09" Position="+02.0458+128.3138" ExtendedCentrelineTrack="269" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="+02.0463+128.3354" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="+02.0463+128.3354" ExtendedCentrelineTrack="89" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="+02.0458+128.3138" />
+        </Runway>
+    </Map>
+</Maps>

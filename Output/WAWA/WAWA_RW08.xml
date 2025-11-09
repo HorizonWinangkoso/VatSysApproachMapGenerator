@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAWA_RW08" Priority="3" Center="-04.1814+121.6147">
+        <Runway Name="08">
+            <Threshold Name="08" Position="-04.1814+121.6147" ExtendedCentrelineTrack="260" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="26" Position="-04.1814+121.6147" />
+        </Runway>
+        <Runway Name="26">
+            <Threshold Name="26" Position="-04.1814+121.6147" ExtendedCentrelineTrack="80" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="08" Position="-04.1814+121.6147" />
+        </Runway>
+    </Map>
+</Maps>

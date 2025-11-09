@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAPP_RW04" Priority="3" Center="-03.7075+128.0894">
+        <Runway Name="04">
+            <Threshold Name="04" Position="-03.7183+128.0817" ExtendedCentrelineTrack="224" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="22" Position="-03.7023+128.0976" />
+        </Runway>
+        <Runway Name="22">
+            <Threshold Name="22" Position="-03.7023+128.0976" ExtendedCentrelineTrack="44" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="04" Position="-03.7183+128.0817" />
+        </Runway>
+        <!--SID: ATOM1C, Runway: 04-->
+        <Line Pattern="Dotted">-03.7183+128.0817/OPEDO/BINEN/IDVIS/DAMDI/POPIX/KAMAL/ATOMY</Line>
+        <!--SID: BELB1C, Runway: 04-->
+        <Line Pattern="Dotted">-03.7183+128.0817/OPEDO/BINEN/IDVIS/DAMDI/RUNIK/TIANI/BELBA</Line>
+        <!--SID: FALA1C, Runway: 04-->
+        <Line Pattern="Dotted">-03.7183+128.0817/OPEDO/BINEN/IDVIS/DAMDI/LEVMA/SATMU/KAKPI/FALAM</Line>
+        <!--SID: HOLB1C, Runway: 04-->
+        <Line Pattern="Dotted">-03.7183+128.0817/OPEDO/BINEN/IDVIS/DAMDI/PIMOX/NINAN/HASBI/HOLBA</Line>
+        <!--SID: SASK1C, Runway: 04-->
+        <Line Pattern="Dotted">-03.7183+128.0817/OPEDO/BINEN/IDVIS/DAMDI/PIMOX/NINAN/POMAM/SASKA</Line>
+        <!--STAR: ATOM1B, Runway: 04-->
+        <Line Pattern="Dashed">ATOMY/AMN/AUDRI</Line>
+        <!--STAR: ATOM1E, Runway: 04-->
+        <Line Pattern="Dashed">ATOMY/SUKTI/BIGRI/GORGU</Line>
+        <!--STAR: ATOM1H, Runway: 04-->
+        <Line Pattern="Dashed">ATOMY/VIGIN/AKORI/IBUKO/AUDRI</Line>
+        <!--STAR: BELB1B, Runway: 04-->
+        <Line Pattern="Dashed">BELBA/AMN/AUDRI</Line>
+        <!--STAR: BELB1D, Runway: 04-->
+        <Line Pattern="Dashed">BELBA/BEDOG/NONOR/IBUKO/AUDRI</Line>
+        <!--STAR: BELB1E, Runway: 04-->
+        <Line Pattern="Dashed">BELBA/MULSA/ENLIM</Line>
+        <!--STAR: BUBT1B, Runway: 04-->
+        <Line Pattern="Dashed">BUBTU/AM30D/AUDRI</Line>
+        <!--STAR: BUBT1D, Runway: 04-->
+        <Line Pattern="Dashed">BUBTU/BIRUK/LAGIK/IPLIN/AUDRI</Line>
+        <!--STAR: FALA1B, Runway: 04-->
+        <Line Pattern="Dashed">FALAM/AMN/AUDRI</Line>
+        <!--STAR: FALA1E, Runway: 04-->
+        <Line Pattern="Dashed">FALAM/GIVED/PAPNI/GORGU</Line>
+        <!--STAR: FALA1H, Runway: 04-->
+        <Line Pattern="Dashed">FALAM/VIGIN/AKORI/IBUKO/AUDRI</Line>
+        <!--STAR: GOMB1B, Runway: 04-->
+        <Line Pattern="Dashed">GOMBY/AM30C/D131T/D184O/AUDRI</Line>
+        <!--STAR: GOMB1D, Runway: 04-->
+        <Line Pattern="Dashed">GOMBY/LUGNI/LAGIK/IPLIN/AUDRI</Line>
+        <!--STAR: HANT1B, Runway: 04-->
+        <Line Pattern="Dashed">HANTA/AMN/AUDRI</Line>
+        <!--STAR: HANT1D, Runway: 04-->
+        <Line Pattern="Dashed">HANTA/REKAG/KAMOR/IPLIN/AUDRI</Line>
+        <!--STAR: HOLB1B, Runway: 04-->
+        <Line Pattern="Dashed">HOLBA/AM30E/AUDRI</Line>
+        <!--STAR: HOLB1D, Runway: 04-->
+        <Line Pattern="Dashed">HOLBA/BIBRO/AUDRI</Line>
+        <!--STAR: HOLB1E, Runway: 04-->
+        <Line Pattern="Dashed">HOLBA/PUSRI</Line>
+        <!--STAR: SASK1B, Runway: 04-->
+        <Line Pattern="Dashed">SASKA/AM30A/AUDRI</Line>
+        <!--STAR: SASK1D, Runway: 04-->
+        <Line Pattern="Dashed">SASKA/BIBRO/AUDRI</Line>
+        <!--STAR: SASK1E, Runway: 04-->
+        <Line Pattern="Dashed">SASKA/PULUK</Line>
+        <!--STAR: SOBI1B, Runway: 04-->
+        <Line Pattern="Dashed">SOBIA/AMN/AUDRI</Line>
+        <!--STAR: SOBI1H, Runway: 04-->
+        <Line Pattern="Dashed">SOBIA/REKAG/KAMOR/IPLIN/AUDRI</Line>
+        <!--STAR: SULI1B, Runway: 04-->
+        <Line Pattern="Dashed">SULIS/AM30B/AUDRI</Line>
+        <!--STAR: SULI1D, Runway: 04-->
+        <Line Pattern="Dashed">SULIS/PAKDU/NONOR/IBUKO/AUDRI</Line>
+        <!--STAR: TARI1A, Runway: 04-->
+        <Line Pattern="Dashed">TARIV/GOMBY/AM30C/D131T/D184O/AUDRI</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BIBRO</Point>
+            <Point>BUBTU</Point>
+            <Point>OPEDO</Point>
+            <Point>LEVMA</Point>
+            <Point>TIANI</Point>
+            <Point>PIMOX</Point>
+            <Point>D184O</Point>
+            <Point>LUGNI</Point>
+            <Point>AKORI</Point>
+            <Point>AM30B</Point>
+            <Point>ATOMY</Point>
+            <Point>KAMAL</Point>
+            <Point>HANTA</Point>
+            <Point>SASKA</Point>
+            <Point>DAMDI</Point>
+            <Point>BINEN</Point>
+            <Point>SATMU</Point>
+            <Point>IPLIN</Point>
+            <Point>SUKTI</Point>
+            <Point>AM30C</Point>
+            <Point>GOMBY</Point>
+            <Point>AMN</Point>
+            <Point>LAGIK</Point>
+            <Point>SULIS</Point>
+            <Point>IBUKO</Point>
+            <Point>PULUK</Point>
+            <Point>VIGIN</Point>
+            <Point>KAMOR</Point>
+            <Point>AM30E</Point>
+            <Point>TARIV</Point>
+            <Point>GIVED</Point>
+            <Point>HOLBA</Point>
+            <Point>BELBA</Point>
+            <Point>BIRUK</Point>
+            <Point>MULSA</Point>
+            <Point>BIGRI</Point>
+            <Point>GORGU</Point>
+            <Point>REKAG</Point>
+            <Point>NINAN</Point>
+            <Point>D131T</Point>
+            <Point>AM30A</Point>
+            <Point>SOBIA</Point>
+            <Point>ENLIM</Point>
+            <Point>FALAM</Point>
+            <Point>PAKDU</Point>
+            <Point>KAKPI</Point>
+            <Point>RUNIK</Point>
+            <Point>PUSRI</Point>
+            <Point>PAPNI</Point>
+            <Point>POPIX</Point>
+            <Point>IDVIS</Point>
+            <Point>BEDOG</Point>
+            <Point>POMAM</Point>
+            <Point>HASBI</Point>
+            <Point>AM30D</Point>
+            <Point>NONOR</Point>
+            <Point>AUDRI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-03.7075+128.0894" Name="WAPP_RW04_NAMES">
+        <Label>
+            <Point>BIBRO</Point>
+            <Point>BUBTU</Point>
+            <Point>OPEDO</Point>
+            <Point>LEVMA</Point>
+            <Point>TIANI</Point>
+            <Point>PIMOX</Point>
+            <Point>D184O</Point>
+            <Point>LUGNI</Point>
+            <Point>AKORI</Point>
+            <Point>AM30B</Point>
+            <Point>ATOMY</Point>
+            <Point>KAMAL</Point>
+            <Point>HANTA</Point>
+            <Point>SASKA</Point>
+            <Point>DAMDI</Point>
+            <Point>BINEN</Point>
+            <Point>SATMU</Point>
+            <Point>IPLIN</Point>
+            <Point>SUKTI</Point>
+            <Point>AM30C</Point>
+            <Point>GOMBY</Point>
+            <Point>AMN</Point>
+            <Point>LAGIK</Point>
+            <Point>SULIS</Point>
+            <Point>IBUKO</Point>
+            <Point>PULUK</Point>
+            <Point>VIGIN</Point>
+            <Point>KAMOR</Point>
+            <Point>AM30E</Point>
+            <Point>TARIV</Point>
+            <Point>GIVED</Point>
+            <Point>HOLBA</Point>
+            <Point>BELBA</Point>
+            <Point>BIRUK</Point>
+            <Point>MULSA</Point>
+            <Point>BIGRI</Point>
+            <Point>GORGU</Point>
+            <Point>REKAG</Point>
+            <Point>NINAN</Point>
+            <Point>D131T</Point>
+            <Point>AM30A</Point>
+            <Point>SOBIA</Point>
+            <Point>ENLIM</Point>
+            <Point>FALAM</Point>
+            <Point>PAKDU</Point>
+            <Point>KAKPI</Point>
+            <Point>RUNIK</Point>
+            <Point>PUSRI</Point>
+            <Point>PAPNI</Point>
+            <Point>POPIX</Point>
+            <Point>IDVIS</Point>
+            <Point>BEDOG</Point>
+            <Point>POMAM</Point>
+            <Point>HASBI</Point>
+            <Point>AM30D</Point>
+            <Point>NONOR</Point>
+            <Point>AUDRI</Point>
+        </Label>
+    </Map>
+</Maps>

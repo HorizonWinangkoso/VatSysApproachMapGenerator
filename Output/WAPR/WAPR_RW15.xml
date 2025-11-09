@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAPR_RW15" Priority="3" Center="-03.2381+127.0992">
+        <Runway Name="15">
+            <Threshold Name="15" Position="-03.2339+127.0989" ExtendedCentrelineTrack="334" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="33" Position="-03.2400+127.1017" />
+        </Runway>
+        <Runway Name="33">
+            <Threshold Name="33" Position="-03.2400+127.1017" ExtendedCentrelineTrack="154" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="15" Position="-03.2339+127.0989" />
+        </Runway>
+    </Map>
+</Maps>

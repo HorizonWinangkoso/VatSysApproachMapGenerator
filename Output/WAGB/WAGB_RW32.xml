@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAGB_RW32" Priority="3" Center="-01.0219+114.9264">
+        <Runway Name="14">
+            <Threshold Name="14" Position="-01.0212+114.9244" ExtendedCentrelineTrack="316" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="32" Position="-01.0304+114.9332" />
+        </Runway>
+        <Runway Name="32">
+            <Threshold Name="32" Position="-01.0304+114.9332" ExtendedCentrelineTrack="136" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="14" Position="-01.0212+114.9244" />
+        </Runway>
+        <!--SID: DUDU1B, Runway: 32-->
+        <Line Pattern="Dotted">-01.0212+114.9244/BOSNU/MIGIM/DUDUG</Line>
+        <!--SID: ISRI1B, Runway: 32-->
+        <Line Pattern="Dotted">-01.0212+114.9244/LEMAV/ISRID</Line>
+        <!--SID: OMLI1B, Runway: 32-->
+        <Line Pattern="Dotted">-01.0212+114.9244/BIBRI/KAGTI/SAKUK/OMLIT</Line>
+        <!--STAR: DUDU1D, Runway: 32-->
+        <Line Pattern="Dashed">DUDUG/BUKBA</Line>
+        <!--STAR: ISRI1D, Runway: 32-->
+        <Line Pattern="Dashed">ISRID/PAMGU/IRTIN/MAPKI/BUKBA</Line>
+        <!--STAR: OMLI1D, Runway: 32-->
+        <Line Pattern="Dashed">OMLIT/SAKUK/MAPKI/BUKBA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>OMLIT</Point>
+            <Point>LEMAV</Point>
+            <Point>MIGIM</Point>
+            <Point>BOSNU</Point>
+            <Point>IRTIN</Point>
+            <Point>ISRID</Point>
+            <Point>BIBRI</Point>
+            <Point>BUKBA</Point>
+            <Point>SAKUK</Point>
+            <Point>MAPKI</Point>
+            <Point>DUDUG</Point>
+            <Point>PAMGU</Point>
+            <Point>KAGTI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-01.0219+114.9264" Name="WAGB_RW32_NAMES">
+        <Label>
+            <Point>OMLIT</Point>
+            <Point>LEMAV</Point>
+            <Point>MIGIM</Point>
+            <Point>BOSNU</Point>
+            <Point>IRTIN</Point>
+            <Point>ISRID</Point>
+            <Point>BIBRI</Point>
+            <Point>BUKBA</Point>
+            <Point>SAKUK</Point>
+            <Point>MAPKI</Point>
+            <Point>DUDUG</Point>
+            <Point>PAMGU</Point>
+            <Point>KAGTI</Point>
+        </Label>
+    </Map>
+</Maps>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WATO_RW35" Priority="3" Center="-08.4864+119.8875">
+        <Runway Name="17">
+            <Threshold Name="17" Position="-08.4687+119.8869" ExtendedCentrelineTrack="351" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="35" Position="-08.4925+119.8901" />
+        </Runway>
+        <Runway Name="35">
+            <Threshold Name="35" Position="-08.4925+119.8901" ExtendedCentrelineTrack="171" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="17" Position="-08.4687+119.8869" />
+        </Runway>
+        <!--SID: RUTE1B, Runway: 35-->
+        <Line Pattern="Dotted">-08.4687+119.8869/SRAYA/SIDAS/ATINO/RUTEN</Line>
+        <!--SID: TOGE1A, Runway: 35-->
+        <Line Pattern="Dotted">-08.4687+119.8869/SRAYA/SBOLO/RINCA/TOGEM</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>SBOLO</Point>
+            <Point>RINCA</Point>
+            <Point>RUTEN</Point>
+            <Point>SIDAS</Point>
+            <Point>ATINO</Point>
+            <Point>TOGEM</Point>
+            <Point>SRAYA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-08.4864+119.8875" Name="WATO_RW35_NAMES">
+        <Label>
+            <Point>SBOLO</Point>
+            <Point>RINCA</Point>
+            <Point>RUTEN</Point>
+            <Point>SIDAS</Point>
+            <Point>ATINO</Point>
+            <Point>TOGEM</Point>
+            <Point>SRAYA</Point>
+        </Label>
+    </Map>
+</Maps>

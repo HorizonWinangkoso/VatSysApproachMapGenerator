@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAOO_RW28" Priority="3" Center="-03.4397+114.7528">
+        <Runway Name="10">
+            <Threshold Name="10" Position="-03.4403+114.7516" ExtendedCentrelineTrack="279" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="28" Position="-03.4444+114.7737" />
+        </Runway>
+        <Runway Name="28">
+            <Threshold Name="28" Position="-03.4444+114.7737" ExtendedCentrelineTrack="99" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="10" Position="-03.4403+114.7516" />
+        </Runway>
+        <!--SID: ATSI1D, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/LEBUD/POSUD/UBRON/ATSIP</Line>
+        <!--SID: BUTN1F, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/KALPI/VADLO/BUTNU</Line>
+        <!--SID: DUMO1F, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/KALPI/AVMUG/ATRUD/DUMOM</Line>
+        <!--SID: DUNI1B, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/DUNIA</Line>
+        <!--SID: DUNI1E, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/ALGOP/LIGNO/DUNIA</Line>
+        <!--SID: ENPI1H, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/ENPIN</Line>
+        <!--SID: GURN1G, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/GURNI</Line>
+        <!--SID: GURN1K, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/LEBUD/POSUD/UBRON/SAPGA/OKOGA/GURNI</Line>
+        <!--SID: IKAP1E, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/LEBUD/POSUD/DIVSO/AGSUM/IKAPI</Line>
+        <!--SID: KAYA1G, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/OTBAV/IDEGO/DULOV/KAYAN</Line>
+        <!--SID: LAVO1F, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/ALGOP/LIGNO/DUNIA/LAVOV</Line>
+        <!--SID: OC1B, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/OC</Line>
+        <!--SID: PKY1F, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/PKY</Line>
+        <!--SID: RITB1B, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/RITBO</Line>
+        <!--SID: TUTK1B, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/TUTKU</Line>
+        <!--SID: TUTK1E, Runway: 28-->
+        <Line Pattern="Dotted">-03.4403+114.7516/OTBAV/IDEGO/DULOV/TUTKU</Line>
+        <!--STAR: BUTN1D, Runway: 28-->
+        <Line Pattern="Dashed">BUTNU/REGAS/NODAV/SANED/RIMSI/DOLKA</Line>
+        <!--STAR: DUMO1H, Runway: 28-->
+        <Line Pattern="Dashed">DUMOM/NODAV/SANED/RIMSI/DOLKA</Line>
+        <!--STAR: DUNI1G, Runway: 28-->
+        <Line Pattern="Dashed">DUNIA/ESKIL/GOGAX/TEPAX/DOLKA</Line>
+        <!--STAR: GURN1M, Runway: 28-->
+        <Line Pattern="Dashed">GURNI/ENKAV/RUVOR/RIMSI/DOLKA</Line>
+        <!--STAR: IKAP1G, Runway: 28-->
+        <Line Pattern="Dashed">IKAPI/GOGAX/TEPAX/DOLKA</Line>
+        <!--STAR: JIDA1D, Runway: 28-->
+        <Line Pattern="Dashed">JIDAR/MIBEB/RIMSI/DOLKA</Line>
+        <!--STAR: TUTK1G, Runway: 28-->
+        <Line Pattern="Dashed">TUTKU/MIBEB/RIMSI/DOLKA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>OC</Point>
+            <Point>KALPI</Point>
+            <Point>OTBAV</Point>
+            <Point>ENPIN</Point>
+            <Point>DULOV</Point>
+            <Point>IKAPI</Point>
+            <Point>ATSIP</Point>
+            <Point>BUTNU</Point>
+            <Point>LIGNO</Point>
+            <Point>UBRON</Point>
+            <Point>RITBO</Point>
+            <Point>JIDAR</Point>
+            <Point>PKY</Point>
+            <Point>RIMSI</Point>
+            <Point>DUMOM</Point>
+            <Point>LEBUD</Point>
+            <Point>SANED</Point>
+            <Point>OKOGA</Point>
+            <Point>ESKIL</Point>
+            <Point>RUVOR</Point>
+            <Point>KAYAN</Point>
+            <Point>GOGAX</Point>
+            <Point>TEPAX</Point>
+            <Point>AGSUM</Point>
+            <Point>POSUD</Point>
+            <Point>DUNIA</Point>
+            <Point>DOLKA</Point>
+            <Point>NODAV</Point>
+            <Point>ALGOP</Point>
+            <Point>GURNI</Point>
+            <Point>ENKAV</Point>
+            <Point>ATRUD</Point>
+            <Point>SAPGA</Point>
+            <Point>REGAS</Point>
+            <Point>MIBEB</Point>
+            <Point>VADLO</Point>
+            <Point>TUTKU</Point>
+            <Point>DIVSO</Point>
+            <Point>IDEGO</Point>
+            <Point>LAVOV</Point>
+            <Point>AVMUG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-03.4397+114.7528" Name="WAOO_RW28_NAMES">
+        <Label>
+            <Point>OC</Point>
+            <Point>KALPI</Point>
+            <Point>OTBAV</Point>
+            <Point>ENPIN</Point>
+            <Point>DULOV</Point>
+            <Point>IKAPI</Point>
+            <Point>ATSIP</Point>
+            <Point>BUTNU</Point>
+            <Point>LIGNO</Point>
+            <Point>UBRON</Point>
+            <Point>RITBO</Point>
+            <Point>JIDAR</Point>
+            <Point>PKY</Point>
+            <Point>RIMSI</Point>
+            <Point>DUMOM</Point>
+            <Point>LEBUD</Point>
+            <Point>SANED</Point>
+            <Point>OKOGA</Point>
+            <Point>ESKIL</Point>
+            <Point>RUVOR</Point>
+            <Point>KAYAN</Point>
+            <Point>GOGAX</Point>
+            <Point>TEPAX</Point>
+            <Point>AGSUM</Point>
+            <Point>POSUD</Point>
+            <Point>DUNIA</Point>
+            <Point>DOLKA</Point>
+            <Point>NODAV</Point>
+            <Point>ALGOP</Point>
+            <Point>GURNI</Point>
+            <Point>ENKAV</Point>
+            <Point>ATRUD</Point>
+            <Point>SAPGA</Point>
+            <Point>REGAS</Point>
+            <Point>MIBEB</Point>
+            <Point>VADLO</Point>
+            <Point>TUTKU</Point>
+            <Point>DIVSO</Point>
+            <Point>IDEGO</Point>
+            <Point>LAVOV</Point>
+            <Point>AVMUG</Point>
+        </Label>
+    </Map>
+</Maps>

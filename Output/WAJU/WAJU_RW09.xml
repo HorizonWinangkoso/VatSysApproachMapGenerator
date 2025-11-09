@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAJU_RW09" Priority="3" Center="-03.6753+140.8814">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-03.6757+140.8817" ExtendedCentrelineTrack="266" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-03.6757+140.8878" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-03.6757+140.8878" ExtendedCentrelineTrack="86" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-03.6757+140.8817" />
+        </Runway>
+    </Map>
+</Maps>

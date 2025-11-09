@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAMG_RW27" Priority="3" Center="+00.6381+122.8522">
+        <Runway Name="09">
+            <Threshold Name="09" Position="+00.6386+122.8380" ExtendedCentrelineTrack="277" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="+00.6357+122.8603" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="+00.6357+122.8603" ExtendedCentrelineTrack="97" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="+00.6386+122.8380" />
+        </Runway>
+        <!--SID: ENTE1B, Runway: 27-->
+        <Line Pattern="Dotted">+00.6386+122.8380/OLSAG/ENTEG</Line>
+        <!--SID: MWB1B, Runway: 27-->
+        <Line Pattern="Dotted">+00.6386+122.8380/GONTA/MWB</Line>
+        <!--SID: MWB1D, Runway: 27-->
+        <Line Pattern="Dotted">+00.6386+122.8380/GTL/GONTA/MWB</Line>
+        <!--SID: OBDE1B, Runway: 27-->
+        <Line Pattern="Dotted">+00.6386+122.8380/OBDEX</Line>
+        <!--SID: PAL1B, Runway: 27-->
+        <Line Pattern="Dotted">+00.6386+122.8380/AKRIV/PAL</Line>
+        <!--STAR: ENTE1C, Runway: 27-->
+        <Line Pattern="Dashed">ENTEG/OLSAG/+00.3068+122.8870/+00.3179+122.9440/+00.3387+122.9982/+00.3587+123.0336/+00.3944+123.0794</Line>
+        <!--STAR: MWB1C, Runway: 27-->
+        <Line Pattern="Dashed">MWB/GONTA/+00.7410+123.1691/+00.6844+123.1821/+00.6264+123.1851/+00.6264+123.1851/+00.5688+123.1781/+00.5133+123.1611/+00.4920+123.1516/+00.4423+123.1217/+00.3984+123.0836</Line>
+        <!--STAR: PAL1C, Runway: 27-->
+        <Line Pattern="Dashed">PAL/AKRIV/GTL/PIPOK</Line>
+        <!--STAR: UDEV1A, Runway: 27-->
+        <Line Pattern="Dashed">UDEVA/GTL/PIPOK</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>UDEVA</Point>
+            <Point>OLSAG</Point>
+            <Point>PIPOK</Point>
+            <Point>ENTEG</Point>
+            <Point>PAL</Point>
+            <Point>MWB</Point>
+            <Point>AKRIV</Point>
+            <Point>GTL</Point>
+            <Point>OBDEX</Point>
+            <Point>GONTA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+00.6381+122.8522" Name="WAMG_RW27_NAMES">
+        <Label>
+            <Point>UDEVA</Point>
+            <Point>OLSAG</Point>
+            <Point>PIPOK</Point>
+            <Point>ENTEG</Point>
+            <Point>PAL</Point>
+            <Point>MWB</Point>
+            <Point>AKRIV</Point>
+            <Point>GTL</Point>
+            <Point>OBDEX</Point>
+            <Point>GONTA</Point>
+        </Label>
+    </Map>
+</Maps>

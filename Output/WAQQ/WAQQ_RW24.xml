@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAQQ_RW24" Priority="3" Center="+03.3267+117.5694">
+        <Runway Name="06">
+            <Threshold Name="06" Position="+03.3198+117.5556" ExtendedCentrelineTrack="238" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="24" Position="+03.3305+117.5729" />
+        </Runway>
+        <Runway Name="24">
+            <Threshold Name="24" Position="+03.3305+117.5729" ExtendedCentrelineTrack="58" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="06" Position="+03.3198+117.5556" />
+        </Runway>
+        <!--SID: BAXA1A, Runway: 24-->
+        <Line Pattern="Dotted">+03.3198+117.5556/TRK/BAXAL</Line>
+        <!--SID: MAMO1A, Runway: 24-->
+        <Line Pattern="Dotted">+03.3198+117.5556/MAMOK</Line>
+        <!--SID: SOSV1A, Runway: 24-->
+        <Line Pattern="Dotted">+03.3198+117.5556/SOSVO</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>SOSVO</Point>
+            <Point>TRK</Point>
+            <Point>BAXAL</Point>
+            <Point>MAMOK</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+03.3267+117.5694" Name="WAQQ_RW24_NAMES">
+        <Label>
+            <Point>SOSVO</Point>
+            <Point>TRK</Point>
+            <Point>BAXAL</Point>
+            <Point>MAMOK</Point>
+        </Label>
+    </Map>
+</Maps>

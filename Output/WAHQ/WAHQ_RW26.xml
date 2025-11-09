@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAHQ_RW26" Priority="3" Center="-07.5136+110.7506">
+        <Runway Name="08">
+            <Threshold Name="08" Position="-07.5184+110.7465" ExtendedCentrelineTrack="256" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="26" Position="-07.5135+110.7686" />
+        </Runway>
+        <Runway Name="26">
+            <Threshold Name="26" Position="-07.5135+110.7686" ExtendedCentrelineTrack="76" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="08" Position="-07.5184+110.7465" />
+        </Runway>
+        <!--SID: JOG1B, Runway: 26-->
+        <Line Pattern="Dotted">-07.5184+110.7465/OF/JOG</Line>
+        <!--SID: PURW1B, Runway: 26-->
+        <Line Pattern="Dotted">-07.5184+110.7465/PURWO</Line>
+        <!--STAR: JOG1C, Runway: 26-->
+        <Line Pattern="Dashed">JOG/OF/SO/SLO</Line>
+        <!--STAR: JOG1D, Runway: 26-->
+        <Line Pattern="Dashed">JOG/OF/SO</Line>
+        <!--STAR: PURW1C, Runway: 26-->
+        <Line Pattern="Dashed">PURWO/SO/SLO</Line>
+        <!--STAR: PURW1D, Runway: 26-->
+        <Line Pattern="Dashed">PURWO/SO</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>SO</Point>
+            <Point>OF</Point>
+            <Point>SLO</Point>
+            <Point>PURWO</Point>
+            <Point>JOG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-07.5136+110.7506" Name="WAHQ_RW26_NAMES">
+        <Label>
+            <Point>SO</Point>
+            <Point>OF</Point>
+            <Point>SLO</Point>
+            <Point>PURWO</Point>
+            <Point>JOG</Point>
+        </Label>
+    </Map>
+</Maps>

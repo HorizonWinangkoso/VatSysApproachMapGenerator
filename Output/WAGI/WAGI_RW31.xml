@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAGI_RW31" Priority="3" Center="-02.7042+111.6706">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-02.6989+111.6664" ExtendedCentrelineTrack="311" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-02.7118+111.6804" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-02.7118+111.6804" ExtendedCentrelineTrack="131" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-02.6989+111.6664" />
+        </Runway>
+        <!--SID: BDM1H, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/URKOB/DUGEK/PORIB/BUTNU/BDM</Line>
+        <!--SID: BUTN1B, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/URKOB/DUGEK/PORIB/BUTNU</Line>
+        <!--SID: IKAP1B, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/PKN/IKAPI</Line>
+        <!--SID: IKAP1M, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/URKOB/DUGEK/OLRIM/VIPOS/IKAPI</Line>
+        <!--SID: KEVO1K, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/URKOB/DUGEK/UBSUP/UDIKI/KEVOK</Line>
+        <!--SID: KOLT1B, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/PKN/KOLTA</Line>
+        <!--SID: KOLT1H, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/IKIVO/RUNUS/ESBEK/AVPAN/LEKEL/KOLTA</Line>
+        <!--SID: LAMU1B, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/PKN/LAMUD</Line>
+        <!--SID: PKY1K, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/IGERI/URKAM/BIGUB/PKY</Line>
+        <!--SID: PKY1P, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/PKN/PKY</Line>
+        <!--SID: SUGI1B, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/SUGIK</Line>
+        <!--SID: SUGI1F, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/ISMUX/SUGIK</Line>
+        <!--SID: SUMD1G, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/IKIVO/RUNUS/SUMDI</Line>
+        <!--SID: TANU1B, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/TANUR</Line>
+        <!--SID: TANU1F, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/ISMUX/TANUR</Line>
+        <!--SID: TAVI1B, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/TAVIP</Line>
+        <!--SID: TAVI1F, Runway: 31-->
+        <Line Pattern="Dotted">-02.6989+111.6664/IKIVO/DOTUN/TAVIP</Line>
+        <!--STAR: AJAM1F, Runway: 31-->
+        <Line Pattern="Dashed">AJAMA/UDIKI/BULDU/DUMUN/RITLU/BONEO</Line>
+        <!--STAR: BDM1K, Runway: 31-->
+        <Line Pattern="Dashed">BDM/BUTNU/ATEGI/TUSPA/RITLU/BONEO</Line>
+        <!--STAR: IKAP1K, Runway: 31-->
+        <Line Pattern="Dashed">IKAPI/D133Y/BONEO</Line>
+        <!--STAR: KEVO1M, Runway: 31-->
+        <Line Pattern="Dashed">KEVOK/UDIKI/BULDU/DUMUN/RITLU/BONEO</Line>
+        <!--STAR: KOLT1D, Runway: 31-->
+        <Line Pattern="Dashed">KOLTA/D149Y/BONEO</Line>
+        <!--STAR: KOLT1K, Runway: 31-->
+        <Line Pattern="Dashed">KOLTA/LEKEL/BOPRA/VATNO/TUNBU/BONEO</Line>
+        <!--STAR: LAMU1D, Runway: 31-->
+        <Line Pattern="Dashed">LAMUD/D116Y/BONEO</Line>
+        <!--STAR: PKY1M, Runway: 31-->
+        <Line Pattern="Dashed">PKY/BIGUB/ATEGI/TUSPA/RITLU/BONEO</Line>
+        <!--STAR: PKY1Q, Runway: 31-->
+        <Line Pattern="Dashed">PKY/D078Y/BONEO</Line>
+        <!--STAR: SUGI1D, Runway: 31-->
+        <Line Pattern="Dashed">SUGIK/PKN/BONEO</Line>
+        <!--STAR: SUGI1H, Runway: 31-->
+        <Line Pattern="Dashed">SUGIK/VILOG/PANVU/RITLU/BONEO</Line>
+        <!--STAR: TANU1D, Runway: 31-->
+        <Line Pattern="Dashed">TANUR/PKN/BONEO</Line>
+        <!--STAR: TANU1H, Runway: 31-->
+        <Line Pattern="Dashed">TANUR/IDUSU/SUBKO/TUNBU/BONEO</Line>
+        <!--STAR: TAVI1D, Runway: 31-->
+        <Line Pattern="Dashed">TAVIP/PKN/BONEO</Line>
+        <!--STAR: TAVI1H, Runway: 31-->
+        <Line Pattern="Dashed">TAVIP/SULRO/TUNBU/BONEO</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>SUBKO</Point>
+            <Point>KEVOK</Point>
+            <Point>URKOB</Point>
+            <Point>TUSPA</Point>
+            <Point>IKAPI</Point>
+            <Point>VIPOS</Point>
+            <Point>DUGEK</Point>
+            <Point>BUTNU</Point>
+            <Point>UBSUP</Point>
+            <Point>IGERI</Point>
+            <Point>BULDU</Point>
+            <Point>IDUSU</Point>
+            <Point>PKY</Point>
+            <Point>DOTUN</Point>
+            <Point>VATNO</Point>
+            <Point>AVPAN</Point>
+            <Point>TUNBU</Point>
+            <Point>SUGIK</Point>
+            <Point>RITLU</Point>
+            <Point>IKIVO</Point>
+            <Point>ESBEK</Point>
+            <Point>AJAMA</Point>
+            <Point>DUMUN</Point>
+            <Point>ISMUX</Point>
+            <Point>D149Y</Point>
+            <Point>PANVU</Point>
+            <Point>TANUR</Point>
+            <Point>LAMUD</Point>
+            <Point>D133Y</Point>
+            <Point>SULRO</Point>
+            <Point>BDM</Point>
+            <Point>ATEGI</Point>
+            <Point>BONEO</Point>
+            <Point>BIGUB</Point>
+            <Point>OLRIM</Point>
+            <Point>D116Y</Point>
+            <Point>RUNUS</Point>
+            <Point>KOLTA</Point>
+            <Point>LEKEL</Point>
+            <Point>PORIB</Point>
+            <Point>URKAM</Point>
+            <Point>UDIKI</Point>
+            <Point>BOPRA</Point>
+            <Point>VILOG</Point>
+            <Point>TAVIP</Point>
+            <Point>SUMDI</Point>
+            <Point>PKN</Point>
+            <Point>D078Y</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-02.7042+111.6706" Name="WAGI_RW31_NAMES">
+        <Label>
+            <Point>SUBKO</Point>
+            <Point>KEVOK</Point>
+            <Point>URKOB</Point>
+            <Point>TUSPA</Point>
+            <Point>IKAPI</Point>
+            <Point>VIPOS</Point>
+            <Point>DUGEK</Point>
+            <Point>BUTNU</Point>
+            <Point>UBSUP</Point>
+            <Point>IGERI</Point>
+            <Point>BULDU</Point>
+            <Point>IDUSU</Point>
+            <Point>PKY</Point>
+            <Point>DOTUN</Point>
+            <Point>VATNO</Point>
+            <Point>AVPAN</Point>
+            <Point>TUNBU</Point>
+            <Point>SUGIK</Point>
+            <Point>RITLU</Point>
+            <Point>IKIVO</Point>
+            <Point>ESBEK</Point>
+            <Point>AJAMA</Point>
+            <Point>DUMUN</Point>
+            <Point>ISMUX</Point>
+            <Point>D149Y</Point>
+            <Point>PANVU</Point>
+            <Point>TANUR</Point>
+            <Point>LAMUD</Point>
+            <Point>D133Y</Point>
+            <Point>SULRO</Point>
+            <Point>BDM</Point>
+            <Point>ATEGI</Point>
+            <Point>BONEO</Point>
+            <Point>BIGUB</Point>
+            <Point>OLRIM</Point>
+            <Point>D116Y</Point>
+            <Point>RUNUS</Point>
+            <Point>KOLTA</Point>
+            <Point>LEKEL</Point>
+            <Point>PORIB</Point>
+            <Point>URKAM</Point>
+            <Point>UDIKI</Point>
+            <Point>BOPRA</Point>
+            <Point>VILOG</Point>
+            <Point>TAVIP</Point>
+            <Point>SUMDI</Point>
+            <Point>PKN</Point>
+            <Point>D078Y</Point>
+        </Label>
+    </Map>
+</Maps>

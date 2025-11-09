@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WADS_RW32" Priority="3" Center="-08.4886+117.4142">
+        <Runway Name="14">
+            <Threshold Name="14" Position="-08.4815+117.4060" ExtendedCentrelineTrack="319" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="32" Position="-08.4940+117.4165" />
+        </Runway>
+        <Runway Name="32">
+            <Threshold Name="32" Position="-08.4940+117.4165" ExtendedCentrelineTrack="139" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="14" Position="-08.4815+117.4060" />
+        </Runway>
+    </Map>
+</Maps>

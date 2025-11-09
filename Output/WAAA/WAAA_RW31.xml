@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAAA_RW31" Priority="3" Center="-05.0608+119.5544">
+        <Runway Name="03">
+            <Threshold Name="03" Position="-05.0923+119.5440" ExtendedCentrelineTrack="209" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="21" Position="-05.0680+119.5580" />
+        </Runway>
+        <Runway Name="13">
+            <Threshold Name="13" Position="-05.0543+119.5455" ExtendedCentrelineTrack="310" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-05.0690+119.5626" />
+        </Runway>
+        <Runway Name="21">
+            <Threshold Name="21" Position="-05.0680+119.5580" ExtendedCentrelineTrack="29" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="03" Position="-05.0923+119.5440" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-05.0690+119.5626" ExtendedCentrelineTrack="130" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-05.0543+119.5455" />
+        </Runway>
+        <!--SID: BIMA1C, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/BIMAK</Line>
+        <!--SID: BIMA1D, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/MKS/BIMAK</Line>
+        <!--SID: ENDO1E, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/ENDOG</Line>
+        <!--SID: ENDO1F, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/MKS/ENDOG</Line>
+        <!--SID: GAMA1E, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/GAMAL</Line>
+        <!--SID: GAMA1F, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/GAMAL</Line>
+        <!--SID: LEKE1E, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/LEKEX</Line>
+        <!--SID: LIPO1E, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/LIPOT</Line>
+        <!--SID: LIPO1F, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/MKS/LIPOT</Line>
+        <!--SID: NETO1E, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/MK30B/NETTO</Line>
+        <!--SID: NUKP1E, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/MK30A/NUKPO</Line>
+        <!--SID: SUGT1E, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/SUGTA</Line>
+        <!--SID: VENR1E, Runway: 31-->
+        <Line Pattern="Dotted">-05.0543+119.5455/MKS/VENRU</Line>
+        <!--STAR: BIMA1F, Runway: 31-->
+        <Line Pattern="Dashed">BIMAK</Line>
+        <!--STAR: BIMA1F, Runway: 31-->
+        <Line Pattern="Dashed">BIMAK/00MK5/MKS</Line>
+        <!--STAR: ENDO1L, Runway: 31-->
+        <Line Pattern="Dashed">ENDOG</Line>
+        <!--STAR: ENDO1L, Runway: 31-->
+        <Line Pattern="Dashed">ENDOG/MKS</Line>
+        <!--STAR: LEKE1H, Runway: 31-->
+        <Line Pattern="Dashed">LEKEX</Line>
+        <!--STAR: LEKE1H, Runway: 31-->
+        <Line Pattern="Dashed">LEKEX/00MK1/MKS</Line>
+        <!--STAR: LIPO1L, Runway: 31-->
+        <Line Pattern="Dashed">LIPOT</Line>
+        <!--STAR: LIPO1L, Runway: 31-->
+        <Line Pattern="Dashed">LIPOT/00MK4/MKS</Line>
+        <!--STAR: NIVE1E, Runway: 31-->
+        <Line Pattern="Dashed">NIVEK</Line>
+        <!--STAR: NIVE1E, Runway: 31-->
+        <Line Pattern="Dashed">NIVEK/MKS</Line>
+        <!--STAR: NUKP1H, Runway: 31-->
+        <Line Pattern="Dashed">NUKPO</Line>
+        <!--STAR: NUKP1H, Runway: 31-->
+        <Line Pattern="Dashed">NUKPO/00MK3/MKS</Line>
+        <!--STAR: SUGT1H, Runway: 31-->
+        <Line Pattern="Dashed">SUGTA</Line>
+        <!--STAR: SUGT1H, Runway: 31-->
+        <Line Pattern="Dashed">SUGTA/00MK2/MKS</Line>
+        <!--STAR: VENR1H, Runway: 31-->
+        <Line Pattern="Dashed">VENRU</Line>
+        <!--STAR: VENR1H, Runway: 31-->
+        <Line Pattern="Dashed">VENRU/MKS</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>00MK3</Point>
+            <Point>BIMAK</Point>
+            <Point>NUKPO</Point>
+            <Point>NETTO</Point>
+            <Point>MKS</Point>
+            <Point>MK30A</Point>
+            <Point>SUGTA</Point>
+            <Point>LIPOT</Point>
+            <Point>00MK1</Point>
+            <Point>00MK5</Point>
+            <Point>VENRU</Point>
+            <Point>00MK4</Point>
+            <Point>00MK2</Point>
+            <Point>GAMAL</Point>
+            <Point>NIVEK</Point>
+            <Point>ENDOG</Point>
+            <Point>MK30B</Point>
+            <Point>LEKEX</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-05.0608+119.5544" Name="WAAA_RW31_NAMES">
+        <Label>
+            <Point>00MK3</Point>
+            <Point>BIMAK</Point>
+            <Point>NUKPO</Point>
+            <Point>NETTO</Point>
+            <Point>MKS</Point>
+            <Point>MK30A</Point>
+            <Point>SUGTA</Point>
+            <Point>LIPOT</Point>
+            <Point>00MK1</Point>
+            <Point>00MK5</Point>
+            <Point>VENRU</Point>
+            <Point>00MK4</Point>
+            <Point>00MK2</Point>
+            <Point>GAMAL</Point>
+            <Point>NIVEK</Point>
+            <Point>ENDOG</Point>
+            <Point>MK30B</Point>
+            <Point>LEKEX</Point>
+        </Label>
+    </Map>
+</Maps>

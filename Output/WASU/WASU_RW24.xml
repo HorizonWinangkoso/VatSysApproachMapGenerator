@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WASU_RW24" Priority="3" Center="-01.3183+132.2825">
+        <Runway Name="06">
+            <Threshold Name="06" Position="-01.3191+132.2821" ExtendedCentrelineTrack="244" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="24" Position="-01.3145+132.2919" />
+        </Runway>
+        <Runway Name="24">
+            <Threshold Name="24" Position="-01.3145+132.2919" ExtendedCentrelineTrack="64" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="06" Position="-01.3191+132.2821" />
+        </Runway>
+    </Map>
+</Maps>

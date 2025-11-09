@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAUR_RW30" Priority="3" Center="-01.5000+134.1833">
+        <Runway Name="12">
+            <Threshold Name="12" Position="-01.5000+134.1833" ExtendedCentrelineTrack="300" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="30" Position="-01.5000+134.1833" />
+        </Runway>
+        <Runway Name="30">
+            <Threshold Name="30" Position="-01.5000+134.1833" ExtendedCentrelineTrack="120" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="12" Position="-01.5000+134.1833" />
+        </Runway>
+    </Map>
+</Maps>

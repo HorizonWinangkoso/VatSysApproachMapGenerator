@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAHS_RW31" Priority="3" Center="-06.9764+110.3772">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-06.9623+110.3633" ExtendedCentrelineTrack="309" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-06.9773+110.3811" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-06.9773+110.3811" ExtendedCentrelineTrack="129" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-06.9623+110.3633" />
+        </Runway>
+        <!--SID: BA1F, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/NUBGU/VANPA/BA</Line>
+        <!--SID: BA3D, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/BA</Line>
+        <!--SID: BA3E, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/ANY/BA</Line>
+        <!--SID: KIDE1B, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/KIDET</Line>
+        <!--SID: KIDE3B, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/KIDET</Line>
+        <!--SID: KURU1B, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/KIDET/KURUS</Line>
+        <!--SID: PURW1F, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/NUBGU/VANPA/PURWO</Line>
+        <!--SID: PURW3E, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/ANY/PURWO</Line>
+        <!--SID: RAFI1B, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/AMVUD/RAFIS</Line>
+        <!--SID: RAFI1F, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/SUDBO/SAGEB/AMVUD/RAFIS</Line>
+        <!--SID: WAWA1B, Runway: 31-->
+        <Line Pattern="Dotted">-06.9623+110.3633/NUBGU/VANPA/WAWAN</Line>
+        <!--STAR: BA2B, Runway: 31-->
+        <Line Pattern="Dashed">BA/DULEP/PEDGI</Line>
+        <!--STAR: CA1C, Runway: 31-->
+        <Line Pattern="Dashed">CA/PIALA/ANY/PEDGI</Line>
+        <!--STAR: CA1D, Runway: 31-->
+        <Line Pattern="Dashed">CA/PIALA/DULIV/VIGAB/PEDGI</Line>
+        <!--STAR: FARI1B, Runway: 31-->
+        <Line Pattern="Dashed">FARIZ/KIMAM/AVGOX/PEDGI</Line>
+        <!--STAR: FARI1C, Runway: 31-->
+        <Line Pattern="Dashed">FARIZ/UPNAB/PEDGI</Line>
+        <!--STAR: LASE1C, Runway: 31-->
+        <Line Pattern="Dashed">LASEM/LAVOR/PEDGI</Line>
+        <!--STAR: LASE2B, Runway: 31-->
+        <Line Pattern="Dashed">LASEM/ALBUS/PEDGI</Line>
+        <!--STAR: PIAL1C, Runway: 31-->
+        <Line Pattern="Dashed">PIALA/DULIV/VIGAB/PEDGI</Line>
+        <!--STAR: PIAL2B, Runway: 31-->
+        <Line Pattern="Dashed">PIALA/ANY/PEDGI</Line>
+        <!--STAR: PURW1H, Runway: 31-->
+        <Line Pattern="Dashed">PURWO/PEDGI</Line>
+        <!--STAR: PURW2B, Runway: 31-->
+        <Line Pattern="Dashed">PURWO/PEDGI</Line>
+        <!--STAR: RAFI1H, Runway: 31-->
+        <Line Pattern="Dashed">RAFIS/AMVUD/SAGEB/NIMED/ISTUV/PEDGI</Line>
+        <!--STAR: RAFI2D, Runway: 31-->
+        <Line Pattern="Dashed">RAFIS/AMVUD/ANY/PEDGI</Line>
+        <!--STAR: WAWA1D, Runway: 31-->
+        <Line Pattern="Dashed">WAWAN/ALDAV/LASEM/LAVOR/PEDGI</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>PIALA</Point>
+            <Point>SUDBO</Point>
+            <Point>BA</Point>
+            <Point>SAGEB</Point>
+            <Point>VANPA</Point>
+            <Point>KIDET</Point>
+            <Point>AMVUD</Point>
+            <Point>NUBGU</Point>
+            <Point>KIMAM</Point>
+            <Point>FARIZ</Point>
+            <Point>ALBUS</Point>
+            <Point>DULEP</Point>
+            <Point>WAWAN</Point>
+            <Point>ISTUV</Point>
+            <Point>UPNAB</Point>
+            <Point>RAFIS</Point>
+            <Point>VIGAB</Point>
+            <Point>AVGOX</Point>
+            <Point>LASEM</Point>
+            <Point>DULIV</Point>
+            <Point>ALDAV</Point>
+            <Point>PURWO</Point>
+            <Point>PEDGI</Point>
+            <Point>NIMED</Point>
+            <Point>LAVOR</Point>
+            <Point>CA</Point>
+            <Point>KURUS</Point>
+            <Point>ANY</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-06.9764+110.3772" Name="WAHS_RW31_NAMES">
+        <Label>
+            <Point>PIALA</Point>
+            <Point>SUDBO</Point>
+            <Point>BA</Point>
+            <Point>SAGEB</Point>
+            <Point>VANPA</Point>
+            <Point>KIDET</Point>
+            <Point>AMVUD</Point>
+            <Point>NUBGU</Point>
+            <Point>KIMAM</Point>
+            <Point>FARIZ</Point>
+            <Point>ALBUS</Point>
+            <Point>DULEP</Point>
+            <Point>WAWAN</Point>
+            <Point>ISTUV</Point>
+            <Point>UPNAB</Point>
+            <Point>RAFIS</Point>
+            <Point>VIGAB</Point>
+            <Point>AVGOX</Point>
+            <Point>LASEM</Point>
+            <Point>DULIV</Point>
+            <Point>ALDAV</Point>
+            <Point>PURWO</Point>
+            <Point>PEDGI</Point>
+            <Point>NIMED</Point>
+            <Point>LAVOR</Point>
+            <Point>CA</Point>
+            <Point>KURUS</Point>
+            <Point>ANY</Point>
+        </Label>
+    </Map>
+</Maps>

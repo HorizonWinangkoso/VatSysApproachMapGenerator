@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WALC_RW22" Priority="3" Center="+00.1181+117.4736">
+        <Runway Name="04">
+            <Threshold Name="04" Position="+00.1181+117.4737" ExtendedCentrelineTrack="219" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="22" Position="+00.1252+117.4795" />
+        </Runway>
+        <Runway Name="22">
+            <Threshold Name="22" Position="+00.1252+117.4795" ExtendedCentrelineTrack="39" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="04" Position="+00.1181+117.4737" />
+        </Runway>
+    </Map>
+</Maps>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAUW_RW17" Priority="3" Center="-02.7222+134.5064">
+        <Runway Name="17">
+            <Threshold Name="17" Position="-02.7176+134.5058" ExtendedCentrelineTrack="356" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="35" Position="-02.7231+134.5061" />
+        </Runway>
+        <Runway Name="35">
+            <Threshold Name="35" Position="-02.7231+134.5061" ExtendedCentrelineTrack="176" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="17" Position="-02.7176+134.5058" />
+        </Runway>
+    </Map>
+</Maps>

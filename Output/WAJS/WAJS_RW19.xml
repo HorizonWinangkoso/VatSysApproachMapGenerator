@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAJS_RW19" Priority="3" Center="-03.4428+140.7783">
+        <Runway Name="01">
+            <Threshold Name="01" Position="-03.4428+140.7783" ExtendedCentrelineTrack="188" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="19" Position="-03.4428+140.7783" />
+        </Runway>
+        <Runway Name="19">
+            <Threshold Name="19" Position="-03.4428+140.7783" ExtendedCentrelineTrack="8" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="01" Position="-03.4428+140.7783" />
+        </Runway>
+    </Map>
+</Maps>

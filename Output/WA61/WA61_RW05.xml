@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WA61_RW05" Priority="3" Center="+47.7983-122.5297">
+        <Runway Name="05">
+            <Threshold Name="05" Position="+47.7983-122.5297" ExtendedCentrelineTrack="230" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="23" Position="+47.7983-122.5297" />
+        </Runway>
+        <Runway Name="23">
+            <Threshold Name="23" Position="+47.7983-122.5297" ExtendedCentrelineTrack="50" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="05" Position="+47.7983-122.5297" />
+        </Runway>
+    </Map>
+</Maps>

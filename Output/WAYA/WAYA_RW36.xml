@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAYA_RW36" Priority="3" Center="-04.3333+137.8333">
+        <Runway Name="18">
+            <Threshold Name="18" Position="-04.3333+137.8333" ExtendedCentrelineTrack="0" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="-04.3333+137.8333" />
+        </Runway>
+        <Runway Name="36">
+            <Threshold Name="36" Position="-04.3333+137.8333" ExtendedCentrelineTrack="180" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="-04.3333+137.8333" />
+        </Runway>
+    </Map>
+</Maps>

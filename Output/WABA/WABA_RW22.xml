@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WABA_RW22" Priority="3" Center="-04.0675+136.2736">
+        <Runway Name="04">
+            <Threshold Name="04" Position="-04.0675+136.2736" ExtendedCentrelineTrack="220" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="22" Position="-04.0675+136.2736" />
+        </Runway>
+        <Runway Name="22">
+            <Threshold Name="22" Position="-04.0675+136.2736" ExtendedCentrelineTrack="40" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="04" Position="-04.0675+136.2736" />
+        </Runway>
+    </Map>
+</Maps>

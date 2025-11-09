@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WASI_RW26" Priority="3" Center="-02.1267+132.1631">
+        <Runway Name="08">
+            <Threshold Name="08" Position="-02.1277+132.1569" ExtendedCentrelineTrack="265" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="26" Position="-02.1272+132.1632" />
+        </Runway>
+        <Runway Name="26">
+            <Threshold Name="26" Position="-02.1272+132.1632" ExtendedCentrelineTrack="85" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="08" Position="-02.1277+132.1569" />
+        </Runway>
+    </Map>
+</Maps>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WATG_RW09" Priority="3" Center="-08.5986+120.4797">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-08.5957+120.4714" ExtendedCentrelineTrack="272" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-08.5965+120.4849" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-08.5965+120.4849" ExtendedCentrelineTrack="92" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-08.5957+120.4714" />
+        </Runway>
+    </Map>
+</Maps>

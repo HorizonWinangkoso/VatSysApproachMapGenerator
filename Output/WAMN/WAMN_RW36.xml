@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAMN_RW36" Priority="3" Center="+04.0061+126.6747">
+        <Runway Name="18">
+            <Threshold Name="18" Position="+04.0157+126.6731" ExtendedCentrelineTrack="359" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="+04.0030+126.6733" />
+        </Runway>
+        <Runway Name="36">
+            <Threshold Name="36" Position="+04.0030+126.6733" ExtendedCentrelineTrack="179" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="+04.0157+126.6731" />
+        </Runway>
+    </Map>
+</Maps>

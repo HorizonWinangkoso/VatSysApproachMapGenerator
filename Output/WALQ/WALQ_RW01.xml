@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WALQ_RW01" Priority="3" Center="-00.3056+117.4153">
+        <Runway Name="01">
+            <Threshold Name="01" Position="-00.3113+117.4148" ExtendedCentrelineTrack="189" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="19" Position="-00.3005+117.4164" />
+        </Runway>
+        <Runway Name="19">
+            <Threshold Name="19" Position="-00.3005+117.4164" ExtendedCentrelineTrack="9" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="01" Position="-00.3113+117.4148" />
+        </Runway>
+    </Map>
+</Maps>

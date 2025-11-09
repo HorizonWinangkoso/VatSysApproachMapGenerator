@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WATA_RW26" Priority="3" Center="-09.0756+124.9031">
+        <Runway Name="08">
+            <Threshold Name="08" Position="-09.0759+124.8955" ExtendedCentrelineTrack="261" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="26" Position="-09.0739+124.9099" />
+        </Runway>
+        <Runway Name="26">
+            <Threshold Name="26" Position="-09.0739+124.9099" ExtendedCentrelineTrack="81" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="08" Position="-09.0759+124.8955" />
+        </Runway>
+    </Map>
+</Maps>

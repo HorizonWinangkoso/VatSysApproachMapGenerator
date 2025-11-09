@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WADD_RW09" Priority="3" Center="-08.7475+115.1692">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-08.7489+115.1538" ExtendedCentrelineTrack="267" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-08.7479+115.1811" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-08.7479+115.1811" ExtendedCentrelineTrack="87" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-08.7489+115.1538" />
+        </Runway>
+        <!--SID: ANGS3A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/CODOT/RUTRI/ANGSA</Line>
+        <!--SID: BIMO1C, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV</Line>
+        <!--SID: BORG1A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/MENAK/BANGO/BIPOK/BINOS/NUSNA/SIFAH/BORGI</Line>
+        <!--SID: DOBM1A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/MENAK/BOKEX/BUAYA/DOBMA</Line>
+        <!--SID: GAGA3A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/GUNEM/DORBO/PALSU/GAGAK</Line>
+        <!--SID: GAJA3A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/MENAK/BOKEX/BUAYA/GAJAH</Line>
+        <!--SID: JALA3A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/GUNEM/DORBO/UGUSA/JALAK</Line>
+        <!--SID: KOLT1L, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/MENAK/BANGO/BIPOK/BINOS/NUSNA/SIFAH/AGUDA/KOLTA</Line>
+        <!--SID: MALE3A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/GUNEM/DORBO/GAPIH/MALEO</Line>
+        <!--SID: MALG1A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/MENAK/BOKEX/BUAYA/MALGI</Line>
+        <!--SID: MURA3A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/GUNEM/DORBO/UGUSA/MURAI</Line>
+        <!--SID: NUSK1A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/MENAK/BANGO/BIPOK/AGULO/NUSKI</Line>
+        <!--SID: OKAN1A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/MENAK/BANGO/BIPOK/BINOS/NUSNA/OKANG</Line>
+        <!--SID: OKAN1B, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/MENAK/BANGO/BIPOK/BINOS/NUSNA/OKANG</Line>
+        <!--SID: PALB1A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/CODOT/RUTRI/PALBO</Line>
+        <!--SID: PEBG1A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/TIREX/BOSKU/PEBGU</Line>
+        <!--SID: PEBG1B, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/TIREX/BOSKU/PEBGU</Line>
+        <!--SID: PEDE3A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/BANDE/MUDIK/PEDET</Line>
+        <!--SID: PIKA1A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/BANDE/MUDIK/PIKAP</Line>
+        <!--SID: SRIT3A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/CODOT/RUTRI/SRITI</Line>
+        <!--SID: TEPO1A, Runway: 09-->
+        <Line Pattern="Dotted">-08.7489+115.1538/BAWAL/BIMOV/BANDE/MUDIK/PIKAP/TEPOS</Line>
+        <!--STAR: ANGS3C, Runway: 09-->
+        <Line Pattern="Dashed">ANGSA/MEONG/GUROL/ONEVA/KOBRA/NOGUS/KHUTA</Line>
+        <!--STAR: DOBM1C, Runway: 09-->
+        <Line Pattern="Dashed">DOBMA/AKNUN/SUGSO/MANIZ/NINAM/MUNAP/KAREO/KHUTA</Line>
+        <!--STAR: GAGA3C, Runway: 09-->
+        <Line Pattern="Dashed">GAGAK/GUROL/ONEVA/KOBRA/NOGUS/KHUTA</Line>
+        <!--STAR: GAJA3C, Runway: 09-->
+        <Line Pattern="Dashed">GAJAH/AKNUN/SUGSO/MANIZ/NINAM/MUNAP/KAREO/KHUTA</Line>
+        <!--STAR: JALA3C, Runway: 09-->
+        <Line Pattern="Dashed">JALAK/SAKMI/KOBRA/NOGUS/KHUTA</Line>
+        <!--STAR: KIDU1A, Runway: 09-->
+        <Line Pattern="Dashed">KIDUL/LUSPI/KHUTA</Line>
+        <!--STAR: KOLT1N, Runway: 09-->
+        <Line Pattern="Dashed">KOLTA/AGUDA/ENTAS/POLIG/NINAM/MUNAP/KAREO/KHUTA</Line>
+        <!--STAR: MALE3C, Runway: 09-->
+        <Line Pattern="Dashed">MALEO/SAKMI/KOBRA/NOGUS/KHUTA</Line>
+        <!--STAR: MALG1C, Runway: 09-->
+        <Line Pattern="Dashed">MALGI/AKNUN/SUGSO/MANIZ/NINAM/MUNAP/KAREO/KHUTA</Line>
+        <!--STAR: MOVM1E, Runway: 09-->
+        <Line Pattern="Dashed">MOVMO/OSIVA/SAREK/LUSPI/KHUTA</Line>
+        <!--STAR: MURA3C, Runway: 09-->
+        <Line Pattern="Dashed">MURAI/SAKMI/KOBRA/NOGUS/KHUTA</Line>
+        <!--STAR: PALB1C, Runway: 09-->
+        <Line Pattern="Dashed">PALBO/MEONG/GUROL/ONEVA/KOBRA/NOGUS/KHUTA</Line>
+        <!--STAR: PEBG1E, Runway: 09-->
+        <Line Pattern="Dashed">PEBGU/BUSTI/CODOT/KAPVA/LAKAB/OVKAS/LUSPI/KHUTA</Line>
+        <!--STAR: PEBG1G, Runway: 09-->
+        <Line Pattern="Dashed">PEBGU/BUSTI/CODOT/ONEVA/KOBRA/NOGUS/KHUTA</Line>
+        <!--STAR: PEDE3C, Runway: 09-->
+        <Line Pattern="Dashed">PEDET/KEWAN/GERAF/SUGSO/MANIZ/NINAM/MUNAP/KAREO/KHUTA</Line>
+        <!--STAR: PIKA1C, Runway: 09-->
+        <Line Pattern="Dashed">PIKAP/KEWAN/GERAF/SUGSO/MANIZ/NINAM/MUNAP/KAREO/KHUTA</Line>
+        <!--STAR: SASA1A, Runway: 09-->
+        <Line Pattern="Dashed">SASAX/PEBGU/BUSTI/CODOT/ONEVA/KOBRA/NOGUS/KHUTA</Line>
+        <!--STAR: SRIT3C, Runway: 09-->
+        <Line Pattern="Dashed">SRITI/GUROL/ONEVA/KOBRA/NOGUS/KHUTA</Line>
+        <!--STAR: UDON1A, Runway: 09-->
+        <Line Pattern="Dashed">UDONO/AGUDA/ENTAS/POLIG/NINAM/MUNAP/KAREO/KHUTA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>MUDIK</Point>
+            <Point>SIFAH</Point>
+            <Point>POLIG</Point>
+            <Point>NUSKI</Point>
+            <Point>NUSNA</Point>
+            <Point>MALEO</Point>
+            <Point>KAPVA</Point>
+            <Point>LUSPI</Point>
+            <Point>MOVMO</Point>
+            <Point>BANDE</Point>
+            <Point>GERAF</Point>
+            <Point>BIPOK</Point>
+            <Point>PEDET</Point>
+            <Point>BANGO</Point>
+            <Point>NOGUS</Point>
+            <Point>PEBGU</Point>
+            <Point>SASAX</Point>
+            <Point>AKNUN</Point>
+            <Point>KIDUL</Point>
+            <Point>BORGI</Point>
+            <Point>GUROL</Point>
+            <Point>BUAYA</Point>
+            <Point>ONEVA</Point>
+            <Point>MUNAP</Point>
+            <Point>ENTAS</Point>
+            <Point>LAKAB</Point>
+            <Point>GAGAK</Point>
+            <Point>UGUSA</Point>
+            <Point>UDONO</Point>
+            <Point>SAKMI</Point>
+            <Point>DOBMA</Point>
+            <Point>KEWAN</Point>
+            <Point>ANGSA</Point>
+            <Point>AGUDA</Point>
+            <Point>GUNEM</Point>
+            <Point>JALAK</Point>
+            <Point>OKANG</Point>
+            <Point>BIMOV</Point>
+            <Point>MALGI</Point>
+            <Point>BOKEX</Point>
+            <Point>GAJAH</Point>
+            <Point>MEONG</Point>
+            <Point>BINOS</Point>
+            <Point>KOLTA</Point>
+            <Point>BUSTI</Point>
+            <Point>SAREK</Point>
+            <Point>MENAK</Point>
+            <Point>KHUTA</Point>
+            <Point>RUTRI</Point>
+            <Point>PALSU</Point>
+            <Point>TEPOS</Point>
+            <Point>KAREO</Point>
+            <Point>OSIVA</Point>
+            <Point>TIREX</Point>
+            <Point>BAWAL</Point>
+            <Point>BOSKU</Point>
+            <Point>GAPIH</Point>
+            <Point>SRITI</Point>
+            <Point>MURAI</Point>
+            <Point>KOBRA</Point>
+            <Point>AGULO</Point>
+            <Point>PIKAP</Point>
+            <Point>PALBO</Point>
+            <Point>MANIZ</Point>
+            <Point>SUGSO</Point>
+            <Point>NINAM</Point>
+            <Point>CODOT</Point>
+            <Point>OVKAS</Point>
+            <Point>DORBO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-08.7475+115.1692" Name="WADD_RW09_NAMES">
+        <Label>
+            <Point>MUDIK</Point>
+            <Point>SIFAH</Point>
+            <Point>POLIG</Point>
+            <Point>NUSKI</Point>
+            <Point>NUSNA</Point>
+            <Point>MALEO</Point>
+            <Point>KAPVA</Point>
+            <Point>LUSPI</Point>
+            <Point>MOVMO</Point>
+            <Point>BANDE</Point>
+            <Point>GERAF</Point>
+            <Point>BIPOK</Point>
+            <Point>PEDET</Point>
+            <Point>BANGO</Point>
+            <Point>NOGUS</Point>
+            <Point>PEBGU</Point>
+            <Point>SASAX</Point>
+            <Point>AKNUN</Point>
+            <Point>KIDUL</Point>
+            <Point>BORGI</Point>
+            <Point>GUROL</Point>
+            <Point>BUAYA</Point>
+            <Point>ONEVA</Point>
+            <Point>MUNAP</Point>
+            <Point>ENTAS</Point>
+            <Point>LAKAB</Point>
+            <Point>GAGAK</Point>
+            <Point>UGUSA</Point>
+            <Point>UDONO</Point>
+            <Point>SAKMI</Point>
+            <Point>DOBMA</Point>
+            <Point>KEWAN</Point>
+            <Point>ANGSA</Point>
+            <Point>AGUDA</Point>
+            <Point>GUNEM</Point>
+            <Point>JALAK</Point>
+            <Point>OKANG</Point>
+            <Point>BIMOV</Point>
+            <Point>MALGI</Point>
+            <Point>BOKEX</Point>
+            <Point>GAJAH</Point>
+            <Point>MEONG</Point>
+            <Point>BINOS</Point>
+            <Point>KOLTA</Point>
+            <Point>BUSTI</Point>
+            <Point>SAREK</Point>
+            <Point>MENAK</Point>
+            <Point>KHUTA</Point>
+            <Point>RUTRI</Point>
+            <Point>PALSU</Point>
+            <Point>TEPOS</Point>
+            <Point>KAREO</Point>
+            <Point>OSIVA</Point>
+            <Point>TIREX</Point>
+            <Point>BAWAL</Point>
+            <Point>BOSKU</Point>
+            <Point>GAPIH</Point>
+            <Point>SRITI</Point>
+            <Point>MURAI</Point>
+            <Point>KOBRA</Point>
+            <Point>AGULO</Point>
+            <Point>PIKAP</Point>
+            <Point>PALBO</Point>
+            <Point>MANIZ</Point>
+            <Point>SUGSO</Point>
+            <Point>NINAM</Point>
+            <Point>CODOT</Point>
+            <Point>OVKAS</Point>
+            <Point>DORBO</Point>
+        </Label>
+    </Map>
+</Maps>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAPU_RW13" Priority="3" Center="-03.4633+130.7878">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-03.4633+130.7878" ExtendedCentrelineTrack="309" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-03.4633+130.7878" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-03.4633+130.7878" ExtendedCentrelineTrack="129" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-03.4633+130.7878" />
+        </Runway>
+    </Map>
+</Maps>

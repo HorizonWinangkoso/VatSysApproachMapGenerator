@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAFO_RW05" Priority="3" Center="-02.2022+121.6617">
+        <Runway Name="05">
+            <Threshold Name="05" Position="-02.2055+121.6580" ExtendedCentrelineTrack="228" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="23" Position="-02.1965+121.6680" />
+        </Runway>
+        <Runway Name="23">
+            <Threshold Name="23" Position="-02.1965+121.6680" ExtendedCentrelineTrack="48" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="05" Position="-02.2055+121.6580" />
+        </Runway>
+    </Map>
+</Maps>

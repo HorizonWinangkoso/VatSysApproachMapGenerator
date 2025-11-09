@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAMM_RW18" Priority="3" Center="+01.5456+124.9250">
+        <Runway Name="18">
+            <Threshold Name="18" Position="+01.5613+124.9267" ExtendedCentrelineTrack="2" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="+01.5373+124.9260" />
+        </Runway>
+        <Runway Name="36">
+            <Threshold Name="36" Position="+01.5373+124.9260" ExtendedCentrelineTrack="182" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="+01.5613+124.9267" />
+        </Runway>
+        <!--SID: ARIT1A, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/MEVET/PORIL/AGTUS/NUTGI/ARITO</Line>
+        <!--SID: BOND1C, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/MD/BONDA</Line>
+        <!--SID: DIAN1A, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/MEVET/PORIL/AGTUS/MOSGA/DIANI</Line>
+        <!--SID: GONT1A, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/MD/MNO60/GONTA</Line>
+        <!--SID: GONT1H, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/MD/GONTA</Line>
+        <!--SID: GONT1J, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/MEVET/SURUM/BOVKA/NIKET/GONTA</Line>
+        <!--SID: GOTS1A, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/MD/MNO60/GOTSA</Line>
+        <!--SID: GOTS1H, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/MD/GOTSA</Line>
+        <!--SID: GOTS1J, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/MEVET/SURUM/BOVKA/NIKET/GOTSA</Line>
+        <!--SID: HALM1C, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/MD/MNO/MN30A/HALMO</Line>
+        <!--SID: HALM1K, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/YUCHE/GUSNA/BOGEN/HALMO</Line>
+        <!--SID: LUAN1A, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/MD/MD/MN30B/LUANG</Line>
+        <!--SID: LUAN1H, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/MEVET/SURUM/VIRES/LAROV/LUANG</Line>
+        <!--SID: NITI1A, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/MEVET/PORIL/AGTUS/REPOD/LAVES/NITIP</Line>
+        <!--SID: PEDN1A, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/YUCHE/GUSNA/MIMUS/SAVDA/RISTA/PEDNO</Line>
+        <!--SID: RUMB1A, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/MD/MNO/MN30A/RUMBO</Line>
+        <!--SID: RUMB1H, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/YUCHE/GUSNA/GURNO/RUMBO</Line>
+        <!--SID: SOSO1A, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/MD/MNO/MN30A/SOSOK</Line>
+        <!--SID: SOSO1H, Runway: 18-->
+        <Line Pattern="Dotted">+01.5613+124.9267/OLBET/YUCHE/GUSNA/BOGEN/SOSOK</Line>
+        <!--STAR: ARIT1C, Runway: 18-->
+        <Line Pattern="Dashed">ARITO/TEBAX/ONOTA/LEGUS/GOPRI/NOKOV/MULAN</Line>
+        <!--STAR: BOND1E, Runway: 18-->
+        <Line Pattern="Dashed">BONDA/MNO</Line>
+        <!--STAR: DIAN1C, Runway: 18-->
+        <Line Pattern="Dashed">DIANI/LAVOD/POPAF/NOKOV/MULAN</Line>
+        <!--STAR: GONT1E, Runway: 18-->
+        <Line Pattern="Dashed">GONTA/MWB/MNO</Line>
+        <!--STAR: GONT1L, Runway: 18-->
+        <Line Pattern="Dashed">GONTA/MAMKO/LESBO/LEGUS/GOPRI/NOKOV/MULAN</Line>
+        <!--STAR: GOTS1E, Runway: 18-->
+        <Line Pattern="Dashed">GOTSA/MWB/MNO</Line>
+        <!--STAR: GOTS1L, Runway: 18-->
+        <Line Pattern="Dashed">GOTSA/TEBAX/ONOTA/LEGUS/GOPRI/NOKOV/MULAN</Line>
+        <!--STAR: HALM1G, Runway: 18-->
+        <Line Pattern="Dashed">HALMO/MWB/MNO</Line>
+        <!--STAR: HALM1M, Runway: 18-->
+        <Line Pattern="Dashed">HALMO/SUKMA/DONSU/DUBMI/BUSKI/NOBES/MULAN</Line>
+        <!--STAR: LUAN1E, Runway: 18-->
+        <Line Pattern="Dashed">LUANG/MWB/MNO</Line>
+        <!--STAR: LUAN1K, Runway: 18-->
+        <Line Pattern="Dashed">LUANG/MAMKO/LESBO/LEGUS/GOPRI/NOKOV/MULAN</Line>
+        <!--STAR: NITI1C, Runway: 18-->
+        <Line Pattern="Dashed">NITIP/LAVES/OPOTU/POPAF/NOKOV/MULAN</Line>
+        <!--STAR: PEDN1C, Runway: 18-->
+        <Line Pattern="Dashed">PEDNO/RISTA/VIKOP/NOBES/MULAN</Line>
+        <!--STAR: RUMB1E, Runway: 18-->
+        <Line Pattern="Dashed">RUMBO/MWB/MNO</Line>
+        <!--STAR: RUMB1K, Runway: 18-->
+        <Line Pattern="Dashed">RUMBO/PUBOS/MILEV/DUBMI/BUSKI/NOBES/MULAN</Line>
+        <!--STAR: SOSO1E, Runway: 18-->
+        <Line Pattern="Dashed">SOSOK/MWB/MNO</Line>
+        <!--STAR: SOSO1K, Runway: 18-->
+        <Line Pattern="Dashed">SOSOK/PUBOS/MILEV/DUBMI/BUSKI/NOBES/MULAN</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>NUTGI</Point>
+            <Point>MNO</Point>
+            <Point>MN30B</Point>
+            <Point>DUBMI</Point>
+            <Point>AGTUS</Point>
+            <Point>DONSU</Point>
+            <Point>NOKOV</Point>
+            <Point>MEVET</Point>
+            <Point>SAVDA</Point>
+            <Point>PEDNO</Point>
+            <Point>RISTA</Point>
+            <Point>MWB</Point>
+            <Point>MD</Point>
+            <Point>SOSOK</Point>
+            <Point>MNO60</Point>
+            <Point>MAMKO</Point>
+            <Point>NOBES</Point>
+            <Point>NITIP</Point>
+            <Point>PORIL</Point>
+            <Point>YUCHE</Point>
+            <Point>VIKOP</Point>
+            <Point>LESBO</Point>
+            <Point>SUKMA</Point>
+            <Point>MILEV</Point>
+            <Point>DIANI</Point>
+            <Point>REPOD</Point>
+            <Point>GOTSA</Point>
+            <Point>MOSGA</Point>
+            <Point>GOPRI</Point>
+            <Point>LAVES</Point>
+            <Point>VIRES</Point>
+            <Point>GURNO</Point>
+            <Point>LEGUS</Point>
+            <Point>ARITO</Point>
+            <Point>LUANG</Point>
+            <Point>ONOTA</Point>
+            <Point>BOGEN</Point>
+            <Point>SURUM</Point>
+            <Point>MULAN</Point>
+            <Point>BUSKI</Point>
+            <Point>TEBAX</Point>
+            <Point>BOVKA</Point>
+            <Point>RUMBO</Point>
+            <Point>HALMO</Point>
+            <Point>OPOTU</Point>
+            <Point>BONDA</Point>
+            <Point>OLBET</Point>
+            <Point>MIMUS</Point>
+            <Point>POPAF</Point>
+            <Point>GUSNA</Point>
+            <Point>PUBOS</Point>
+            <Point>LAVOD</Point>
+            <Point>NIKET</Point>
+            <Point>GONTA</Point>
+            <Point>LAROV</Point>
+            <Point>MN30A</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+01.5456+124.9250" Name="WAMM_RW18_NAMES">
+        <Label>
+            <Point>NUTGI</Point>
+            <Point>MNO</Point>
+            <Point>MN30B</Point>
+            <Point>DUBMI</Point>
+            <Point>AGTUS</Point>
+            <Point>DONSU</Point>
+            <Point>NOKOV</Point>
+            <Point>MEVET</Point>
+            <Point>SAVDA</Point>
+            <Point>PEDNO</Point>
+            <Point>RISTA</Point>
+            <Point>MWB</Point>
+            <Point>MD</Point>
+            <Point>SOSOK</Point>
+            <Point>MNO60</Point>
+            <Point>MAMKO</Point>
+            <Point>NOBES</Point>
+            <Point>NITIP</Point>
+            <Point>PORIL</Point>
+            <Point>YUCHE</Point>
+            <Point>VIKOP</Point>
+            <Point>LESBO</Point>
+            <Point>SUKMA</Point>
+            <Point>MILEV</Point>
+            <Point>DIANI</Point>
+            <Point>REPOD</Point>
+            <Point>GOTSA</Point>
+            <Point>MOSGA</Point>
+            <Point>GOPRI</Point>
+            <Point>LAVES</Point>
+            <Point>VIRES</Point>
+            <Point>GURNO</Point>
+            <Point>LEGUS</Point>
+            <Point>ARITO</Point>
+            <Point>LUANG</Point>
+            <Point>ONOTA</Point>
+            <Point>BOGEN</Point>
+            <Point>SURUM</Point>
+            <Point>MULAN</Point>
+            <Point>BUSKI</Point>
+            <Point>TEBAX</Point>
+            <Point>BOVKA</Point>
+            <Point>RUMBO</Point>
+            <Point>HALMO</Point>
+            <Point>OPOTU</Point>
+            <Point>BONDA</Point>
+            <Point>OLBET</Point>
+            <Point>MIMUS</Point>
+            <Point>POPAF</Point>
+            <Point>GUSNA</Point>
+            <Point>PUBOS</Point>
+            <Point>LAVOD</Point>
+            <Point>NIKET</Point>
+            <Point>GONTA</Point>
+            <Point>LAROV</Point>
+            <Point>MN30A</Point>
+        </Label>
+    </Map>
+</Maps>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WABB_RW11" Priority="3" Center="-01.1919+136.1100">
+        <Runway Name="11">
+            <Threshold Name="11" Position="-01.1848+136.0927" ExtendedCentrelineTrack="287" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="29" Position="-01.1953+136.1230" />
+        </Runway>
+        <Runway Name="29">
+            <Threshold Name="29" Position="-01.1953+136.1230" ExtendedCentrelineTrack="107" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="11" Position="-01.1848+136.0927" />
+        </Runway>
+        <!--SID: FILM1A, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/BIK/FILMO</Line>
+        <!--SID: IBOG1E, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/BIK/IBOGO</Line>
+        <!--SID: IBOG1F, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/IBOGO</Line>
+        <!--SID: JODR1A, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/BIK/JODRA</Line>
+        <!--SID: JODR1B, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/JODRA</Line>
+        <!--SID: LINL1A, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/BIK/LINLU</Line>
+        <!--SID: LINL1B, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/LINLU</Line>
+        <!--SID: NOBY1A, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/BIK/NOBBY</Line>
+        <!--SID: NOBY1B, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/NOBBY</Line>
+        <!--SID: ONTA1A, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/BIK/ONTAL</Line>
+        <!--SID: ONTA1B, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/ONTAL</Line>
+        <!--SID: PEBD1A, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/BIK/PEBDA</Line>
+        <!--SID: PEBD1B, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/PEBDA</Line>
+        <!--SID: SEGL1A, Runway: 11-->
+        <Line Pattern="Dotted">-01.1848+136.0927/BIK/SEGLO</Line>
+        <!--STAR: FILM1E, Runway: 11-->
+        <Line Pattern="Dashed">FILMO/BI60A/BIK</Line>
+        <!--STAR: IBOG1K, Runway: 11-->
+        <Line Pattern="Dashed">IBOGO/BI60C/BIK</Line>
+        <!--STAR: JODR1F, Runway: 11-->
+        <Line Pattern="Dashed">JODRA/BI60D/BIK</Line>
+        <!--STAR: LINL1F, Runway: 11-->
+        <Line Pattern="Dashed">LINLU/BI60C/BIK</Line>
+        <!--STAR: NOBY1F, Runway: 11-->
+        <Line Pattern="Dashed">NOBBY/BIK</Line>
+        <!--STAR: ONTA1F, Runway: 11-->
+        <Line Pattern="Dashed">ONTAL/BI60B/BIK</Line>
+        <!--STAR: PEBD1F, Runway: 11-->
+        <Line Pattern="Dashed">PEBDA/BI60B/BIK</Line>
+        <!--STAR: SEGL1E, Runway: 11-->
+        <Line Pattern="Dashed">SEGLO/BI60A/BIK</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>PEBDA</Point>
+            <Point>BI60B</Point>
+            <Point>BI60A</Point>
+            <Point>BIK</Point>
+            <Point>IBOGO</Point>
+            <Point>JODRA</Point>
+            <Point>ONTAL</Point>
+            <Point>FILMO</Point>
+            <Point>LINLU</Point>
+            <Point>SEGLO</Point>
+            <Point>BI60C</Point>
+            <Point>BI60D</Point>
+            <Point>NOBBY</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-01.1919+136.1100" Name="WABB_RW11_NAMES">
+        <Label>
+            <Point>PEBDA</Point>
+            <Point>BI60B</Point>
+            <Point>BI60A</Point>
+            <Point>BIK</Point>
+            <Point>IBOGO</Point>
+            <Point>JODRA</Point>
+            <Point>ONTAL</Point>
+            <Point>FILMO</Point>
+            <Point>LINLU</Point>
+            <Point>SEGLO</Point>
+            <Point>BI60C</Point>
+            <Point>BI60D</Point>
+            <Point>NOBBY</Point>
+        </Label>
+    </Map>
+</Maps>

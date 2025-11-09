@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAPF_RW31" Priority="3" Center="-05.7575+132.7614">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-05.7513+132.7504" ExtendedCentrelineTrack="311" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-05.7658+132.7659" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-05.7658+132.7659" ExtendedCentrelineTrack="131" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-05.7513+132.7504" />
+        </Runway>
+    </Map>
+</Maps>

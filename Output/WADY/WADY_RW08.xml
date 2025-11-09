@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WADY_RW08" Priority="3" Center="-08.3106+114.3403">
+        <Runway Name="08">
+            <Threshold Name="08" Position="-08.3118+114.3287" ExtendedCentrelineTrack="260" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="26" Position="-08.3085+114.3507" />
+        </Runway>
+        <Runway Name="26">
+            <Threshold Name="26" Position="-08.3085+114.3507" ExtendedCentrelineTrack="80" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="08" Position="-08.3118+114.3287" />
+        </Runway>
+        <!--SID: AGUN1E, Runway: 08-->
+        <Line Pattern="Dotted">-08.3118+114.3287/NISAT/ORURI/MUGUV/IKUGA/REGUP/SARLO/POMUD/GOGIT/AGUNG</Line>
+        <!--SID: DUDA1A, Runway: 08-->
+        <Line Pattern="Dotted">-08.3118+114.3287/NISAT/ORURI/MUGUV/IKUGA/REGUP/SARLO/DUDAS</Line>
+        <!--SID: NINA1A, Runway: 08-->
+        <Line Pattern="Dotted">-08.3118+114.3287/NISAT/ORURI/MUGUV/IKUGA/REGUP/SARLO/NINAM</Line>
+        <!--SID: OKAN1G, Runway: 08-->
+        <Line Pattern="Dotted">-08.3118+114.3287/NISAT/ORURI/MUGUV/IKUGA/REGUP/SARLO/MEXAT/OKANG</Line>
+        <!--SID: TEPO1E, Runway: 08-->
+        <Line Pattern="Dotted">-08.3118+114.3287/NISAT/ORURI/MUGUV/IKUGA/REGUP/SARLO/POMUD/GOGIT/AGUNG/PUNUL/SUKPU/TEPOS</Line>
+        <!--STAR: MOVM1G, Runway: 08-->
+        <Line Pattern="Dashed">MOVMO/DUDAS/SOTNA/AGULO/NUSKI/BAVED/PASDO</Line>
+        <!--STAR: MOVM1H, Runway: 08-->
+        <Line Pattern="Dashed">MOVMO/BUVMI/PASDO</Line>
+        <!--STAR: SASA1E, Runway: 08-->
+        <Line Pattern="Dashed">SASAX/PEBGU/BUSTI/CODOT/KAPVA/LAKAB/OVKAS/LUSPI/AGULO/NUSKI/BAVED/PASDO</Line>
+        <!--STAR: SASA1F, Runway: 08-->
+        <Line Pattern="Dashed">SASAX/PEBGU/BUSTI/CODOT/NOGUS/GITUM/VASBA/NUSKI/BAVED/PASDO</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BAVED</Point>
+            <Point>BUVMI</Point>
+            <Point>NUSKI</Point>
+            <Point>KAPVA</Point>
+            <Point>MOVMO</Point>
+            <Point>LUSPI</Point>
+            <Point>GOGIT</Point>
+            <Point>ORURI</Point>
+            <Point>NISAT</Point>
+            <Point>NOGUS</Point>
+            <Point>SASAX</Point>
+            <Point>PEBGU</Point>
+            <Point>DUDAS</Point>
+            <Point>PUNUL</Point>
+            <Point>PASDO</Point>
+            <Point>LAKAB</Point>
+            <Point>SARLO</Point>
+            <Point>OKANG</Point>
+            <Point>SUKPU</Point>
+            <Point>VASBA</Point>
+            <Point>SOTNA</Point>
+            <Point>AGUNG</Point>
+            <Point>IKUGA</Point>
+            <Point>BUSTI</Point>
+            <Point>GITUM</Point>
+            <Point>REGUP</Point>
+            <Point>TEPOS</Point>
+            <Point>MUGUV</Point>
+            <Point>MEXAT</Point>
+            <Point>AGULO</Point>
+            <Point>POMUD</Point>
+            <Point>NINAM</Point>
+            <Point>CODOT</Point>
+            <Point>OVKAS</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-08.3106+114.3403" Name="WADY_RW08_NAMES">
+        <Label>
+            <Point>BAVED</Point>
+            <Point>BUVMI</Point>
+            <Point>NUSKI</Point>
+            <Point>KAPVA</Point>
+            <Point>MOVMO</Point>
+            <Point>LUSPI</Point>
+            <Point>GOGIT</Point>
+            <Point>ORURI</Point>
+            <Point>NISAT</Point>
+            <Point>NOGUS</Point>
+            <Point>SASAX</Point>
+            <Point>PEBGU</Point>
+            <Point>DUDAS</Point>
+            <Point>PUNUL</Point>
+            <Point>PASDO</Point>
+            <Point>LAKAB</Point>
+            <Point>SARLO</Point>
+            <Point>OKANG</Point>
+            <Point>SUKPU</Point>
+            <Point>VASBA</Point>
+            <Point>SOTNA</Point>
+            <Point>AGUNG</Point>
+            <Point>IKUGA</Point>
+            <Point>BUSTI</Point>
+            <Point>GITUM</Point>
+            <Point>REGUP</Point>
+            <Point>TEPOS</Point>
+            <Point>MUGUV</Point>
+            <Point>MEXAT</Point>
+            <Point>AGULO</Point>
+            <Point>POMUD</Point>
+            <Point>NINAM</Point>
+            <Point>CODOT</Point>
+            <Point>OVKAS</Point>
+        </Label>
+    </Map>
+</Maps>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAFF_RW33" Priority="3" Center="-00.9167+119.9103">
+        <Runway Name="15">
+            <Threshold Name="15" Position="-00.9064+119.9042" ExtendedCentrelineTrack="336" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="33" Position="-00.9250+119.9125" />
+        </Runway>
+        <Runway Name="33">
+            <Threshold Name="33" Position="-00.9250+119.9125" ExtendedCentrelineTrack="156" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="15" Position="-00.9064+119.9042" />
+        </Runway>
+        <!--SID: ARIN1A, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/IPNUR/MIILA/CEPPI/WADHI/IBOBU/ARINI</Line>
+        <!--SID: BIKP1D, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/IPNUR/MIILA/EMSIV/BIKPI</Line>
+        <!--SID: DALG1A, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/IPNUR/MIILA/CEPPI/WADHI/PURRI/SURMO/DALGU</Line>
+        <!--SID: EMSI1A, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/EMSIV</Line>
+        <!--SID: GTL1A, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/PAL/GTL</Line>
+        <!--SID: GUME1A, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/IPNUR/KIPER/GUMEL</Line>
+        <!--SID: IKEM1D, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/IPNUR/MIILA/EMSIV/IKEMU</Line>
+        <!--SID: NIVE1H, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/PAL/NIVEK</Line>
+        <!--SID: RIKM1A, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/PAL/RIKMU</Line>
+        <!--SID: ZELD1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.9064+119.9042/IPNUR/MIILA/CEPPI/ZELDY</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>IBOBU</Point>
+            <Point>WADHI</Point>
+            <Point>DALGU</Point>
+            <Point>NIVEK</Point>
+            <Point>IPNUR</Point>
+            <Point>KIPER</Point>
+            <Point>BIKPI</Point>
+            <Point>RIKMU</Point>
+            <Point>PAL</Point>
+            <Point>EMSIV</Point>
+            <Point>ZELDY</Point>
+            <Point>GUMEL</Point>
+            <Point>GTL</Point>
+            <Point>CEPPI</Point>
+            <Point>SURMO</Point>
+            <Point>IKEMU</Point>
+            <Point>ARINI</Point>
+            <Point>PURRI</Point>
+            <Point>MIILA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-00.9167+119.9103" Name="WAFF_RW33_NAMES">
+        <Label>
+            <Point>IBOBU</Point>
+            <Point>WADHI</Point>
+            <Point>DALGU</Point>
+            <Point>NIVEK</Point>
+            <Point>IPNUR</Point>
+            <Point>KIPER</Point>
+            <Point>BIKPI</Point>
+            <Point>RIKMU</Point>
+            <Point>PAL</Point>
+            <Point>EMSIV</Point>
+            <Point>ZELDY</Point>
+            <Point>GUMEL</Point>
+            <Point>GTL</Point>
+            <Point>CEPPI</Point>
+            <Point>SURMO</Point>
+            <Point>IKEMU</Point>
+            <Point>ARINI</Point>
+            <Point>PURRI</Point>
+            <Point>MIILA</Point>
+        </Label>
+    </Map>
+</Maps>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WARA_RW35" Priority="3" Center="-07.9294+112.7119">
+        <Runway Name="17">
+            <Threshold Name="17" Position="-07.9181+112.7117" ExtendedCentrelineTrack="345" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="35" Position="-07.9400+112.7170" />
+        </Runway>
+        <Runway Name="35">
+            <Threshold Name="35" Position="-07.9400+112.7170" ExtendedCentrelineTrack="165" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="17" Position="-07.9181+112.7117" />
+        </Runway>
+        <!--SID: SBR1B, Runway: 35-->
+        <Line Pattern="Dotted">-07.9181+112.7117/SBR</Line>
+        <!--SID: SBR1C, Runway: 35-->
+        <Line Pattern="Dotted">-07.9181+112.7117/ABD/SBR</Line>
+        <!--STAR: SBR1D, Runway: 35-->
+        <Line Pattern="Dashed">SBR/ABD</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>ABD</Point>
+            <Point>SBR</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-07.9294+112.7119" Name="WARA_RW35_NAMES">
+        <Label>
+            <Point>ABD</Point>
+            <Point>SBR</Point>
+        </Label>
+    </Map>
+</Maps>

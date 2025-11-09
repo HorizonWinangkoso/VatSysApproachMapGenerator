@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAFY_RW06" Priority="3" Center="+01.1053+121.4156">
+        <Runway Name="06">
+            <Threshold Name="06" Position="+01.0991+121.4071" ExtendedCentrelineTrack="243" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="24" Position="+01.1055+121.4195" />
+        </Runway>
+        <Runway Name="24">
+            <Threshold Name="24" Position="+01.1055+121.4195" ExtendedCentrelineTrack="63" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="06" Position="+01.0991+121.4071" />
+        </Runway>
+    </Map>
+</Maps>

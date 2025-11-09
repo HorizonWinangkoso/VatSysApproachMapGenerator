@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAAA_RW21" Priority="3" Center="-05.0608+119.5544">
+        <Runway Name="03">
+            <Threshold Name="03" Position="-05.0923+119.5440" ExtendedCentrelineTrack="209" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="21" Position="-05.0680+119.5580" />
+        </Runway>
+        <Runway Name="13">
+            <Threshold Name="13" Position="-05.0543+119.5455" ExtendedCentrelineTrack="310" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-05.0690+119.5626" />
+        </Runway>
+        <Runway Name="21">
+            <Threshold Name="21" Position="-05.0680+119.5580" ExtendedCentrelineTrack="29" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="03" Position="-05.0923+119.5440" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-05.0690+119.5626" ExtendedCentrelineTrack="130" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-05.0543+119.5455" />
+        </Runway>
+        <!--SID: EMON1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/AINDI/APURA/DITIA/AYAMA/ELQIU/EMONA</Line>
+        <!--SID: ENDO1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/DUKUG/ENDOG</Line>
+        <!--SID: GAMA1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/DUKUG/WAIDI/ARAYA/IKOWA/GAMAL</Line>
+        <!--SID: GURN1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/DUKUG/GURNI</Line>
+        <!--SID: KEND1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/AINDI/APURA/DITIA/AYAMA/RURDI/KALRA/KENDO</Line>
+        <!--SID: KEVO1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/DUKUG/PONGE/TUGIO/KEVOK</Line>
+        <!--SID: LEKE1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/AINDI/APURA/DITIA/AYAMA/RURDI/LEKEX</Line>
+        <!--SID: LIPO1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/YAYAN/LIPOT</Line>
+        <!--SID: NETO1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/AINDI/APURA/NETTO</Line>
+        <!--SID: NIVE1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/DUKUG/WAIDI/ARAYA/NIVEK</Line>
+        <!--SID: NUKP1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/AINDI/APURA/ZAINI/IDILA/NUKPO</Line>
+        <!--SID: NUNL1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/DUKUG/PONGE/NUNLU</Line>
+        <!--SID: SUGT1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/AINDI/APURA/DITIA/AYAMA/RURDI/SUGTA</Line>
+        <!--SID: VENR1B, Runway: 21-->
+        <Line Pattern="Dotted">-05.0543+119.5455/YANKA/AINDI/APURA/DITIA/AYAMA/RURDI/KALRA/VENRU</Line>
+        <!--STAR: BIMA1B, Runway: 21-->
+        <Line Pattern="Dashed">BIMAK/AYONO/AFITA/APULA/DAKAD/KAILI/ARAJA</Line>
+        <!--STAR: BIMA1F, Runway: 21-->
+        <Line Pattern="Dashed">BIMAK</Line>
+        <!--STAR: EMON1D, Runway: 21-->
+        <Line Pattern="Dashed">EMONA/ELQIU/AMSUL/REAGA/UYOSO/ARAJA</Line>
+        <!--STAR: ENDO1D, Runway: 21-->
+        <Line Pattern="Dashed">ENDOG/UMAYA/AYONO/AFITA/APULA/DAKAD/KAILI/ARAJA</Line>
+        <!--STAR: ENDO1L, Runway: 21-->
+        <Line Pattern="Dashed">ENDOG</Line>
+        <!--STAR: GAMA1D, Runway: 21-->
+        <Line Pattern="Dashed">GAMAL/IYANI/DAKAD/KAILI/ARAJA</Line>
+        <!--STAR: GURN1D, Runway: 21-->
+        <Line Pattern="Dashed">GURNI/ERAFI/DAKAD/KAILI/ARAJA</Line>
+        <!--STAR: KEND1D, Runway: 21-->
+        <Line Pattern="Dashed">KENDO/GOLUT/MITHA/REAGA/UYOSO/ARAJA</Line>
+        <!--STAR: KEVO1D, Runway: 21-->
+        <Line Pattern="Dashed">KEVOK/TUGIO/ERAFI/DAKAD/KAILI/ARAJA</Line>
+        <!--STAR: LEKE1D, Runway: 21-->
+        <Line Pattern="Dashed">LEKEX/MITHA/REAGA/UYOSO/ARAJA</Line>
+        <!--STAR: LEKE1H, Runway: 21-->
+        <Line Pattern="Dashed">LEKEX</Line>
+        <!--STAR: LIPO1D, Runway: 21-->
+        <Line Pattern="Dashed">LIPOT/ARAUF/UMAYA/AYONO/AFITA/APULA/DAKAD/KAILI/ARAJA</Line>
+        <!--STAR: LIPO1L, Runway: 21-->
+        <Line Pattern="Dashed">LIPOT</Line>
+        <!--STAR: NETO1D, Runway: 21-->
+        <Line Pattern="Dashed">NETTO/IMADE/AQIBA/REAGA/UYOSO/ARAJA</Line>
+        <!--STAR: NIVE1E, Runway: 21-->
+        <Line Pattern="Dashed">NIVEK</Line>
+        <!--STAR: NUKP1D, Runway: 21-->
+        <Line Pattern="Dashed">NUKPO/IMADE/AQIBA/REAGA/UYOSO/ARAJA</Line>
+        <!--STAR: NUKP1H, Runway: 21-->
+        <Line Pattern="Dashed">NUKPO</Line>
+        <!--STAR: SUGT1D, Runway: 21-->
+        <Line Pattern="Dashed">SUGTA/MITHA/REAGA/UYOSO/ARAJA</Line>
+        <!--STAR: SUGT1H, Runway: 21-->
+        <Line Pattern="Dashed">SUGTA</Line>
+        <!--STAR: VENR1D, Runway: 21-->
+        <Line Pattern="Dashed">VENRU/GOLUT/MITHA/REAGA/UYOSO/ARAJA</Line>
+        <!--STAR: VENR1H, Runway: 21-->
+        <Line Pattern="Dashed">VENRU</Line>
+        <!--STAR: ZELD1D, Runway: 21-->
+        <Line Pattern="Dashed">ZELDY/NINCY/DAKAD/KAILI/ARAJA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BIMAK</Point>
+            <Point>AYONO</Point>
+            <Point>ARAUF</Point>
+            <Point>KALRA</Point>
+            <Point>TUGIO</Point>
+            <Point>KEVOK</Point>
+            <Point>KAILI</Point>
+            <Point>ARAYA</Point>
+            <Point>YAYAN</Point>
+            <Point>AQIBA</Point>
+            <Point>NUNLU</Point>
+            <Point>NIVEK</Point>
+            <Point>IYANI</Point>
+            <Point>REAGA</Point>
+            <Point>AYAMA</Point>
+            <Point>AMSUL</Point>
+            <Point>NINCY</Point>
+            <Point>UYOSO</Point>
+            <Point>DITIA</Point>
+            <Point>AFITA</Point>
+            <Point>WAIDI</Point>
+            <Point>DAKAD</Point>
+            <Point>VENRU</Point>
+            <Point>DUKUG</Point>
+            <Point>ZELDY</Point>
+            <Point>ERAFI</Point>
+            <Point>IDILA</Point>
+            <Point>UMAYA</Point>
+            <Point>ARAJA</Point>
+            <Point>RURDI</Point>
+            <Point>YANKA</Point>
+            <Point>ZAINI</Point>
+            <Point>PONGE</Point>
+            <Point>ELQIU</Point>
+            <Point>KENDO</Point>
+            <Point>ENDOG</Point>
+            <Point>LEKEX</Point>
+            <Point>NETTO</Point>
+            <Point>NUKPO</Point>
+            <Point>GURNI</Point>
+            <Point>AINDI</Point>
+            <Point>LIPOT</Point>
+            <Point>SUGTA</Point>
+            <Point>IKOWA</Point>
+            <Point>APULA</Point>
+            <Point>IMADE</Point>
+            <Point>EMONA</Point>
+            <Point>GAMAL</Point>
+            <Point>GOLUT</Point>
+            <Point>APURA</Point>
+            <Point>MITHA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-05.0608+119.5544" Name="WAAA_RW21_NAMES">
+        <Label>
+            <Point>BIMAK</Point>
+            <Point>AYONO</Point>
+            <Point>ARAUF</Point>
+            <Point>KALRA</Point>
+            <Point>TUGIO</Point>
+            <Point>KEVOK</Point>
+            <Point>KAILI</Point>
+            <Point>ARAYA</Point>
+            <Point>YAYAN</Point>
+            <Point>AQIBA</Point>
+            <Point>NUNLU</Point>
+            <Point>NIVEK</Point>
+            <Point>IYANI</Point>
+            <Point>REAGA</Point>
+            <Point>AYAMA</Point>
+            <Point>AMSUL</Point>
+            <Point>NINCY</Point>
+            <Point>UYOSO</Point>
+            <Point>DITIA</Point>
+            <Point>AFITA</Point>
+            <Point>WAIDI</Point>
+            <Point>DAKAD</Point>
+            <Point>VENRU</Point>
+            <Point>DUKUG</Point>
+            <Point>ZELDY</Point>
+            <Point>ERAFI</Point>
+            <Point>IDILA</Point>
+            <Point>UMAYA</Point>
+            <Point>ARAJA</Point>
+            <Point>RURDI</Point>
+            <Point>YANKA</Point>
+            <Point>ZAINI</Point>
+            <Point>PONGE</Point>
+            <Point>ELQIU</Point>
+            <Point>KENDO</Point>
+            <Point>ENDOG</Point>
+            <Point>LEKEX</Point>
+            <Point>NETTO</Point>
+            <Point>NUKPO</Point>
+            <Point>GURNI</Point>
+            <Point>AINDI</Point>
+            <Point>LIPOT</Point>
+            <Point>SUGTA</Point>
+            <Point>IKOWA</Point>
+            <Point>APULA</Point>
+            <Point>IMADE</Point>
+            <Point>EMONA</Point>
+            <Point>GAMAL</Point>
+            <Point>GOLUT</Point>
+            <Point>APURA</Point>
+            <Point>MITHA</Point>
+        </Label>
+    </Map>
+</Maps>

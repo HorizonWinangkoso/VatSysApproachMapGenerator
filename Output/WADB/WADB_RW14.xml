@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WADB_RW14" Priority="3" Center="-08.5406+118.6903">
+        <Runway Name="14">
+            <Threshold Name="14" Position="-08.5303+118.6789" ExtendedCentrelineTrack="317" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="32" Position="-08.5451+118.6923" />
+        </Runway>
+        <Runway Name="32">
+            <Threshold Name="32" Position="-08.5451+118.6923" ExtendedCentrelineTrack="137" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="14" Position="-08.5303+118.6789" />
+        </Runway>
+        <!--STAR: MUBO1A, Runway: 14-->
+        <Line Pattern="Dashed">MUBOT/NMA/SARIR</Line>
+        <!--STAR: RUTE1A, Runway: 14-->
+        <Line Pattern="Dashed">RUTEN/NMA/SARIR</Line>
+        <!--STAR: UNSE1A, Runway: 14-->
+        <Line Pattern="Dashed">UNSEP/NMA/SARIR</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>SARIR</Point>
+            <Point>MUBOT</Point>
+            <Point>RUTEN</Point>
+            <Point>UNSEP</Point>
+            <Point>NMA</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-08.5406+118.6903" Name="WADB_RW14_NAMES">
+        <Label>
+            <Point>SARIR</Point>
+            <Point>MUBOT</Point>
+            <Point>RUTEN</Point>
+            <Point>UNSEP</Point>
+            <Point>NMA</Point>
+        </Label>
+    </Map>
+</Maps>

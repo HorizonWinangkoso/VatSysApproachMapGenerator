@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAHL_RW13" Priority="3" Center="-07.6444+109.0347">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-07.6407+109.0294" ExtendedCentrelineTrack="312" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-07.6494+109.0387" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-07.6494+109.0387" ExtendedCentrelineTrack="132" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-07.6407+109.0294" />
+        </Runway>
+    </Map>
+</Maps>

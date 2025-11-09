@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WARR_RW28" Priority="3" Center="-07.3808+112.7864">
+        <Runway Name="10">
+            <Threshold Name="10" Position="-07.3777+112.7735" ExtendedCentrelineTrack="278" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="28" Position="-07.3820+112.8003" />
+        </Runway>
+        <Runway Name="28">
+            <Threshold Name="28" Position="-07.3820+112.8003" ExtendedCentrelineTrack="98" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="10" Position="-07.3777+112.7735" />
+        </Runway>
+        <!--SID: AGUD1F, Runway: 28-->
+        <Line Pattern="Dotted">-07.3777+112.7735/MATRA/TATUG/AGUDA</Line>
+        <!--SID: ENTA3L, Runway: 28-->
+        <Line Pattern="Dotted">-07.3777+112.7735/MATRA/LEKUM/NAMIA/ENTAS</Line>
+        <!--SID: LASE5G, Runway: 28-->
+        <Line Pattern="Dotted">-07.3777+112.7735/JERAM/NINEL/FUSAL/LASEM</Line>
+        <!--SID: MOVM1B, Runway: 28-->
+        <Line Pattern="Dotted">-07.3777+112.7735/MATRA/LEKUM/MOVMO</Line>
+        <!--SID: PEDS2G, Runway: 28-->
+        <Line Pattern="Dotted">-07.3777+112.7735/MATRA/TATUG/PEDSO</Line>
+        <!--SID: RAMP2G, Runway: 28-->
+        <Line Pattern="Dotted">-07.3777+112.7735/MATRA/KAKTO/RAMPY</Line>
+        <!--STAR: BA1D, Runway: 28-->
+        <Line Pattern="Dashed">BA/RIGPA/GOSNI/RUJAK/BELIR/APEDI/RINVA/VERSA/SADPU</Line>
+        <!--STAR: ENTA3N, Runway: 28-->
+        <Line Pattern="Dashed">ENTAS/OKANG/SAPAL/BOGOM/VERSA/SADPU</Line>
+        <!--STAR: IKAP1A, Runway: 28-->
+        <Line Pattern="Dashed">IKAPI/KOLTA/EMARA/DIRGA/VERSA/SADPU</Line>
+        <!--STAR: KOLT1F, Runway: 28-->
+        <Line Pattern="Dashed">KOLTA/EMARA/DIRGA/VERSA/SADPU</Line>
+        <!--STAR: MOVM1D, Runway: 28-->
+        <Line Pattern="Dashed">MOVMO/SAPAL/BOGOM/VERSA/SADPU</Line>
+        <!--STAR: OKAN1F, Runway: 28-->
+        <Line Pattern="Dashed">OKANG/SAPAL/BOGOM/VERSA/SADPU</Line>
+        <!--STAR: RUPK1E, Runway: 28-->
+        <Line Pattern="Dashed">RUPKA/EMSUB/LARSO/EMARA/DIRGA/VERSA/SADPU</Line>
+        <!--STAR: SUMD1J, Runway: 28-->
+        <Line Pattern="Dashed">SUMDI/EMSUB/LARSO/EMARA/DIRGA/VERSA/SADPU</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BELIR</Point>
+            <Point>MATRA</Point>
+            <Point>BA</Point>
+            <Point>MOVMO</Point>
+            <Point>IKAPI</Point>
+            <Point>APEDI</Point>
+            <Point>EMARA</Point>
+            <Point>DIRGA</Point>
+            <Point>GOSNI</Point>
+            <Point>KAKTO</Point>
+            <Point>JERAM</Point>
+            <Point>EMSUB</Point>
+            <Point>NAMIA</Point>
+            <Point>AGUDA</Point>
+            <Point>OKANG</Point>
+            <Point>LARSO</Point>
+            <Point>NINEL</Point>
+            <Point>LASEM</Point>
+            <Point>KOLTA</Point>
+            <Point>RUPKA</Point>
+            <Point>SADPU</Point>
+            <Point>FUSAL</Point>
+            <Point>RIGPA</Point>
+            <Point>RAMPY</Point>
+            <Point>SAPAL</Point>
+            <Point>ENTAS</Point>
+            <Point>RUJAK</Point>
+            <Point>LEKUM</Point>
+            <Point>VERSA</Point>
+            <Point>PEDSO</Point>
+            <Point>RINVA</Point>
+            <Point>TATUG</Point>
+            <Point>BOGOM</Point>
+            <Point>SUMDI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-07.3808+112.7864" Name="WARR_RW28_NAMES">
+        <Label>
+            <Point>BELIR</Point>
+            <Point>MATRA</Point>
+            <Point>BA</Point>
+            <Point>MOVMO</Point>
+            <Point>IKAPI</Point>
+            <Point>APEDI</Point>
+            <Point>EMARA</Point>
+            <Point>DIRGA</Point>
+            <Point>GOSNI</Point>
+            <Point>KAKTO</Point>
+            <Point>JERAM</Point>
+            <Point>EMSUB</Point>
+            <Point>NAMIA</Point>
+            <Point>AGUDA</Point>
+            <Point>OKANG</Point>
+            <Point>LARSO</Point>
+            <Point>NINEL</Point>
+            <Point>LASEM</Point>
+            <Point>KOLTA</Point>
+            <Point>RUPKA</Point>
+            <Point>SADPU</Point>
+            <Point>FUSAL</Point>
+            <Point>RIGPA</Point>
+            <Point>RAMPY</Point>
+            <Point>SAPAL</Point>
+            <Point>ENTAS</Point>
+            <Point>RUJAK</Point>
+            <Point>LEKUM</Point>
+            <Point>VERSA</Point>
+            <Point>PEDSO</Point>
+            <Point>RINVA</Point>
+            <Point>TATUG</Point>
+            <Point>BOGOM</Point>
+            <Point>SUMDI</Point>
+        </Label>
+    </Map>
+</Maps>

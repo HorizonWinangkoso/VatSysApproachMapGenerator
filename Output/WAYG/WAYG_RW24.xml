@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAYG_RW24" Priority="3" Center="-04.6031+137.6592">
+        <Runway Name="06">
+            <Threshold Name="06" Position="-04.6058+137.6552" ExtendedCentrelineTrack="235" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="24" Position="-04.6029+137.6598" />
+        </Runway>
+        <Runway Name="24">
+            <Threshold Name="24" Position="-04.6029+137.6598" ExtendedCentrelineTrack="55" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="06" Position="-04.6058+137.6552" />
+        </Runway>
+    </Map>
+</Maps>

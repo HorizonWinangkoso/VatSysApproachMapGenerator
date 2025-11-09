@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WARI_RW17" Priority="3" Center="-07.6100+111.4333">
+        <Runway Name="17L">
+            <Threshold Name="17L" Position="-07.6032+111.4340" ExtendedCentrelineTrack="350" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="35R" Position="-07.6262+111.4356" />
+        </Runway>
+        <Runway Name="17R">
+            <Threshold Name="17R" Position="-07.6033+111.4324" ExtendedCentrelineTrack="350" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="35L" Position="-07.6306+111.4343" />
+        </Runway>
+        <Runway Name="35L">
+            <Threshold Name="35L" Position="-07.6306+111.4343" ExtendedCentrelineTrack="170" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="17R" Position="-07.6033+111.4324" />
+        </Runway>
+        <Runway Name="35R">
+            <Threshold Name="35R" Position="-07.6262+111.4356" ExtendedCentrelineTrack="170" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="17L" Position="-07.6032+111.4340" />
+        </Runway>
+    </Map>
+</Maps>

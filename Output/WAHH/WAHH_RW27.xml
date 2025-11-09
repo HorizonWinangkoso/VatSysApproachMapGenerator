@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAHH_RW27" Priority="3" Center="-07.7867+110.4319">
+        <Runway Name="09">
+            <Threshold Name="09" Position="-07.7886+110.4220" ExtendedCentrelineTrack="267" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="27" Position="-07.7878+110.4420" />
+        </Runway>
+        <Runway Name="27">
+            <Threshold Name="27" Position="-07.7878+110.4420" ExtendedCentrelineTrack="87" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="-07.7886+110.4220" />
+        </Runway>
+        <!--SID: LILP1B, Runway: 27-->
+        <Line Pattern="Dotted">-07.7886+110.4220/JOG/LILPO</Line>
+        <!--SID: YOGY1B, Runway: 27-->
+        <Line Pattern="Dotted">-07.7886+110.4220/SO/PURWO</Line>
+        <!--STAR: ANY1A, Runway: 27-->
+        <Line Pattern="Dashed">ANY/PURWO/SO/OF/GURLA</Line>
+        <!--STAR: LASE1F, Runway: 27-->
+        <Line Pattern="Dashed">LASEM/PURWO/SO/OF/GURLA</Line>
+        <!--STAR: LILP1C, Runway: 27-->
+        <Line Pattern="Dashed">LILPO/GURLA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>GURLA</Point>
+            <Point>SO</Point>
+            <Point>OF</Point>
+            <Point>LILPO</Point>
+            <Point>LASEM</Point>
+            <Point>ANY</Point>
+            <Point>PURWO</Point>
+            <Point>JOG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-07.7867+110.4319" Name="WAHH_RW27_NAMES">
+        <Label>
+            <Point>GURLA</Point>
+            <Point>SO</Point>
+            <Point>OF</Point>
+            <Point>LILPO</Point>
+            <Point>LASEM</Point>
+            <Point>ANY</Point>
+            <Point>PURWO</Point>
+            <Point>JOG</Point>
+        </Label>
+    </Map>
+</Maps>

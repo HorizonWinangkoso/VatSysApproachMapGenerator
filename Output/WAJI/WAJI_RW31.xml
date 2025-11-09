@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAJI_RW31" Priority="3" Center="-01.8747+138.7544">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-01.8710+138.7514" ExtendedCentrelineTrack="313" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="31" Position="-01.8759+138.7561" />
+        </Runway>
+        <Runway Name="31">
+            <Threshold Name="31" Position="-01.8759+138.7561" ExtendedCentrelineTrack="133" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="-01.8710+138.7514" />
+        </Runway>
+    </Map>
+</Maps>

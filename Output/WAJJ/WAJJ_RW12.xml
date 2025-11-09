@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAJJ_RW12" Priority="3" Center="-02.5719+140.5117">
+        <Runway Name="12">
+            <Threshold Name="12" Position="-02.5711+140.5086" ExtendedCentrelineTrack="304" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="30" Position="-02.5873+140.5302" />
+        </Runway>
+        <Runway Name="30">
+            <Threshold Name="30" Position="-02.5873+140.5302" ExtendedCentrelineTrack="124" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="12" Position="-02.5711+140.5086" />
+        </Runway>
+        <!--SID: ANLE1A, Runway: 12-->
+        <Line Pattern="Dotted">-02.5711+140.5086/ANLEP</Line>
+        <!--SID: IDIN1A, Runway: 12-->
+        <Line Pattern="Dotted">-02.5711+140.5086/IDINA</Line>
+        <!--SID: KUBI1A, Runway: 12-->
+        <Line Pattern="Dotted">-02.5711+140.5086/KUBIA</Line>
+        <!--SID: LAVA1A, Runway: 12-->
+        <Line Pattern="Dotted">-02.5711+140.5086/LAVAR</Line>
+        <!--SID: MALI1A, Runway: 12-->
+        <Line Pattern="Dotted">-02.5711+140.5086/MALIO</Line>
+        <!--SID: VANK1A, Runway: 12-->
+        <Line Pattern="Dotted">-02.5711+140.5086/VANKA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>VANKA</Point>
+            <Point>ANLEP</Point>
+            <Point>IDINA</Point>
+            <Point>MALIO</Point>
+            <Point>KUBIA</Point>
+            <Point>LAVAR</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-02.5719+140.5117" Name="WAJJ_RW12_NAMES">
+        <Label>
+            <Point>VANKA</Point>
+            <Point>ANLEP</Point>
+            <Point>IDINA</Point>
+            <Point>MALIO</Point>
+            <Point>KUBIA</Point>
+            <Point>LAVAR</Point>
+        </Label>
+    </Map>
+</Maps>

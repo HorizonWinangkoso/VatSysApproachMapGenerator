@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAGA_RW05" Priority="3" Center="-01.1264+113.8747">
+        <Runway Name="05">
+            <Threshold Name="05" Position="-01.1321+113.8688" ExtendedCentrelineTrack="233" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="23" Position="-01.1256+113.8773" />
+        </Runway>
+        <Runway Name="23">
+            <Threshold Name="23" Position="-01.1256+113.8773" ExtendedCentrelineTrack="53" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="05" Position="-01.1321+113.8688" />
+        </Runway>
+    </Map>
+</Maps>

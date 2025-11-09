@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAUU_RW35" Priority="3" Center="-00.8939+134.0503">
+        <Runway Name="17">
+            <Threshold Name="17" Position="-00.8829+134.0486" ExtendedCentrelineTrack="357" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="35" Position="-00.9010+134.0491" />
+        </Runway>
+        <Runway Name="35">
+            <Threshold Name="35" Position="-00.9010+134.0491" ExtendedCentrelineTrack="177" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="17" Position="-00.8829+134.0486" />
+        </Runway>
+        <!--STAR: BIK1B, Runway: 35-->
+        <Line Pattern="Dashed">BIK/RAXIR/SEGLO/-00.9280+134.4402/-00.9952+134.4284/-01.0593+134.4051/-01.1127+134.3748/-01.1658+134.3319/EXUNI</Line>
+        <!--STAR: MIL1B, Runway: 35-->
+        <Line Pattern="Dashed">MIL/VILIB/-00.9007+133.6589/-00.9686+133.6660/-01.0341+133.6848/-01.0955+133.7147/-01.1507+133.7548/-01.1981+133.8039/-01.2362+133.8605/-01.2640+133.9228/-01.2805+133.9890/-01.2852+134.0571/-01.2781+134.1250/-01.2781+134.1250/-01.2593+134.1906/-01.2514+134.2095/-01.2184+134.2692/EXUNI</Line>
+        <!--STAR: ONTA1B, Runway: 35-->
+        <Line Pattern="Dashed">ONTAL/KIGOV/VABUK/VATLO/EXUNI</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>VATLO</Point>
+            <Point>VABUK</Point>
+            <Point>RAXIR</Point>
+            <Point>EXUNI</Point>
+            <Point>BIK</Point>
+            <Point>ONTAL</Point>
+            <Point>KIGOV</Point>
+            <Point>SEGLO</Point>
+            <Point>MIL</Point>
+            <Point>VILIB</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-00.8939+134.0503" Name="WAUU_RW35_NAMES">
+        <Label>
+            <Point>VATLO</Point>
+            <Point>VABUK</Point>
+            <Point>RAXIR</Point>
+            <Point>EXUNI</Point>
+            <Point>BIK</Point>
+            <Point>ONTAL</Point>
+            <Point>KIGOV</Point>
+            <Point>SEGLO</Point>
+            <Point>MIL</Point>
+            <Point>VILIB</Point>
+        </Label>
+    </Map>
+</Maps>

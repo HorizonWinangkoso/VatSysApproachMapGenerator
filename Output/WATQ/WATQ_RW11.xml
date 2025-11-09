@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WATQ_RW11" Priority="3" Center="-08.0181+127.1997">
+        <Runway Name="11">
+            <Threshold Name="11" Position="-08.0141+127.1963" ExtendedCentrelineTrack="292" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="29" Position="-08.0174+127.2042" />
+        </Runway>
+        <Runway Name="29">
+            <Threshold Name="29" Position="-08.0174+127.2042" ExtendedCentrelineTrack="112" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="11" Position="-08.0141+127.1963" />
+        </Runway>
+    </Map>
+</Maps>

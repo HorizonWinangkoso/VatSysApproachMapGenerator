@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAPP_RW22" Priority="3" Center="-03.7075+128.0894">
+        <Runway Name="04">
+            <Threshold Name="04" Position="-03.7183+128.0817" ExtendedCentrelineTrack="224" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="22" Position="-03.7023+128.0976" />
+        </Runway>
+        <Runway Name="22">
+            <Threshold Name="22" Position="-03.7023+128.0976" ExtendedCentrelineTrack="44" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="04" Position="-03.7183+128.0817" />
+        </Runway>
+        <!--SID: ATOM1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/AMN/ATOMY</Line>
+        <!--SID: ATOM1D, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/PUGUV/IDVOR/DUKOG/KAMAL/ATOMY</Line>
+        <!--SID: ATOM1G, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/GUPSO/TESIP/ATOMY</Line>
+        <!--SID: BELB1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/AMN/BELBA</Line>
+        <!--SID: BELB1D, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/PUGUV/DOXOL/NODIG/VABLO/TIANI/BELBA</Line>
+        <!--SID: BELB1G, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/ANUTU/GOLID/BELBA</Line>
+        <!--SID: BUBT1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/BUBTU</Line>
+        <!--SID: BUBT1C, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/SAMOP/MUDUR/POKUN/BUBTU</Line>
+        <!--SID: FALA1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/AMN/FALAM</Line>
+        <!--SID: FALA1D, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/PUGUV/IDVOR/GOVSI/VIDIS/KAKPI/FALAM</Line>
+        <!--SID: FALA1G, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/ANUTU/GOLID/LEDOL/FALAM</Line>
+        <!--SID: GOMB1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/GOMBY</Line>
+        <!--SID: GOMB1C, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/SAMOP/ELBUL/GOMBY</Line>
+        <!--SID: HANT1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/HANTA</Line>
+        <!--SID: HANT1C, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/SAMOP/SAMUT/HANTA</Line>
+        <!--SID: HOLB1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/HOLBA</Line>
+        <!--SID: HOLB1D, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/PUGUV/DOXOL/SEBGO/SAPLI/HASBI/HOLBA</Line>
+        <!--SID: HOLB1G, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/ATREN/VIGAL/OLPIN/HOLBA</Line>
+        <!--SID: SASK1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/SASKA</Line>
+        <!--SID: SASK1D, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/PUGUV/DOXOL/LUSVA/POMAM/SASKA</Line>
+        <!--SID: SASK1G, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/SAMOP/MUDUR/POKUN/SASKA</Line>
+        <!--SID: SOBI1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/SOBIA</Line>
+        <!--SID: SOBI1G, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/GUPSO/TESIP/SOBIA</Line>
+        <!--SID: SULI1A, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/SULIS</Line>
+        <!--SID: SULI1C, Runway: 22-->
+        <Line Pattern="Dotted">-03.7183+128.0817/MUDEK/KANBA/ENBIN/ATREN/VIGAL/OLPIN/SULIS</Line>
+        <!--STAR: ATOM1B, Runway: 22-->
+        <Line Pattern="Dashed">ATOMY/AMN/AUDRI</Line>
+        <!--STAR: ATOM1F, Runway: 22-->
+        <Line Pattern="Dashed">ATOMY/SUKTI/GUPIR</Line>
+        <!--STAR: BELB1B, Runway: 22-->
+        <Line Pattern="Dashed">BELBA/AMN/AUDRI</Line>
+        <!--STAR: BELB1F, Runway: 22-->
+        <Line Pattern="Dashed">BELBA/MULSA/ENLAS</Line>
+        <!--STAR: BUBT1B, Runway: 22-->
+        <Line Pattern="Dashed">BUBTU/AM30D/AUDRI</Line>
+        <!--STAR: FALA1B, Runway: 22-->
+        <Line Pattern="Dashed">FALAM/AMN/AUDRI</Line>
+        <!--STAR: FALA1F, Runway: 22-->
+        <Line Pattern="Dashed">FALAM/GIVED/DOLOK</Line>
+        <!--STAR: GOMB1B, Runway: 22-->
+        <Line Pattern="Dashed">GOMBY/AM30C/D131T/D184O/AUDRI</Line>
+        <!--STAR: HANT1B, Runway: 22-->
+        <Line Pattern="Dashed">HANTA/AMN/AUDRI</Line>
+        <!--STAR: HOLB1B, Runway: 22-->
+        <Line Pattern="Dashed">HOLBA/AM30E/AUDRI</Line>
+        <!--STAR: HOLB1F, Runway: 22-->
+        <Line Pattern="Dashed">HOLBA/PUSRI/ATMUR/DAKIB</Line>
+        <!--STAR: SASK1B, Runway: 22-->
+        <Line Pattern="Dashed">SASKA/AM30A/AUDRI</Line>
+        <!--STAR: SASK1F, Runway: 22-->
+        <Line Pattern="Dashed">SASKA/PULUK/ATMUR/DAKIB</Line>
+        <!--STAR: SOBI1B, Runway: 22-->
+        <Line Pattern="Dashed">SOBIA/AMN/AUDRI</Line>
+        <!--STAR: SULI1B, Runway: 22-->
+        <Line Pattern="Dashed">SULIS/AM30B/AUDRI</Line>
+        <!--STAR: TARI1A, Runway: 22-->
+        <Line Pattern="Dashed">TARIV/GOMBY/AM30C/D131T/D184O/AUDRI</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BUBTU</Point>
+            <Point>KANBA</Point>
+            <Point>D184O</Point>
+            <Point>TIANI</Point>
+            <Point>GUPIR</Point>
+            <Point>SAPLI</Point>
+            <Point>AM30B</Point>
+            <Point>ATOMY</Point>
+            <Point>GOLID</Point>
+            <Point>KAMAL</Point>
+            <Point>SEBGO</Point>
+            <Point>HANTA</Point>
+            <Point>SAMUT</Point>
+            <Point>SASKA</Point>
+            <Point>SUKTI</Point>
+            <Point>AM30C</Point>
+            <Point>GOMBY</Point>
+            <Point>ATMUR</Point>
+            <Point>DOXOL</Point>
+            <Point>AMN</Point>
+            <Point>IDVOR</Point>
+            <Point>SULIS</Point>
+            <Point>NODIG</Point>
+            <Point>PULUK</Point>
+            <Point>VABLO</Point>
+            <Point>VIGAL</Point>
+            <Point>AM30E</Point>
+            <Point>TARIV</Point>
+            <Point>GIVED</Point>
+            <Point>HOLBA</Point>
+            <Point>BELBA</Point>
+            <Point>GOVSI</Point>
+            <Point>MULSA</Point>
+            <Point>ANUTU</Point>
+            <Point>PUGUV</Point>
+            <Point>VIDIS</Point>
+            <Point>MUDEK</Point>
+            <Point>DOLOK</Point>
+            <Point>ELBUL</Point>
+            <Point>D131T</Point>
+            <Point>SOBIA</Point>
+            <Point>AM30A</Point>
+            <Point>FALAM</Point>
+            <Point>ENBIN</Point>
+            <Point>KAKPI</Point>
+            <Point>DUKOG</Point>
+            <Point>LUSVA</Point>
+            <Point>PUSRI</Point>
+            <Point>DAKIB</Point>
+            <Point>MUDUR</Point>
+            <Point>ATREN</Point>
+            <Point>TESIP</Point>
+            <Point>POKUN</Point>
+            <Point>OLPIN</Point>
+            <Point>GUPSO</Point>
+            <Point>POMAM</Point>
+            <Point>HASBI</Point>
+            <Point>ENLAS</Point>
+            <Point>AM30D</Point>
+            <Point>LEDOL</Point>
+            <Point>SAMOP</Point>
+            <Point>AUDRI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-03.7075+128.0894" Name="WAPP_RW22_NAMES">
+        <Label>
+            <Point>BUBTU</Point>
+            <Point>KANBA</Point>
+            <Point>D184O</Point>
+            <Point>TIANI</Point>
+            <Point>GUPIR</Point>
+            <Point>SAPLI</Point>
+            <Point>AM30B</Point>
+            <Point>ATOMY</Point>
+            <Point>GOLID</Point>
+            <Point>KAMAL</Point>
+            <Point>SEBGO</Point>
+            <Point>HANTA</Point>
+            <Point>SAMUT</Point>
+            <Point>SASKA</Point>
+            <Point>SUKTI</Point>
+            <Point>AM30C</Point>
+            <Point>GOMBY</Point>
+            <Point>ATMUR</Point>
+            <Point>DOXOL</Point>
+            <Point>AMN</Point>
+            <Point>IDVOR</Point>
+            <Point>SULIS</Point>
+            <Point>NODIG</Point>
+            <Point>PULUK</Point>
+            <Point>VABLO</Point>
+            <Point>VIGAL</Point>
+            <Point>AM30E</Point>
+            <Point>TARIV</Point>
+            <Point>GIVED</Point>
+            <Point>HOLBA</Point>
+            <Point>BELBA</Point>
+            <Point>GOVSI</Point>
+            <Point>MULSA</Point>
+            <Point>ANUTU</Point>
+            <Point>PUGUV</Point>
+            <Point>VIDIS</Point>
+            <Point>MUDEK</Point>
+            <Point>DOLOK</Point>
+            <Point>ELBUL</Point>
+            <Point>D131T</Point>
+            <Point>SOBIA</Point>
+            <Point>AM30A</Point>
+            <Point>FALAM</Point>
+            <Point>ENBIN</Point>
+            <Point>KAKPI</Point>
+            <Point>DUKOG</Point>
+            <Point>LUSVA</Point>
+            <Point>PUSRI</Point>
+            <Point>DAKIB</Point>
+            <Point>MUDUR</Point>
+            <Point>ATREN</Point>
+            <Point>TESIP</Point>
+            <Point>POKUN</Point>
+            <Point>OLPIN</Point>
+            <Point>GUPSO</Point>
+            <Point>POMAM</Point>
+            <Point>HASBI</Point>
+            <Point>ENLAS</Point>
+            <Point>AM30D</Point>
+            <Point>LEDOL</Point>
+            <Point>SAMOP</Point>
+            <Point>AUDRI</Point>
+        </Label>
+    </Map>
+</Maps>

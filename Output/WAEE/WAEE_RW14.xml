@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAEE_RW14" Priority="3" Center="+00.8311+127.3803">
+        <Runway Name="14">
+            <Threshold Name="14" Position="+00.8398+127.3746" ExtendedCentrelineTrack="321" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="32" Position="+00.8235+127.3878" />
+        </Runway>
+        <Runway Name="32">
+            <Threshold Name="32" Position="+00.8235+127.3878" ExtendedCentrelineTrack="141" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="14" Position="+00.8398+127.3746" />
+        </Runway>
+        <!--SID: FIMB1H, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/ERVAV/UPVIT/VIKAT/UGUKA/FIMBA</Line>
+        <!--SID: FIMB2A, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/IKIXU/FIMBA</Line>
+        <!--SID: FORM2A, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/AREXI/FORMY</Line>
+        <!--SID: HALM1K, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/D130J/TRN/LETVO/HALMO</Line>
+        <!--SID: HALM1M, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/HALMO</Line>
+        <!--SID: KUPA1A, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/ERVAV/UXALU/UDIBI/KUPAL</Line>
+        <!--SID: OSRA1A, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/VAVNI/EPDUM/OSRAL</Line>
+        <!--SID: TELE1C, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/ERVAV/UXALU/UDIBI/TELES</Line>
+        <!--SID: TELE2A, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/D130J/TRN/RANBU/TELES</Line>
+        <!--SID: TEPU1A, Runway: 14-->
+        <Line Pattern="Dotted">+00.8398+127.3746/UBLEL/IPNIS/ERVAV/UPVIT/VIKAT/TEPUR</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>TELES</Point>
+            <Point>D130J</Point>
+            <Point>VIKAT</Point>
+            <Point>UPVIT</Point>
+            <Point>UGUKA</Point>
+            <Point>UXALU</Point>
+            <Point>FIMBA</Point>
+            <Point>RANBU</Point>
+            <Point>UBLEL</Point>
+            <Point>TEPUR</Point>
+            <Point>IPNIS</Point>
+            <Point>OSRAL</Point>
+            <Point>KUPAL</Point>
+            <Point>EPDUM</Point>
+            <Point>FORMY</Point>
+            <Point>TRN</Point>
+            <Point>LETVO</Point>
+            <Point>AREXI</Point>
+            <Point>HALMO</Point>
+            <Point>IKIXU</Point>
+            <Point>VAVNI</Point>
+            <Point>UDIBI</Point>
+            <Point>ERVAV</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+00.8311+127.3803" Name="WAEE_RW14_NAMES">
+        <Label>
+            <Point>TELES</Point>
+            <Point>D130J</Point>
+            <Point>VIKAT</Point>
+            <Point>UPVIT</Point>
+            <Point>UGUKA</Point>
+            <Point>UXALU</Point>
+            <Point>FIMBA</Point>
+            <Point>RANBU</Point>
+            <Point>UBLEL</Point>
+            <Point>TEPUR</Point>
+            <Point>IPNIS</Point>
+            <Point>OSRAL</Point>
+            <Point>KUPAL</Point>
+            <Point>EPDUM</Point>
+            <Point>FORMY</Point>
+            <Point>TRN</Point>
+            <Point>LETVO</Point>
+            <Point>AREXI</Point>
+            <Point>HALMO</Point>
+            <Point>IKIXU</Point>
+            <Point>VAVNI</Point>
+            <Point>UDIBI</Point>
+            <Point>ERVAV</Point>
+        </Label>
+    </Map>
+</Maps>

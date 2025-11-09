@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAGB_RW14" Priority="3" Center="-01.0219+114.9264">
+        <Runway Name="14">
+            <Threshold Name="14" Position="-01.0212+114.9244" ExtendedCentrelineTrack="316" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="32" Position="-01.0304+114.9332" />
+        </Runway>
+        <Runway Name="32">
+            <Threshold Name="32" Position="-01.0304+114.9332" ExtendedCentrelineTrack="136" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="14" Position="-01.0212+114.9244" />
+        </Runway>
+        <!--SID: DUDU1A, Runway: 14-->
+        <Line Pattern="Dotted">-01.0212+114.9244/DUDUG</Line>
+        <!--SID: ISRI1A, Runway: 14-->
+        <Line Pattern="Dotted">-01.0212+114.9244/UPSEK/BISAG/ATLAB/ISRID</Line>
+        <!--SID: OMLI1A, Runway: 14-->
+        <Line Pattern="Dotted">-01.0212+114.9244/UPSEK/SAKUK/OMLIT</Line>
+        <!--STAR: DUDU1C, Runway: 14-->
+        <Line Pattern="Dashed">DUDUG/PEGNI/BITOM/SADMA</Line>
+        <!--STAR: ISRI1C, Runway: 14-->
+        <Line Pattern="Dashed">ISRID/LEMAV/SADMA</Line>
+        <!--STAR: OMLI1C, Runway: 14-->
+        <Line Pattern="Dashed">OMLIT/SAKUK/EMTUR/APOSA/LEMAV/SADMA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>EMTUR</Point>
+            <Point>OMLIT</Point>
+            <Point>LEMAV</Point>
+            <Point>UPSEK</Point>
+            <Point>BITOM</Point>
+            <Point>ISRID</Point>
+            <Point>APOSA</Point>
+            <Point>SAKUK</Point>
+            <Point>DUDUG</Point>
+            <Point>ATLAB</Point>
+            <Point>SADMA</Point>
+            <Point>PEGNI</Point>
+            <Point>BISAG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-01.0219+114.9264" Name="WAGB_RW14_NAMES">
+        <Label>
+            <Point>EMTUR</Point>
+            <Point>OMLIT</Point>
+            <Point>LEMAV</Point>
+            <Point>UPSEK</Point>
+            <Point>BITOM</Point>
+            <Point>ISRID</Point>
+            <Point>APOSA</Point>
+            <Point>SAKUK</Point>
+            <Point>DUDUG</Point>
+            <Point>ATLAB</Point>
+            <Point>SADMA</Point>
+            <Point>PEGNI</Point>
+            <Point>BISAG</Point>
+        </Label>
+    </Map>
+</Maps>

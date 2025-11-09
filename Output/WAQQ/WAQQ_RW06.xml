@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAQQ_RW06" Priority="3" Center="+03.3267+117.5694">
+        <Runway Name="06">
+            <Threshold Name="06" Position="+03.3198+117.5556" ExtendedCentrelineTrack="238" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="24" Position="+03.3305+117.5729" />
+        </Runway>
+        <Runway Name="24">
+            <Threshold Name="24" Position="+03.3305+117.5729" ExtendedCentrelineTrack="58" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="06" Position="+03.3198+117.5556" />
+        </Runway>
+        <!--STAR: BAXA1B, Runway: 06-->
+        <Line Pattern="Dashed">BAXAL/TRK/AVNIM</Line>
+        <!--STAR: MAMO1B, Runway: 06-->
+        <Line Pattern="Dashed">MAMOK/D293Y/AVNIM</Line>
+        <!--STAR: SOSV1B, Runway: 06-->
+        <Line Pattern="Dashed">SOSVO/D188Y/AVNIM</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>D293Y</Point>
+            <Point>AVNIM</Point>
+            <Point>SOSVO</Point>
+            <Point>MAMOK</Point>
+            <Point>D188Y</Point>
+            <Point>TRK</Point>
+            <Point>BAXAL</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="+03.3267+117.5694" Name="WAQQ_RW06_NAMES">
+        <Label>
+            <Point>D293Y</Point>
+            <Point>AVNIM</Point>
+            <Point>SOSVO</Point>
+            <Point>MAMOK</Point>
+            <Point>D188Y</Point>
+            <Point>TRK</Point>
+            <Point>BAXAL</Point>
+        </Label>
+    </Map>
+</Maps>

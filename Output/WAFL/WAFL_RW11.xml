@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAFL_RW11" Priority="3" Center="+01.1231+120.7931">
+        <Runway Name="11">
+            <Threshold Name="11" Position="+01.1260+120.7874" ExtendedCentrelineTrack="292" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="29" Position="+01.1213+120.7991" />
+        </Runway>
+        <Runway Name="29">
+            <Threshold Name="29" Position="+01.1213+120.7991" ExtendedCentrelineTrack="112" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="11" Position="+01.1260+120.7874" />
+        </Runway>
+    </Map>
+</Maps>

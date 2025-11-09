@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAFJ_RW23" Priority="3" Center="-02.5928+119.0158">
+        <Runway Name="05">
+            <Threshold Name="05" Position="-02.5963+119.0166" ExtendedCentrelineTrack="233" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="23" Position="-02.5842+119.0328" />
+        </Runway>
+        <Runway Name="23">
+            <Threshold Name="23" Position="-02.5842+119.0328" ExtendedCentrelineTrack="53" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="05" Position="-02.5963+119.0166" />
+        </Runway>
+        <!--SID: GAMA1E, Runway: 23-->
+        <Line Pattern="Dotted">-02.5963+119.0166/AREDI/NIVEK/GAMAL</Line>
+        <!--SID: MKS1A, Runway: 23-->
+        <Line Pattern="Dotted">-02.5963+119.0166/AREDI/SARUT/MKS</Line>
+        <!--SID: PAL1D, Runway: 23-->
+        <Line Pattern="Dotted">-02.5963+119.0166/OVMAR/IKUKA/PAL</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>MKS</Point>
+            <Point>OVMAR</Point>
+            <Point>PAL</Point>
+            <Point>IKUKA</Point>
+            <Point>AREDI</Point>
+            <Point>GAMAL</Point>
+            <Point>NIVEK</Point>
+            <Point>SARUT</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-02.5928+119.0158" Name="WAFJ_RW23_NAMES">
+        <Label>
+            <Point>MKS</Point>
+            <Point>OVMAR</Point>
+            <Point>PAL</Point>
+            <Point>IKUKA</Point>
+            <Point>AREDI</Point>
+            <Point>GAMAL</Point>
+            <Point>NIVEK</Point>
+            <Point>SARUT</Point>
+        </Label>
+    </Map>
+</Maps>

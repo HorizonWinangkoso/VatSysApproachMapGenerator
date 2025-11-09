@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="WAGG_RW34" Priority="3" Center="-02.2267+113.9444">
+        <Runway Name="16">
+            <Threshold Name="16" Position="-02.2170+113.9395" ExtendedCentrelineTrack="338" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="34" Position="-02.2381+113.9476" />
+        </Runway>
+        <Runway Name="34">
+            <Threshold Name="34" Position="-02.2381+113.9476" ExtendedCentrelineTrack="158" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="16" Position="-02.2170+113.9395" />
+        </Runway>
+        <!--SID: ATSI1B, Runway: 34-->
+        <Line Pattern="Dotted">-02.2170+113.9395/REBID/IGARO/PEGRA/DUMOM/SAGEV/LUVUK/OMKOR/ATSIP</Line>
+        <!--SID: DUMO1B, Runway: 34-->
+        <Line Pattern="Dotted">-02.2170+113.9395/REBID/IGARO/PEGRA/DUMOM</Line>
+        <!--SID: HAMO1B, Runway: 34-->
+        <Line Pattern="Dotted">-02.2170+113.9395/REBID/IGARO/HAMOL</Line>
+        <!--SID: LAMU1M, Runway: 34-->
+        <Line Pattern="Dotted">-02.2170+113.9395/REBID/GOVPI/KADUB/LAMUD</Line>
+        <!--SID: LAVO1B, Runway: 34-->
+        <Line Pattern="Dotted">-02.2170+113.9395/REBID/GOVPI/KADUB/ELDOD/LEBEM/LAVOV</Line>
+        <!--SID: PKN1H, Runway: 34-->
+        <Line Pattern="Dotted">-02.2170+113.9395/REBID/KANSI/BIGUB/PKN</Line>
+        <!--SID: SILJ1D, Runway: 34-->
+        <Line Pattern="Dotted">-02.2170+113.9395/REBID/IGARO/SILJA</Line>
+        <!--STAR: AJAM1D, Runway: 34-->
+        <Line Pattern="Dashed">AJAMA/ISMAG/LERKU/LIKLO/DABEP</Line>
+        <!--STAR: BDM1B, Runway: 34-->
+        <Line Pattern="Dashed">BDM/PKY30/DABEP</Line>
+        <!--STAR: DUMO1D, Runway: 34-->
+        <Line Pattern="Dashed">DUMOM/VEBKA/DABEP</Line>
+        <!--STAR: HAMO1D, Runway: 34-->
+        <Line Pattern="Dashed">HAMOL/ISMAG/LERKU/LIKLO/DABEP</Line>
+        <!--STAR: HAMO1F, Runway: 34-->
+        <Line Pattern="Dashed">HAMOL/PKY/DABEP</Line>
+        <!--STAR: IKAP1P, Runway: 34-->
+        <Line Pattern="Dashed">IKAPI/ESKIL/OLVUM/DUMOM/VEBKA/DABEP</Line>
+        <!--STAR: LAMU1J, Runway: 34-->
+        <Line Pattern="Dashed">LAMUD/PKY/DABEP</Line>
+        <!--STAR: LAMU1P, Runway: 34-->
+        <Line Pattern="Dashed">LAMUD/KADUB/OLMIL/ATLUP/DABEP</Line>
+        <!--STAR: PKN1F, Runway: 34-->
+        <Line Pattern="Dashed">PKN/PKY/DABEP</Line>
+        <!--STAR: PKN1K, Runway: 34-->
+        <Line Pattern="Dashed">PKN/BIGUB/OLMIL/ATLUP/DABEP</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>IKAPI</Point>
+            <Point>ATSIP</Point>
+            <Point>HAMOL</Point>
+            <Point>GOVPI</Point>
+            <Point>PKY</Point>
+            <Point>OMKOR</Point>
+            <Point>KANSI</Point>
+            <Point>ATLUP</Point>
+            <Point>SAGEV</Point>
+            <Point>DUMOM</Point>
+            <Point>IGARO</Point>
+            <Point>REBID</Point>
+            <Point>AJAMA</Point>
+            <Point>LIKLO</Point>
+            <Point>ESKIL</Point>
+            <Point>LAMUD</Point>
+            <Point>OLVUM</Point>
+            <Point>BDM</Point>
+            <Point>LERKU</Point>
+            <Point>BIGUB</Point>
+            <Point>OLMIL</Point>
+            <Point>LUVUK</Point>
+            <Point>DABEP</Point>
+            <Point>KADUB</Point>
+            <Point>LEBEM</Point>
+            <Point>SILJA</Point>
+            <Point>VEBKA</Point>
+            <Point>ELDOD</Point>
+            <Point>PKY30</Point>
+            <Point>PEGRA</Point>
+            <Point>LAVOV</Point>
+            <Point>ISMAG</Point>
+            <Point>PKN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Priority="3" Center="-02.2267+113.9444" Name="WAGG_RW34_NAMES">
+        <Label>
+            <Point>IKAPI</Point>
+            <Point>ATSIP</Point>
+            <Point>HAMOL</Point>
+            <Point>GOVPI</Point>
+            <Point>PKY</Point>
+            <Point>OMKOR</Point>
+            <Point>KANSI</Point>
+            <Point>ATLUP</Point>
+            <Point>SAGEV</Point>
+            <Point>DUMOM</Point>
+            <Point>IGARO</Point>
+            <Point>REBID</Point>
+            <Point>AJAMA</Point>
+            <Point>LIKLO</Point>
+            <Point>ESKIL</Point>
+            <Point>LAMUD</Point>
+            <Point>OLVUM</Point>
+            <Point>BDM</Point>
+            <Point>LERKU</Point>
+            <Point>BIGUB</Point>
+            <Point>OLMIL</Point>
+            <Point>LUVUK</Point>
+            <Point>DABEP</Point>
+            <Point>KADUB</Point>
+            <Point>LEBEM</Point>
+            <Point>SILJA</Point>
+            <Point>VEBKA</Point>
+            <Point>ELDOD</Point>
+            <Point>PKY30</Point>
+            <Point>PEGRA</Point>
+            <Point>LAVOV</Point>
+            <Point>ISMAG</Point>
+            <Point>PKN</Point>
+        </Label>
+    </Map>
+</Maps>
