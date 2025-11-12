@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WILP_RW12" Priority="3" Center="-05.2117+103.9394">
+        <Runway Name="12">
+            <Threshold Name="12" Position="-05.2084+103.9315" ExtendedCentrelineTrack="298" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="30" Position="-05.2140+103.9418"/>
+        </Runway>
+    </Map>
+    <Map Type="System" Name="WILP_RW30" Priority="3" Center="-05.2117+103.9394">
+        <Runway Name="30">
+            <Threshold Name="30" Position="-05.2140+103.9418" ExtendedCentrelineTrack="118" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="12" Position="-05.2084+103.9315"/>
+        </Runway>
+    </Map>
+</Maps>

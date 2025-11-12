@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WILL_RW14" Priority="3" Center="-05.2406+105.1756">
+        <Runway Name="14">
+            <Threshold Name="14" Position="-05.2375+105.1748" ExtendedCentrelineTrack="320" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="32" Position="-05.2566+105.1910"/>
+        </Runway>
+        <!--SID: ALAD1A, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/TARAV/BIDUT/ADPIM/ALADO</Line>
+        <!--SID: ALAD1E, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/ALADO</Line>
+        <!--SID: BIDO1A, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/BIDOV</Line>
+        <!--SID: BIDO1C, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/DOTPU/EKUSU/BIDOV</Line>
+        <!--SID: CKG1D, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/GUTRO/AKLAX/CKG</Line>
+        <!--SID: ENSA1C, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/TARAV/BIDUT/ADPIM/ENSAV</Line>
+        <!--SID: LANA1A, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/TARAV/BIDUT/ADPIM/LANAG</Line>
+        <!--SID: OTBI1A, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/GUTRO/AKLAX/OTBIN</Line>
+        <!--SID: OTBI1C, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/GUTRO/OTBIN</Line>
+        <!--SID: RIMT1J, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/RIMTI/CKG</Line>
+        <!--SID: TERK1A, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/TERKA</Line>
+        <!--SID: TERK1E, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/TARAV/BIDUT/ADPIM/TERKA</Line>
+        <!--SID: TOLI1A, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/TOLIT</Line>
+        <!--SID: TOLI1H, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/TARAV/BIDUT/ADPIM/TOLIT</Line>
+        <!--SID: UDUT1A, Runway: 14-->
+        <Line Pattern="Dotted">-05.2566+105.1910/TARAV/BIDUT/ADPIM/UDUTO</Line>
+        <!--STAR: ALAD1C, Runway: 14-->
+        <Line Pattern="Dashed">ALADO/AKITI</Line>
+        <!--STAR: GUDB1G, Runway: 14-->
+        <Line Pattern="Dashed">GUDBA/VEMES/UKLES/AKITI</Line>
+        <!--STAR: RIMT1G, Runway: 14-->
+        <Line Pattern="Dashed">RIMTI/VEMES/UKLES/AKITI</Line>
+        <!--STAR: TERK1G, Runway: 14-->
+        <Line Pattern="Dashed">TERKA/AVGOR/UKLES/AKITI</Line>
+        <!--STAR: TOLI1K, Runway: 14-->
+        <Line Pattern="Dashed">TOLIT/DULAD/AKITI</Line>
+        <!--STAR: UDOK1C, Runway: 14-->
+        <Line Pattern="Dashed">UDOKO/UKLES/AKITI</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BIDOV</Point>
+            <Point>UKLES</Point>
+            <Point>VEMES</Point>
+            <Point>ALADO</Point>
+            <Point>ADPIM</Point>
+            <Point>UDUTO</Point>
+            <Point>OTBIN</Point>
+            <Point>TERKA</Point>
+            <Point>ENSAV</Point>
+            <Point>UDOKO</Point>
+            <Point>GUDBA</Point>
+            <Point>TOLIT</Point>
+            <Point>AKITI</Point>
+            <Point>AVGOR</Point>
+            <Point>DOTPU</Point>
+            <Point>TARAV</Point>
+            <Point>LANAG</Point>
+            <Point>DULAD</Point>
+            <Point>CKG</Point>
+            <Point>GUTRO</Point>
+            <Point>EKUSU</Point>
+            <Point>AKLAX</Point>
+            <Point>BIDUT</Point>
+            <Point>RIMTI</Point>
+        </Symbol>
+    </Map>
+</Maps>

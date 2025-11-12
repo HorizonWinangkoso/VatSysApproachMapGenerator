@@ -1,0 +1,302 @@
+import os
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
+import math
+
+# Configuration / defaults
+dir_path = "Output"
+os.makedirs(dir_path, exist_ok=True)
+
+# Read input navdata file
+with open('Navdata\Airports.txt', 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+
+def format_position(lat, lon):
+    # Create signed strings with required padding. Adjust formatting to your target format.
+    lat_sign = '+' if lat >= 0 else '-'
+    lon_sign = '+' if lon >= 0 else '-'
+    lat = abs(lat)
+    lon = abs(lon)
+    # Example formatting, adjust number of digits/zero-fill to match your spec
+    lat_str = f"{lat_sign}{lat:02.4f}".zfill(8)
+    lon_str = f"{lon_sign}{lon:03.4f}".zfill(9)
+    return f"{lat_str}{lon_str}"
+
+def generate_arc(lat_center, lon_center, start_radial, end_radial, radius_nm, step_degrees=10):
+    # radius_nm is nautical miles; convert to radians using Earth radius in nm
+    earth_radius_nm = 3440.07
+    lat_center = math.radians(lat_center)
+    lon_center = math.radians(lon_center)
+    start_radial = math.radians(start_radial)
+    end_radial = math.radians(end_radial)
+    # distance as central angle in radians
+    angular_distance = radius_nm / earth_radius_nm
+
+    diff_clockwise = (end_radial - start_radial) % (2 * math.pi)
+    diff_counter_clockwise = (start_radial - end_radial) % (2 * math.pi)
+
+    if diff_clockwise <= diff_counter_clockwise:
+        step = abs(step_degrees)
+        end_bearing = start_radial + diff_clockwise
+    else:
+        step = -abs(step_degrees)
+        end_bearing = start_radial - diff_counter_clockwise
+
+    coordinates = []
+    brng = start_radial
+    # loop until we pass the end_bearing (account for direction)
+    if step > 0:
+        cond = lambda b: b <= end_bearing + 1e-12
+    else:
+        cond = lambda b: b >= end_bearing - 1e-12
+
+    while cond(brng):
+        lat = math.asin(math.sin(lat_center) * math.cos(angular_distance) +
+                        math.cos(lat_center) * math.sin(angular_distance) * math.cos(brng))
+        lon = lon_center + math.atan2(math.sin(brng) * math.sin(angular_distance) * math.cos(lat_center),
+                                      math.cos(angular_distance) - math.sin(lat_center) * math.sin(lat))
+        coordinates.append(format_position(math.degrees(lat), math.degrees(lon)))
+        brng += math.radians(step)
+    return coordinates
+
+def opposite_runway_number(runway_number):
+    base = runway_number.rstrip('LRC')
+    try:
+        runway_number_base = int(base)
+    except ValueError:
+        return runway_number  # fallback
+
+    if runway_number_base == 18:
+        opposite_runway_number_base = runway_number_base + 18
+    else:
+        opposite_runway_number_base = runway_number_base - 18
+
+    if 'L' in runway_number:
+        opposite_runway_number_suffix = 'R'
+    elif 'R' in runway_number:
+        opposite_runway_number_suffix = 'L'
+    else:
+        opposite_runway_number_suffix = ''
+
+    return f"{opposite_runway_number_base:02d}{opposite_runway_number_suffix}"
+
+def get_opposite_heading(heading):
+    try:
+        heading = int(float(heading))
+    except Exception:
+        return heading
+    if heading < 180:
+        return heading + 180
+    else:
+        return heading - 180
+
+def prettify_xml(xml_str):
+    parsed = minidom.parseString(xml_str)
+    lines = parsed.toprettyxml(indent="    ").split('\n')
+    non_empty_lines = [line for line in lines if line.strip()]
+    return '\n'.join(non_empty_lines)
+
+def remove_runway_map(icao_code, opposite_runway):
+    file_path = os.path.join(dir_path, icao_code, f"{icao_code}_RW{opposite_runway}_RECIP.xml")
+    if os.path.exists(file_path):
+        os.remove(file_path)
+
+def safe_float_from_fields(fields, indices):
+    # helper: get floats from fields at given indices if possible
+    vals = []
+    for idx in indices:
+        try:
+            vals.append(float(fields[idx]))
+        except Exception:
+            vals.append(0.0)
+    return vals
+
+def main(code, bundir=None, color=False):
+    icao = code.upper()
+    colourful = color
+    suicide = bundir
+
+    # ensure subdirectory for this ICAO exists if the code writes into it
+    icao_dir = os.path.join(dir_path, icao)
+    os.makedirs(icao_dir, exist_ok=True)
+
+    for i, line in enumerate(lines):
+        line_parts = [p.strip() for p in line.split(',')]
+        if len(line_parts) < 2:
+            continue
+        if line_parts[0] == 'A' and line_parts[1] == icao:
+            # NOTE: replace index 35 with correct indices for lat/lon in your NavdataAirports.txt
+            # This is a guess because original used line_parts[35]
+            try:
+                lat = float(line_parts[2])
+                lon = float(line_parts[3])
+            except Exception:
+                # fallback: try end of line or skip
+                continue
+            airport_coords = format_position(lat, lon)
+
+            # gather runway lines immediately following the A record
+            runway_lines = []
+            unique_runway_numbers = set()
+            for j in range(i + 1, len(lines)):
+                if lines[j].startswith('R,'):
+                    runway_lines.append(lines[j].strip())
+                    parts = lines[j].split(',')
+                    if len(parts) > 1:
+                        runway_number = parts[1].rstrip('LRC')
+                        unique_runway_numbers.add(runway_number)
+                else:
+                    break
+
+            for runway_number in unique_runway_numbers:
+                # top-level file. Put files inside Output/<ICAO> to match error path.
+                file_path = os.path.join(icao_dir, f"{icao}_RW{runway_number}.xml")
+                if suicide is not None:
+                    file_path = os.path.join(icao_dir, f"{icao}_RW{runway_number}_RECIP.xml")
+
+                # build base XML structure
+                root = ET.Element("Maps")
+                map_elem = ET.SubElement(root, "Map")
+                map_elem.set("Type", "System")
+                map_elem.set("Name", f"{icao}_RW{runway_number}")
+                map_elem.set("Priority", str(3))
+                map_elem.set("Center", airport_coords)
+
+                # process each runway line to assemble runways and nav lines
+                for r_line in runway_lines:
+                    r_parts = [p.strip() for p in r_line.split(',')]
+                    if len(r_parts) < 4:
+                        continue
+                    r_number = r_parts[1]
+                    # NOTE: original code used indices [8:10] or [8,10]; adjust to your format
+                    # Try to safely read lat/lon from some plausible indices:
+                    lat_r = None
+                    lon_r = None
+                    for idx_pair in [(8,9), (7,8), (2,3)]:
+                        try:
+                            lat_r = float(r_parts[idx_pair[0]])
+                            lon_r = float(r_parts[idx_pair[1]])
+                            break
+                        except Exception:
+                            lat_r = None
+                            lon_r = None
+                    if lat_r is None or lon_r is None:
+                        continue
+                    r_coords = format_position(lat_r, lon_r)
+                    r_heading = r_parts[2]
+
+                    # Create per-runway file root (separate for each runway record)
+                    root_runway = ET.Element("Maps")
+                    map_run = ET.SubElement(root_runway, "Map")
+                    map_run.set("Type", "System")
+                    name_val = f"{icao}_RW{r_number}"
+                    if suicide is not None:
+                        name_val = f"{icao}_RW{r_number}_RECIP"
+                    map_run.set("Name", name_val)
+                    map_run.set("Priority", str(3))
+                    map_run.set("Center", airport_coords)
+
+                    runway_elem = ET.SubElement(map_run, "Runway")
+                    runway_elem.set("Name", r_number)
+
+                    threshold_elem1 = ET.SubElement(runway_elem, "Threshold")
+                    threshold_elem1.set("Name", r_number)
+                    threshold_elem1.set("Position", r_coords)
+                    opposite_r_heading = get_opposite_heading(r_heading)
+                    threshold_elem1.set("ExtendedCentrelineTrack", str(opposite_r_heading))
+                    threshold_elem1.set("ExtendedCentrelineLength", str(12))
+                    threshold_elem1.set("ExtendedCentrelineWidth", str(1))
+                    threshold_elem1.set("ExtendedCentrelineTickInterval", str(1))
+
+                    opposite_r_number = opposite_runway_number(r_number)
+                    opposite_r_coords = ''
+                    for opp_r_line in runway_lines:
+                        opp_r_parts = [p.strip() for p in opp_r_line.split(',')]
+                        if len(opp_r_parts) > 1 and opp_r_parts[1] == opposite_r_number:
+                            # same safe lat/lon attempt
+                            for idx_pair in [(8,9), (7,8), (2,3)]:
+                                try:
+                                    lat_o = float(opp_r_parts[idx_pair[0]])
+                                    lon_o = float(opp_r_parts[idx_pair[1]])
+                                    opposite_r_coords = format_position(lat_o, lon_o)
+                                    break
+                                except Exception:
+                                    opposite_r_coords = ''
+                            break
+
+                    threshold_elem2 = ET.SubElement(runway_elem, "Threshold")
+                    threshold_elem2.set("Name", opposite_r_number)
+                    threshold_elem2.set("Position", opposite_r_coords)
+
+                    # Simplified SID/STAR handling: attempt to open NavdataProc<ICAO>.txt if exists
+                    navproc_path = f"NavdataProc{icao}.txt"
+                    all_waypoints = set()
+                    if os.path.exists(navproc_path):
+                        with open(navproc_path, 'r', encoding='utf-8') as f_nav:
+                            proc_lines = [ln.strip() for ln in f_nav.readlines()]
+                        # naive SID/STAR parsing placeholder - implement according to your file format
+                        for idx, pl in enumerate(proc_lines):
+                            parts = pl.split(',')
+                            token = parts[0].strip().upper()
+                            if token == 'SID':
+                                # check runway match
+                                if len(parts) > 2 and parts[2].strip() == r_number:
+                                    comment = ET.Comment(f"SID {parts[1].strip()}, Runway {r_number}")
+                                    map_run.append(comment)
+                                    line_elem = ET.SubElement(map_run, "Line")
+                                    line_elem.set("Pattern", "Dotted")
+                                    if colourful:
+                                        line_elem.set("CustomColourName", "NoiseTurquoise")
+                                    line_text = opposite_r_coords
+                                    # skipping detailed waypoint assembly here
+                                    line_elem.text = line_text
+                            elif token == 'STAR':
+                                if len(parts) > 2 and (parts[2].strip() == r_number or parts[2].strip() == 'ALL'):
+                                    comment = ET.Comment(f"STAR {parts[1].strip()}, Runway {r_number}")
+                                    map_run.append(comment)
+                                    line_elem = ET.SubElement(map_run, "Line")
+                                    line_elem.set("Pattern", "Dashed")
+                                    if colourful:
+                                        line_elem.set("CustomColourName", "MellowYellow")
+                                    line_elem.text = ""
+
+                    # If we collected waypoints, create Symbol/Label blocks (simplified)
+                    if all_waypoints:
+                        symbol_elem = ET.SubElement(map_run, "Symbol")
+                        symbol_elem.set("Type", "SolidTriangle")
+                        if colourful:
+                            symbol_elem.set("CustomColourName", "LoonyMaroons")
+                        for wp in all_waypoints:
+                            point_elem = ET.SubElement(symbol_elem, "Point")
+                            point_elem.text = wp
+
+                        map_elem_names = ET.SubElement(root_runway, "Map")
+                        map_elem_names.set("Type", "System")
+                        name_names = f"{icao}_RW{r_number}_NAMES"
+                        if suicide is not None:
+                            name_names = f"{icao}_RW{r_number}_RECIP_NAMES"
+                        map_elem_names.set("Name", name_names)
+                        map_elem_names.set("Priority", str(3))
+                        map_elem_names.set("Center", airport_coords)
+                        if colourful:
+                            map_elem_names.set("CustomColourName", "LoonyMaroons")
+                        symbol_elem_names = ET.SubElement(map_elem_names, "Label")
+                        for wp in all_waypoints:
+                            p = ET.SubElement(symbol_elem_names, "Point")
+                            p.text = wp
+
+                    # Write the per-runway file
+                    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+                    tree = ET.ElementTree(root_runway)
+                    ET.indent(root_runway, space="    ")
+                    xml_bytes = ET.tostring(root_runway, encoding='utf-8', xml_declaration=True)
+                    with open(file_path, 'wb') as f_out:
+                        f_out.write(xml_bytes)
+
+                    if suicide is not None:
+                        remove_runway_map(icao, opposite_runway=opposite_runway_number(r_number))
+
+    print("Done.")
+
+if __name__ == "__main__":
+    main('WSSS', None)

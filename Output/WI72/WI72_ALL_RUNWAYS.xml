@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WI72_RW09" Priority="3" Center="+42.7613-088.0423">
+        <Runway Name="09">
+            <Threshold Name="09" Position="+42.7617-088.0470" ExtendedCentrelineTrack="280" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="27" Position="+42.7610-088.0376"/>
+        </Runway>
+    </Map>
+    <Map Type="System" Name="WI72_RW27" Priority="3" Center="+42.7613-088.0423">
+        <Runway Name="27">
+            <Threshold Name="27" Position="+42.7610-088.0376" ExtendedCentrelineTrack="100" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="09" Position="+42.7617-088.0470"/>
+        </Runway>
+    </Map>
+</Maps>

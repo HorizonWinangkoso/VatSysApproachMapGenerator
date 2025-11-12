@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIOR_RW01" Priority="3" Center="-00.4167+110.4667">
+        <Runway Name="01">
+            <Threshold Name="01" Position="-00.4167+110.4667" ExtendedCentrelineTrack="190" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="19" Position="-00.4167+110.4667"/>
+        </Runway>
+    </Map>
+    <Map Type="System" Name="WIOR_RW19" Priority="3" Center="-00.4167+110.4667">
+        <Runway Name="19">
+            <Threshold Name="19" Position="-00.4167+110.4667" ExtendedCentrelineTrack="10" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="01" Position="-00.4167+110.4667"/>
+        </Runway>
+    </Map>
+</Maps>

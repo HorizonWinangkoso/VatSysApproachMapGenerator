@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIMM_RW05" Priority="3" Center="+03.6422+098.8853">
+        <Runway Name="05">
+            <Threshold Name="05" Position="+03.6259+098.8586" ExtendedCentrelineTrack="225" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="23" Position="+03.6498+098.8825"/>
+        </Runway>
+        <!--SID: AKPA1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/BATOR/OSPEG/UBSES/AKPAG/MIBEL</Line>
+        <!--SID: BENB1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/SEGAR/ANBIL/ARSIX/TOKOK/OKABU/BENBA</Line>
+        <!--SID: DUAM1G, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/SEGAR/ANBIL/ARSIX/AKSIO/DUAMO</Line>
+        <!--SID: DUDE1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/SEGAR/ANBIL/ARSIX/TOKOK/DUDEN</Line>
+        <!--SID: ELRO1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/BATOR/MEBGI/ELROK/SALAX</Line>
+        <!--SID: GOTL2A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/NOKAR/ROHAM/GOTLA</Line>
+        <!--SID: INAN1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/SEGAR/ANBIL/ARSIX/TOKOK/INANG</Line>
+        <!--SID: LAVE1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/AMANG/DEBUG/WIRAN/LAVEL</Line>
+        <!--SID: MAIM1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/SEGAR/ANBIL/ARSIX/DUBIR/JILAT/MAIMU</Line>
+        <!--SID: MEDI2A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/BATOR/OSPEG/UBSES/MEDIA</Line>
+        <!--SID: NOKE1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/BATOR/OSPEG/UBSES/NOKEL</Line>
+        <!--SID: OMBE1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/BATOR/OSPEG/UBSES/OMBES</Line>
+        <!--SID: OPUN1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/SEGAR/ANBIL/ARSIX/DUBIR/JILAT/OPUNG</Line>
+        <!--SID: PAKA1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/SEGAR/ANBIL/ARSIX/DUBIR/JILAT/PAKAM</Line>
+        <!--SID: PUGE2A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/KURDE/GOVDO/PUGER</Line>
+        <!--SID: TOGA1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/AMANG/TOGAR</Line>
+        <!--SID: TUNJ1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/BATOR/MEBGI/TUNJA/SALAX</Line>
+        <!--SID: WIRA1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/AMANG/DEBUG/WIRAN</Line>
+        <!--SID: YURL1A, Runway: 05-->
+        <Line Pattern="Dotted">+03.6498+098.8825/PUJAS/AMANG/YURLI/MOZES/MAHIB/ZAIDA/POPAX/BUHIT/MOZES/LAWAS/ELMOM/SUNTO/HORAS/MOLNI/MAHIB/ZAIDA/POPAX/FIRGO/MOZES/LAWAS/ELMOM/SUNTO/HORAS/MAHIB/ZAIDA/POPAX/MALUM/KABUP/ISKOS/AKING/POPAX/HOSTA/APIGI/ASOTI/HORAS/POTOS/OKABU/ISKOS/AKING/POPAX/OLOAN/OKABU/GANCI/ASOTI/HORAS/MOLNI/MAHIB/ZAIDA/POPAX/FIRGO/MOZES/LAWAS/ELMOM/SUNTO/HORAS/NAULI/MALUM/KABUP/ISKOS/AKING/POPAX/TUMRU/APIGI/ASOTI/HORAS/LUKPI/OKABU/ISKOS/AKING/POPAX/BURJU/OKABU/GANCI/ASOTI/HORAS/MOZES/MAHIB/ZAIDA/POPAX/MUARA/MOZES/LAWAS/ELMOM/SUNTO/HORAS/UVUPI/KANCA/AKING/POPAX/ASOTI/HORAS/PALES/OKABU/ISKOS/AKING/POPAX/LUBUK/OKABU/GANCI/ASOTI/HORAS/ELNED/ELMOM/SUNTO/HORAS/JILAT/AISAH/KAMTO/ISKOS/AKING/POPAX/JILAT/DOBMO/APIGI/ASOTI/HORAS/ZIYAN/MAHIB/ZAIDA/POPAX/TENOT/MOZES/LAWAS/ELMOM/SUNTO/HORAS/MOLNI/MAHIB/ZAIDA/POPAX/FIRGO/MOZES/LAWAS/ELMOM/SUNTO/HORAS/JILAT/AISAH/KAMTO/ISKOS/AKING/POPAX/JILAT/DOBMO/APIGI/ASOTI/HORAS/JILAT/AISAH/KAMTO/ISKOS/AKING/POPAX/HOSTA/APIGI/ASOTI/HORAS/MAHIB/ZAIDA/POPAX/BIDSI/MAHIB/ZAIDA/POPAX/ELMOM/SUNTO/HORAS/MOZES/MAHIB/ZAIDA/POPAX/MUARA/MOZES/LAWAS/ELMOM/SUNTO/HORAS/GEWAH/AKING/POPAX/GEWAH/GANCI/ASOTI/HORAS/ELNED/ELMOM/SUNTO/HORAS/CD05/FD05/MD05/NOPEV/CD23/FD23/MD23/NOPEV/CF05/FF05/RW05/NOPEV/CF23/FF23/RW23/NOPEV/MM502/MM501/RW05/NOPEV/MM702/MM701/RW23/NOPEV</Line>
+        <!--STAR: AKPA1C, Runway: 05-->
+        <Line Pattern="Dashed">AKPAG/MOZES/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: AKPE1A, Runway: 05-->
+        <Line Pattern="Dashed">AKPER/MOLNI/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: ANJU1B, Runway: 05-->
+        <Line Pattern="Dashed">ANJUA/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: AVDI1E, Runway: 05-->
+        <Line Pattern="Dashed">AVDIN/MALUM/KABUP/ISKOS/AKING/POPAX</Line>
+        <!--STAR: BENB1C, Runway: 05-->
+        <Line Pattern="Dashed">BENBA/POTOS/OKABU/ISKOS/AKING/POPAX</Line>
+        <!--STAR: DOTM1A, Runway: 05-->
+        <Line Pattern="Dashed">DOTMA/MOLNI/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: DUAM1J, Runway: 05-->
+        <Line Pattern="Dashed">DUAMO/NAULI/MALUM/KABUP/ISKOS/AKING/POPAX</Line>
+        <!--STAR: DUDE1C, Runway: 05-->
+        <Line Pattern="Dashed">DUDEN/LUKPI/OKABU/ISKOS/AKING/POPAX</Line>
+        <!--STAR: ELRO1C, Runway: 05-->
+        <Line Pattern="Dashed">ELROK/MOZES/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: GOTL2C, Runway: 05-->
+        <Line Pattern="Dashed">GOTLA/UVUPI/KANCA/AKING/POPAX</Line>
+        <!--STAR: INAN1C, Runway: 05-->
+        <Line Pattern="Dashed">INANG/PALES/OKABU/ISKOS/AKING/POPAX</Line>
+        <!--STAR: MAIM1C, Runway: 05-->
+        <Line Pattern="Dashed">MAIMU/JILAT/AISAH/KAMTO/ISKOS/AKING/POPAX</Line>
+        <!--STAR: MEDI2C, Runway: 05-->
+        <Line Pattern="Dashed">MEDIA/ZIYAN/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: NOKE1C, Runway: 05-->
+        <Line Pattern="Dashed">NOKEL/MOLNI/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: OPUN1C, Runway: 05-->
+        <Line Pattern="Dashed">OPUNG/JILAT/AISAH/KAMTO/ISKOS/AKING/POPAX</Line>
+        <!--STAR: PAKA1C, Runway: 05-->
+        <Line Pattern="Dashed">PAKAM/JILAT/AISAH/KAMTO/ISKOS/AKING/POPAX</Line>
+        <!--STAR: PANJ1A, Runway: 05-->
+        <Line Pattern="Dashed">PANJA/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: PUGE2C, Runway: 05-->
+        <Line Pattern="Dashed">PUGER/BIDSI/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: TUNJ1C, Runway: 05-->
+        <Line Pattern="Dashed">TUNJA/MOZES/MAHIB/ZAIDA/POPAX</Line>
+        <!--STAR: UNVI1A, Runway: 05-->
+        <Line Pattern="Dashed">UNVIV/GEWAH/AKING/POPAX</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>WIRAN</Point>
+            <Point>DUAMO</Point>
+            <Point>AMANG</Point>
+            <Point>TENOT</Point>
+            <Point>DEBUG</Point>
+            <Point>MALUM</Point>
+            <Point>FD23</Point>
+            <Point>MM701</Point>
+            <Point>FF23</Point>
+            <Point>NAULI</Point>
+            <Point>OKABU</Point>
+            <Point>UNVIV</Point>
+            <Point>AVDIN</Point>
+            <Point>MM502</Point>
+            <Point>MIBEL</Point>
+            <Point>MM702</Point>
+            <Point>LAVEL</Point>
+            <Point>MM501</Point>
+            <Point>HORAS</Point>
+            <Point>ISKOS</Point>
+            <Point>MD05</Point>
+            <Point>NOKEL</Point>
+            <Point>LUBUK</Point>
+            <Point>SEGAR</Point>
+            <Point>CF23</Point>
+            <Point>ARSIX</Point>
+            <Point>ANBIL</Point>
+            <Point>GOVDO</Point>
+            <Point>ANJUA</Point>
+            <Point>BATOR</Point>
+            <Point>FF05</Point>
+            <Point>MAHIB</Point>
+            <Point>MAIMU</Point>
+            <Point>MUARA</Point>
+            <Point>SALAX</Point>
+            <Point>KAMTO</Point>
+            <Point>MD23</Point>
+            <Point>ELROK</Point>
+            <Point>INANG</Point>
+            <Point>NOPEV</Point>
+            <Point>MEDIA</Point>
+            <Point>AKSIO</Point>
+            <Point>PUGER</Point>
+            <Point>AISAH</Point>
+            <Point>ASOTI</Point>
+            <Point>TOKOK</Point>
+            <Point>POPAX</Point>
+            <Point>DOBMO</Point>
+            <Point>POTOS</Point>
+            <Point>ELNED</Point>
+            <Point>YURLI</Point>
+            <Point>UBSES</Point>
+            <Point>TOGAR</Point>
+            <Point>OMBES</Point>
+            <Point>AKPER</Point>
+            <Point>RW23</Point>
+            <Point>SUNTO</Point>
+            <Point>PALES</Point>
+            <Point>FIRGO</Point>
+            <Point>DUDEN</Point>
+            <Point>PAKAM</Point>
+            <Point>PANJA</Point>
+            <Point>ELMOM</Point>
+            <Point>CF05</Point>
+            <Point>RW05</Point>
+            <Point>HOSTA</Point>
+            <Point>PUJAS</Point>
+            <Point>AKPAG</Point>
+            <Point>OPUNG</Point>
+            <Point>CD05</Point>
+            <Point>CD23</Point>
+            <Point>MOZES</Point>
+            <Point>APIGI</Point>
+            <Point>FD05</Point>
+            <Point>LUKPI</Point>
+            <Point>AKING</Point>
+            <Point>GANCI</Point>
+            <Point>BIDSI</Point>
+            <Point>ROHAM</Point>
+            <Point>KANCA</Point>
+            <Point>NOKAR</Point>
+            <Point>GOTLA</Point>
+            <Point>KABUP</Point>
+            <Point>DUBIR</Point>
+            <Point>MOLNI</Point>
+            <Point>KURDE</Point>
+            <Point>ZAIDA</Point>
+            <Point>MEBGI</Point>
+            <Point>UVUPI</Point>
+            <Point>OLOAN</Point>
+            <Point>DOTMA</Point>
+            <Point>ZIYAN</Point>
+            <Point>OSPEG</Point>
+            <Point>TUNJA</Point>
+            <Point>BURJU</Point>
+            <Point>JILAT</Point>
+            <Point>BUHIT</Point>
+            <Point>LAWAS</Point>
+            <Point>BENBA</Point>
+            <Point>TUMRU</Point>
+            <Point>GEWAH</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIMM_RW05_NAMES" Priority="3" Center="+03.6422+098.8853">
+        <Label>
+            <Point>WIRAN</Point>
+            <Point>DUAMO</Point>
+            <Point>AMANG</Point>
+            <Point>TENOT</Point>
+            <Point>DEBUG</Point>
+            <Point>MALUM</Point>
+            <Point>FD23</Point>
+            <Point>MM701</Point>
+            <Point>FF23</Point>
+            <Point>NAULI</Point>
+            <Point>OKABU</Point>
+            <Point>UNVIV</Point>
+            <Point>AVDIN</Point>
+            <Point>MM502</Point>
+            <Point>MIBEL</Point>
+            <Point>MM702</Point>
+            <Point>LAVEL</Point>
+            <Point>MM501</Point>
+            <Point>HORAS</Point>
+            <Point>ISKOS</Point>
+            <Point>MD05</Point>
+            <Point>NOKEL</Point>
+            <Point>LUBUK</Point>
+            <Point>SEGAR</Point>
+            <Point>CF23</Point>
+            <Point>ARSIX</Point>
+            <Point>ANBIL</Point>
+            <Point>GOVDO</Point>
+            <Point>ANJUA</Point>
+            <Point>BATOR</Point>
+            <Point>FF05</Point>
+            <Point>MAHIB</Point>
+            <Point>MAIMU</Point>
+            <Point>MUARA</Point>
+            <Point>SALAX</Point>
+            <Point>KAMTO</Point>
+            <Point>MD23</Point>
+            <Point>ELROK</Point>
+            <Point>INANG</Point>
+            <Point>NOPEV</Point>
+            <Point>MEDIA</Point>
+            <Point>AKSIO</Point>
+            <Point>PUGER</Point>
+            <Point>AISAH</Point>
+            <Point>ASOTI</Point>
+            <Point>TOKOK</Point>
+            <Point>POPAX</Point>
+            <Point>DOBMO</Point>
+            <Point>POTOS</Point>
+            <Point>ELNED</Point>
+            <Point>YURLI</Point>
+            <Point>UBSES</Point>
+            <Point>TOGAR</Point>
+            <Point>OMBES</Point>
+            <Point>AKPER</Point>
+            <Point>RW23</Point>
+            <Point>SUNTO</Point>
+            <Point>PALES</Point>
+            <Point>FIRGO</Point>
+            <Point>DUDEN</Point>
+            <Point>PAKAM</Point>
+            <Point>PANJA</Point>
+            <Point>ELMOM</Point>
+            <Point>CF05</Point>
+            <Point>RW05</Point>
+            <Point>HOSTA</Point>
+            <Point>PUJAS</Point>
+            <Point>AKPAG</Point>
+            <Point>OPUNG</Point>
+            <Point>CD05</Point>
+            <Point>CD23</Point>
+            <Point>MOZES</Point>
+            <Point>APIGI</Point>
+            <Point>FD05</Point>
+            <Point>LUKPI</Point>
+            <Point>AKING</Point>
+            <Point>GANCI</Point>
+            <Point>BIDSI</Point>
+            <Point>ROHAM</Point>
+            <Point>KANCA</Point>
+            <Point>NOKAR</Point>
+            <Point>GOTLA</Point>
+            <Point>KABUP</Point>
+            <Point>DUBIR</Point>
+            <Point>MOLNI</Point>
+            <Point>KURDE</Point>
+            <Point>ZAIDA</Point>
+            <Point>MEBGI</Point>
+            <Point>UVUPI</Point>
+            <Point>OLOAN</Point>
+            <Point>DOTMA</Point>
+            <Point>ZIYAN</Point>
+            <Point>OSPEG</Point>
+            <Point>TUNJA</Point>
+            <Point>BURJU</Point>
+            <Point>JILAT</Point>
+            <Point>BUHIT</Point>
+            <Point>LAWAS</Point>
+            <Point>BENBA</Point>
+            <Point>TUMRU</Point>
+            <Point>GEWAH</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="WIMM_RW23" Priority="3" Center="+03.6422+098.8853">
+        <Runway Name="23">
+            <Threshold Name="23" Position="+03.6498+098.8825" ExtendedCentrelineTrack="45" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="05" Position="+03.6259+098.8586"/>
+        </Runway>
+        <!--SID: AKPA1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/RENAL/TORIB/AKPAG/MIBEL</Line>
+        <!--SID: ANJU1A, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/ZAIDA/ANJUA</Line>
+        <!--SID: BENB1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/IRJAY/EBING/SAKEK/LATET/OKABU/BENBA/MERIM</Line>
+        <!--SID: DUAM1H, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/IRJAY/EBING/TAJIR/TIRAI/DUAMO</Line>
+        <!--SID: DUDE1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/IRJAY/EBING/SAKEK/KURNI/DUDEN/BULVA</Line>
+        <!--SID: ELRO1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/RENAL/TORIB/IGETA/ELROK/SALAX</Line>
+        <!--SID: GOTL2B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/IRJAY/SADAY/DAHAM/BILAS/GOTLA</Line>
+        <!--SID: INAN1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/IRJAY/EBING/SAKEK/LATET/OKABU/INANG/MABIX</Line>
+        <!--SID: KAPV1A, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/ZAIDA/KAPVI</Line>
+        <!--SID: LAVE1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/ZAIDA/TOBBA/WIRAN/LAVEL</Line>
+        <!--SID: MAIM1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/IRJAY/EBING/SAKEK/SELON/MAIMU/MEMAK</Line>
+        <!--SID: MEDI2B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/RENAL/TORIB/MEDIA</Line>
+        <!--SID: NOKE1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/RENAL/SAJIM/NOKEL</Line>
+        <!--SID: OMBE1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/RENAL/TORIB/OMBES</Line>
+        <!--SID: OPUN1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/IRJAY/EBING/SAKEK/BILUP/JILAT/OPUNG/BAC</Line>
+        <!--SID: PAKA1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/IRJAY/EBING/SAKEK/BILUP/JILAT/PAKAM/ANSAX</Line>
+        <!--SID: PUGE2B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/RENAL/NOGIL/GUSUL/PUGER</Line>
+        <!--SID: TUNJ1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/RENAL/TORIB/IGETA/TUNJA/SALAX</Line>
+        <!--SID: WIRA1B, Runway: 23-->
+        <Line Pattern="Dotted">+03.6259+098.8586/ZAIDA/TOBBA/WIRAN</Line>
+        <!--STAR: AKPA1D, Runway: 23-->
+        <Line Pattern="Dashed">AKPAG/BUHIT/MOZES/LAWAS/ELMOM/SUNTO/HORAS</Line>
+        <!--STAR: AKPE1B, Runway: 23-->
+        <Line Pattern="Dashed">AKPER/FIRGO/MOZES/LAWAS/ELMOM/SUNTO/HORAS</Line>
+        <!--STAR: AVDI1F, Runway: 23-->
+        <Line Pattern="Dashed">AVDIN/HOSTA/APIGI/ASOTI/HORAS</Line>
+        <!--STAR: BENB1D, Runway: 23-->
+        <Line Pattern="Dashed">BENBA/OLOAN/OKABU/GANCI/ASOTI/HORAS</Line>
+        <!--STAR: DOTM1B, Runway: 23-->
+        <Line Pattern="Dashed">DOTMA/FIRGO/MOZES/LAWAS/ELMOM/SUNTO/HORAS</Line>
+        <!--STAR: DUAM1K, Runway: 23-->
+        <Line Pattern="Dashed">DUAMO/TUMRU/APIGI/ASOTI/HORAS</Line>
+        <!--STAR: DUDE1D, Runway: 23-->
+        <Line Pattern="Dashed">DUDEN/BURJU/OKABU/GANCI/ASOTI/HORAS</Line>
+        <!--STAR: ELRO1D, Runway: 23-->
+        <Line Pattern="Dashed">ELROK/MUARA/MOZES/LAWAS/ELMOM/SUNTO/HORAS</Line>
+        <!--STAR: GOTL2D, Runway: 23-->
+        <Line Pattern="Dashed">GOTLA/ASOTI/HORAS</Line>
+        <!--STAR: INAN1D, Runway: 23-->
+        <Line Pattern="Dashed">INANG/LUBUK/OKABU/GANCI/ASOTI/HORAS</Line>
+        <!--STAR: LUHU1A, Runway: 23-->
+        <Line Pattern="Dashed">LUHUT/ELNED/ELMOM/SUNTO/HORAS</Line>
+        <!--STAR: MAIM1D, Runway: 23-->
+        <Line Pattern="Dashed">MAIMU/JILAT/DOBMO/APIGI/ASOTI/HORAS</Line>
+        <!--STAR: MEDI2D, Runway: 23-->
+        <Line Pattern="Dashed">MEDIA/TENOT/MOZES/LAWAS/ELMOM/SUNTO/HORAS</Line>
+        <!--STAR: NOKE1D, Runway: 23-->
+        <Line Pattern="Dashed">NOKEL/FIRGO/MOZES/LAWAS/ELMOM/SUNTO/HORAS</Line>
+        <!--STAR: OPUN1D, Runway: 23-->
+        <Line Pattern="Dashed">OPUNG/JILAT/DOBMO/APIGI/ASOTI/HORAS</Line>
+        <!--STAR: PAKA1D, Runway: 23-->
+        <Line Pattern="Dashed">PAKAM/HOSTA/APIGI/ASOTI/HORAS</Line>
+        <!--STAR: PUGE2D, Runway: 23-->
+        <Line Pattern="Dashed">PUGER/ELMOM/SUNTO/HORAS</Line>
+        <!--STAR: TUNJ1D, Runway: 23-->
+        <Line Pattern="Dashed">TUNJA/MUARA/MOZES/LAWAS/ELMOM/SUNTO/HORAS</Line>
+        <!--STAR: UNVI1B, Runway: 23-->
+        <Line Pattern="Dashed">UNVIV/GEWAH/GANCI/ASOTI/HORAS</Line>
+        <!--STAR: YURL1B, Runway: 23-->
+        <Line Pattern="Dashed">YURLI/ELNED/ELMOM/SUNTO/HORAS</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>SAKEK</Point>
+            <Point>WIRAN</Point>
+            <Point>NOKEL</Point>
+            <Point>LUBUK</Point>
+            <Point>DUAMO</Point>
+            <Point>DOBMO</Point>
+            <Point>SADAY</Point>
+            <Point>ELNED</Point>
+            <Point>YURLI</Point>
+            <Point>IRJAY</Point>
+            <Point>GOTLA</Point>
+            <Point>GUSUL</Point>
+            <Point>ANSAX</Point>
+            <Point>IGETA</Point>
+            <Point>TENOT</Point>
+            <Point>OMBES</Point>
+            <Point>BILUP</Point>
+            <Point>NOGIL</Point>
+            <Point>GEWAH</Point>
+            <Point>ANJUA</Point>
+            <Point>AKPER</Point>
+            <Point>TIRAI</Point>
+            <Point>SUNTO</Point>
+            <Point>KURNI</Point>
+            <Point>BULVA</Point>
+            <Point>BILAS</Point>
+            <Point>ZAIDA</Point>
+            <Point>MABIX</Point>
+            <Point>MAIMU</Point>
+            <Point>FIRGO</Point>
+            <Point>MUARA</Point>
+            <Point>DUDEN</Point>
+            <Point>PAKAM</Point>
+            <Point>EBING</Point>
+            <Point>TORIB</Point>
+            <Point>ELMOM</Point>
+            <Point>KAPVI</Point>
+            <Point>SALAX</Point>
+            <Point>HOSTA</Point>
+            <Point>OKABU</Point>
+            <Point>UNVIV</Point>
+            <Point>TOBBA</Point>
+            <Point>OLOAN</Point>
+            <Point>ELROK</Point>
+            <Point>AKPAG</Point>
+            <Point>AVDIN</Point>
+            <Point>INANG</Point>
+            <Point>SAJIM</Point>
+            <Point>OPUNG</Point>
+            <Point>DOTMA</Point>
+            <Point>MOZES</Point>
+            <Point>MERIM</Point>
+            <Point>TAJIR</Point>
+            <Point>APIGI</Point>
+            <Point>RENAL</Point>
+            <Point>MEDIA</Point>
+            <Point>LUHUT</Point>
+            <Point>TUNJA</Point>
+            <Point>BURJU</Point>
+            <Point>MIBEL</Point>
+            <Point>MEMAK</Point>
+            <Point>JILAT</Point>
+            <Point>BUHIT</Point>
+            <Point>ASOTI</Point>
+            <Point>DAHAM</Point>
+            <Point>LAVEL</Point>
+            <Point>PUGER</Point>
+            <Point>LAWAS</Point>
+            <Point>BAC</Point>
+            <Point>GANCI</Point>
+            <Point>BENBA</Point>
+            <Point>TUMRU</Point>
+            <Point>LATET</Point>
+            <Point>HORAS</Point>
+            <Point>SELON</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIMM_RW23_NAMES" Priority="3" Center="+03.6422+098.8853">
+        <Label>
+            <Point>SAKEK</Point>
+            <Point>WIRAN</Point>
+            <Point>NOKEL</Point>
+            <Point>LUBUK</Point>
+            <Point>DUAMO</Point>
+            <Point>DOBMO</Point>
+            <Point>SADAY</Point>
+            <Point>ELNED</Point>
+            <Point>YURLI</Point>
+            <Point>IRJAY</Point>
+            <Point>GOTLA</Point>
+            <Point>GUSUL</Point>
+            <Point>ANSAX</Point>
+            <Point>IGETA</Point>
+            <Point>TENOT</Point>
+            <Point>OMBES</Point>
+            <Point>BILUP</Point>
+            <Point>NOGIL</Point>
+            <Point>GEWAH</Point>
+            <Point>ANJUA</Point>
+            <Point>AKPER</Point>
+            <Point>TIRAI</Point>
+            <Point>SUNTO</Point>
+            <Point>KURNI</Point>
+            <Point>BULVA</Point>
+            <Point>BILAS</Point>
+            <Point>ZAIDA</Point>
+            <Point>MABIX</Point>
+            <Point>MAIMU</Point>
+            <Point>FIRGO</Point>
+            <Point>MUARA</Point>
+            <Point>DUDEN</Point>
+            <Point>PAKAM</Point>
+            <Point>EBING</Point>
+            <Point>TORIB</Point>
+            <Point>ELMOM</Point>
+            <Point>KAPVI</Point>
+            <Point>SALAX</Point>
+            <Point>HOSTA</Point>
+            <Point>OKABU</Point>
+            <Point>UNVIV</Point>
+            <Point>TOBBA</Point>
+            <Point>OLOAN</Point>
+            <Point>ELROK</Point>
+            <Point>AKPAG</Point>
+            <Point>AVDIN</Point>
+            <Point>INANG</Point>
+            <Point>SAJIM</Point>
+            <Point>OPUNG</Point>
+            <Point>DOTMA</Point>
+            <Point>MOZES</Point>
+            <Point>MERIM</Point>
+            <Point>TAJIR</Point>
+            <Point>APIGI</Point>
+            <Point>RENAL</Point>
+            <Point>MEDIA</Point>
+            <Point>LUHUT</Point>
+            <Point>TUNJA</Point>
+            <Point>BURJU</Point>
+            <Point>MIBEL</Point>
+            <Point>MEMAK</Point>
+            <Point>JILAT</Point>
+            <Point>BUHIT</Point>
+            <Point>ASOTI</Point>
+            <Point>DAHAM</Point>
+            <Point>LAVEL</Point>
+            <Point>PUGER</Point>
+            <Point>LAWAS</Point>
+            <Point>BAC</Point>
+            <Point>GANCI</Point>
+            <Point>BENBA</Point>
+            <Point>TUMRU</Point>
+            <Point>LATET</Point>
+            <Point>HORAS</Point>
+            <Point>SELON</Point>
+        </Label>
+    </Map>
+</Maps>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WITT_RW17" Priority="3" Center="+05.5169+095.4200">
+        <Runway Name="17">
+            <Threshold Name="17" Position="+05.5391+095.4171" ExtendedCentrelineTrack="349" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="35" Position="+05.5125+095.4226"/>
+        </Runway>
+        <!--SID: ANSA1A, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/D038J/ANSAX</Line>
+        <!--SID: ANSA2E, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/TT406/TT422/TT426/ANSAX</Line>
+        <!--SID: AVDI1A, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/D108J/AVDIN</Line>
+        <!--SID: AVDI1C, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/SUPMI/TT410/AVDIN</Line>
+        <!--SID: BULV1A, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/BAC/D237J/EMREB/BULVA</Line>
+        <!--SID: BULV1C, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/TT421/TT414/OTKUL/BULVA</Line>
+        <!--SID: DUAM1A, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/D098J/DUAMO</Line>
+        <!--SID: DUAM2E, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/SUPMI/TT410/DUAMO</Line>
+        <!--SID: ELDE1A, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/D143J/ELDEL</Line>
+        <!--SID: ELDE1C, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/SUPMI/TT411/UDODO/ELDEL</Line>
+        <!--SID: EMRE1A, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/BAC/D237J/EMREB</Line>
+        <!--SID: IVRA1A, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/D151J/IVRAR</Line>
+        <!--SID: IVRA1C, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/SUPMI/TT411/IVRAR</Line>
+        <!--SID: OPUN1E, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/D123J/OPUNG</Line>
+        <!--SID: OPUN1G, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/SUPMI/TT410/AKBUR/OPUNG</Line>
+        <!--SID: OTKU1A, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/TT421/TT414/OTKUL</Line>
+        <!--SID: TASE1A, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/D098J/DUAMO/TASEK</Line>
+        <!--SID: TASE1B, Runway: 17-->
+        <Line Pattern="Dotted">+05.5125+095.4226/SUPMI/TT410/DUAMO/TASEK</Line>
+        <!--STAR: AKPU1A, Runway: 17-->
+        <Line Pattern="Dashed">AKPUM/URDAM/TENOM/TT424/IRMUS/VAVDO</Line>
+        <!--STAR: ANSA2C, Runway: 17-->
+        <Line Pattern="Dashed">ANSAX/VAVDO</Line>
+        <!--STAR: ANSA3D, Runway: 17-->
+        <Line Pattern="Dashed">ANSAX/UPSOL/VAVDO</Line>
+        <!--STAR: BUDG1A, Runway: 17-->
+        <Line Pattern="Dashed">BUDGA/D137T/+05.3210+095.6213/+05.3596+095.6562/+05.4036+095.6839/+05.4518+095.7035/+05.5026+095.7144/+05.5546+095.7162/+05.6060+095.7090/+05.6555+095.6929/+05.7014+095.6684/+05.7423+095.6362/+05.7771+095.5974/+05.8047+095.5531/+05.8242+095.5047/+05.8350+095.4536/+05.8368+095.4014/VAVDO</Line>
+        <!--STAR: BUDG1B, Runway: 17-->
+        <Line Pattern="Dashed">BUDGA/UDODO/TT409/TT425/TT427/UPSOL/VAVDO</Line>
+        <!--STAR: BULV1E, Runway: 17-->
+        <Line Pattern="Dashed">BULVA/UDOLI/D237T/+05.3766+095.1660/+05.4225+095.1414/+05.4719+095.1253/+05.5234+095.1180/+05.5753+095.1198/+05.6261+095.1306/+05.6743+095.1502/+05.7184+095.1778/+05.7571+095.2127/+05.7891+095.2539/+05.8135+095.3000/+05.8295+095.3497/VAVDO</Line>
+        <!--STAR: DUAM3C, Runway: 17-->
+        <Line Pattern="Dashed">DUAMO/D098T/+05.4975+095.7137/+05.5494+095.7165/+05.6010+095.7101/+05.6507+095.6949/+05.6970+095.6712/+05.7385+095.6398/+05.7740+095.6016/+05.8023+095.5578/+05.8226+095.5097/+05.8343+095.4588/+05.8370+095.4066/VAVDO</Line>
+        <!--STAR: DUAM3D, Runway: 17-->
+        <Line Pattern="Dashed">DUAMO/LAWAH/TT413/TT425/TT427/UPSOL/VAVDO</Line>
+        <!--STAR: ELDE1E, Runway: 17-->
+        <Line Pattern="Dashed">ELDEL/D143T/+05.3009+095.5973/+05.3357+095.6361/+05.3766+095.6682/+05.4225+095.6928/+05.4719+095.7089/+05.5234+095.7162/+05.5753+095.7144/+05.6261+095.7036/+05.6743+095.6840/+05.7184+095.6564/+05.7571+095.6215/+05.7891+095.5803/+05.8135+095.5342/+05.8295+095.4845/+05.8368+095.4328/+05.8350+095.3806/VAVDO</Line>
+        <!--STAR: ELDE1F, Runway: 17-->
+        <Line Pattern="Dashed">ELDEL/UDODO/TT409/TT425/TT427/UPSOL/VAVDO</Line>
+        <!--STAR: IVRA1E, Runway: 17-->
+        <Line Pattern="Dashed">IVRAR/D151T/+05.2783+095.5622/+05.3073+095.6055/+05.3434+095.6431/+05.3854+095.6738/+05.4321+095.6967/+05.4821+095.7111/+05.5338+095.7166/+05.5856+095.7130/+05.6360+095.7004/+05.6835+095.6791/+05.7266+095.6500/+05.7640+095.6137/+05.7946+095.5714/+05.8174+095.5245/+05.8317+095.4743/+05.8371+095.4223/+05.8335+095.3702/VAVDO</Line>
+        <!--STAR: IVRA1F, Runway: 17-->
+        <Line Pattern="Dashed">IVRAR/UDODO/TT409/TT425/TT427/UPSOL/VAVDO</Line>
+        <!--STAR: OPUN1J, Runway: 17-->
+        <Line Pattern="Dashed">OPUNG/D123T/+05.3766+095.6682/+05.4225+095.6928/+05.4719+095.7089/+05.5234+095.7162/+05.5753+095.7144/+05.6261+095.7036/+05.6743+095.6840/+05.7184+095.6564/+05.7571+095.6215/+05.7891+095.5803/+05.8135+095.5342/+05.8295+095.4845/+05.8368+095.4328/+05.8350+095.3806/VAVDO</Line>
+        <!--STAR: OPUN1K, Runway: 17-->
+        <Line Pattern="Dashed">OPUNG/AKBUR/TT409/TT425/TT427/UPSOL/VAVDO</Line>
+        <!--STAR: TASE1E, Runway: 17-->
+        <Line Pattern="Dashed">TASEK/DUAMO/D098T/+05.4975+095.7137/+05.5494+095.7165/+05.6010+095.7101/+05.6507+095.6949/+05.6970+095.6712/+05.7385+095.6398/+05.7740+095.6016/+05.8023+095.5578/+05.8226+095.5097/+05.8343+095.4588/+05.8370+095.4066/VAVDO</Line>
+        <!--STAR: TASE1F, Runway: 17-->
+        <Line Pattern="Dashed">TASEK/DUAMO/LAWAH/TT413/TT425/TT427/UPSOL/VAVDO</Line>
+        <!--STAR: UDOL1A, Runway: 17-->
+        <Line Pattern="Dashed">UDOLI/D237T/+05.3766+095.1660/+05.4225+095.1414/+05.4719+095.1253/+05.5234+095.1180/+05.5753+095.1198/+05.6261+095.1306/+05.6743+095.1502/+05.7184+095.1778/+05.7571+095.2127/+05.7891+095.2539/+05.8135+095.3000/+05.8295+095.3497/VAVDO</Line>
+        <!--STAR: URDA1A, Runway: 17-->
+        <Line Pattern="Dashed">URDAM/TENOM/TT424/IRMUS/VAVDO</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>DUAMO</Point>
+            <Point>TT422</Point>
+            <Point>VAVDO</Point>
+            <Point>ANSAX</Point>
+            <Point>D038J</Point>
+            <Point>TT409</Point>
+            <Point>D237J</Point>
+            <Point>D151J</Point>
+            <Point>TT424</Point>
+            <Point>BUDGA</Point>
+            <Point>IRMUS</Point>
+            <Point>AKPUM</Point>
+            <Point>UDOLI</Point>
+            <Point>TT421</Point>
+            <Point>TT426</Point>
+            <Point>SUPMI</Point>
+            <Point>D123J</Point>
+            <Point>LAWAH</Point>
+            <Point>BULVA</Point>
+            <Point>D108J</Point>
+            <Point>TENOM</Point>
+            <Point>D137T</Point>
+            <Point>ELDEL</Point>
+            <Point>D237T</Point>
+            <Point>TT427</Point>
+            <Point>IVRAR</Point>
+            <Point>AVDIN</Point>
+            <Point>OTKUL</Point>
+            <Point>EMREB</Point>
+            <Point>TASEK</Point>
+            <Point>OPUNG</Point>
+            <Point>TT425</Point>
+            <Point>D143J</Point>
+            <Point>UDODO</Point>
+            <Point>URDAM</Point>
+            <Point>TT411</Point>
+            <Point>D098T</Point>
+            <Point>TT410</Point>
+            <Point>D151T</Point>
+            <Point>D123T</Point>
+            <Point>TT414</Point>
+            <Point>AKBUR</Point>
+            <Point>TT406</Point>
+            <Point>BAC</Point>
+            <Point>UPSOL</Point>
+            <Point>TT413</Point>
+            <Point>D098J</Point>
+            <Point>D143T</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WITT_RW17_NAMES" Priority="3" Center="+05.5169+095.4200">
+        <Label>
+            <Point>DUAMO</Point>
+            <Point>TT422</Point>
+            <Point>VAVDO</Point>
+            <Point>ANSAX</Point>
+            <Point>D038J</Point>
+            <Point>TT409</Point>
+            <Point>D237J</Point>
+            <Point>D151J</Point>
+            <Point>TT424</Point>
+            <Point>BUDGA</Point>
+            <Point>IRMUS</Point>
+            <Point>AKPUM</Point>
+            <Point>UDOLI</Point>
+            <Point>TT421</Point>
+            <Point>TT426</Point>
+            <Point>SUPMI</Point>
+            <Point>D123J</Point>
+            <Point>LAWAH</Point>
+            <Point>BULVA</Point>
+            <Point>D108J</Point>
+            <Point>TENOM</Point>
+            <Point>D137T</Point>
+            <Point>ELDEL</Point>
+            <Point>D237T</Point>
+            <Point>TT427</Point>
+            <Point>IVRAR</Point>
+            <Point>AVDIN</Point>
+            <Point>OTKUL</Point>
+            <Point>EMREB</Point>
+            <Point>TASEK</Point>
+            <Point>OPUNG</Point>
+            <Point>TT425</Point>
+            <Point>D143J</Point>
+            <Point>UDODO</Point>
+            <Point>URDAM</Point>
+            <Point>TT411</Point>
+            <Point>D098T</Point>
+            <Point>TT410</Point>
+            <Point>D151T</Point>
+            <Point>D123T</Point>
+            <Point>TT414</Point>
+            <Point>AKBUR</Point>
+            <Point>TT406</Point>
+            <Point>BAC</Point>
+            <Point>UPSOL</Point>
+            <Point>TT413</Point>
+            <Point>D098J</Point>
+            <Point>D143T</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="WITT_RW35" Priority="3" Center="+05.5169+095.4200">
+        <Runway Name="35">
+            <Threshold Name="35" Position="+05.5125+095.4226" ExtendedCentrelineTrack="169" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="17" Position="+05.5391+095.4171"/>
+        </Runway>
+        <!--SID: ANSA2F, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/TT419/TT407/TT408/ANSAX</Line>
+        <!--SID: ANSA3B, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/ANSAX</Line>
+        <!--SID: AVDI1B, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/AVDIN</Line>
+        <!--SID: AVDI1D, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/TEUKU/TT410/AVDIN</Line>
+        <!--SID: BULV1B, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/EMREB/BULVA</Line>
+        <!--SID: BULV1D, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/TT414/OTKUL/BULVA</Line>
+        <!--SID: DUAM2F, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/TEUKU/TT410/DUAMO</Line>
+        <!--SID: DUAM3B, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/DUAMO</Line>
+        <!--SID: ELDE1B, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/ELDEL</Line>
+        <!--SID: ELDE1D, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/TEUKU/BELRI/TT411/UDODO/ELDEL</Line>
+        <!--SID: EMRE1B, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/EMREB</Line>
+        <!--SID: IVRA1B, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/IVRAR</Line>
+        <!--SID: IVRA1D, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/TEUKU/BELRI/TT411/IVRAR</Line>
+        <!--SID: OPUN1F, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/OPUNG</Line>
+        <!--SID: OPUN1H, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/TEUKU/TT410/AKBUR/OPUNG</Line>
+        <!--SID: OTKU1B, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/TT414/OTKUL</Line>
+        <!--SID: TASE1C, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/DUAMO/TASEK</Line>
+        <!--SID: TASE1D, Runway: 35-->
+        <Line Pattern="Dotted">+05.5391+095.4171/TEUKU/TT410/DUAMO/TASEK/URDAM/TENOM/TT424/IRMUS/VAVDO/VAVDO/UPSOL/VAVDO/D137T/+05.2944+095.6268/+05.3330+095.6617/+05.3771+095.6894/+05.4253+095.7090/+05.4761+095.7198/+05.5280+095.7217/+05.5795+095.7145/+05.6289+095.6983/+05.6748+095.6738/+05.7158+095.6417/+05.7506+095.6029/+05.7781+095.5586/+05.7976+095.5102/+05.8084+095.4591/+05.8102+095.4069/UDODO/TT409/TT425/TT427/UPSOL/VAVDO/UDOLI/D237T/+05.3501+095.1715/+05.3959+095.1469/+05.4454+095.1308/+05.4968+095.1235/+05.5487+095.1253/+05.5996+095.1361/+05.6478+095.1556/+05.6919+095.1833/+05.7305+095.2182/+05.7625+095.2594/+05.7869+095.3055/+05.8030+095.3552/D098T/+05.4709+095.7192/+05.5228+095.7219/+05.5744+095.7156/+05.6241+095.7003/+05.6704+095.6767/+05.7119+095.6452/+05.7474+095.6071/+05.7757+095.5633/+05.7960+095.5152/+05.8077+095.4643/+05.8104+095.4121/LAWAH/TT413/TT425/TT427/UPSOL/VAVDO/D143T/+05.2744+095.6028/+05.3091+095.6416/+05.3501+095.6737/+05.3959+095.6982/+05.4454+095.7144/+05.4968+095.7217/+05.5487+095.7199/+05.5996+095.7091/+05.6478+095.6895/+05.6919+095.6619/+05.7305+095.6269/+05.7625+095.5858/+05.7869+095.5397/+05.8030+095.4900/+05.8102+095.4383/+05.8084+095.3861/UDODO/TT409/TT425/TT427/UPSOL/VAVDO/D151T/+05.2517+095.5677/+05.2808+095.6110/+05.3169+095.6486/+05.3589+095.6793/+05.4056+095.7022/+05.4555+095.7166/+05.5072+095.7220/+05.5591+095.7184/+05.6095+095.7058/+05.6570+095.6846/+05.7001+095.6554/+05.7375+095.6192/+05.7680+095.5769/+05.7908+095.5300/+05.8051+095.4798/+05.8106+095.4278/+05.8069+095.3757/UDODO/TT409/TT425/TT427/UPSOL/VAVDO/D123T/+05.3501+095.6737/+05.3959+095.6982/+05.4454+095.7144/+05.4968+095.7217/+05.5487+095.7199/+05.5996+095.7091/+05.6478+095.6895/+05.6919+095.6619/+05.7305+095.6269/+05.7625+095.5858/+05.7869+095.5397/+05.8030+095.4900/+05.8102+095.4383/+05.8084+095.3861/AKBUR/TT409/TT425/TT427/UPSOL/VAVDO/DUAMO/D098T/+05.4709+095.7192/+05.5228+095.7219/+05.5744+095.7156/+05.6241+095.7003/+05.6704+095.6767/+05.7119+095.6452/+05.7474+095.6071/+05.7757+095.5633/+05.7960+095.5152/+05.8077+095.4643/+05.8104+095.4121/DUAMO/LAWAH/TT413/TT425/TT427/UPSOL/VAVDO/D237T/+05.3501+095.1715/+05.3959+095.1469/+05.4454+095.1308/+05.4968+095.1235/+05.5487+095.1253/+05.5996+095.1361/+05.6478+095.1556/+05.6919+095.1833/+05.7305+095.2182/+05.7625+095.2594/+05.7869+095.3055/+05.8030+095.3552/TENOM/TT424/IRMUS/VAVDO/CD17/FD17/MA17/VAVDO/CF17/FF17/RW17/VAVDO/TT501/TT502/TT503/VAVDO</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BELRI</Point>
+            <Point>CF17</Point>
+            <Point>DUAMO</Point>
+            <Point>CD17</Point>
+            <Point>TT501</Point>
+            <Point>VAVDO</Point>
+            <Point>ANSAX</Point>
+            <Point>TT409</Point>
+            <Point>TT424</Point>
+            <Point>IRMUS</Point>
+            <Point>UDOLI</Point>
+            <Point>FF17</Point>
+            <Point>MA17</Point>
+            <Point>LAWAH</Point>
+            <Point>TT419</Point>
+            <Point>BULVA</Point>
+            <Point>TENOM</Point>
+            <Point>D137T</Point>
+            <Point>ELDEL</Point>
+            <Point>D237T</Point>
+            <Point>TT503</Point>
+            <Point>RW17</Point>
+            <Point>TT427</Point>
+            <Point>IVRAR</Point>
+            <Point>AVDIN</Point>
+            <Point>OTKUL</Point>
+            <Point>EMREB</Point>
+            <Point>TASEK</Point>
+            <Point>OPUNG</Point>
+            <Point>TT425</Point>
+            <Point>TT408</Point>
+            <Point>FD17</Point>
+            <Point>TT407</Point>
+            <Point>UDODO</Point>
+            <Point>URDAM</Point>
+            <Point>TT411</Point>
+            <Point>D098T</Point>
+            <Point>TT410</Point>
+            <Point>D151T</Point>
+            <Point>D123T</Point>
+            <Point>TT414</Point>
+            <Point>AKBUR</Point>
+            <Point>UPSOL</Point>
+            <Point>TEUKU</Point>
+            <Point>TT413</Point>
+            <Point>D143T</Point>
+            <Point>TT502</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WITT_RW35_NAMES" Priority="3" Center="+05.5169+095.4200">
+        <Label>
+            <Point>BELRI</Point>
+            <Point>CF17</Point>
+            <Point>DUAMO</Point>
+            <Point>CD17</Point>
+            <Point>TT501</Point>
+            <Point>VAVDO</Point>
+            <Point>ANSAX</Point>
+            <Point>TT409</Point>
+            <Point>TT424</Point>
+            <Point>IRMUS</Point>
+            <Point>UDOLI</Point>
+            <Point>FF17</Point>
+            <Point>MA17</Point>
+            <Point>LAWAH</Point>
+            <Point>TT419</Point>
+            <Point>BULVA</Point>
+            <Point>TENOM</Point>
+            <Point>D137T</Point>
+            <Point>ELDEL</Point>
+            <Point>D237T</Point>
+            <Point>TT503</Point>
+            <Point>RW17</Point>
+            <Point>TT427</Point>
+            <Point>IVRAR</Point>
+            <Point>AVDIN</Point>
+            <Point>OTKUL</Point>
+            <Point>EMREB</Point>
+            <Point>TASEK</Point>
+            <Point>OPUNG</Point>
+            <Point>TT425</Point>
+            <Point>TT408</Point>
+            <Point>FD17</Point>
+            <Point>TT407</Point>
+            <Point>UDODO</Point>
+            <Point>URDAM</Point>
+            <Point>TT411</Point>
+            <Point>D098T</Point>
+            <Point>TT410</Point>
+            <Point>D151T</Point>
+            <Point>D123T</Point>
+            <Point>TT414</Point>
+            <Point>AKBUR</Point>
+            <Point>UPSOL</Point>
+            <Point>TEUKU</Point>
+            <Point>TT413</Point>
+            <Point>D143T</Point>
+            <Point>TT502</Point>
+        </Label>
+    </Map>
+</Maps>

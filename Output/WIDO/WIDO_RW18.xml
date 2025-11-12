@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIDO_RW18" Priority="3" Center="+03.9061+108.3881">
+        <Runway Name="18">
+            <Threshold Name="18" Position="+03.9204+108.3883" ExtendedCentrelineTrack="2" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="36" Position="+03.8972+108.3874"/>
+        </Runway>
+    </Map>
+</Maps>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIHI_RW25" Priority="3" Center="-06.4931+105.6656">
+        <Runway Name="25">
+            <Threshold Name="25" Position="-06.4907+105.6720" ExtendedCentrelineTrack="70" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="07" Position="-06.4926+105.6669"/>
+        </Runway>
+    </Map>
+</Maps>

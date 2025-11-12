@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIKT_RW18" Priority="3" Center="-02.7453+107.7531">
+        <Runway Name="18">
+            <Threshold Name="18" Position="-02.7328+107.7538" ExtendedCentrelineTrack="355" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="36" Position="-02.7553+107.7553"/>
+        </Runway>
+        <!--SID: AMBO1N, Runway: 18-->
+        <Line Pattern="Dotted">-02.7553+107.7553/ANONI/UKAVU/AMBOY</Line>
+        <!--SID: EGAV1A, Runway: 18-->
+        <Line Pattern="Dotted">-02.7553+107.7553/ANONI/LIDSU/PEBNA/EGAVO</Line>
+        <!--SID: LIML1A, Runway: 18-->
+        <Line Pattern="Dotted">-02.7553+107.7553/ANONI/IVSUL/ELROL/SAKEM/LIMLU</Line>
+        <!--SID: OLVE1B, Runway: 18-->
+        <Line Pattern="Dotted">-02.7553+107.7553/ANONI/LIDSU/PEBNA/EGAVO/OLVES</Line>
+        <!--STAR: ALTA1D, Runway: 18-->
+        <Line Pattern="Dashed">ALTAR/MIMIX/DUNEB/OSUPU/LOVMI/AGOKU</Line>
+        <!--STAR: GUKN1A, Runway: 18-->
+        <Line Pattern="Dashed">GUKNO/OSUPU/LOVMI/AGOKU</Line>
+        <!--STAR: LIML1C, Runway: 18-->
+        <Line Pattern="Dashed">LIMLU/SAKEM/VEMGI/OSUPU/LOVMI/AGOKU</Line>
+        <!--STAR: MASR1C, Runway: 18-->
+        <Line Pattern="Dashed">MASRI/TUPDU/MELUP/LOVMI/AGOKU</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>EGAVO</Point>
+            <Point>UKAVU</Point>
+            <Point>LOVMI</Point>
+            <Point>MIMIX</Point>
+            <Point>SAKEM</Point>
+            <Point>ALTAR</Point>
+            <Point>ANONI</Point>
+            <Point>VEMGI</Point>
+            <Point>GUKNO</Point>
+            <Point>AGOKU</Point>
+            <Point>TUPDU</Point>
+            <Point>MASRI</Point>
+            <Point>LIDSU</Point>
+            <Point>PEBNA</Point>
+            <Point>IVSUL</Point>
+            <Point>OLVES</Point>
+            <Point>ELROL</Point>
+            <Point>OSUPU</Point>
+            <Point>DUNEB</Point>
+            <Point>AMBOY</Point>
+            <Point>LIMLU</Point>
+            <Point>MELUP</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIKT_RW18_NAMES" Priority="3" Center="-02.7453+107.7531">
+        <Label>
+            <Point>EGAVO</Point>
+            <Point>UKAVU</Point>
+            <Point>LOVMI</Point>
+            <Point>MIMIX</Point>
+            <Point>SAKEM</Point>
+            <Point>ALTAR</Point>
+            <Point>ANONI</Point>
+            <Point>VEMGI</Point>
+            <Point>GUKNO</Point>
+            <Point>AGOKU</Point>
+            <Point>TUPDU</Point>
+            <Point>MASRI</Point>
+            <Point>LIDSU</Point>
+            <Point>PEBNA</Point>
+            <Point>IVSUL</Point>
+            <Point>OLVES</Point>
+            <Point>ELROL</Point>
+            <Point>OSUPU</Point>
+            <Point>DUNEB</Point>
+            <Point>AMBOY</Point>
+            <Point>LIMLU</Point>
+            <Point>MELUP</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="WIKT_RW36" Priority="3" Center="-02.7453+107.7531">
+        <Runway Name="36">
+            <Threshold Name="36" Position="-02.7553+107.7553" ExtendedCentrelineTrack="175" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="18" Position="-02.7328+107.7538"/>
+        </Runway>
+        <!--SID: AMBO1P, Runway: 36-->
+        <Line Pattern="Dotted">-02.7328+107.7538/SADUX/OMGAP/GIXIL/REKUM/AMBOY</Line>
+        <!--SID: EGAV1B, Runway: 36-->
+        <Line Pattern="Dotted">-02.7328+107.7538/SADUX/EGAVO</Line>
+        <!--SID: LIML1B, Runway: 36-->
+        <Line Pattern="Dotted">-02.7328+107.7538/SADUX/IGNAS/VEMGI/SAKEM/LIMLU</Line>
+        <!--SID: OLVE1C, Runway: 36-->
+        <Line Pattern="Dotted">-02.7328+107.7538/SADUX/EGAVO/LAKUN/OLVES/MIMIX/DUNEB/OSUPU/LOVMI/AGOKU/MIMIX/BADAU/OSUPU/LOVMI/AGOKU/PUMIR/NULTI/BADAU/SAKEM/VEMGI/OSUPU/LOVMI/AGOKU/SAKEM/NULTI/BADAU/TUPDU/MELUP/LOVMI/AGOKU/SABKI/ISGUR/MAMLI/BADAU/CD18/FD18/MD18/AGOKU/CD36/FD36/MD36/BADAU/CF36/FF36/RW36/BADAU/KT501/KT502/RW18/AGOKU/KT701/KT702/RW36/BADAU</Line>
+        <!--STAR: ALTA1E, Runway: 36-->
+        <Line Pattern="Dashed">ALTAR/MIMIX/BADAU</Line>
+        <!--STAR: GUKN1B, Runway: 36-->
+        <Line Pattern="Dashed">GUKNO/PUMIR/NULTI/BADAU</Line>
+        <!--STAR: LIML1D, Runway: 36-->
+        <Line Pattern="Dashed">LIMLU/SAKEM/NULTI/BADAU</Line>
+        <!--STAR: MASR1D, Runway: 36-->
+        <Line Pattern="Dashed">MASRI/SABKI/ISGUR/MAMLI/BADAU</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>EGAVO</Point>
+            <Point>NULTI</Point>
+            <Point>CF36</Point>
+            <Point>REKUM</Point>
+            <Point>LOVMI</Point>
+            <Point>MAMLI</Point>
+            <Point>KT501</Point>
+            <Point>MIMIX</Point>
+            <Point>SAKEM</Point>
+            <Point>RW18</Point>
+            <Point>GIXIL</Point>
+            <Point>IGNAS</Point>
+            <Point>MD36</Point>
+            <Point>FD36</Point>
+            <Point>FF36</Point>
+            <Point>ALTAR</Point>
+            <Point>CD36</Point>
+            <Point>VEMGI</Point>
+            <Point>KT702</Point>
+            <Point>GUKNO</Point>
+            <Point>AGOKU</Point>
+            <Point>RW36</Point>
+            <Point>CD18</Point>
+            <Point>TUPDU</Point>
+            <Point>KT502</Point>
+            <Point>MASRI</Point>
+            <Point>LAKUN</Point>
+            <Point>ISGUR</Point>
+            <Point>FD18</Point>
+            <Point>OMGAP</Point>
+            <Point>MD18</Point>
+            <Point>OLVES</Point>
+            <Point>BADAU</Point>
+            <Point>KT701</Point>
+            <Point>OSUPU</Point>
+            <Point>DUNEB</Point>
+            <Point>SABKI</Point>
+            <Point>AMBOY</Point>
+            <Point>PUMIR</Point>
+            <Point>LIMLU</Point>
+            <Point>MELUP</Point>
+            <Point>SADUX</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIKT_RW36_NAMES" Priority="3" Center="-02.7453+107.7531">
+        <Label>
+            <Point>EGAVO</Point>
+            <Point>NULTI</Point>
+            <Point>CF36</Point>
+            <Point>REKUM</Point>
+            <Point>LOVMI</Point>
+            <Point>MAMLI</Point>
+            <Point>KT501</Point>
+            <Point>MIMIX</Point>
+            <Point>SAKEM</Point>
+            <Point>RW18</Point>
+            <Point>GIXIL</Point>
+            <Point>IGNAS</Point>
+            <Point>MD36</Point>
+            <Point>FD36</Point>
+            <Point>FF36</Point>
+            <Point>ALTAR</Point>
+            <Point>CD36</Point>
+            <Point>VEMGI</Point>
+            <Point>KT702</Point>
+            <Point>GUKNO</Point>
+            <Point>AGOKU</Point>
+            <Point>RW36</Point>
+            <Point>CD18</Point>
+            <Point>TUPDU</Point>
+            <Point>KT502</Point>
+            <Point>MASRI</Point>
+            <Point>LAKUN</Point>
+            <Point>ISGUR</Point>
+            <Point>FD18</Point>
+            <Point>OMGAP</Point>
+            <Point>MD18</Point>
+            <Point>OLVES</Point>
+            <Point>BADAU</Point>
+            <Point>KT701</Point>
+            <Point>OSUPU</Point>
+            <Point>DUNEB</Point>
+            <Point>SABKI</Point>
+            <Point>AMBOY</Point>
+            <Point>PUMIR</Point>
+            <Point>LIMLU</Point>
+            <Point>MELUP</Point>
+            <Point>SADUX</Point>
+        </Label>
+    </Map>
+</Maps>

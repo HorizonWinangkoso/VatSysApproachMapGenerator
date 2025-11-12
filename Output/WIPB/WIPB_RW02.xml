@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIPB_RW02" Priority="3" Center="-03.2842+102.9142">
+        <Runway Name="02">
+            <Threshold Name="02" Position="-03.2972+102.9115" ExtendedCentrelineTrack="198" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="20" Position="-03.2781+102.9177"/>
+        </Runway>
+    </Map>
+</Maps>

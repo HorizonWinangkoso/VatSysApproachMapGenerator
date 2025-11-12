@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIMU_RW15" Priority="3" Center="+03.3922+097.8650">
+        <Runway Name="15">
+            <Threshold Name="15" Position="+03.3971+097.8599" ExtendedCentrelineTrack="326" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="33" Position="+03.3859+097.8676"/>
+        </Runway>
+    </Map>
+</Maps>

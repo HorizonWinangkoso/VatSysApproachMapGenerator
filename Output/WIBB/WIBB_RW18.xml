@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIBB_RW18" Priority="3" Center="+00.4622+101.4453">
+        <Runway Name="18">
+            <Threshold Name="18" Position="+00.4710+101.4448" ExtendedCentrelineTrack="2" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="36" Position="+00.4475+101.4441"/>
+        </Runway>
+        <!--SID: AKPE1E, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/MEDIA/AKPER</Line>
+        <!--SID: AVKU1A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/AVKUR</Line>
+        <!--SID: BALA1A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OVTAK/ANPOK/OBGAM/GULMU/ARULU/URGOK/AVKON/OMDAN/BALAB</Line>
+        <!--SID: DOSI1E, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OVTAK/ANPOK/VIPUM/UVUTA/UKBEP/OSVAV/EPKUP/NONUN/IDKEK/DOSIK</Line>
+        <!--SID: DOSI2A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/NOSIA/DOSIK</Line>
+        <!--SID: ISNA1A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OVTAK/ANPOK/ANKUV/IGLOL/ISNAX</Line>
+        <!--SID: ISRO1A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/AVKUR/OLRAD/ISROR</Line>
+        <!--SID: ISRO1G, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OLDOP/ATRER/IPGOX/RUXIV/EGIXA/ISROR</Line>
+        <!--SID: JATA1A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/JATAM</Line>
+        <!--SID: JATA1E, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OLDOP/ATRER/IPGOX/RUXIV/IDLAR/ONERA/JATAM</Line>
+        <!--SID: KUAL1J, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OLDOP/ATRER/IPGOX/RUXIV/IDLAR/ONERA/EKVUG/KUALA</Line>
+        <!--SID: MEDI1E, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/MEDIA</Line>
+        <!--SID: MEDI1N, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OVTAK/ANPOK/UPMAP/AKEBI/OLNAT/GUGPO/EGEDI/AKOIP/VAVBI/BEDUV/MEDIA</Line>
+        <!--SID: OSNI1J, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/UGIGI/EMTOL/SUDLO/IDRAG/EKULO/OSNIS</Line>
+        <!--SID: SALA1A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/NOSIA/SALAX</Line>
+        <!--SID: SALA1E, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OVTAK/ANPOK/VIPUM/UVUTA/UKBEP/OSVAV/EPKUP/EGIDU/SALAX</Line>
+        <!--SID: TARO1A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/TAROS</Line>
+        <!--SID: TARO1E, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OKVIR/MESEX/UGTAT/BEBAM/TAROS</Line>
+        <!--SID: TUSN1A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/TUSNU</Line>
+        <!--SID: TUSN1E, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/OKVIR/MESEX/UGTAT/BEBAM/TUSNU</Line>
+        <!--SID: UGIG1A, Runway: 18-->
+        <Line Pattern="Dotted">+00.4475+101.4441/UGIGI</Line>
+        <!--STAR: AVKU1C, Runway: 18-->
+        <Line Pattern="Dashed">AVKUR/PKU/OTKEG</Line>
+        <!--STAR: BALA1C, Runway: 18-->
+        <Line Pattern="Dashed">BALAB/OMDAN/AVKON/URGOK/ARULU/GULMU/OBGAM/IGLOL/OVMIP/OTKEG</Line>
+        <!--STAR: DOSI1G, Runway: 18-->
+        <Line Pattern="Dashed">DOSIK/UPRAT/EKEDU/IRVUK/OTABU/SAPUN/OTKEG</Line>
+        <!--STAR: DOSI3C, Runway: 18-->
+        <Line Pattern="Dashed">DOSIK/NOSIA/OTKEG</Line>
+        <!--STAR: ISNA1C, Runway: 18-->
+        <Line Pattern="Dashed">ISNAX/IGLOL/OVMIP/OTKEG</Line>
+        <!--STAR: JATA1G, Runway: 18-->
+        <Line Pattern="Dashed">JATAM/IGPAL/DADEV/DOXOD/NURVA/ENGED/OVSAD/UPSEM/AVPOS/OTKEG</Line>
+        <!--STAR: JATA2C, Runway: 18-->
+        <Line Pattern="Dashed">JATAM/OGOPU/PKU/OTKEG</Line>
+        <!--STAR: KUAL1L, Runway: 18-->
+        <Line Pattern="Dashed">KUALA/ATSAK/IGPAL/DADEV/DOXOD/NURVA/ENGED/OVSAD/UPSEM/AVPOS/OTKEG</Line>
+        <!--STAR: MEDI1G, Runway: 18-->
+        <Line Pattern="Dashed">MEDIA/D317Y/OTKEG</Line>
+        <!--STAR: MEDI1Q, Runway: 18-->
+        <Line Pattern="Dashed">MEDIA/BEDUV/VAVBI/AKOIP/EGEDI/GUGPO/OLNAT/OVMIP/OTKEG</Line>
+        <!--STAR: OMBE1E, Runway: 18-->
+        <Line Pattern="Dashed">OMBES/MEDIA/D317Y/OTKEG</Line>
+        <!--STAR: OSNI1L, Runway: 18-->
+        <Line Pattern="Dashed">OSNIS/EKULO/IDRAG/SUDLO/EMTOL/EPKEX/EPKIS/UPLUV/LEPMO/OVMIP/OTKEG</Line>
+        <!--STAR: OVSE1A, Runway: 18-->
+        <Line Pattern="Dashed">OVSET/NONEG/OGOPU/PKU/OTKEG</Line>
+        <!--STAR: OVSE1G, Runway: 18-->
+        <Line Pattern="Dashed">OVSET/IGPAL/DADEV/DOXOD/NURVA/ENGED/OVSAD/UPSEM/AVPOS/OTKEG</Line>
+        <!--STAR: SALA1G, Runway: 18-->
+        <Line Pattern="Dashed">SALAX/OLGIV/EKEDU/IRVUK/OTABU/SAPUN/OTKEG</Line>
+        <!--STAR: SALA2C, Runway: 18-->
+        <Line Pattern="Dashed">SALAX/NOSIA/OTKEG</Line>
+        <!--STAR: TARO1G, Runway: 18-->
+        <Line Pattern="Dashed">TAROS/LADUM/AVPOS/OTKEG</Line>
+        <!--STAR: TARO2C, Runway: 18-->
+        <Line Pattern="Dashed">TAROS/D072Y/OTKEG</Line>
+        <!--STAR: TUSN1G, Runway: 18-->
+        <Line Pattern="Dashed">TUSNU/LADUM/AVPOS/OTKEG</Line>
+        <!--STAR: TUSN2C, Runway: 18-->
+        <Line Pattern="Dashed">TUSNU/D081Y/OTKEG</Line>
+        <!--STAR: UGIG1C, Runway: 18-->
+        <Line Pattern="Dashed">UGIGI/PKU/OTKEG</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>GUGPO</Point>
+            <Point>DADEV</Point>
+            <Point>ISROR</Point>
+            <Point>OMDAN</Point>
+            <Point>EGIXA</Point>
+            <Point>SAPUN</Point>
+            <Point>OKVIR</Point>
+            <Point>OSVAV</Point>
+            <Point>BALAB</Point>
+            <Point>UPRAT</Point>
+            <Point>OVTAK</Point>
+            <Point>IRVUK</Point>
+            <Point>VAVBI</Point>
+            <Point>OLNAT</Point>
+            <Point>UGIGI</Point>
+            <Point>D081Y</Point>
+            <Point>ARULU</Point>
+            <Point>DOXOD</Point>
+            <Point>IDRAG</Point>
+            <Point>UPSEM</Point>
+            <Point>EKVUG</Point>
+            <Point>AVKUR</Point>
+            <Point>EPKUP</Point>
+            <Point>LADUM</Point>
+            <Point>ISNAX</Point>
+            <Point>EPKEX</Point>
+            <Point>ENGED</Point>
+            <Point>EGEDI</Point>
+            <Point>JATAM</Point>
+            <Point>OVSAD</Point>
+            <Point>BEDUV</Point>
+            <Point>ANPOK</Point>
+            <Point>EMTOL</Point>
+            <Point>SALAX</Point>
+            <Point>RUXIV</Point>
+            <Point>VIPUM</Point>
+            <Point>UPMAP</Point>
+            <Point>IDLAR</Point>
+            <Point>EPKIS</Point>
+            <Point>MEDIA</Point>
+            <Point>KUALA</Point>
+            <Point>OTABU</Point>
+            <Point>IGLOL</Point>
+            <Point>ONERA</Point>
+            <Point>ATSAK</Point>
+            <Point>OVMIP</Point>
+            <Point>BEBAM</Point>
+            <Point>OGOPU</Point>
+            <Point>OLDOP</Point>
+            <Point>OMBES</Point>
+            <Point>AKPER</Point>
+            <Point>EKEDU</Point>
+            <Point>UKBEP</Point>
+            <Point>NOSIA</Point>
+            <Point>NURVA</Point>
+            <Point>D072Y</Point>
+            <Point>OVSET</Point>
+            <Point>UVUTA</Point>
+            <Point>PKU</Point>
+            <Point>AKEBI</Point>
+            <Point>D317Y</Point>
+            <Point>EKULO</Point>
+            <Point>IPGOX</Point>
+            <Point>IGPAL</Point>
+            <Point>AVKON</Point>
+            <Point>SUDLO</Point>
+            <Point>URGOK</Point>
+            <Point>LEPMO</Point>
+            <Point>GULMU</Point>
+            <Point>OLRAD</Point>
+            <Point>OSNIS</Point>
+            <Point>TUSNU</Point>
+            <Point>AKOIP</Point>
+            <Point>NONEG</Point>
+            <Point>OTKEG</Point>
+            <Point>MESEX</Point>
+            <Point>NONUN</Point>
+            <Point>AVPOS</Point>
+            <Point>DOSIK</Point>
+            <Point>UGTAT</Point>
+            <Point>OLGIV</Point>
+            <Point>UPLUV</Point>
+            <Point>OBGAM</Point>
+            <Point>ANKUV</Point>
+            <Point>IDKEK</Point>
+            <Point>ATRER</Point>
+            <Point>TAROS</Point>
+            <Point>EGIDU</Point>
+        </Symbol>
+    </Map>
+</Maps>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIDT_RW09" Priority="3" Center="+01.0514+103.3900">
+        <Runway Name="09">
+            <Threshold Name="09" Position="+01.0533+103.3853" ExtendedCentrelineTrack="273" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="27" Position="+01.0525+103.3978"/>
+        </Runway>
+    </Map>
+</Maps>

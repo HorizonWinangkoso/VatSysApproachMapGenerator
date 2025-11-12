@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIGG_RW13" Priority="3" Center="-03.8611+102.3394">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-03.8570+102.3318" ExtendedCentrelineTrack="313" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="31" Position="-03.8709+102.3466"/>
+        </Runway>
+        <!--SID: BIBU1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/BIBUL</Line>
+        <!--SID: LEBE1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/LEBEG</Line>
+        <!--SID: PLB1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/D067G/PLB</Line>
+        <!--SID: PONI1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/PONIN</Line>
+        <!--SID: SUKE1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/SUKEP</Line>
+        <!--SID: TOLI1C, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/TOLIT</Line>
+        <!--SID: TOLI1D, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/TOLIT</Line>
+        <!--SID: TOPU1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/D078G/TOPUK</Line>
+        <!--STAR: BIBU1C, Runway: 13-->
+        <Line Pattern="Dashed">BIBUL/D348Y/OVTUM</Line>
+        <!--STAR: LEBE1C, Runway: 13-->
+        <Line Pattern="Dashed">LEBEG/D318Y/OVTUM</Line>
+        <!--STAR: PLB1C, Runway: 13-->
+        <Line Pattern="Dashed">PLB/BKL/OVTUM</Line>
+        <!--STAR: SOVM1C, Runway: 13-->
+        <Line Pattern="Dashed">SOVMI/D359Y/OVTUM</Line>
+        <!--STAR: TOLI1F, Runway: 13-->
+        <Line Pattern="Dashed">TOLIT/BKL/OVTUM</Line>
+        <!--STAR: UDUT1C, Runway: 13-->
+        <Line Pattern="Dashed">UDUTO/BKL/OVTUM</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>D348Y</Point>
+            <Point>TOPUK</Point>
+            <Point>PONIN</Point>
+            <Point>D318Y</Point>
+            <Point>SOVMI</Point>
+            <Point>BIBUL</Point>
+            <Point>D078G</Point>
+            <Point>TOLIT</Point>
+            <Point>OVTUM</Point>
+            <Point>UDUTO</Point>
+            <Point>D359Y</Point>
+            <Point>BKL</Point>
+            <Point>SUKEP</Point>
+            <Point>D067G</Point>
+            <Point>PLB</Point>
+            <Point>LEBEG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIGG_RW13_NAMES" Priority="3" Center="-03.8611+102.3394">
+        <Label>
+            <Point>D348Y</Point>
+            <Point>TOPUK</Point>
+            <Point>PONIN</Point>
+            <Point>D318Y</Point>
+            <Point>SOVMI</Point>
+            <Point>BIBUL</Point>
+            <Point>D078G</Point>
+            <Point>TOLIT</Point>
+            <Point>OVTUM</Point>
+            <Point>UDUTO</Point>
+            <Point>D359Y</Point>
+            <Point>BKL</Point>
+            <Point>SUKEP</Point>
+            <Point>D067G</Point>
+            <Point>PLB</Point>
+            <Point>LEBEG</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="WIGG_RW31" Priority="3" Center="-03.8611+102.3394">
+        <Runway Name="31">
+            <Threshold Name="31" Position="-03.8709+102.3466" ExtendedCentrelineTrack="133" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="13" Position="-03.8570+102.3318"/>
+        </Runway>
+        <!--SID: BIBU1B, Runway: 31-->
+        <Line Pattern="Dotted">-03.8570+102.3318/BKL/BIBUL</Line>
+        <!--SID: LEBE1B, Runway: 31-->
+        <Line Pattern="Dotted">-03.8570+102.3318/LEBEG</Line>
+        <!--SID: PLB1B, Runway: 31-->
+        <Line Pattern="Dotted">-03.8570+102.3318/BKL/D067G/PLB</Line>
+        <!--SID: PONI1B, Runway: 31-->
+        <Line Pattern="Dotted">-03.8570+102.3318/PONIN</Line>
+        <!--SID: SUKE1B, Runway: 31-->
+        <Line Pattern="Dotted">-03.8570+102.3318/BKL/SUKEP</Line>
+        <!--SID: TOLI1E, Runway: 31-->
+        <Line Pattern="Dotted">-03.8570+102.3318/TOLIT</Line>
+        <!--SID: TOPU1B, Runway: 31-->
+        <Line Pattern="Dotted">-03.8570+102.3318/BKL/D078G/TOPUK/D348Y/OVTUM/BKL/IDAXU/D318Y/OVTUM/BKL/IDAXU/BKL/OVTUM/D067Y/IDAXU/D359Y/OVTUM/BKL/IDAXU/BKL/OVTUM/D116Y/IDAXU/BKL/OVTUM/D113Y/IDAXU/CF13/FF13/MA13/OVTUM/CF31/FF31/MA31/IDAXU/CI13/FI13/RW13/OVTUM/GG501/GG502/RW13/OVTUM/GG701/GG702/RW31/IDAXU</Line>
+        <!--STAR: BIBU1D, Runway: 31-->
+        <Line Pattern="Dashed">BIBUL/BKL/IDAXU</Line>
+        <!--STAR: LEBE1D, Runway: 31-->
+        <Line Pattern="Dashed">LEBEG/BKL/IDAXU</Line>
+        <!--STAR: PLB1D, Runway: 31-->
+        <Line Pattern="Dashed">PLB/D067Y/IDAXU</Line>
+        <!--STAR: SOVM1D, Runway: 31-->
+        <Line Pattern="Dashed">SOVMI/BKL/IDAXU</Line>
+        <!--STAR: TOLI1G, Runway: 31-->
+        <Line Pattern="Dashed">TOLIT/D116Y/IDAXU</Line>
+        <!--STAR: UDUT1D, Runway: 31-->
+        <Line Pattern="Dashed">UDUTO/D113Y/IDAXU</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>IDAXU</Point>
+            <Point>D113Y</Point>
+            <Point>CI13</Point>
+            <Point>BIBUL</Point>
+            <Point>GG702</Point>
+            <Point>D359Y</Point>
+            <Point>SOVMI</Point>
+            <Point>D067G</Point>
+            <Point>FF13</Point>
+            <Point>RW31</Point>
+            <Point>TOPUK</Point>
+            <Point>D318Y</Point>
+            <Point>D078G</Point>
+            <Point>GG701</Point>
+            <Point>MA31</Point>
+            <Point>UDUTO</Point>
+            <Point>D116Y</Point>
+            <Point>D348Y</Point>
+            <Point>CF13</Point>
+            <Point>OVTUM</Point>
+            <Point>TOLIT</Point>
+            <Point>GG502</Point>
+            <Point>BKL</Point>
+            <Point>PONIN</Point>
+            <Point>FF31</Point>
+            <Point>D067Y</Point>
+            <Point>RW13</Point>
+            <Point>GG501</Point>
+            <Point>MA13</Point>
+            <Point>FI13</Point>
+            <Point>SUKEP</Point>
+            <Point>PLB</Point>
+            <Point>CF31</Point>
+            <Point>LEBEG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIGG_RW31_NAMES" Priority="3" Center="-03.8611+102.3394">
+        <Label>
+            <Point>IDAXU</Point>
+            <Point>D113Y</Point>
+            <Point>CI13</Point>
+            <Point>BIBUL</Point>
+            <Point>GG702</Point>
+            <Point>D359Y</Point>
+            <Point>SOVMI</Point>
+            <Point>D067G</Point>
+            <Point>FF13</Point>
+            <Point>RW31</Point>
+            <Point>TOPUK</Point>
+            <Point>D318Y</Point>
+            <Point>D078G</Point>
+            <Point>GG701</Point>
+            <Point>MA31</Point>
+            <Point>UDUTO</Point>
+            <Point>D116Y</Point>
+            <Point>D348Y</Point>
+            <Point>CF13</Point>
+            <Point>OVTUM</Point>
+            <Point>TOLIT</Point>
+            <Point>GG502</Point>
+            <Point>BKL</Point>
+            <Point>PONIN</Point>
+            <Point>FF31</Point>
+            <Point>D067Y</Point>
+            <Point>RW13</Point>
+            <Point>GG501</Point>
+            <Point>MA13</Point>
+            <Point>FI13</Point>
+            <Point>SUKEP</Point>
+            <Point>PLB</Point>
+            <Point>CF31</Point>
+            <Point>LEBEG</Point>
+        </Label>
+    </Map>
+</Maps>

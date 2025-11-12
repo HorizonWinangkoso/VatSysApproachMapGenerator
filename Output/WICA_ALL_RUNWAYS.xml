@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WICA_RW14" Priority="3" Center="-06.6483+108.1542">
+        <Runway Name="14">
+            <Threshold Name="14" Position="-06.6370+108.1568" ExtendedCentrelineTrack="319" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="32" Position="-06.6578+108.1743"/>
+        </Runway>
+        <!--SID: CA1N, Runway: 14-->
+        <Line Pattern="Dotted">-06.6578+108.1743/PALIM/CA</Line>
+        <!--SID: CKG2A, Runway: 14-->
+        <Line Pattern="Dotted">-06.6578+108.1743/SAPRO/ARESA/TANOT/GULSI/IMABA/CKG</Line>
+        <!--SID: CLP1J, Runway: 14-->
+        <Line Pattern="Dotted">-06.6578+108.1743/PALIM/LACAP/CLP</Line>
+        <!--SID: TKG2A, Runway: 14-->
+        <Line Pattern="Dotted">-06.6578+108.1743/SAPRO/ARESA/TANOT/GULSI/IMABA/CKG/TKG</Line>
+        <!--STAR: CA1Q, Runway: 14-->
+        <Line Pattern="Dashed">CA/WINAN/ORIZA/KECAP</Line>
+        <!--STAR: DAGO2C, Runway: 14-->
+        <Line Pattern="Dashed">DAGOH/SUMED/EKIMO/UBMER/KECAP</Line>
+        <!--STAR: HLM1C, Runway: 14-->
+        <Line Pattern="Dashed">HLM/DAGOH/SUMED/EKIMO/UBMER/KECAP</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>LACAP</Point>
+            <Point>WINAN</Point>
+            <Point>CLP</Point>
+            <Point>HLM</Point>
+            <Point>TANOT</Point>
+            <Point>UBMER</Point>
+            <Point>ORIZA</Point>
+            <Point>PALIM</Point>
+            <Point>IMABA</Point>
+            <Point>EKIMO</Point>
+            <Point>GULSI</Point>
+            <Point>SUMED</Point>
+            <Point>DAGOH</Point>
+            <Point>KECAP</Point>
+            <Point>ARESA</Point>
+            <Point>CKG</Point>
+            <Point>CA</Point>
+            <Point>TKG</Point>
+            <Point>SAPRO</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WICA_RW14_NAMES" Priority="3" Center="-06.6483+108.1542">
+        <Label>
+            <Point>LACAP</Point>
+            <Point>WINAN</Point>
+            <Point>CLP</Point>
+            <Point>HLM</Point>
+            <Point>TANOT</Point>
+            <Point>UBMER</Point>
+            <Point>ORIZA</Point>
+            <Point>PALIM</Point>
+            <Point>IMABA</Point>
+            <Point>EKIMO</Point>
+            <Point>GULSI</Point>
+            <Point>SUMED</Point>
+            <Point>DAGOH</Point>
+            <Point>KECAP</Point>
+            <Point>ARESA</Point>
+            <Point>CKG</Point>
+            <Point>CA</Point>
+            <Point>TKG</Point>
+            <Point>SAPRO</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="WICA_RW32" Priority="3" Center="-06.6483+108.1542">
+        <Runway Name="32">
+            <Threshold Name="32" Position="-06.6578+108.1743" ExtendedCentrelineTrack="139" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="14" Position="-06.6370+108.1568"/>
+        </Runway>
+        <!--SID: CA1P, Runway: 32-->
+        <Line Pattern="Dotted">-06.6370+108.1568/SIRAW/AMPEL/CA</Line>
+        <!--SID: CKG2B, Runway: 32-->
+        <Line Pattern="Dotted">-06.6370+108.1568/PAREV/PIGEN/MASNO/SAPRO/ARESA/TANOT/GULSI/IMABA/CKG</Line>
+        <!--SID: CKG2C, Runway: 32-->
+        <Line Pattern="Dotted">-06.6370+108.1568/POSIM/POVIS/SAPRO/ARESA/TANOT/GULSI/IMABA/CKG</Line>
+        <!--SID: TKG2B, Runway: 32-->
+        <Line Pattern="Dotted">-06.6370+108.1568/PAREV/PIGEN/MASNO/SAPRO/ARESA/TANOT/GULSI/IMABA/CKG/TKG</Line>
+        <!--SID: TKG2C, Runway: 32-->
+        <Line Pattern="Dotted">-06.6370+108.1568/POSIM/POVIS/SAPRO/ARESA/TANOT/GULSI/IMABA/CKG/TKG/WINAN/ORIZA/KECAP/WINAN/ORIZA/KECAP/SUMED/EKIMO/UBMER/KECAP/SUMED/EKIMO/UBMER/KECAP/DAGOH/SUMED/EKIMO/UBMER/KECAP/DAGOH/SUMED/EKIMO/UBMER/KECAP/FD14/MD14/KECAP/KTJ/CD32/FD32/RW32/KTJ/KECAP/RUSMI/FF14/RW14/KECAP/RUSMI/SAHDI/RW14/KECAP/PAREV/SEDAN/GUNRA/SAMEB/MINIS/RW32/PAREV/KECAP</Line>
+        <!--STAR: CA1R, Runway: 32-->
+        <Line Pattern="Dashed">CA/WINAN/ORIZA/KECAP</Line>
+        <!--STAR: DAGO2D, Runway: 32-->
+        <Line Pattern="Dashed">DAGOH/SUMED/EKIMO/UBMER/KECAP</Line>
+        <!--STAR: HLM1D, Runway: 32-->
+        <Line Pattern="Dashed">HLM/DAGOH/SUMED/EKIMO/UBMER/KECAP</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>AMPEL</Point>
+            <Point>POVIS</Point>
+            <Point>MASNO</Point>
+            <Point>WINAN</Point>
+            <Point>PIGEN</Point>
+            <Point>FD32</Point>
+            <Point>RW14</Point>
+            <Point>FF14</Point>
+            <Point>RW32</Point>
+            <Point>SAMEB</Point>
+            <Point>PAREV</Point>
+            <Point>MD14</Point>
+            <Point>TANOT</Point>
+            <Point>HLM</Point>
+            <Point>UBMER</Point>
+            <Point>FD14</Point>
+            <Point>ORIZA</Point>
+            <Point>IMABA</Point>
+            <Point>SAHDI</Point>
+            <Point>SEDAN</Point>
+            <Point>EKIMO</Point>
+            <Point>RUSMI</Point>
+            <Point>GULSI</Point>
+            <Point>SUMED</Point>
+            <Point>DAGOH</Point>
+            <Point>KECAP</Point>
+            <Point>ARESA</Point>
+            <Point>CKG</Point>
+            <Point>MINIS</Point>
+            <Point>CA</Point>
+            <Point>GUNRA</Point>
+            <Point>POSIM</Point>
+            <Point>CD32</Point>
+            <Point>SIRAW</Point>
+            <Point>TKG</Point>
+            <Point>SAPRO</Point>
+            <Point>KTJ</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WICA_RW32_NAMES" Priority="3" Center="-06.6483+108.1542">
+        <Label>
+            <Point>AMPEL</Point>
+            <Point>POVIS</Point>
+            <Point>MASNO</Point>
+            <Point>WINAN</Point>
+            <Point>PIGEN</Point>
+            <Point>FD32</Point>
+            <Point>RW14</Point>
+            <Point>FF14</Point>
+            <Point>RW32</Point>
+            <Point>SAMEB</Point>
+            <Point>PAREV</Point>
+            <Point>MD14</Point>
+            <Point>TANOT</Point>
+            <Point>HLM</Point>
+            <Point>UBMER</Point>
+            <Point>FD14</Point>
+            <Point>ORIZA</Point>
+            <Point>IMABA</Point>
+            <Point>SAHDI</Point>
+            <Point>SEDAN</Point>
+            <Point>EKIMO</Point>
+            <Point>RUSMI</Point>
+            <Point>GULSI</Point>
+            <Point>SUMED</Point>
+            <Point>DAGOH</Point>
+            <Point>KECAP</Point>
+            <Point>ARESA</Point>
+            <Point>CKG</Point>
+            <Point>MINIS</Point>
+            <Point>CA</Point>
+            <Point>GUNRA</Point>
+            <Point>POSIM</Point>
+            <Point>CD32</Point>
+            <Point>SIRAW</Point>
+            <Point>TKG</Point>
+            <Point>SAPRO</Point>
+            <Point>KTJ</Point>
+        </Label>
+    </Map>
+</Maps>

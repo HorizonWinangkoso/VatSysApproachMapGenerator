@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIEB_RW14" Priority="3" Center="-02.0992+099.7058">
+        <Runway Name="14">
+            <Threshold Name="14" Position="-02.0887+099.6952" ExtendedCentrelineTrack="324" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="32" Position="-02.0997+099.7031"/>
+        </Runway>
+    </Map>
+</Maps>

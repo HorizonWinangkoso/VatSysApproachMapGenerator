@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIPP_RW11" Priority="3" Center="-02.9003+104.7000">
+        <Runway Name="11">
+            <Threshold Name="11" Position="-02.8922+104.6854" ExtendedCentrelineTrack="292" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="29" Position="-02.9026+104.7103"/>
+        </Runway>
+        <!--SID: BORA2A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/UBKEN/BORAS</Line>
+        <!--SID: EGAM1A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/RUPEK/DUKIN/EFKAR/POSRI/BLIDO/EGAMI</Line>
+        <!--SID: IBOR2A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/SUKAS/GUGNA/PANLO/IBORU</Line>
+        <!--SID: IGUT1Q, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/RUPEK/DUKIN/EFKAR/AVLUB/IGUTU</Line>
+        <!--SID: ISKU2A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/YUPIT/JAYAK/KITTO/VEKRI/OGIDU/UKDUK/AKRAK/ISKUT</Line>
+        <!--SID: KUAL3A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/YUPIT/JAYAK/KITTO/VEKRI/OGIDU/UKDUK/OMGOT/KUALA</Line>
+        <!--SID: OVSE1C, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/YUPIT/JAYAK/KITTO/VEKRI/OGIDU/UKDUK/URGAN/OVSET</Line>
+        <!--SID: PARD2A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/RUPEK/DUKIN/EFKAR/PARDI</Line>
+        <!--SID: PASO2A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/YUPIT/JAYAK/KITTO/VEKRI/OGIDU/UKDUK/JAKMI/PASOL</Line>
+        <!--SID: RAWA2A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/YUPIT/ENJUK/GASIK/ISTOT/RAWAS</Line>
+        <!--SID: TERK2A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/YUPIT/GALAK/SIKOK/TERKA</Line>
+        <!--SID: TODA2A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/RUPEK/GUYUR/TODAK</Line>
+        <!--SID: UDOK1A, Runway: 11-->
+        <Line Pattern="Dotted">-02.9026+104.7103/KMARO/TOPUK/UDOKO</Line>
+        <!--STAR: ENSA1A, Runway: 11-->
+        <Line Pattern="Dashed">ENSAV/ATADI/KAFAD/METOK/FUADA/POLDI/TASYA</Line>
+        <!--STAR: GUSK1A, Runway: 11-->
+        <Line Pattern="Dashed">GUSKO/ATADI/KAFAD/METOK/FUADA/POLDI/TASYA</Line>
+        <!--STAR: IBOR2C, Runway: 11-->
+        <Line Pattern="Dashed">IBORU/TODAK/ZANIA/GENJE/NAURA/TASYA</Line>
+        <!--STAR: ISKU1C, Runway: 11-->
+        <Line Pattern="Dashed">ISKUT/ONEVO/RUKMA/LEMPO/TASYA</Line>
+        <!--STAR: ISRO1C, Runway: 11-->
+        <Line Pattern="Dashed">ISROR/EGAMI/IKARI/LEMPO/TASYA</Line>
+        <!--STAR: KUAL1C, Runway: 11-->
+        <Line Pattern="Dashed">KUALA/EGAMI/IKARI/LEMPO/TASYA</Line>
+        <!--STAR: NIPE2A, Runway: 11-->
+        <Line Pattern="Dashed">NIPES/ZANIA/GENJE/NAURA/TASYA</Line>
+        <!--STAR: PABI1A, Runway: 11-->
+        <Line Pattern="Dashed">PABIO/YANIX/RUKMA/LEMPO/TASYA</Line>
+        <!--STAR: PASO1C, Runway: 11-->
+        <Line Pattern="Dashed">PASOL/RIRIN/RUKMA/LEMPO/TASYA</Line>
+        <!--STAR: RAWA1C, Runway: 11-->
+        <Line Pattern="Dashed">RAWAS/TEGUS/LEMPO/TASYA</Line>
+        <!--STAR: SOVM1A, Runway: 11-->
+        <Line Pattern="Dashed">SOVMI/PASOL/RIRIN/RUKMA/LEMPO/TASYA</Line>
+        <!--STAR: TERK1C, Runway: 11-->
+        <Line Pattern="Dashed">TERKA/ATADI/KAFAD/METOK/FUADA/POLDI/TASYA</Line>
+        <!--STAR: TODA2C, Runway: 11-->
+        <Line Pattern="Dashed">TODAK/ZANIA/GENJE/NAURA/TASYA</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>AVLUB</Point>
+            <Point>LEMPO</Point>
+            <Point>GUYUR</Point>
+            <Point>ISROR</Point>
+            <Point>VEKRI</Point>
+            <Point>OMGOT</Point>
+            <Point>ISTOT</Point>
+            <Point>KAFAD</Point>
+            <Point>TASYA</Point>
+            <Point>GUSKO</Point>
+            <Point>BORAS</Point>
+            <Point>SOVMI</Point>
+            <Point>YANIX</Point>
+            <Point>ONEVO</Point>
+            <Point>GUGNA</Point>
+            <Point>TOPUK</Point>
+            <Point>NIPES</Point>
+            <Point>RUPEK</Point>
+            <Point>FUADA</Point>
+            <Point>ATADI</Point>
+            <Point>KITTO</Point>
+            <Point>BLIDO</Point>
+            <Point>EGAMI</Point>
+            <Point>OGIDU</Point>
+            <Point>PASOL</Point>
+            <Point>IKARI</Point>
+            <Point>IBORU</Point>
+            <Point>GALAK</Point>
+            <Point>IGUTU</Point>
+            <Point>POSRI</Point>
+            <Point>RAWAS</Point>
+            <Point>TERKA</Point>
+            <Point>TEGUS</Point>
+            <Point>AKRAK</Point>
+            <Point>OVSET</Point>
+            <Point>PARDI</Point>
+            <Point>ENSAV</Point>
+            <Point>URGAN</Point>
+            <Point>UDOKO</Point>
+            <Point>PABIO</Point>
+            <Point>DUKIN</Point>
+            <Point>RIRIN</Point>
+            <Point>PANLO</Point>
+            <Point>KUALA</Point>
+            <Point>ISKUT</Point>
+            <Point>POLDI</Point>
+            <Point>RUKMA</Point>
+            <Point>ENJUK</Point>
+            <Point>SUKAS</Point>
+            <Point>NAURA</Point>
+            <Point>METOK</Point>
+            <Point>SIKOK</Point>
+            <Point>KMARO</Point>
+            <Point>UKDUK</Point>
+            <Point>JAYAK</Point>
+            <Point>ZANIA</Point>
+            <Point>EFKAR</Point>
+            <Point>TODAK</Point>
+            <Point>UBKEN</Point>
+            <Point>YUPIT</Point>
+            <Point>GENJE</Point>
+            <Point>GASIK</Point>
+            <Point>JAKMI</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIPP_RW11_NAMES" Priority="3" Center="-02.9003+104.7000">
+        <Label>
+            <Point>AVLUB</Point>
+            <Point>LEMPO</Point>
+            <Point>GUYUR</Point>
+            <Point>ISROR</Point>
+            <Point>VEKRI</Point>
+            <Point>OMGOT</Point>
+            <Point>ISTOT</Point>
+            <Point>KAFAD</Point>
+            <Point>TASYA</Point>
+            <Point>GUSKO</Point>
+            <Point>BORAS</Point>
+            <Point>SOVMI</Point>
+            <Point>YANIX</Point>
+            <Point>ONEVO</Point>
+            <Point>GUGNA</Point>
+            <Point>TOPUK</Point>
+            <Point>NIPES</Point>
+            <Point>RUPEK</Point>
+            <Point>FUADA</Point>
+            <Point>ATADI</Point>
+            <Point>KITTO</Point>
+            <Point>BLIDO</Point>
+            <Point>EGAMI</Point>
+            <Point>OGIDU</Point>
+            <Point>PASOL</Point>
+            <Point>IKARI</Point>
+            <Point>IBORU</Point>
+            <Point>GALAK</Point>
+            <Point>IGUTU</Point>
+            <Point>POSRI</Point>
+            <Point>RAWAS</Point>
+            <Point>TERKA</Point>
+            <Point>TEGUS</Point>
+            <Point>AKRAK</Point>
+            <Point>OVSET</Point>
+            <Point>PARDI</Point>
+            <Point>ENSAV</Point>
+            <Point>URGAN</Point>
+            <Point>UDOKO</Point>
+            <Point>PABIO</Point>
+            <Point>DUKIN</Point>
+            <Point>RIRIN</Point>
+            <Point>PANLO</Point>
+            <Point>KUALA</Point>
+            <Point>ISKUT</Point>
+            <Point>POLDI</Point>
+            <Point>RUKMA</Point>
+            <Point>ENJUK</Point>
+            <Point>SUKAS</Point>
+            <Point>NAURA</Point>
+            <Point>METOK</Point>
+            <Point>SIKOK</Point>
+            <Point>KMARO</Point>
+            <Point>UKDUK</Point>
+            <Point>JAYAK</Point>
+            <Point>ZANIA</Point>
+            <Point>EFKAR</Point>
+            <Point>TODAK</Point>
+            <Point>UBKEN</Point>
+            <Point>YUPIT</Point>
+            <Point>GENJE</Point>
+            <Point>GASIK</Point>
+            <Point>JAKMI</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="WIPP_RW29" Priority="3" Center="-02.9003+104.7000">
+        <Runway Name="29">
+            <Threshold Name="29" Position="-02.9026+104.7103" ExtendedCentrelineTrack="112" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="11" Position="-02.8922+104.6854"/>
+        </Runway>
+        <!--SID: BORA2B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/BROWI/DINFA/BIGIK/KAYIS/UBKEN/BORAS</Line>
+        <!--SID: EGAM1B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/EMVUS/HANIF/IDVIN/DANIF/EGAMI</Line>
+        <!--SID: IBOR2B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/BROWI/DINFA/BIGIK/DOLOR/IBORU</Line>
+        <!--SID: IGUT1R, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/EFKAR/AVLUB/IGUTU</Line>
+        <!--SID: ISKU2B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/EMVUS/HANIF/IDVIN/RIZZA/ONTAX/ISKUT</Line>
+        <!--SID: KUAL3B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/EMVUS/HANIF/IDVIN/SARUV/KUALA</Line>
+        <!--SID: OVSE1D, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/EMVUS/HANIF/IDVIN/POTID/OVSET</Line>
+        <!--SID: PARD2B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/EFKAR/PARDI</Line>
+        <!--SID: PASO2B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/EMVUS/HANIF/IDVIN/UDAUL/PASOL</Line>
+        <!--SID: RAWA2B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/RIDRO/SUSIG/KADOK/RAWAS</Line>
+        <!--SID: TERK2B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/YUPIT/YUMEL/TERKA</Line>
+        <!--SID: TODA2B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/YUTIA/TODAK</Line>
+        <!--SID: UDOK1B, Runway: 29-->
+        <Line Pattern="Dotted">-02.8922+104.6854/BROWI/DINFA/BIGIK/KAYIS/TOPUK/UDOKO/ATADI/KAFAD/METOK/FUADA/POLDI/TASYA/ATADI/GODIR/EPBIN/ATADI/KAFAD/METOK/FUADA/POLDI/TASYA/ATADI/GODIR/EPBIN/TODAK/PUBIM/REDAL/TEWAN/EPBIN/TODAK/ZANIA/GENJE/NAURA/TASYA/ONEVO/RUKMA/LEMPO/TASYA/TEGUH/ATSEB/URDIL/LAXAN/METOK/GODIR/EPBIN/EGAMI/IKARI/LEMPO/TASYA/EGAMI/GULKA/LOKAK/KAGEK/PILIH/TEWAN/EPBIN/EGAMI/IKARI/LEMPO/TASYA/EGAMI/GULKA/LOKAK/KAGEK/PILIH/TEWAN/EPBIN/POCOK/KAGEK/PILIH/TEWAN/EPBIN/ZANIA/GENJE/NAURA/TASYA/YANIX/RUKMA/LEMPO/TASYA/TEGUH/ATSEB/URDIL/LAXAN/METOK/GODIR/EPBIN/RIRIN/RUKMA/LEMPO/TASYA/TEGUH/ATSEB/URDIL/LAXAN/METOK/GODIR/EPBIN/TEGUS/LEMPO/TASYA/SAPLA/LAXAN/METOK/GODIR/EPBIN/PASOL/RIRIN/RUKMA/LEMPO/TASYA/PASOL/TEGUH/ATSEB/URDIL/LAXAN/METOK/GODIR/EPBIN/ATADI/KAFAD/METOK/FUADA/POLDI/TASYA/APUNU/ATADI/GODIR/EPBIN/PUBIM/REDAL/TEWAN/EPBIN/ZANIA/GENJE/NAURA/TASYA/CD11/FD11/MD11/TASYA/CD29/FD29/MD29/EPBIN/CI11/FI11/RW11/TASYA/CI29/FI29/RW29/EPBIN/PP501/PP502/RW11/TASYA/PP701/PP702/RW29/EPBIN</Line>
+        <!--STAR: ENSA1B, Runway: 29-->
+        <Line Pattern="Dashed">ENSAV/ATADI/GODIR/EPBIN</Line>
+        <!--STAR: GUSK1B, Runway: 29-->
+        <Line Pattern="Dashed">GUSKO/ATADI/GODIR/EPBIN</Line>
+        <!--STAR: IBOR1D, Runway: 29-->
+        <Line Pattern="Dashed">IBORU/TODAK/PUBIM/REDAL/TEWAN/EPBIN</Line>
+        <!--STAR: ISKU1D, Runway: 29-->
+        <Line Pattern="Dashed">ISKUT/TEGUH/ATSEB/URDIL/LAXAN/METOK/GODIR/EPBIN</Line>
+        <!--STAR: ISRO1D, Runway: 29-->
+        <Line Pattern="Dashed">ISROR/EGAMI/GULKA/LOKAK/KAGEK/PILIH/TEWAN/EPBIN</Line>
+        <!--STAR: KUAL1D, Runway: 29-->
+        <Line Pattern="Dashed">KUALA/EGAMI/GULKA/LOKAK/KAGEK/PILIH/TEWAN/EPBIN</Line>
+        <!--STAR: NIPE1B, Runway: 29-->
+        <Line Pattern="Dashed">NIPES/POCOK/KAGEK/PILIH/TEWAN/EPBIN</Line>
+        <!--STAR: PABI1B, Runway: 29-->
+        <Line Pattern="Dashed">PABIO/TEGUH/ATSEB/URDIL/LAXAN/METOK/GODIR/EPBIN</Line>
+        <!--STAR: PASO1D, Runway: 29-->
+        <Line Pattern="Dashed">PASOL/TEGUH/ATSEB/URDIL/LAXAN/METOK/GODIR/EPBIN</Line>
+        <!--STAR: RAWA1D, Runway: 29-->
+        <Line Pattern="Dashed">RAWAS/SAPLA/LAXAN/METOK/GODIR/EPBIN</Line>
+        <!--STAR: SOVM1B, Runway: 29-->
+        <Line Pattern="Dashed">SOVMI/PASOL/TEGUH/ATSEB/URDIL/LAXAN/METOK/GODIR/EPBIN</Line>
+        <!--STAR: TERK1D, Runway: 29-->
+        <Line Pattern="Dashed">TERKA/APUNU/ATADI/GODIR/EPBIN</Line>
+        <!--STAR: TODA1D, Runway: 29-->
+        <Line Pattern="Dashed">TODAK/PUBIM/REDAL/TEWAN/EPBIN</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>LEMPO</Point>
+            <Point>ATSEB</Point>
+            <Point>PILIH</Point>
+            <Point>BROWI</Point>
+            <Point>ISROR</Point>
+            <Point>GUSKO</Point>
+            <Point>TASYA</Point>
+            <Point>BORAS</Point>
+            <Point>SOVMI</Point>
+            <Point>UDAUL</Point>
+            <Point>FI11</Point>
+            <Point>ONEVO</Point>
+            <Point>LOKAK</Point>
+            <Point>CI11</Point>
+            <Point>DINFA</Point>
+            <Point>RW11</Point>
+            <Point>URDIL</Point>
+            <Point>SARUV</Point>
+            <Point>RIZZA</Point>
+            <Point>DANIF</Point>
+            <Point>APUNU</Point>
+            <Point>GENJE</Point>
+            <Point>AVLUB</Point>
+            <Point>EPBIN</Point>
+            <Point>RW29</Point>
+            <Point>MD29</Point>
+            <Point>KAFAD</Point>
+            <Point>ONTAX</Point>
+            <Point>PP702</Point>
+            <Point>KAGEK</Point>
+            <Point>YANIX</Point>
+            <Point>TEWAN</Point>
+            <Point>SAPLA</Point>
+            <Point>YUTIA</Point>
+            <Point>EGAMI</Point>
+            <Point>IGUTU</Point>
+            <Point>RAWAS</Point>
+            <Point>PP701</Point>
+            <Point>CD29</Point>
+            <Point>FD11</Point>
+            <Point>PABIO</Point>
+            <Point>CI29</Point>
+            <Point>REDAL</Point>
+            <Point>RIRIN</Point>
+            <Point>HANIF</Point>
+            <Point>KUALA</Point>
+            <Point>ISKUT</Point>
+            <Point>TODAK</Point>
+            <Point>UBKEN</Point>
+            <Point>FI29</Point>
+            <Point>PP502</Point>
+            <Point>PUBIM</Point>
+            <Point>BIGIK</Point>
+            <Point>DOLOR</Point>
+            <Point>TOPUK</Point>
+            <Point>FUADA</Point>
+            <Point>PASOL</Point>
+            <Point>IKARI</Point>
+            <Point>TERKA</Point>
+            <Point>EMVUS</Point>
+            <Point>ENSAV</Point>
+            <Point>OVSET</Point>
+            <Point>UDOKO</Point>
+            <Point>LAXAN</Point>
+            <Point>POLDI</Point>
+            <Point>POTID</Point>
+            <Point>NAURA</Point>
+            <Point>FD29</Point>
+            <Point>ZANIA</Point>
+            <Point>TEGUH</Point>
+            <Point>EFKAR</Point>
+            <Point>RIDRO</Point>
+            <Point>POCOK</Point>
+            <Point>IDVIN</Point>
+            <Point>PP501</Point>
+            <Point>NIPES</Point>
+            <Point>GULKA</Point>
+            <Point>ATADI</Point>
+            <Point>SUSIG</Point>
+            <Point>KADOK</Point>
+            <Point>IBORU</Point>
+            <Point>TEGUS</Point>
+            <Point>KAYIS</Point>
+            <Point>GODIR</Point>
+            <Point>MD11</Point>
+            <Point>PARDI</Point>
+            <Point>RUKMA</Point>
+            <Point>CD11</Point>
+            <Point>METOK</Point>
+            <Point>YUMEL</Point>
+            <Point>YUPIT</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIPP_RW29_NAMES" Priority="3" Center="-02.9003+104.7000">
+        <Label>
+            <Point>LEMPO</Point>
+            <Point>ATSEB</Point>
+            <Point>PILIH</Point>
+            <Point>BROWI</Point>
+            <Point>ISROR</Point>
+            <Point>GUSKO</Point>
+            <Point>TASYA</Point>
+            <Point>BORAS</Point>
+            <Point>SOVMI</Point>
+            <Point>UDAUL</Point>
+            <Point>FI11</Point>
+            <Point>ONEVO</Point>
+            <Point>LOKAK</Point>
+            <Point>CI11</Point>
+            <Point>DINFA</Point>
+            <Point>RW11</Point>
+            <Point>URDIL</Point>
+            <Point>SARUV</Point>
+            <Point>RIZZA</Point>
+            <Point>DANIF</Point>
+            <Point>APUNU</Point>
+            <Point>GENJE</Point>
+            <Point>AVLUB</Point>
+            <Point>EPBIN</Point>
+            <Point>RW29</Point>
+            <Point>MD29</Point>
+            <Point>KAFAD</Point>
+            <Point>ONTAX</Point>
+            <Point>PP702</Point>
+            <Point>KAGEK</Point>
+            <Point>YANIX</Point>
+            <Point>TEWAN</Point>
+            <Point>SAPLA</Point>
+            <Point>YUTIA</Point>
+            <Point>EGAMI</Point>
+            <Point>IGUTU</Point>
+            <Point>RAWAS</Point>
+            <Point>PP701</Point>
+            <Point>CD29</Point>
+            <Point>FD11</Point>
+            <Point>PABIO</Point>
+            <Point>CI29</Point>
+            <Point>REDAL</Point>
+            <Point>RIRIN</Point>
+            <Point>HANIF</Point>
+            <Point>KUALA</Point>
+            <Point>ISKUT</Point>
+            <Point>TODAK</Point>
+            <Point>UBKEN</Point>
+            <Point>FI29</Point>
+            <Point>PP502</Point>
+            <Point>PUBIM</Point>
+            <Point>BIGIK</Point>
+            <Point>DOLOR</Point>
+            <Point>TOPUK</Point>
+            <Point>FUADA</Point>
+            <Point>PASOL</Point>
+            <Point>IKARI</Point>
+            <Point>TERKA</Point>
+            <Point>EMVUS</Point>
+            <Point>ENSAV</Point>
+            <Point>OVSET</Point>
+            <Point>UDOKO</Point>
+            <Point>LAXAN</Point>
+            <Point>POLDI</Point>
+            <Point>POTID</Point>
+            <Point>NAURA</Point>
+            <Point>FD29</Point>
+            <Point>ZANIA</Point>
+            <Point>TEGUH</Point>
+            <Point>EFKAR</Point>
+            <Point>RIDRO</Point>
+            <Point>POCOK</Point>
+            <Point>IDVIN</Point>
+            <Point>PP501</Point>
+            <Point>NIPES</Point>
+            <Point>GULKA</Point>
+            <Point>ATADI</Point>
+            <Point>SUSIG</Point>
+            <Point>KADOK</Point>
+            <Point>IBORU</Point>
+            <Point>TEGUS</Point>
+            <Point>KAYIS</Point>
+            <Point>GODIR</Point>
+            <Point>MD11</Point>
+            <Point>PARDI</Point>
+            <Point>RUKMA</Point>
+            <Point>CD11</Point>
+            <Point>METOK</Point>
+            <Point>YUMEL</Point>
+            <Point>YUPIT</Point>
+        </Label>
+    </Map>
+</Maps>

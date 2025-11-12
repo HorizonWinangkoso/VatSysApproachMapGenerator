@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIOO_RW15" Priority="3" Center="-00.1456+109.4036">
+        <Runway Name="15">
+            <Threshold Name="15" Position="-00.1413+109.4001" ExtendedCentrelineTrack="337" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="33" Position="-00.1631+109.4089"/>
+        </Runway>
+        <!--SID: ARUP1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/RAZOR/ADGUK/DOBRU/IGBES/ARUPA</Line>
+        <!--SID: ENPI1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/MESEG/ENPIN</Line>
+        <!--SID: GUKN1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/INVEM/OMBEG/IRPAV/UPTUS/GUKNO</Line>
+        <!--SID: LUBT1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/VAVSU/ISNUK/ADKON/LUBTI</Line>
+        <!--SID: MASR1C, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/OMDUL/VEXIS/MASRI</Line>
+        <!--SID: OBDO1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/RAZOR/ADGUK/DOBRU/IGBES/OLSUK/OBDOS</Line>
+        <!--SID: OSRU1E, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/VAVSU/ISNUK/ADKON/OSRUT</Line>
+        <!--SID: PAPS1D, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/GOBUV/AVBEN/RIKVO/PAPSA</Line>
+        <!--SID: RAFI1E, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/OMDUL/VEXIS/RAFIS</Line>
+        <!--SID: SUGI1E, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/BEKPI/SUGIK</Line>
+        <!--SID: TRIB1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.1631+109.4089/OMDUL/TRIBO</Line>
+        <!--STAR: ARUP1C, Runway: 15-->
+        <Line Pattern="Dashed">ARUPA/GORGI/URBED/LILKU</Line>
+        <!--STAR: ENPI1C, Runway: 15-->
+        <Line Pattern="Dashed">ENPIN/UPGUT/UDUVA/AVMEX/VETAD/UPNOS/LILKU</Line>
+        <!--STAR: GUKN1C, Runway: 15-->
+        <Line Pattern="Dashed">GUKNO/UPVER/BIKUG/GORGI/URBED/LILKU</Line>
+        <!--STAR: LAKU1A, Runway: 15-->
+        <Line Pattern="Dashed">LAKUN/OLVES/TUVGO/URBED/LILKU</Line>
+        <!--STAR: LUBT1C, Runway: 15-->
+        <Line Pattern="Dashed">LUBTI/OVNOL/UXOLA/AVMEX/VETAD/UPNOS/LILKU</Line>
+        <!--STAR: OBDO1C, Runway: 15-->
+        <Line Pattern="Dashed">OBDOS/UGRAM/IDLUB/GORGI/URBED/LILKU</Line>
+        <!--STAR: OSRU1G, Runway: 15-->
+        <Line Pattern="Dashed">OSRUT/OVNOL/UXOLA/AVMEX/VETAD/UPNOS/LILKU</Line>
+        <!--STAR: PAPS1F, Runway: 15-->
+        <Line Pattern="Dashed">PAPSA/IVTED/PUDAP/UPNOS/LILKU</Line>
+        <!--STAR: RAFI1G, Runway: 15-->
+        <Line Pattern="Dashed">RAFIS/OLVES/TUVGO/URBED/LILKU</Line>
+        <!--STAR: SUGI1G, Runway: 15-->
+        <Line Pattern="Dashed">SUGIK/IVSOK/OBLEM/AVMEX/VETAD/UPNOS/LILKU</Line>
+        <!--STAR: TRIB1C, Runway: 15-->
+        <Line Pattern="Dashed">TRIBO/LAWIB/TUVGO/URBED/LILKU</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>UPTUS</Point>
+            <Point>UXOLA</Point>
+            <Point>LUBTI</Point>
+            <Point>AVMEX</Point>
+            <Point>ADKON</Point>
+            <Point>OSRUT</Point>
+            <Point>RAFIS</Point>
+            <Point>IRPAV</Point>
+            <Point>IVSOK</Point>
+            <Point>LAWIB</Point>
+            <Point>MESEG</Point>
+            <Point>GOBUV</Point>
+            <Point>OBLEM</Point>
+            <Point>UPGUT</Point>
+            <Point>OVNOL</Point>
+            <Point>OLSUK</Point>
+            <Point>PAPSA</Point>
+            <Point>AVBEN</Point>
+            <Point>LILKU</Point>
+            <Point>IVTED</Point>
+            <Point>PUDAP</Point>
+            <Point>OMBEG</Point>
+            <Point>SUGIK</Point>
+            <Point>UDUVA</Point>
+            <Point>IDLUB</Point>
+            <Point>GUKNO</Point>
+            <Point>ADGUK</Point>
+            <Point>UGRAM</Point>
+            <Point>GORGI</Point>
+            <Point>UPVER</Point>
+            <Point>RIKVO</Point>
+            <Point>BIKUG</Point>
+            <Point>MASRI</Point>
+            <Point>DOBRU</Point>
+            <Point>VAVSU</Point>
+            <Point>OBDOS</Point>
+            <Point>LAKUN</Point>
+            <Point>TRIBO</Point>
+            <Point>VETAD</Point>
+            <Point>BEKPI</Point>
+            <Point>INVEM</Point>
+            <Point>RAZOR</Point>
+            <Point>OLVES</Point>
+            <Point>TUVGO</Point>
+            <Point>IGBES</Point>
+            <Point>ARUPA</Point>
+            <Point>ISNUK</Point>
+            <Point>UPNOS</Point>
+            <Point>VEXIS</Point>
+            <Point>OMDUL</Point>
+            <Point>URBED</Point>
+            <Point>ENPIN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIOO_RW15_NAMES" Priority="3" Center="-00.1456+109.4036">
+        <Label>
+            <Point>UPTUS</Point>
+            <Point>UXOLA</Point>
+            <Point>LUBTI</Point>
+            <Point>AVMEX</Point>
+            <Point>ADKON</Point>
+            <Point>OSRUT</Point>
+            <Point>RAFIS</Point>
+            <Point>IRPAV</Point>
+            <Point>IVSOK</Point>
+            <Point>LAWIB</Point>
+            <Point>MESEG</Point>
+            <Point>GOBUV</Point>
+            <Point>OBLEM</Point>
+            <Point>UPGUT</Point>
+            <Point>OVNOL</Point>
+            <Point>OLSUK</Point>
+            <Point>PAPSA</Point>
+            <Point>AVBEN</Point>
+            <Point>LILKU</Point>
+            <Point>IVTED</Point>
+            <Point>PUDAP</Point>
+            <Point>OMBEG</Point>
+            <Point>SUGIK</Point>
+            <Point>UDUVA</Point>
+            <Point>IDLUB</Point>
+            <Point>GUKNO</Point>
+            <Point>ADGUK</Point>
+            <Point>UGRAM</Point>
+            <Point>GORGI</Point>
+            <Point>UPVER</Point>
+            <Point>RIKVO</Point>
+            <Point>BIKUG</Point>
+            <Point>MASRI</Point>
+            <Point>DOBRU</Point>
+            <Point>VAVSU</Point>
+            <Point>OBDOS</Point>
+            <Point>LAKUN</Point>
+            <Point>TRIBO</Point>
+            <Point>VETAD</Point>
+            <Point>BEKPI</Point>
+            <Point>INVEM</Point>
+            <Point>RAZOR</Point>
+            <Point>OLVES</Point>
+            <Point>TUVGO</Point>
+            <Point>IGBES</Point>
+            <Point>ARUPA</Point>
+            <Point>ISNUK</Point>
+            <Point>UPNOS</Point>
+            <Point>VEXIS</Point>
+            <Point>OMDUL</Point>
+            <Point>URBED</Point>
+            <Point>ENPIN</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="WIOO_RW33" Priority="3" Center="-00.1456+109.4036">
+        <Runway Name="33">
+            <Threshold Name="33" Position="-00.1631+109.4089" ExtendedCentrelineTrack="157" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="15" Position="-00.1413+109.4001"/>
+        </Runway>
+        <!--SID: ARUP1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/URBED/ARUPA</Line>
+        <!--SID: ENPI1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/MULVU/OTBUX/ENPIN</Line>
+        <!--SID: GUKN1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/TUVGO/AVBIB/GUKNO</Line>
+        <!--SID: LUBT1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/MULVU/UXOLA/OVNOL/LUBTI</Line>
+        <!--SID: MASR1D, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/TUVGO/IDBOM/IGBIL/LAWIB/MASRI</Line>
+        <!--SID: OBDO1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/URBED/EPDAX/UGRAM/OBDOS</Line>
+        <!--SID: OSRU1F, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/MULVU/UXOLA/OVNOL/OSRUT</Line>
+        <!--SID: PAPS1E, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/UPNOS/PUDAP/IVTED/PAPSA</Line>
+        <!--SID: RAFI1F, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/TUVGO/IDBOM/IGBIL/LAWIB/RAFIS</Line>
+        <!--SID: SUGI1F, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/MULVU/OTBUX/IVSOK/SUGIK</Line>
+        <!--SID: TRIB1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.1413+109.4001/TUVGO/IDBOM/IGBIL/LAWIB/TRIBO/GORGI/URBED/LILKU/IRNUV/UBGOV/BUDPO/NONIT/UPGUT/UDUVA/AVMEX/VETAD/UPNOS/LILKU/BUKTU/BEKPI/ENBAS/NONIT/UPVER/BIKUG/GORGI/URBED/LILKU/OLVES/RIVPU/BUDPO/NONIT/OLVES/TUVGO/URBED/LILKU/OLVES/RIVPU/BUDPO/NONIT/OVNOL/UXOLA/AVMEX/VETAD/UPNOS/LILKU/ADKON/ISNUK/OLSIB/UBGAL/ENBAS/NONIT/UGRAM/IDLUB/GORGI/URBED/LILKU/OLSUK/AGVOG/UBGOV/BUDPO/NONIT/OVNOL/UXOLA/AVMEX/VETAD/UPNOS/LILKU/ADKON/ISNUK/OLSIB/UBGAL/ENBAS/NONIT/IVTED/PUDAP/UPNOS/LILKU/RIKVO/AVBEN/OLMEG/ENBAS/NONIT/OLVES/TUVGO/URBED/LILKU/VEXIS/OMDUL/BUDPO/NONIT/IVSOK/OBLEM/AVMEX/VETAD/UPNOS/LILKU/BUKTU/BEKPI/ENBAS/NONIT/LAWIB/TUVGO/URBED/LILKU/OMDUL/BUDPO/NONIT/CD15/FD15/MA15/LILKU/CD33/FD33/MA33/NONIT/CF15/FF15/RW15/LILKU/SP501/SP502/RW15/LILKU/SP701/SP702/RW33/NONIT</Line>
+        <!--STAR: ARUP1D, Runway: 33-->
+        <Line Pattern="Dashed">ARUPA/IRNUV/UBGOV/BUDPO/NONIT</Line>
+        <!--STAR: ENPI1D, Runway: 33-->
+        <Line Pattern="Dashed">ENPIN/BUKTU/BEKPI/ENBAS/NONIT</Line>
+        <!--STAR: GUKN1D, Runway: 33-->
+        <Line Pattern="Dashed">GUKNO/OLVES/RIVPU/BUDPO/NONIT</Line>
+        <!--STAR: LAKU1B, Runway: 33-->
+        <Line Pattern="Dashed">LAKUN/OLVES/RIVPU/BUDPO/NONIT</Line>
+        <!--STAR: LUBT1D, Runway: 33-->
+        <Line Pattern="Dashed">LUBTI/ADKON/ISNUK/OLSIB/UBGAL/ENBAS/NONIT</Line>
+        <!--STAR: OBDO1D, Runway: 33-->
+        <Line Pattern="Dashed">OBDOS/OLSUK/AGVOG/UBGOV/BUDPO/NONIT</Line>
+        <!--STAR: OSRU1H, Runway: 33-->
+        <Line Pattern="Dashed">OSRUT/ADKON/ISNUK/OLSIB/UBGAL/ENBAS/NONIT</Line>
+        <!--STAR: PAPS1G, Runway: 33-->
+        <Line Pattern="Dashed">PAPSA/RIKVO/AVBEN/OLMEG/ENBAS/NONIT</Line>
+        <!--STAR: RAFI1H, Runway: 33-->
+        <Line Pattern="Dashed">RAFIS/VEXIS/OMDUL/BUDPO/NONIT</Line>
+        <!--STAR: SUGI1H, Runway: 33-->
+        <Line Pattern="Dashed">SUGIK/BUKTU/BEKPI/ENBAS/NONIT</Line>
+        <!--STAR: TRIB1D, Runway: 33-->
+        <Line Pattern="Dashed">TRIBO/OMDUL/BUDPO/NONIT</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>URBED</Point>
+            <Point>SP501</Point>
+            <Point>UXOLA</Point>
+            <Point>LUBTI</Point>
+            <Point>AVMEX</Point>
+            <Point>OTBUX</Point>
+            <Point>ADKON</Point>
+            <Point>OSRUT</Point>
+            <Point>SP502</Point>
+            <Point>RAFIS</Point>
+            <Point>IVSOK</Point>
+            <Point>IDBOM</Point>
+            <Point>BUDPO</Point>
+            <Point>MA33</Point>
+            <Point>CD15</Point>
+            <Point>NONIT</Point>
+            <Point>FF15</Point>
+            <Point>AVBIB</Point>
+            <Point>OBLEM</Point>
+            <Point>UPGUT</Point>
+            <Point>BUKTU</Point>
+            <Point>OVNOL</Point>
+            <Point>IRNUV</Point>
+            <Point>PAPSA</Point>
+            <Point>OLSUK</Point>
+            <Point>AVBEN</Point>
+            <Point>LILKU</Point>
+            <Point>PUDAP</Point>
+            <Point>IVTED</Point>
+            <Point>FD33</Point>
+            <Point>SUGIK</Point>
+            <Point>UDUVA</Point>
+            <Point>IDLUB</Point>
+            <Point>CF15</Point>
+            <Point>GUKNO</Point>
+            <Point>UGRAM</Point>
+            <Point>LAKUN</Point>
+            <Point>GORGI</Point>
+            <Point>UPVER</Point>
+            <Point>RIKVO</Point>
+            <Point>BIKUG</Point>
+            <Point>MASRI</Point>
+            <Point>SP701</Point>
+            <Point>OBDOS</Point>
+            <Point>ENBAS</Point>
+            <Point>EPDAX</Point>
+            <Point>TRIBO</Point>
+            <Point>RW33</Point>
+            <Point>UBGOV</Point>
+            <Point>VETAD</Point>
+            <Point>BEKPI</Point>
+            <Point>OLVES</Point>
+            <Point>RIVPU</Point>
+            <Point>TUVGO</Point>
+            <Point>FD15</Point>
+            <Point>CD33</Point>
+            <Point>RW15</Point>
+            <Point>ARUPA</Point>
+            <Point>IGBIL</Point>
+            <Point>MULVU</Point>
+            <Point>ISNUK</Point>
+            <Point>SP702</Point>
+            <Point>OLSIB</Point>
+            <Point>UPNOS</Point>
+            <Point>UBGAL</Point>
+            <Point>OLMEG</Point>
+            <Point>VEXIS</Point>
+            <Point>AGVOG</Point>
+            <Point>MA15</Point>
+            <Point>OMDUL</Point>
+            <Point>LAWIB</Point>
+            <Point>ENPIN</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIOO_RW33_NAMES" Priority="3" Center="-00.1456+109.4036">
+        <Label>
+            <Point>URBED</Point>
+            <Point>SP501</Point>
+            <Point>UXOLA</Point>
+            <Point>LUBTI</Point>
+            <Point>AVMEX</Point>
+            <Point>OTBUX</Point>
+            <Point>ADKON</Point>
+            <Point>OSRUT</Point>
+            <Point>SP502</Point>
+            <Point>RAFIS</Point>
+            <Point>IVSOK</Point>
+            <Point>IDBOM</Point>
+            <Point>BUDPO</Point>
+            <Point>MA33</Point>
+            <Point>CD15</Point>
+            <Point>NONIT</Point>
+            <Point>FF15</Point>
+            <Point>AVBIB</Point>
+            <Point>OBLEM</Point>
+            <Point>UPGUT</Point>
+            <Point>BUKTU</Point>
+            <Point>OVNOL</Point>
+            <Point>IRNUV</Point>
+            <Point>PAPSA</Point>
+            <Point>OLSUK</Point>
+            <Point>AVBEN</Point>
+            <Point>LILKU</Point>
+            <Point>PUDAP</Point>
+            <Point>IVTED</Point>
+            <Point>FD33</Point>
+            <Point>SUGIK</Point>
+            <Point>UDUVA</Point>
+            <Point>IDLUB</Point>
+            <Point>CF15</Point>
+            <Point>GUKNO</Point>
+            <Point>UGRAM</Point>
+            <Point>LAKUN</Point>
+            <Point>GORGI</Point>
+            <Point>UPVER</Point>
+            <Point>RIKVO</Point>
+            <Point>BIKUG</Point>
+            <Point>MASRI</Point>
+            <Point>SP701</Point>
+            <Point>OBDOS</Point>
+            <Point>ENBAS</Point>
+            <Point>EPDAX</Point>
+            <Point>TRIBO</Point>
+            <Point>RW33</Point>
+            <Point>UBGOV</Point>
+            <Point>VETAD</Point>
+            <Point>BEKPI</Point>
+            <Point>OLVES</Point>
+            <Point>RIVPU</Point>
+            <Point>TUVGO</Point>
+            <Point>FD15</Point>
+            <Point>CD33</Point>
+            <Point>RW15</Point>
+            <Point>ARUPA</Point>
+            <Point>IGBIL</Point>
+            <Point>MULVU</Point>
+            <Point>ISNUK</Point>
+            <Point>SP702</Point>
+            <Point>OLSIB</Point>
+            <Point>UPNOS</Point>
+            <Point>UBGAL</Point>
+            <Point>OLMEG</Point>
+            <Point>VEXIS</Point>
+            <Point>AGVOG</Point>
+            <Point>MA15</Point>
+            <Point>OMDUL</Point>
+            <Point>LAWIB</Point>
+            <Point>ENPIN</Point>
+        </Label>
+    </Map>
+</Maps>

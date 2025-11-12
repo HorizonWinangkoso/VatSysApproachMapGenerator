@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIMO_RW06" Priority="3" Center="-00.0197+098.3008">
+        <Runway Name="06">
+            <Threshold Name="06" Position="-00.0212+098.2955" ExtendedCentrelineTrack="245" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="24" Position="-00.0159+098.3068"/>
+        </Runway>
+    </Map>
+    <Map Type="System" Name="WIMO_RW24" Priority="3" Center="-00.0197+098.3008">
+        <Runway Name="24">
+            <Threshold Name="24" Position="-00.0159+098.3068" ExtendedCentrelineTrack="65" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="06" Position="-00.0212+098.2955"/>
+        </Runway>
+    </Map>
+</Maps>

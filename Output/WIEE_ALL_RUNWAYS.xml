@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIEE_RW15" Priority="3" Center="-00.7883+100.2864">
+        <Runway Name="15">
+            <Threshold Name="15" Position="-00.7736+100.2747" ExtendedCentrelineTrack="335" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="33" Position="-00.7982+100.2861"/>
+        </Runway>
+        <!--SID: BEPN1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/MKB/BEPNO</Line>
+        <!--SID: BEPN1C, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/ARITU/NODIR/BEPNO</Line>
+        <!--SID: DOTM1E, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/DOTMA</Line>
+        <!--SID: DOTM1G, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/IPLIM/LELAK/BUKDA/BUTEV/ENDID/OPOBA/VINUX/DOTMA</Line>
+        <!--SID: ELDE1G, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/ELDEL</Line>
+        <!--SID: ELDE1K, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/IPLIM/LELAK/MEMUL/REBIV/KABTI/MILEK/ELDEL</Line>
+        <!--SID: EXUM1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/ARITU/IDLOS/SUMLU/EXUMU</Line>
+        <!--SID: ISKU1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/ARITU/PUKAV/UXILA/AGONO/ISKUT</Line>
+        <!--SID: LEBE1E, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/LEBEG</Line>
+        <!--SID: NOKE1E, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/NOKEL</Line>
+        <!--SID: NOKE1N, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/IPLIM/LELAK/BUKDA/BUTEV/ENDID/OPOBA/VINUX/NOKEL</Line>
+        <!--SID: NONA1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/MKB/NONAP</Line>
+        <!--SID: NONA1E, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/ARITU/PUKAV/UXILA/AGONO/NONAP</Line>
+        <!--SID: OSNI1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/MKB/OSNIS</Line>
+        <!--SID: OSNI1E, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/IPLIM/LELAK/MKB/OSNIS</Line>
+        <!--SID: PANG1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/TASUS/TOGUK/PANGU</Line>
+        <!--SID: PASO1J, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/ARITU/NODIR/BEPNO/SOVMI/PASOL</Line>
+        <!--SID: PASO2E, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/MKB/PASOL</Line>
+        <!--SID: RISR1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/ARITU/IDLOS/TUMVO/RISRA</Line>
+        <!--SID: RIVM1A, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/RIVMA</Line>
+        <!--SID: RIVM1C, Runway: 15-->
+        <Line Pattern="Dotted">-00.7982+100.2861/VEDLA/IPLIM/LELAK/MEMUL/DOMTA/RIVMA</Line>
+        <!--STAR: BKL1A, Runway: 15-->
+        <Line Pattern="Dashed">BKL/SANRI/ONISI/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB</Line>
+        <!--STAR: ELDE1J, Runway: 15-->
+        <Line Pattern="Dashed">ELDEL/D322Y/BINIB</Line>
+        <!--STAR: ELDE1M, Runway: 15-->
+        <Line Pattern="Dashed">ELDEL/RIDVU/BIXES/RIKRO/ANKIK/BINIB</Line>
+        <!--STAR: EXUM1C, Runway: 15-->
+        <Line Pattern="Dashed">EXUMU/ONISI/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB</Line>
+        <!--STAR: ISKU1C, Runway: 15-->
+        <Line Pattern="Dashed">ISKUT/RISRA/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB</Line>
+        <!--STAR: LEBE1G, Runway: 15-->
+        <Line Pattern="Dashed">LEBEG/MKB/BINIB</Line>
+        <!--STAR: NOKE1G, Runway: 15-->
+        <Line Pattern="Dashed">NOKEL/D339Y/BINIB</Line>
+        <!--STAR: NOKE1Q, Runway: 15-->
+        <Line Pattern="Dashed">NOKEL/SOSVI/RIKRO/ANKIK/BINIB</Line>
+        <!--STAR: NONA1C, Runway: 15-->
+        <Line Pattern="Dashed">NONAP/MKB/BINIB</Line>
+        <!--STAR: NONA1G, Runway: 15-->
+        <Line Pattern="Dashed">NONAP/LEMOG/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB</Line>
+        <!--STAR: ODIS1A, Runway: 15-->
+        <Line Pattern="Dashed">ODISO/D320Y/BINIB</Line>
+        <!--STAR: ODIS1C, Runway: 15-->
+        <Line Pattern="Dashed">ODISO/BIXES/RIKRO/ANKIK/BINIB</Line>
+        <!--STAR: OSNI1C, Runway: 15-->
+        <Line Pattern="Dashed">OSNIS/MKB/BINIB</Line>
+        <!--STAR: OSNI1G, Runway: 15-->
+        <Line Pattern="Dashed">OSNIS/TANOG/ANKIK/BINIB</Line>
+        <!--STAR: PANG1C, Runway: 15-->
+        <Line Pattern="Dashed">PANGU/IRPAP/UNSAP/BOPTI/RUNGI/BINIB</Line>
+        <!--STAR: PASO1G, Runway: 15-->
+        <Line Pattern="Dashed">PASOL/MKB/BINIB</Line>
+        <!--STAR: PONI1C, Runway: 15-->
+        <Line Pattern="Dashed">PONIN/LEMOG/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB</Line>
+        <!--STAR: RISR1C, Runway: 15-->
+        <Line Pattern="Dashed">RISRA/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BOPTI</Point>
+            <Point>NOKEL</Point>
+            <Point>BEPNO</Point>
+            <Point>D320Y</Point>
+            <Point>PANGU</Point>
+            <Point>ONISI</Point>
+            <Point>ODISO</Point>
+            <Point>IRPAP</Point>
+            <Point>SUMLU</Point>
+            <Point>REBIV</Point>
+            <Point>RUNGI</Point>
+            <Point>LEMOG</Point>
+            <Point>SOVMI</Point>
+            <Point>OSNIS</Point>
+            <Point>ANKIK</Point>
+            <Point>TANOG</Point>
+            <Point>RIKRO</Point>
+            <Point>RISRA</Point>
+            <Point>OPOBA</Point>
+            <Point>RIDVU</Point>
+            <Point>PASOL</Point>
+            <Point>ELDEL</Point>
+            <Point>MKB</Point>
+            <Point>KABTI</Point>
+            <Point>IDLOS</Point>
+            <Point>DOMTA</Point>
+            <Point>UNSAP</Point>
+            <Point>SOSVI</Point>
+            <Point>BUTEV</Point>
+            <Point>VEDLA</Point>
+            <Point>DOTMA</Point>
+            <Point>ENDID</Point>
+            <Point>TASUS</Point>
+            <Point>ISKUT</Point>
+            <Point>ARITU</Point>
+            <Point>LELAK</Point>
+            <Point>BKL</Point>
+            <Point>NODIR</Point>
+            <Point>PUKAV</Point>
+            <Point>IPLIM</Point>
+            <Point>MEMUL</Point>
+            <Point>VINUX</Point>
+            <Point>AGONO</Point>
+            <Point>TOGUK</Point>
+            <Point>BIXES</Point>
+            <Point>PONIN</Point>
+            <Point>NONAP</Point>
+            <Point>D339Y</Point>
+            <Point>UXILA</Point>
+            <Point>SANRI</Point>
+            <Point>D322Y</Point>
+            <Point>TUMVO</Point>
+            <Point>RIVMA</Point>
+            <Point>BUKDA</Point>
+            <Point>EXUMU</Point>
+            <Point>BINIB</Point>
+            <Point>MILEK</Point>
+            <Point>LEBEG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIEE_RW15_NAMES" Priority="3" Center="-00.7883+100.2864">
+        <Label>
+            <Point>BOPTI</Point>
+            <Point>NOKEL</Point>
+            <Point>BEPNO</Point>
+            <Point>D320Y</Point>
+            <Point>PANGU</Point>
+            <Point>ONISI</Point>
+            <Point>ODISO</Point>
+            <Point>IRPAP</Point>
+            <Point>SUMLU</Point>
+            <Point>REBIV</Point>
+            <Point>RUNGI</Point>
+            <Point>LEMOG</Point>
+            <Point>SOVMI</Point>
+            <Point>OSNIS</Point>
+            <Point>ANKIK</Point>
+            <Point>TANOG</Point>
+            <Point>RIKRO</Point>
+            <Point>RISRA</Point>
+            <Point>OPOBA</Point>
+            <Point>RIDVU</Point>
+            <Point>PASOL</Point>
+            <Point>ELDEL</Point>
+            <Point>MKB</Point>
+            <Point>KABTI</Point>
+            <Point>IDLOS</Point>
+            <Point>DOMTA</Point>
+            <Point>UNSAP</Point>
+            <Point>SOSVI</Point>
+            <Point>BUTEV</Point>
+            <Point>VEDLA</Point>
+            <Point>DOTMA</Point>
+            <Point>ENDID</Point>
+            <Point>TASUS</Point>
+            <Point>ISKUT</Point>
+            <Point>ARITU</Point>
+            <Point>LELAK</Point>
+            <Point>BKL</Point>
+            <Point>NODIR</Point>
+            <Point>PUKAV</Point>
+            <Point>IPLIM</Point>
+            <Point>MEMUL</Point>
+            <Point>VINUX</Point>
+            <Point>AGONO</Point>
+            <Point>TOGUK</Point>
+            <Point>BIXES</Point>
+            <Point>PONIN</Point>
+            <Point>NONAP</Point>
+            <Point>D339Y</Point>
+            <Point>UXILA</Point>
+            <Point>SANRI</Point>
+            <Point>D322Y</Point>
+            <Point>TUMVO</Point>
+            <Point>RIVMA</Point>
+            <Point>BUKDA</Point>
+            <Point>EXUMU</Point>
+            <Point>BINIB</Point>
+            <Point>MILEK</Point>
+            <Point>LEBEG</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="WIEE_RW33" Priority="3" Center="-00.7883+100.2864">
+        <Runway Name="33">
+            <Threshold Name="33" Position="-00.7982+100.2861" ExtendedCentrelineTrack="155" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="15" Position="-00.7736+100.2747"/>
+        </Runway>
+        <!--SID: BEPN1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/MKB/BEPNO</Line>
+        <!--SID: BEPN1D, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEKUD/LELAK/MKB/LEKAB/DULUN/DUDAK/BEPNO</Line>
+        <!--SID: DOTM1F, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DOTMA</Line>
+        <!--SID: DOTM1H, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/BUKDA/BUTEV/ENDID/OPOBA/VINUX/DOTMA</Line>
+        <!--SID: ELDE1H, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/ELDEL</Line>
+        <!--SID: ELDE1L, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEMUL/REBIV/KABTI/MILEK/ELDEL</Line>
+        <!--SID: EXUM1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEKUD/LELAK/MKB/LEKAB/DULUN/TUMVO/SUMLU/EXUMU</Line>
+        <!--SID: ISKU1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEKUD/LELAK/MKB/LEKAB/DULUN/DUDAK/ISKUT</Line>
+        <!--SID: LEBE1F, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/LEBEG</Line>
+        <!--SID: NOKE1F, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/NOKEL</Line>
+        <!--SID: NOKE1P, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/BUKDA/BUTEV/ENDID/OPOBA/VINUX/NOKEL</Line>
+        <!--SID: NONA1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/MKB/NONAP</Line>
+        <!--SID: NONA1F, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEKUD/LELAK/MKB/LEKAB/DULUN/DUDAK/AGONO/NONAP</Line>
+        <!--SID: OSNI1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/MKB/OSNIS</Line>
+        <!--SID: OSNI1F, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEKUD/LELAK/MKB/OSNIS</Line>
+        <!--SID: PANG1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEKUD/PIKUG/RUTIG/PANGU</Line>
+        <!--SID: PASO1K, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEKUD/LELAK/MKB/LEKAB/DULUN/DUDAK/BEPNO/SOVMI/PASOL</Line>
+        <!--SID: PASO2F, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/MKB/PASOL</Line>
+        <!--SID: RISR1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEKUD/LELAK/MKB/LEKAB/DULUN/TUMVO/RISRA</Line>
+        <!--SID: RIVM1B, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/RIVMA</Line>
+        <!--SID: RIVM1D, Runway: 33-->
+        <Line Pattern="Dotted">-00.7736+100.2747/DAGRO/MEMUL/DOMTA/RIVMA/SANRI/ONISI/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB/SANRI/ONISI/LEBEG/IRPAP/UNSAP/BAYUR/D322Y/BINIB/RIDVU/BIXES/RIKRO/ANKIK/BINIB/RIDVU/BIXES/RIKRO/RUNGI/BOPTI/UNSAP/BAYUR/MKB/BAYUR/ONISI/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB/ONISI/LEBEG/IRPAP/UNSAP/BAYUR/RISRA/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB/RISRA/LEBEG/IRPAP/UNSAP/BAYUR/MKB/BINIB/D165Y/BAYUR/D339Y/BINIB/MKB/BAYUR/SOSVI/RIKRO/ANKIK/BINIB/SOSVI/RIKRO/RUNGI/BOPTI/UNSAP/BAYUR/MKB/BINIB/MKB30/BAYUR/LEMOG/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB/LEMOG/LEBEG/IRPAP/UNSAP/BAYUR/D320Y/BINIB/MKB/BAYUR/BIXES/RIKRO/ANKIK/BINIB/BIXES/RIKRO/RUNGI/BOPTI/UNSAP/BAYUR/MKB/BINIB/MKB/BAYUR/TANOG/ANKIK/BINIB/IKOTU/IGINI/ATGES/GULAL/IRPAP/UNSAP/BAYUR/IRPAP/UNSAP/BOPTI/RUNGI/BINIB/IRPAP/UNSAP/BAYUR/MKB/BINIB/MKB/BAYUR/LEMOG/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB/LEMOG/LEBEG/IRPAP/UNSAP/BAYUR/LEBEG/IRPAP/UNSAP/BOPTI/RUNGI/BINIB/LEBEG/IRPAP/UNSAP/BAYUR/-00.7099+100.1331/-00.6847+100.1508/-00.6630+100.1726/-00.6453+100.1978/-00.6323+100.2257/FF15/RW15/BINIB/-01.0074+100.2300/-01.0139+100.2672/-01.0139+100.3049/-01.0074+100.3421/-00.9945+100.3776/FD33/RW33/BAYUR/-01.0074+100.2300/-01.0139+100.2672/-01.0139+100.3049/-01.0074+100.3421/FI33/RW33/BAYUR/EE501/EE502/RW15/BINIB/EE701/EE702/RW33/BAYUR</Line>
+        <!--STAR: BKL1B, Runway: 33-->
+        <Line Pattern="Dashed">BKL/SANRI/ONISI/LEBEG/IRPAP/UNSAP/BAYUR</Line>
+        <!--STAR: ELDE1N, Runway: 33-->
+        <Line Pattern="Dashed">ELDEL/RIDVU/BIXES/RIKRO/RUNGI/BOPTI/UNSAP/BAYUR</Line>
+        <!--STAR: ELDE1P, Runway: 33-->
+        <Line Pattern="Dashed">ELDEL/MKB/BAYUR</Line>
+        <!--STAR: EXUM1D, Runway: 33-->
+        <Line Pattern="Dashed">EXUMU/ONISI/LEBEG/IRPAP/UNSAP/BAYUR</Line>
+        <!--STAR: ISKU1D, Runway: 33-->
+        <Line Pattern="Dashed">ISKUT/RISRA/LEBEG/IRPAP/UNSAP/BAYUR</Line>
+        <!--STAR: LEBE1H, Runway: 33-->
+        <Line Pattern="Dashed">LEBEG/D165Y/BAYUR</Line>
+        <!--STAR: NOKE1H, Runway: 33-->
+        <Line Pattern="Dashed">NOKEL/MKB/BAYUR</Line>
+        <!--STAR: NOKE1R, Runway: 33-->
+        <Line Pattern="Dashed">NOKEL/SOSVI/RIKRO/RUNGI/BOPTI/UNSAP/BAYUR</Line>
+        <!--STAR: NONA1D, Runway: 33-->
+        <Line Pattern="Dashed">NONAP/MKB30/BAYUR</Line>
+        <!--STAR: NONA1H, Runway: 33-->
+        <Line Pattern="Dashed">NONAP/LEMOG/LEBEG/IRPAP/UNSAP/BAYUR</Line>
+        <!--STAR: ODIS1B, Runway: 33-->
+        <Line Pattern="Dashed">ODISO/MKB/BAYUR</Line>
+        <!--STAR: ODIS1D, Runway: 33-->
+        <Line Pattern="Dashed">ODISO/BIXES/RIKRO/RUNGI/BOPTI/UNSAP/BAYUR</Line>
+        <!--STAR: OSNI1D, Runway: 33-->
+        <Line Pattern="Dashed">OSNIS/MKB/BAYUR</Line>
+        <!--STAR: OSNI1H, Runway: 33-->
+        <Line Pattern="Dashed">OSNIS/IKOTU/IGINI/ATGES/GULAL/IRPAP/UNSAP/BAYUR</Line>
+        <!--STAR: PANG1D, Runway: 33-->
+        <Line Pattern="Dashed">PANGU/IRPAP/UNSAP/BAYUR</Line>
+        <!--STAR: PASO1H, Runway: 33-->
+        <Line Pattern="Dashed">PASOL/MKB/BAYUR</Line>
+        <!--STAR: PONI1D, Runway: 33-->
+        <Line Pattern="Dashed">PONIN/LEMOG/LEBEG/IRPAP/UNSAP/BAYUR</Line>
+        <!--STAR: RISR1D, Runway: 33-->
+        <Line Pattern="Dashed">RISRA/LEBEG/IRPAP/UNSAP/BAYUR</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>BOPTI</Point>
+            <Point>NOKEL</Point>
+            <Point>LEKAB</Point>
+            <Point>BEPNO</Point>
+            <Point>D320Y</Point>
+            <Point>PANGU</Point>
+            <Point>ONISI</Point>
+            <Point>ODISO</Point>
+            <Point>IRPAP</Point>
+            <Point>SUMLU</Point>
+            <Point>REBIV</Point>
+            <Point>RUTIG</Point>
+            <Point>RUNGI</Point>
+            <Point>LEMOG</Point>
+            <Point>SOVMI</Point>
+            <Point>OSNIS</Point>
+            <Point>ANKIK</Point>
+            <Point>FF15</Point>
+            <Point>DAGRO</Point>
+            <Point>TANOG</Point>
+            <Point>IKOTU</Point>
+            <Point>PIKUG</Point>
+            <Point>RISRA</Point>
+            <Point>OPOBA</Point>
+            <Point>BAYUR</Point>
+            <Point>RIKRO</Point>
+            <Point>RIDVU</Point>
+            <Point>PASOL</Point>
+            <Point>MKB30</Point>
+            <Point>FD33</Point>
+            <Point>MEKUD</Point>
+            <Point>ELDEL</Point>
+            <Point>D165Y</Point>
+            <Point>MKB</Point>
+            <Point>KABTI</Point>
+            <Point>UNSAP</Point>
+            <Point>DOMTA</Point>
+            <Point>GULAL</Point>
+            <Point>EE501</Point>
+            <Point>SOSVI</Point>
+            <Point>DUDAK</Point>
+            <Point>BUTEV</Point>
+            <Point>IGINI</Point>
+            <Point>ATGES</Point>
+            <Point>DOTMA</Point>
+            <Point>ENDID</Point>
+            <Point>EE701</Point>
+            <Point>EE702</Point>
+            <Point>RW33</Point>
+            <Point>ISKUT</Point>
+            <Point>LELAK</Point>
+            <Point>BKL</Point>
+            <Point>AGONO</Point>
+            <Point>RW15</Point>
+            <Point>MEMUL</Point>
+            <Point>VINUX</Point>
+            <Point>BIXES</Point>
+            <Point>DULUN</Point>
+            <Point>EE502</Point>
+            <Point>PONIN</Point>
+            <Point>NONAP</Point>
+            <Point>D339Y</Point>
+            <Point>SANRI</Point>
+            <Point>D322Y</Point>
+            <Point>FI33</Point>
+            <Point>TUMVO</Point>
+            <Point>RIVMA</Point>
+            <Point>BUKDA</Point>
+            <Point>EXUMU</Point>
+            <Point>BINIB</Point>
+            <Point>MILEK</Point>
+            <Point>LEBEG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="WIEE_RW33_NAMES" Priority="3" Center="-00.7883+100.2864">
+        <Label>
+            <Point>BOPTI</Point>
+            <Point>NOKEL</Point>
+            <Point>LEKAB</Point>
+            <Point>BEPNO</Point>
+            <Point>D320Y</Point>
+            <Point>PANGU</Point>
+            <Point>ONISI</Point>
+            <Point>ODISO</Point>
+            <Point>IRPAP</Point>
+            <Point>SUMLU</Point>
+            <Point>REBIV</Point>
+            <Point>RUTIG</Point>
+            <Point>RUNGI</Point>
+            <Point>LEMOG</Point>
+            <Point>SOVMI</Point>
+            <Point>OSNIS</Point>
+            <Point>ANKIK</Point>
+            <Point>FF15</Point>
+            <Point>DAGRO</Point>
+            <Point>TANOG</Point>
+            <Point>IKOTU</Point>
+            <Point>PIKUG</Point>
+            <Point>RISRA</Point>
+            <Point>OPOBA</Point>
+            <Point>BAYUR</Point>
+            <Point>RIKRO</Point>
+            <Point>RIDVU</Point>
+            <Point>PASOL</Point>
+            <Point>MKB30</Point>
+            <Point>FD33</Point>
+            <Point>MEKUD</Point>
+            <Point>ELDEL</Point>
+            <Point>D165Y</Point>
+            <Point>MKB</Point>
+            <Point>KABTI</Point>
+            <Point>UNSAP</Point>
+            <Point>DOMTA</Point>
+            <Point>GULAL</Point>
+            <Point>EE501</Point>
+            <Point>SOSVI</Point>
+            <Point>DUDAK</Point>
+            <Point>BUTEV</Point>
+            <Point>IGINI</Point>
+            <Point>ATGES</Point>
+            <Point>DOTMA</Point>
+            <Point>ENDID</Point>
+            <Point>EE701</Point>
+            <Point>EE702</Point>
+            <Point>RW33</Point>
+            <Point>ISKUT</Point>
+            <Point>LELAK</Point>
+            <Point>BKL</Point>
+            <Point>AGONO</Point>
+            <Point>RW15</Point>
+            <Point>MEMUL</Point>
+            <Point>VINUX</Point>
+            <Point>BIXES</Point>
+            <Point>DULUN</Point>
+            <Point>EE502</Point>
+            <Point>PONIN</Point>
+            <Point>NONAP</Point>
+            <Point>D339Y</Point>
+            <Point>SANRI</Point>
+            <Point>D322Y</Point>
+            <Point>FI33</Point>
+            <Point>TUMVO</Point>
+            <Point>RIVMA</Point>
+            <Point>BUKDA</Point>
+            <Point>EXUMU</Point>
+            <Point>BINIB</Point>
+            <Point>MILEK</Point>
+            <Point>LEBEG</Point>
+        </Label>
+    </Map>
+</Maps>

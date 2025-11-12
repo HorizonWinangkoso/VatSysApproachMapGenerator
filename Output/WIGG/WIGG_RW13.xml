@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
+<Maps>
+    <Map Type="System" Name="WIGG_RW13" Priority="3" Center="-03.8611+102.3394">
+        <Runway Name="13">
+            <Threshold Name="13" Position="-03.8570+102.3318" ExtendedCentrelineTrack="313" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1"/>
+            <Threshold Name="31" Position="-03.8709+102.3466"/>
+        </Runway>
+        <!--SID: BIBU1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/BIBUL</Line>
+        <!--SID: LEBE1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/LEBEG</Line>
+        <!--SID: PLB1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/D067G/PLB</Line>
+        <!--SID: PONI1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/PONIN</Line>
+        <!--SID: SUKE1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/SUKEP</Line>
+        <!--SID: TOLI1C, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/TOLIT</Line>
+        <!--SID: TOLI1D, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/TOLIT</Line>
+        <!--SID: TOPU1A, Runway: 13-->
+        <Line Pattern="Dotted">-03.8709+102.3466/BKL/D078G/TOPUK</Line>
+        <!--STAR: BIBU1C, Runway: 13-->
+        <Line Pattern="Dashed">BIBUL/D348Y/OVTUM</Line>
+        <!--STAR: LEBE1C, Runway: 13-->
+        <Line Pattern="Dashed">LEBEG/D318Y/OVTUM</Line>
+        <!--STAR: PLB1C, Runway: 13-->
+        <Line Pattern="Dashed">PLB/BKL/OVTUM</Line>
+        <!--STAR: SOVM1C, Runway: 13-->
+        <Line Pattern="Dashed">SOVMI/D359Y/OVTUM</Line>
+        <!--STAR: TOLI1F, Runway: 13-->
+        <Line Pattern="Dashed">TOLIT/BKL/OVTUM</Line>
+        <!--STAR: UDUT1C, Runway: 13-->
+        <Line Pattern="Dashed">UDUTO/BKL/OVTUM</Line>
+        <Symbol Type="SolidTriangle">
+            <Point>D348Y</Point>
+            <Point>TOPUK</Point>
+            <Point>PONIN</Point>
+            <Point>D318Y</Point>
+            <Point>SOVMI</Point>
+            <Point>BIBUL</Point>
+            <Point>D078G</Point>
+            <Point>TOLIT</Point>
+            <Point>OVTUM</Point>
+            <Point>UDUTO</Point>
+            <Point>D359Y</Point>
+            <Point>BKL</Point>
+            <Point>SUKEP</Point>
+            <Point>D067G</Point>
+            <Point>PLB</Point>
+            <Point>LEBEG</Point>
+        </Symbol>
+    </Map>
+</Maps>
