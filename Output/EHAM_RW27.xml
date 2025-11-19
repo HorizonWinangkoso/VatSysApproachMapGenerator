@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Maps>
+    <Map Type="System" Name="EHAM_RW27" Priority="3" Center="+52.308056+004.764167">
+        <Runway Name="27">
+            <Threshold Name="27" Position="+52.318375+004.796892" ExtendedCenterlineTrack="266" ExtendedCentrelineLength="12" ExtendedCentrelineWidth="1" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="09" Position="+52.316689+004.747661" />
+        </Runway>
+        <Symbol Type="SolidTriangle">
+            <Point>ANDIK</Point>
+            <Point>IVLUT</Point>
+            <Point>NYKER</Point>
+            <Point>AM057</Point>
+            <Point>KUDAD</Point>
+            <Point>SPY</Point>
+            <Point>WOODY</Point>
+            <Point>BERGI</Point>
+            <Point>AM056</Point>
+            <Point>AM032</Point>
+            <Point>LUNIX</Point>
+            <Point>LEKKO</Point>
+            <Point>LOPIK</Point>
+            <Point>RENDI</Point>
+            <Point>EDUPO</Point>
+            <Point>IDRID</Point>
+            <Point>AM058</Point>
+            <Point>AM075</Point>
+            <Point>AM041</Point>
+            <Point>VOLLA</Point>
+            <Point>ARNEM</Point>
+        </Symbol>
+        <Symbol Type="SolidStar">
+            <Point>MONIL</Point>
+            <Point>DOFMU</Point>
+            <Point>HAMZA</Point>
+            <Point>PESER</Point>
+            <Point>OSKUR</Point>
+            <Point>HELEN</Point>
+            <Point>ROBVI</Point>
+            <Point>SULUT</Point>
+            <Point>ARTIP</Point>
+            <Point>LUTEX</Point>
+            <Point>TOPPA</Point>
+            <Point>ETPOS</Point>
+            <Point>SONSA</Point>
+            <Point>REDFA</Point>
+            <Point>YENZO</Point>
+            <Point>DENUT</Point>
+            <Point>NORKU</Point>
+            <Point>MOLIX</Point>
+            <Point>ROBIS</Point>
+            <Point>LAMSO</Point>
+            <Point>BLUFA</Point>
+            <Point>RKN</Point>
+            <Point>RIVER</Point>
+            <Point>SUGOL</Point>
+        </Symbol>
+        <!--SID: ARNE3P, RWY27-->
+        <Line Pattern="Dotted">AM056/AM032/AM075/IVLUT/NYKER/ARNEM</Line>
+        <!--SID: BERG2P, RWY27-->
+        <Line Pattern="Dotted">AM058/AM041/BERGI</Line>
+        <!--SID: KUDA2P, RWY27-->
+        <Line Pattern="Dotted">AM056/AM032/AM075/LEKKO/KUDAD/WOODY</Line>
+        <!--SID: LOPI2P, RWY27-->
+        <Line Pattern="Dotted">AM056/AM032/AM075/LOPIK</Line>
+        <!--SID: REND2P, RWY27-->
+        <Line Pattern="Dotted">AM056/AM032/AM075/IVLUT/LUNIX/RENDI/EDUPO</Line>
+        <!--SID: SPY2P, RWY27-->
+        <Line Pattern="Dotted">AM057/SPY/ANDIK</Line>
+        <!--SID: VOLA2P, RWY27-->
+        <Line Pattern="Dotted">AM058/VOLLA/IDRID</Line>
+        <!--STAR: BLUF1A, RWYALL-->
+        <Line Pattern="Dashed">BLUFA/ARTIP</Line>
+        <!--STAR: DENU3A, RWYALL-->
+        <Line Pattern="Dashed">DENUT/YENZO/RIVER</Line>
+        <!--STAR: HELE2A, RWYALL-->
+        <Line Pattern="Dashed">HELEN/HAMZA/RIVER</Line>
+        <!--STAR: LAMS2A, RWYALL-->
+        <Line Pattern="Dashed">LAMSO/ETPOS/SUGOL</Line>
+        <!--STAR: MOLI2A, RWYALL-->
+        <Line Pattern="Dashed">MOLIX/LUTEX/ROBVI/SUGOL</Line>
+        <!--STAR: NORK2A, RWYALL-->
+        <Line Pattern="Dashed">NORKU/SONSA/ROBIS/OSKUR/ARTIP</Line>
+        <!--STAR: PESE3A, RWYALL-->
+        <Line Pattern="Dashed">PESER/DOFMU/RIVER</Line>
+        <!--STAR: REDF1A, RWYALL-->
+        <Line Pattern="Dashed">REDFA/SULUT/SUGOL</Line>
+        <!--STAR: RKN2A, RWYALL-->
+        <Line Pattern="Dashed">RKN/OSKUR/ARTIP</Line>
+        <!--STAR: TOPP2A, RWYALL-->
+        <Line Pattern="Dashed">TOPPA/MONIL/ROBVI/SUGOL</Line>
+    </Map>
+    <Map Type="System" Name="EHAM_RW27_NAMES" Priority="3" Center="+52.308056+004.764167">
+        <Label>
+            <Point>MONIL</Point>
+            <Point>ANDIK</Point>
+            <Point>HAMZA</Point>
+            <Point>DOFMU</Point>
+            <Point>PESER</Point>
+            <Point>IVLUT</Point>
+            <Point>NYKER</Point>
+            <Point>HELEN</Point>
+            <Point>AM057</Point>
+            <Point>KUDAD</Point>
+            <Point>ROBVI</Point>
+            <Point>OSKUR</Point>
+            <Point>SULUT</Point>
+            <Point>SPY</Point>
+            <Point>WOODY</Point>
+            <Point>BERGI</Point>
+            <Point>ARTIP</Point>
+            <Point>LUTEX</Point>
+            <Point>TOPPA</Point>
+            <Point>AM056</Point>
+            <Point>AM032</Point>
+            <Point>ETPOS</Point>
+            <Point>SONSA</Point>
+            <Point>REDFA</Point>
+            <Point>LUNIX</Point>
+            <Point>YENZO</Point>
+            <Point>DENUT</Point>
+            <Point>LEKKO</Point>
+            <Point>NORKU</Point>
+            <Point>LOPIK</Point>
+            <Point>MOLIX</Point>
+            <Point>RENDI</Point>
+            <Point>ROBIS</Point>
+            <Point>EDUPO</Point>
+            <Point>IDRID</Point>
+            <Point>LAMSO</Point>
+            <Point>AM058</Point>
+            <Point>AM075</Point>
+            <Point>BLUFA</Point>
+            <Point>AM041</Point>
+            <Point>RKN</Point>
+            <Point>SUGOL</Point>
+            <Point>RIVER</Point>
+            <Point>VOLLA</Point>
+            <Point>ARNEM</Point>
+        </Label>
+    </Map>
+</Maps>

@@ -3,7 +3,8 @@ import xml.etree.ElementTree as XML
 from haversine import haversine as hsin
 import haversine as hs
 import math
-
+import time
+start = time.perf_counter()
 #initialise directories
 dir_path = "Output"
 os.makedirs(dir_path, exist_ok=True)
@@ -45,28 +46,48 @@ def reciprwy(rwy_in):
 
     return f"{opprwynum:02d}{oppsuffix}"
 
-def navaid(fix, ref_lat, ref_lon): # get navaid coords given 1 ref pos
-    ref_point = (float(ref_lat), float(ref_lon))
+NAVAID_CACHE = None
+
+def navaid(fix, ref_lat, ref_lon):
+    global NAVAID_CACHE
+
+    # Load navaids into cache once
+    if NAVAID_CACHE is None:
+        cache = {}
+        with open('./Navdata/navaids.txt', 'r', encoding='utf-8') as f:
+            for line in f:
+                elem = line.split(',')
+
+                # skip empty/broken lines
+                if len(elem) < 8:
+                    continue
+
+                ident = elem[0].strip()
+                lat = float(elem[6])
+                lon = float(elem[7])
+
+                cache.setdefault(ident, []).append((lat, lon))
+
+        NAVAID_CACHE = cache
+
+    ref_lat = float(ref_lat)
+    ref_lon = float(ref_lon)
+    ref_point = (ref_lat, ref_lon)
+
     best_dist = None
     best_point = None
+    h = hsin
 
-    with open('./Navdata/navaids.txt', 'r', encoding='utf-8') as f:
-        for line in f:
-            elem = line.strip().split(',')
+    # No matches → None
+    candidates = NAVAID_CACHE.get(fix) 
+    if not candidates:
+        return None
 
-            # Skip if ID does not match
-            if elem[0] != fix:
-                continue
-
-            lat = float(elem[6])
-            lon = float(elem[7])
-            point = (lat, lon)
-
-            dist = hsin(ref_point, point)
-
-            if best_dist is None or dist < best_dist:
-                best_dist = dist
-                best_point = [lat, lon]
+    for lat, lon in candidates:
+        d = h(ref_point, (lat, lon))
+        if best_dist is None or d < best_dist:
+            best_dist = d
+            best_point = [lat, lon]
 
     return best_point
 
@@ -74,8 +95,9 @@ def drawall(ICAO):
     cache = ''
     SIDpoints = set()
     STARpoints = set()
+    cachefile = []
  
-    with open(f'Navdata/proc/{ICAO}.txt') as procs, open(f'./cache/{ICAO}.txt','w') as cachefile:
+    with open(f'Navdata/proc/{ICAO}.txt') as procs :
         procpoint = []
         proctype = 'invalid'
         for line in procs:
@@ -91,7 +113,6 @@ def drawall(ICAO):
                         proctype = elem[0]
                         procname = elem[1]
                         procrwy = elem[2]
-                        print(procname)
                     case 'DF'| 'TF'| 'CF'| 'IF': # write fixes
                         procpoint.append(elem[1])
                         if proctype == 'SID':
@@ -117,7 +138,7 @@ def drawall(ICAO):
                         count = 0
 
                         while count < target:
-                            print(bearing)
+
                             diff = endir-bearing
                             arcpoint = (hs.inverse_haversine(fixcoord, dist, math.radians(bearing), unit='nmi'))
                             lat = round(arcpoint[0],7)
@@ -141,8 +162,8 @@ def drawall(ICAO):
                     continue
 
                 #write to cache
-                cache = proctype+'$'+procname+'$'+procrwy+'$'+pointout+'\n'
-                cachefile.write(cache)
+                cache = [proctype,procname,procrwy,pointout]
+                cachefile.append(cache)
                 #reset variables
                 proctype = ''
                 procname = ''
@@ -151,33 +172,45 @@ def drawall(ICAO):
             else:
                 pass
         for i in SIDpoints:
-            cache = 'point$'+i+'$SID$0\n'
-            cachefile.write(cache)
+            cache = ['point',i,'SID']
+            cachefile.append(cache)
         for i in STARpoints:
-            cache = 'point$'+i+'$STAR$0\n'
-            cachefile.write(cache)
+            cache = ['point',i,'STAR']
+            cachefile.append(cache)
+    return cachefile
 
-
-def suicideDetect(ICAO,retrwy='False'):
-    data = open(f'./cache/{ICAO}.txt', 'r')
+def suicideDetect(ICAO,data,retrwy='False'):
     SIDrwys = []
     STARrwys = []
     out1 = []
     out0 = []
-    
+    rwylist = []
     for line in data: # this for loop parses the cache
-        Line = line.split('$')
-        proctype = Line[0]
-        procrwy = Line[2]
-
-        if proctype == 'SID' and procrwy not in SIDrwys:
+        proctype = line[0]
+        procrwy = line[2]
+        if procrwy == 'ALL':
+            if len(rwylist) <1:
+                rwylist = lookup(ICAO)[3]
+            for i in rwylist:
+                if proctype == 'SID':
+                    SIDrwys.append(i[0])
+                elif proctype == 'STAR':
+                    STARrwys.append(i[0])
+                else:
+                    pass
+        elif proctype == 'SID' and procrwy not in SIDrwys:
             SIDrwys.append(procrwy)
-        if proctype == 'STAR' and procrwy not in STARrwys:
+        elif proctype == 'STAR' and procrwy not in STARrwys:
             STARrwys.append(procrwy)
     if retrwy == 'True':
         out1 = STARrwys
     else:
         out1 = ''
+
+    if len(SIDrwys) > 2 or len(STARrwys) > 2:
+        return ('False',out1)    
+
+
     if len(SIDrwys) == 1 and len(STARrwys) == 1:
         diff = int(SIDrwys[0])-18-int(STARrwys[0])
         if diff == 0:
@@ -186,6 +219,8 @@ def suicideDetect(ICAO,retrwy='False'):
             out0 = 'False'
     else:
         out0 = 'False'
+    
+
 
     return (out0,out1)
 
@@ -211,7 +246,7 @@ def formatcoord(lat,lon):
     latlon = lat2+lon2
     return latlon
 
-def writexml(ICAO, rwy='All', recip='False'): #rwy here should be the approach rwy
+def writexml(ICAO, data, rwy, recip='False'): #rwy here should be the approach rwy
 
     plookup = lookup(ICAO)
     lat = str(plookup[1])
@@ -246,25 +281,37 @@ def writexml(ICAO, rwy='All', recip='False'): #rwy here should be the approach r
     #XML Name Labels
     rootname = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_NAMES', 'Priority':'3', 'Center': f'{Center}' })
     Label = XML.SubElement(rootname, 'Label')
-
-    data = open(f'./cache/{ICAO}.txt', 'r')
-
+    Labels = set()
+    SIDpts = set()
+    STARpts = set()
     if recip == 'True':
         rwy ='_recip'
         
     for line in data: # this for loop parses the cache
-        Line = line.split('$')
-        proctype = Line[0]
-        procname = Line[1]
-        procrwy = Line[2]
-        points = Line[3]
+        proctype = line[0]
+        procname = line[1]
+        procrwy = line[2]
+        try:
+            points = line[3]
+        except:
+            pass
         pstyle = style(proctype)
-
-        if (procrwy == rwy or rwy == 'All' or recip == 'True') and (proctype == 'SID' or proctype == 'STAR'):
+        if (procrwy == rwy or procrwy == 'ALL' or recip == 'True') and (proctype == 'SID' or proctype == 'STAR'):
             root.append(XML.Comment(f"{proctype}: {procname}, RWY{procrwy}"))
             out = XML.SubElement(root, 'Line', {'Pattern':pstyle})
-            out.text = points.strip().rstrip('/')
+            pointlist = points.strip().rstrip('/')
+            out.text = pointlist
 
+            elem = pointlist.split('/')
+            for i in elem:
+                Labels.add(i)
+                if proctype == 'SID':
+                    SIDpts.add(i)
+                elif proctype == 'STAR':
+                    STARpts.add(i)
+        
+            
+        '''
         elif proctype == 'point' and procrwy == 'SID': # this makes no fucking sense, but procrwy is also where the procedure info for the point is stored
             out = XML.SubElement(SIDsymbol,'Point') #make point
             out.text = procname.strip() 
@@ -276,6 +323,16 @@ def writexml(ICAO, rwy='All', recip='False'): #rwy here should be the approach r
             out.text = procname.strip()
             label = XML.SubElement(Label, 'Point')
             label.text = procname.strip()
+        '''
+    for i in STARpts:
+        out = XML.SubElement(STARsymbol,'Point')
+        out.text = i
+    for i in SIDpts:
+        out = XML.SubElement(SIDsymbol,'Point')
+        out.text = i
+    for i in Labels:
+        out = XML.SubElement(Label, 'Point')
+        out.text = i
 
     #XML end wrapping up and writing
     tree = XML.ElementTree(Maps)
@@ -295,13 +352,13 @@ def main(ICAO):
         print('removed'+files)
     '''
     
-    drawall(ICAO)
-    rwydet = suicideDetect(ICAO,'True')
+    data = drawall(ICAO)
+    rwydet = suicideDetect(ICAO, data, 'True')
     if rwydet[0] == 'False':
         for i in rwydet[1]:
-            writexml(ICAO,f'{i}')
+            writexml(ICAO,data,f'{i}')
     else:
-        writexml(ICAO,rwydet[1][0],'True')
+        writexml(ICAO,data,rwydet[1][0],'True')
 
 def lookup(ICAO):
     with open('./Navdata/Airports.txt', 'r') as f:
@@ -374,5 +431,11 @@ def lookup(ICAO):
                 
     return None
 
+i = 0
+while i < 2:
+    main('EHAM')
+    i += 1
 
-main('WITT')
+end = time.perf_counter()
+
+print("Execution time:", (end - start)*1000, "miliseconds")

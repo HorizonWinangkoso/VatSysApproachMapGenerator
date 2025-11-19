@@ -4,6 +4,8 @@ import argparse
 from xml.dom import minidom
 import re
 import math
+import time
+start = time.perf_counter()
 '''
 parser = argparse.ArgumentParser()
 parser.add_argument('--icao', type=str, required=True, help='4 letter ICAO code')
@@ -15,6 +17,7 @@ icao = args.icao.upper()
 suicide = args.suicide
 colourful = args.colourful
 '''
+
 dir_path = "Output"
 os.makedirs(dir_path, exist_ok=True)
 
@@ -418,5 +421,10 @@ def gen(pattern):
             # wildcard match
             if fnmatch.fnmatch(code, pattern):
                 main(code, None,None)
+i = 0
+while i < 100:
+    main('EHAM')
+    i += 1
+end = time.perf_counter()
 
-gen()
+print("Execution time:", (end - start)*1000, "miliseconds")
