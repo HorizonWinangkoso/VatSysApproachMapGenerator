@@ -421,10 +421,39 @@ def gen(pattern):
             # wildcard match
             if fnmatch.fnmatch(code, pattern):
                 main(code, None,None)
-i = 0
-while i < 100:
-    main('EHAM')
-    i += 1
+def loop(user_input):
+    # Split comma-separated inputs and strip whitespace
+    patterns = [p.strip() for p in user_input.split(',') if p.strip()]
+
+    # Load all ICAO codes
+    procs = []
+    icaos = []
+
+    f = os.listdir('./Navdata/Proc')
+    for line in f:
+        procs.append(line.rstrip('.txt'))
+
+    with open('Navdata/Airports.txt', 'r') as f:
+        for line in f:
+            if line.startswith('A'):
+                parts = line.split(',')
+                if len(parts) >= 2:
+                    icaos.append(parts[1].strip())
+
+    valid = set(procs) & set(icaos)
+
+    # Gather matches for all patterns
+    matches = set()
+    for pat in patterns:
+        for icao in valid:
+            if fnmatch.fnmatch(icao, pat):
+                matches.add(icao)
+
+    # Execute main() for each match
+    for icao in sorted(matches):
+        print(f"Running main({icao})...")
+        main(icao)
+loop('WI*,WA*')
 end = time.perf_counter()
 
 print("Execution time:", (end - start)*1000, "miliseconds")
