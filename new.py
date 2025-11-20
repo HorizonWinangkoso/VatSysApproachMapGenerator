@@ -95,6 +95,7 @@ def drawall(ICAO):
     cache = ''
     SIDpoints = set()
     STARpoints = set()
+    APPpoints = set()
     cachefile = []
  
     with open(f'Navdata/proc/{ICAO}.txt') as procs :
@@ -109,7 +110,7 @@ def drawall(ICAO):
 
             if doneflag == 0:
                 match elem[0]: #write SIDs and STAR data if the current set is not 'done'
-                    case 'SID'|'STAR':
+                    case 'SID'|'STAR'| 'APPTR':
                         proctype = elem[0]
                         procname = elem[1]
                         procrwy = elem[2]
@@ -118,7 +119,9 @@ def drawall(ICAO):
                         if proctype == 'SID':
                             SIDpoints.add(elem[1])
                         elif proctype == 'STAR':
-                            STARpoints.add(elem[1])                    
+                            STARpoints.add(elem[1]) 
+                        elif proctype == 'APPTR':
+                            APPpoints.add(elem[1])                   
                     case 'AF': #write arc fixes
                         
                         fixcoord = navaid(elem[5],elem[2],elem[3])
@@ -148,7 +151,7 @@ def drawall(ICAO):
                             bearing += step
                         
                     case _: #edge case
-                        if proctype == 'SID' or proctype == 'STAR':
+                        if proctype == 'SID' or proctype == 'STAR' or proctype == 'APPTR':
                             proctype = proctype
                         else: 
                             proctype = 'invalid'
@@ -177,6 +180,9 @@ def drawall(ICAO):
         for i in STARpoints:
             cache = ['point',i,'STAR']
             cachefile.append(cache)
+        # for i in APPpoints:
+        #     cache = ['point',i,'APPTR']
+        #     cachefile.append(cache)
     return cachefile
 
 def suicideDetect(ICAO,data,retrwy='False'):
@@ -246,7 +252,7 @@ def formatcoord(lat,lon):
     latlon = lat2+lon2
     return latlon
 
-def writexml(ICAO, data, rwy, recip='False'): #rwy here should be the approach rwy
+def writexml(ICAO, data, rwy, printAPPTR = False, recip='False'): #rwy here should be the approach rwy
 
     plookup = lookup(ICAO)
     lat = str(plookup[1])
@@ -319,6 +325,17 @@ def writexml(ICAO, data, rwy, recip='False'): #rwy here should be the approach r
                 for i in elem:
                     STARLabel.add(i)
                     STARpts.add(i)
+            elif proctype == 'APPTR':
+                if printAPPTR:
+                    out = XML.SubElement(STARMAP, 'Line',{'Pattern':pstyle})
+                    pointlist = points.strip().rstrip('/')
+                    out.text = pointlist
+                    elem = pointlist.split('/')
+                    
+                    for i in elem:
+                        STARLabel.add(i)
+                        STARpts.add(i)
+
 
     for i in STARpts:
         out = XML.SubElement(STARsymbol,'Point')
@@ -391,6 +408,8 @@ def writerwys(ICAO):
 
     tree = XML.ElementTree(Maps)
     XML.indent(Maps, space="    ")
+    debug_tree(Maps)
+    find_none(Maps)
     tree.write(f"./output/{ICAO}/{ICAO}_RWYS.xml",
                encoding="utf-8", xml_declaration=True)
 
@@ -472,17 +491,17 @@ def lookup(ICAO):
                 
     return None
 
-def main(ICAO):
+def main(ICAO,APPTR):
     os.makedirs(f'./output/{ICAO}/', exist_ok=True)
     data = drawall(ICAO)
     writerwys(ICAO)
     airport = lookup(ICAO)
     for i in airport[3]:
-        writexml(ICAO,data,f'{i[0]}')
+        writexml(ICAO,data,f'{i[0]}',APPTR)
 
 import fnmatch
 
-def loop(user_input):
+def loop(user_input,APPTR):
     # Split comma-separated inputs and strip whitespace
     patterns = [p.strip() for p in user_input.split(',') if p.strip()]
 
@@ -513,9 +532,34 @@ def loop(user_input):
     # Execute main() for each match
     for icao in sorted(matches):
         print(f"Running main({icao})...")
-        main(icao)
+        main(icao,APPTR)
 
-loop('WI*,WA*')
+def debug_tree(elem, path="root"):
+    if elem.text is None and len(elem) == 0:
+        print(f"WARNING: {path}.text is None")
+
+    for k, v in elem.attrib.items():
+        if v is None:
+            print(f"WARNING: {path} attribute '{k}' is None")
+
+    for i, child in enumerate(elem):
+        debug_tree(child, f"{path}/{child.tag}.{i}")
+
+def find_none(elem, path=""):
+    # Check element text
+    if elem.text is None:
+        print(f"[NONE] text at <{elem.tag}> path: {path}/{elem.tag}")
+
+    # Check attributes
+    for k, v in elem.attrib.items():
+        if v is None:
+            print(f"[NONE] attribute '{k}' of <{elem.tag}> path: {path}/{elem.tag}")
+
+    # Recurse for children
+    for child in elem:
+        find_none(child, f"{path}/{elem.tag}")
+
+loop('LEMD',True)
 end = time.perf_counter()
 
 print("Execution time:", (end - start)*1000, "miliseconds")
