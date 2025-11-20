@@ -251,11 +251,11 @@ def writexml(ICAO, data, rwy, recip='False'): #rwy here should be the approach r
     plookup = lookup(ICAO)
     lat = str(plookup[1])
     lon = str(plookup[2])
-    rrecip = reciprwy(rwy)
-    rwy = str(rwy)
     Center = formatcoord(lat,lon)
+    rwy = str(rwy)
+    rrecip = reciprwy(rwy)
 
-    for i in plookup[3]:
+    for i in plookup[3]: #look for threshold coords
         
         if i[0] == rwy.strip():
             lat1 = i[1] 
@@ -270,20 +270,23 @@ def writexml(ICAO, data, rwy, recip='False'): #rwy here should be the approach r
 
     #XML Initialisation
     Maps = XML.Element('Maps')
-    root = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}', 'Priority':'3', 'Center': f'{Center}' })
-    
-    Runway = XML.SubElement(root, 'Runway',{'Name':f'{rwy}'})
-    Threshold1 = XML.SubElement(Runway, 'Threshold',{'Name':rwy, 'Position':latlon1, 'ExtendedCenterlineTrack': trk, 'ExtendedCentrelineLength':'12', 'ExtendedCentrelineWidth':'1', 'ExtendedCentrelineTickInterval':'1'})
-    Threshold2 = XML.SubElement(Runway, 'Threshold',{'Name':rrecip, 'Position':latlon2})
-    SIDsymbol = XML.SubElement(root, 'Symbol', {'Type': SIDptsymbol})
-    STARsymbol = XML.SubElement(root, 'Symbol', {'Type': STARptsymbol})
+    SIDMAP  = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_SID', 'Priority':'3', 'Center': f'{Center}' })
+    STARMAP = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_STAR', 'Priority':'3', 'Center': f'{Center}' })
+    STARrwy = XML.SubElement(STARMAP, 'Runway',{'Name':f'{rwy}'})
+    STARthresh1 = XML.SubElement(STARrwy, 'Threshold',{'Name':rwy, 'Position':latlon1, 'ExtendedCenterlineTrack': trk, 'ExtendedCentrelineLength':'12', 'ExtendedCentrelineWidth':'1', 'ExtendedCentrelineTickInterval':'1'})
+    STARthresh2= XML.SubElement(STARrwy, 'Threshold',{'Name':rrecip, 'Position':latlon2})
+    SIDsymbol  = XML.SubElement(SIDMAP, 'Symbol', {'Type': SIDptsymbol})
+    STARsymbol = XML.SubElement(STARMAP, 'Symbol', {'Type': STARptsymbol})
 
     #XML Name Labels
-    rootname = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_NAMES', 'Priority':'3', 'Center': f'{Center}' })
-    Label = XML.SubElement(rootname, 'Label')
-    Labels = set()
-    SIDpts = set()
-    STARpts = set()
+    SIDLabelmap = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_SID_Labels', 'Priority':'3', 'Center': f'{Center}' })
+    STARLabelmap = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_STAR_Labels', 'Priority':'3', 'Center': f'{Center}' })
+    SIDLabels  = XML.SubElement(SIDLabelmap,'Label')
+    STARLabels = XML.SubElement(STARLabelmap,'Label')
+    SIDLabel   = set()
+    STARLabel  = set()
+    SIDpts   = set()
+    STARpts  = set()
     if recip == 'True':
         rwy ='_recip'
         
@@ -296,69 +299,107 @@ def writexml(ICAO, data, rwy, recip='False'): #rwy here should be the approach r
         except:
             pass
         pstyle = style(proctype)
-        if (procrwy == rwy or procrwy == 'ALL' or recip == 'True') and (proctype == 'SID' or proctype == 'STAR'):
-            root.append(XML.Comment(f"{proctype}: {procname}, RWY{procrwy}"))
-            out = XML.SubElement(root, 'Line', {'Pattern':pstyle})
-            pointlist = points.strip().rstrip('/')
-            out.text = pointlist
+        if procrwy == rwy or procrwy == 'ALL':
+            if proctype == 'SID':
+                out = XML.SubElement(SIDMAP, 'Line',{'Pattern':pstyle})
+                pointlist = points.strip().rstrip('/')
+                out.text = pointlist
+                elem = pointlist.split('/')
 
-            elem = pointlist.split('/')
-            for i in elem:
-                Labels.add(i)
-                if proctype == 'SID':
+                for i in elem:
+                    SIDLabel.add(i)
                     SIDpts.add(i)
-                elif proctype == 'STAR':
-                    STARpts.add(i)
-        
-            
-        '''
-        elif proctype == 'point' and procrwy == 'SID': # this makes no fucking sense, but procrwy is also where the procedure info for the point is stored
-            out = XML.SubElement(SIDsymbol,'Point') #make point
-            out.text = procname.strip() 
-            label = XML.SubElement(Label, 'Point') #make label
-            label.text = procname.strip()
 
-        elif proctype == 'point' and procrwy == 'STAR':
-            out = XML.SubElement(STARsymbol,'Point')
-            out.text = procname.strip()
-            label = XML.SubElement(Label, 'Point')
-            label.text = procname.strip()
-        '''
+            elif proctype == 'STAR':
+                out = XML.SubElement(STARMAP, 'Line',{'Pattern':pstyle})
+                pointlist = points.strip().rstrip('/')
+                out.text = pointlist
+                elem = pointlist.split('/')
+
+                for i in elem:
+                    STARLabel.add(i)
+                    STARpts.add(i)
+
     for i in STARpts:
         out = XML.SubElement(STARsymbol,'Point')
         out.text = i
     for i in SIDpts:
         out = XML.SubElement(SIDsymbol,'Point')
         out.text = i
-    for i in Labels:
-        out = XML.SubElement(Label, 'Point')
+    for i in SIDLabel:
+        out = XML.SubElement(SIDLabels, 'Point')
         out.text = i
-
+    for i in STARLabel:
+        out = XML.SubElement(STARLabels, 'Point')
+        out.text = i
     #XML end wrapping up and writing
     tree = XML.ElementTree(Maps)
     XML.indent(Maps, space="    ")
-    tree.write(f"./output/{ICAO}_RW{rwy}.xml", encoding="utf-8", xml_declaration=True)
+    tree.write(f"./output/{ICAO}/{ICAO}_RW{rwy}.xml", encoding="utf-8", xml_declaration=True)
+
+def writerwys(ICAO):
+    plookup = lookup(ICAO)
+    lat = str(plookup[1])
+    lon = str(plookup[2])
+    Center = formatcoord(lat, lon)
+
+    Maps = XML.Element('Maps')
+    root = XML.SubElement(Maps,'Map', {
+        'Type':'System',
+        'Name':f'{ICAO}_RUNWAYS',
+        'Priority':'3',
+        'Center':Center
+    })
+
+    processed = set()   # runways we already handled
+
+    for rwy_data in plookup[3]:
+        rwy = str(rwy_data[0])
+        rrecip = reciprwy(rwy)
+
+        # Skip if already handled this pair
+        if rwy in processed or rrecip in processed:
+            continue
+
+        # Mark both as handled
+        processed.add(rwy)
+        processed.add(rrecip)
+
+        latlon1 = formatcoord(rwy_data[1], rwy_data[2])
+
+        # Now find reciprocal position
+        latlon2 = None
+        for j in plookup[3]:
+            if j[0] == rrecip:
+                latlon2 = formatcoord(j[1], j[2])
+                break
+
+        # If reciprocal wasn’t found, skip
+        if latlon2 is None:
+            continue
+
+        # Write BOTH in a single pass
+        XML.SubElement(root, 'Threshold', {
+            'Name': f'{ICAO}_{rwy}',
+            'Position': latlon1
+        })
+
+        XML.SubElement(root, 'Threshold', {
+            'Name': f'{ICAO}_{rrecip}',
+            'Position': latlon2
+        })
+
+    tree = XML.ElementTree(Maps)
+    XML.indent(Maps, space="    ")
+    tree.write(f"./output/{ICAO}/{ICAO}_RWYS.xml",
+               encoding="utf-8", xml_declaration=True)
+
 
 def style(ptype, sidpat ='Dotted', starpat ='Dashed'):
     if ptype == 'SID':
         return sidpat
     elif ptype == 'STAR':
         return starpat
-
-def main(ICAO):
-    '''
-    for files in os.listdir('./cache'):
-        os.remove('./cache/'+files)
-        print('removed'+files)
-    '''
-    
-    data = drawall(ICAO)
-    rwydet = suicideDetect(ICAO, data, 'True')
-    if rwydet[0] == 'False':
-        for i in rwydet[1]:
-            writexml(ICAO,data,f'{i}')
-    else:
-        writexml(ICAO,data,rwydet[1][0],'True')
 
 def lookup(ICAO):
     with open('./Navdata/Airports.txt', 'r') as f:
@@ -431,11 +472,50 @@ def lookup(ICAO):
                 
     return None
 
-i = 0
-while i < 2:
-    main('EHAM')
-    i += 1
+def main(ICAO):
+    os.makedirs(f'./output/{ICAO}/', exist_ok=True)
+    data = drawall(ICAO)
+    writerwys(ICAO)
+    airport = lookup(ICAO)
+    for i in airport[3]:
+        writexml(ICAO,data,f'{i[0]}')
 
+import fnmatch
+
+def loop(user_input):
+    # Split comma-separated inputs and strip whitespace
+    patterns = [p.strip() for p in user_input.split(',') if p.strip()]
+
+    # Load all ICAO codes
+    procs = []
+    icaos = []
+
+    f = os.listdir('./Navdata/Proc')
+    for line in f:
+        procs.append(line.rstrip('.txt'))
+
+    with open('Navdata/Airports.txt', 'r') as f:
+        for line in f:
+            if line.startswith('A'):
+                parts = line.split(',')
+                if len(parts) >= 2:
+                    icaos.append(parts[1].strip())
+
+    valid = set(procs) & set(icaos)
+
+    # Gather matches for all patterns
+    matches = set()
+    for pat in patterns:
+        for icao in valid:
+            if fnmatch.fnmatch(icao, pat):
+                matches.add(icao)
+
+    # Execute main() for each match
+    for icao in sorted(matches):
+        print(f"Running main({icao})...")
+        main(icao)
+
+loop('WI*,WA*')
 end = time.perf_counter()
 
 print("Execution time:", (end - start)*1000, "miliseconds")
