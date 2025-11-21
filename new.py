@@ -174,16 +174,18 @@ def drawall(ICAO):
                 proctype = 'invalid'
             else:
                 pass
-        for i in SIDpoints:
-            cache = ['point',i,'SID']
-            cachefile.append(cache)
-        for i in STARpoints:
-            cache = ['point',i,'STAR']
-            cachefile.append(cache)
+                
+        # for i in SIDpoints:
+        #     cache = ['point',i,'SID']
+        #     cachefile.append(cache)
+        # for i in STARpoints:
+        #     cache = ['point',i,'STAR']
+        #     cachefile.append(cache)             
         # for i in APPpoints:
         #     cache = ['point',i,'APPTR']
         #     cachefile.append(cache)
     return cachefile
+
 
 def suicideDetect(ICAO,data,retrwy='False'):
     SIDrwys = []
@@ -276,23 +278,34 @@ def writexml(ICAO, data, rwy, printAPPTR = False, recip='False'): #rwy here shou
 
     #XML Initialisation
     Maps = XML.Element('Maps')
-    SIDMAP  = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_SID', 'Priority':'3', 'Center': f'{Center}' })
-    STARMAP = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_STAR', 'Priority':'3', 'Center': f'{Center}' })
+    SIDMAP   = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_SID', 'Priority':'3', 'Center': f'{Center}' })
+    STARMAP  = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_STAR', 'Priority':'3', 'Center': f'{Center}' })
+    APPTRMAP = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_APPTR', 'Priority':'3', 'Center': f'{Center}' })    
+    
     STARrwy = XML.SubElement(STARMAP, 'Runway',{'Name':f'{rwy}'})
-    STARthresh1 = XML.SubElement(STARrwy, 'Threshold',{'Name':rwy, 'Position':latlon1, 'ExtendedCenterlineTrack': trk, 'ExtendedCentrelineLength':'12', 'ExtendedCentrelineWidth':'1', 'ExtendedCentrelineTickInterval':'1'})
-    STARthresh2= XML.SubElement(STARrwy, 'Threshold',{'Name':rrecip, 'Position':latlon2})
+    if str(rwy).lower != 'all': 
+        STARthresh1 = XML.SubElement(STARrwy, 'Threshold',{'Name':rwy, 'Position':latlon1, 'ExtendedCenterlineTrack': trk, 'ExtendedCentrelineLength':'12', 'ExtendedCentrelineWidth':'1', 'ExtendedCentrelineTickInterval':'1'})
+        STARthresh2= XML.SubElement(STARrwy, 'Threshold',{'Name':rrecip, 'Position':latlon2})
+
     SIDsymbol  = XML.SubElement(SIDMAP, 'Symbol', {'Type': SIDptsymbol})
     STARsymbol = XML.SubElement(STARMAP, 'Symbol', {'Type': STARptsymbol})
+    APPTRsymbol = XML.SubElement(APPTRMAP, 'Symbol', {'Type': STARptsymbol})
 
     #XML Name Labels
     SIDLabelmap = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_SID_Labels', 'Priority':'3', 'Center': f'{Center}' })
     STARLabelmap = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_STAR_Labels', 'Priority':'3', 'Center': f'{Center}' })
+    APPLabelmap = XML.SubElement(Maps, 'Map', {'Type':'System', 'Name':f'{ICAO}_RW{rwy}_APP_Labels', 'Priority':'3', 'Center': f'{Center}' })
+    
     SIDLabels  = XML.SubElement(SIDLabelmap,'Label')
     STARLabels = XML.SubElement(STARLabelmap,'Label')
+    APPLabels = XML.SubElement(STARLabelmap,'Label')
+    
     SIDLabel   = set()
     STARLabel  = set()
+    APPTRLabel = set()
     SIDpts   = set()
     STARpts  = set()
+    APPpts   = set()
     if recip == 'True':
         rwy ='_recip'
         
@@ -307,47 +320,51 @@ def writexml(ICAO, data, rwy, printAPPTR = False, recip='False'): #rwy here shou
         pstyle = style(proctype)
         if procrwy == rwy or procrwy == 'ALL':
             if proctype == 'SID':
+                SIDMAP.append(XML.Comment(f'{procname}'))
                 out = XML.SubElement(SIDMAP, 'Line',{'Pattern':pstyle})
                 pointlist = points.strip().rstrip('/')
                 out.text = pointlist
                 elem = pointlist.split('/')
-
                 for i in elem:
                     SIDLabel.add(i)
                     SIDpts.add(i)
-
             elif proctype == 'STAR':
+                STARMAP.append(XML.Comment(f'{procname}'))
                 out = XML.SubElement(STARMAP, 'Line',{'Pattern':pstyle})
                 pointlist = points.strip().rstrip('/')
                 out.text = pointlist
                 elem = pointlist.split('/')
-
                 for i in elem:
                     STARLabel.add(i)
                     STARpts.add(i)
             elif proctype == 'APPTR':
                 if printAPPTR:
-                    out = XML.SubElement(STARMAP, 'Line',{'Pattern':pstyle})
+                    out = XML.SubElement(APPTRMAP, 'Line',{'Pattern':pstyle})
                     pointlist = points.strip().rstrip('/')
                     out.text = pointlist
-                    elem = pointlist.split('/')
-                    
+                    elem = pointlist.split('/')  
                     for i in elem:
-                        STARLabel.add(i)
-                        STARpts.add(i)
-
-
+                        APPTRLabel.add(i)
+                        APPpts.add(i)
+            else:
+                continue
     for i in STARpts:
         out = XML.SubElement(STARsymbol,'Point')
         out.text = i
     for i in SIDpts:
         out = XML.SubElement(SIDsymbol,'Point')
         out.text = i
+    for i in APPpts:
+        out = XML.SubElement(APPTRsymbol, 'Point')
+        out.text = i
     for i in SIDLabel:
         out = XML.SubElement(SIDLabels, 'Point')
         out.text = i
     for i in STARLabel:
         out = XML.SubElement(STARLabels, 'Point')
+        out.text = i
+    for i in APPTRLabel:
+        out = XML.SubElement(APPLabels, 'Point')
         out.text = i
     #XML end wrapping up and writing
     tree = XML.ElementTree(Maps)
@@ -414,11 +431,15 @@ def writerwys(ICAO):
                encoding="utf-8", xml_declaration=True)
 
 
-def style(ptype, sidpat ='Dotted', starpat ='Dashed'):
+def style(ptype, sidpat ='Dotted', starpat ='Dashed', transpat = 'Dashed'):
     if ptype == 'SID':
         return sidpat
     elif ptype == 'STAR':
         return starpat
+    elif ptype == 'APPTR':
+        return transpat
+    else:
+        return 'Solid'
 
 def lookup(ICAO):
     with open('./Navdata/Airports.txt', 'r') as f:
