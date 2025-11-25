@@ -198,7 +198,7 @@ def suicideDetect(ICAO,data,retrwy='False'):
         procrwy = line[2]
         if procrwy == 'ALL':
             if len(rwylist) <1:
-                rwylist = lookup(ICAO)[3]
+                rwylist = lookup(ICAO)['rwys']
             for i in rwylist:
                 if proctype == 'SID':
                     SIDrwys.append(i[0])
@@ -257,13 +257,13 @@ def formatcoord(lat,lon):
 def writexml(ICAO, data, rwy, printAPPTR = False, recip='False'): #rwy here should be the approach rwy
 
     plookup = lookup(ICAO)
-    lat = str(plookup[1])
-    lon = str(plookup[2])
+    lat = str(plookup['lat'])
+    lon = str(plookup['lon'])
     Center = formatcoord(lat,lon)
     rwy = str(rwy)
     rrecip = reciprwy(rwy)
 
-    for i in plookup[3]: #look for threshold coords
+    for i in plookup['rwys']: #look for threshold coords
         
         if i[0] == rwy.strip():
             lat1 = i[1] 
@@ -326,8 +326,9 @@ def writexml(ICAO, data, rwy, printAPPTR = False, recip='False'): #rwy here shou
                 out.text = pointlist
                 elem = pointlist.split('/')
                 for i in elem:
-                    SIDLabel.add(i)
-                    SIDpts.add(i)
+                    if len(i) <=5:
+                        SIDLabel.add(i)
+                        SIDpts.add(i)
             elif proctype == 'STAR':
                 STARMAP.append(XML.Comment(f'{procname}'))
                 out = XML.SubElement(STARMAP, 'Line',{'Pattern':pstyle})
@@ -335,17 +336,19 @@ def writexml(ICAO, data, rwy, printAPPTR = False, recip='False'): #rwy here shou
                 out.text = pointlist
                 elem = pointlist.split('/')
                 for i in elem:
-                    STARLabel.add(i)
-                    STARpts.add(i)
-            elif proctype == 'APPTR':
+                    if len(i) <=5:
+                        STARLabel.add(i)
+                        STARpts.add(i)
+            elif proctype == 'APPTR':   
                 if printAPPTR:
                     out = XML.SubElement(APPTRMAP, 'Line',{'Pattern':pstyle})
                     pointlist = points.strip().rstrip('/')
                     out.text = pointlist
                     elem = pointlist.split('/')  
                     for i in elem:
-                        APPTRLabel.add(i)
-                        APPpts.add(i)
+                        if len(i) <=5:
+                            APPTRLabel.add(i)
+                            APPpts.add(i)
             else:
                 continue
     for i in STARpts:
@@ -373,8 +376,8 @@ def writexml(ICAO, data, rwy, printAPPTR = False, recip='False'): #rwy here shou
 
 def writerwys(ICAO):
     plookup = lookup(ICAO)
-    lat = str(plookup[1])
-    lon = str(plookup[2])
+    lat = str(plookup['lat'])
+    lon = str(plookup['lon'])
     Center = formatcoord(lat, lon)
 
     Maps = XML.Element('Maps')
@@ -387,7 +390,7 @@ def writerwys(ICAO):
 
     processed = set()   # runways we already handled
 
-    for rwy_data in plookup[3]:
+    for rwy_data in plookup['rwys']:
         rwy = str(rwy_data[0])
         rrecip = reciprwy(rwy)
 
@@ -403,7 +406,7 @@ def writerwys(ICAO):
 
         # Now find reciprocal position
         latlon2 = None
-        for j in plookup[3]:
+        for j in plookup['rwys']:
             if j[0] == rrecip:
                 latlon2 = formatcoord(j[1], j[2])
                 break
@@ -425,8 +428,6 @@ def writerwys(ICAO):
 
     tree = XML.ElementTree(Maps)
     XML.indent(Maps, space="    ")
-    debug_tree(Maps)
-    find_none(Maps)
     tree.write(f"./output/{ICAO}/{ICAO}_RWYS.xml",
                encoding="utf-8", xml_declaration=True)
 
@@ -440,84 +441,36 @@ def style(ptype, sidpat ='Dotted', starpat ='Dashed', transpat = 'Dashed'):
         return transpat
     else:
         return 'Solid'
+airport_db = {}
+current_icao = None
+
+for line in Airports:
+    parts = line.strip().split(',')
+    if not parts: continue
+    
+    if parts[0] == 'A':
+        current_icao = parts[1]
+        airport_db[current_icao] = {
+            'name': parts[2],
+            'lat': float(parts[3]),
+            'lon': float(parts[4]),
+            'rwys': []
+        }
+    elif line.startswith('R') and current_icao:
+        # Add runway data to the CURRENT airport's list
+        # Assuming columns: ID, lat, lon, heading
+        runway_data = [parts[1], float(parts[8]), float(parts[9]), int(parts[2])]
+        airport_db[current_icao]['rwys'].append(runway_data)
 
 def lookup(ICAO):
-    with open('./Navdata/Airports.txt', 'r') as f:
-        f.seek(0, 2)              # go to end of file
-        file_size = f.tell()
-        
-        low = 0
-        high = file_size
-        
-        while low < high:
-            mid = (low + high) // 2
-            f.seek(mid)
-            # Move to the start of the next full line
-            if mid != 0:
-                f.readline()
-            line = f.readline()
-            if not line:
-                high = mid
-                continue
-            
-            line = line.strip()
-            if not line or line[0] != 'A':
-                # Skip non-airport lines by moving forward
-                while True:
-                    pos = f.tell()
-                    line = f.readline()
-                    if not line:
-                        break
-                    line = line.strip()
-                    if line and line[0] == 'A':
-                        break
-                if not line:
-                    break  # EOF
-                        
-            fields = line.split(",")
-            icao = fields[1]
-            if icao == ICAO:
-                name = fields[2]
-                lat = float(fields[3])
-                lon = float(fields[4])
-                
-                # Collect subsequent runway lines with their positions
-                runways = []
-                while True:
-                    pos = f.tell()
-                    next_line = f.readline()
-                    if not next_line:
-                        break
-                    next_line = next_line.strip()
-                    if not next_line:
-                        continue
-                    if next_line[0] == 'A':  # next airport
-                        break
-                    if next_line[0] == 'R':  # runway line
-                        r_fields = next_line.split(",")
-                        # latitude is field 8, longitude is field 9
-                        r_lat = float(r_fields[8])
-                        r_lon = float(r_fields[9])
-                        trk = int(r_fields[2])
-                        runways.append(
-                            [r_fields[1], r_lat ,r_lon,trk]
-                        )
-                
-                return name, lat, lon, runways
-            
-            elif icao < ICAO:
-                low = f.tell()  # go after this line
-            else:
-                high = mid      # search earlier portion
-                
-    return None
+    return airport_db.get(ICAO)
 
 def main(ICAO,APPTR):
     os.makedirs(f'./output/{ICAO}/', exist_ok=True)
     data = drawall(ICAO)
     writerwys(ICAO)
     airport = lookup(ICAO)
-    for i in airport[3]:
+    for i in airport['rwys']:
         writexml(ICAO,data,f'{i[0]}',APPTR)
 
 import fnmatch
@@ -534,12 +487,11 @@ def loop(user_input,APPTR):
     for line in f:
         procs.append(line.rstrip('.txt'))
 
-    with open('Navdata/Airports.txt', 'r') as f:
-        for line in f:
-            if line.startswith('A'):
-                parts = line.split(',')
-                if len(parts) >= 2:
-                    icaos.append(parts[1].strip())
+    for line in Airports:
+        if line.startswith('A'):
+            parts = line.split(',')
+            if len(parts) >= 2:
+                icaos.append(parts[1].strip())
 
     valid = set(procs) & set(icaos)
 
@@ -555,32 +507,7 @@ def loop(user_input,APPTR):
         print(f"Running main({icao})...")
         main(icao,APPTR)
 
-def debug_tree(elem, path="root"):
-    if elem.text is None and len(elem) == 0:
-        print(f"WARNING: {path}.text is None")
-
-    for k, v in elem.attrib.items():
-        if v is None:
-            print(f"WARNING: {path} attribute '{k}' is None")
-
-    for i, child in enumerate(elem):
-        debug_tree(child, f"{path}/{child.tag}.{i}")
-
-def find_none(elem, path=""):
-    # Check element text
-    if elem.text is None:
-        print(f"[NONE] text at <{elem.tag}> path: {path}/{elem.tag}")
-
-    # Check attributes
-    for k, v in elem.attrib.items():
-        if v is None:
-            print(f"[NONE] attribute '{k}' of <{elem.tag}> path: {path}/{elem.tag}")
-
-    # Recurse for children
-    for child in elem:
-        find_none(child, f"{path}/{elem.tag}")
-
-loop('LEMD',True)
+loop('WI*,WA*',False)
 end = time.perf_counter()
 
 print("Execution time:", (end - start)*1000, "miliseconds")
